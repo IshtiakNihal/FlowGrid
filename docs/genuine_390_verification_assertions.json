@@ -1,0 +1,29 @@
+{
+  "frames": 235,
+  "size_bytes": 1895678,
+  "dimensions": [
+    390,
+    844
+  ],
+  "assertions": {
+    "initial_metrics": {
+      "innerWidth": 390,
+      "innerHeight": 844,
+      "matchMedia900": true,
+      "matchMedia480": true,
+      "hasSimClass": false,
+      "activeElement": "BODY"
+    },
+    "drawer_focus": "drawerCloseBtn",
+    "modal_initial_focus": "inputName",
+    "empty_error_summary": true,
+    "phone_invalid_err": true,
+    "submitting_focus": "stateSubmitting",
+    "receipt_focus": "btnDone",
+    "new_enquiry_focus": "inputName",
+    "current_lang": "en",
+    "offline_focus": "btnRetryOffline",
+    "prefers_reduced_motion_mq": true,
+    "manual_reduced_motion_class": true
+  }
+}

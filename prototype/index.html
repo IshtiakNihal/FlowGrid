@@ -852,59 +852,42 @@
       }
     }
 
-    /* 390px Mobile Viewport Simulator */
-    html.mobile-sim-active body {
-      max-width: 390px;
-      margin: 0 auto;
-      box-shadow: 0 0 50px rgba(0,0,0,0.3);
-      border-left: 1px solid var(--fg-border-light);
-      border-right: 1px solid var(--fg-border-light);
-      background: var(--fg-surface-page);
-    }
-    html.mobile-sim-active .demo-bar {
-      max-width: 390px;
-      margin: 0 auto;
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 8px;
-    }
-    html.mobile-sim-active .demo-bar-actions {
-      flex-wrap: wrap;
-    }
-    html.mobile-sim-active .hero-grid,
-    html.mobile-sim-active .concept-viewer,
-    html.mobile-sim-active .footer-grid,
-    html.mobile-sim-active .grid-3 {
-      grid-template-columns: 1fr !important;
-    }
-    html.mobile-sim-active .nav-links {
-      display: none !important;
-    }
-    html.mobile-sim-active .hamburger {
-      display: flex !important;
-    }
-    html.mobile-sim-active .drawer-overlay {
-      position: fixed;
-      inset: 0;
-      background: rgba(0,0,0,0.6);
-      z-index: 300;
-    }
-    html.mobile-sim-active .drawer-panel {
-      position: fixed;
-      top: 0;
-      bottom: 0;
-      right: calc(50% - 195px) !important;
-      left: auto !important;
-      width: 320px !important;
-      max-width: 85% !important;
-      box-shadow: -6px 0 24px rgba(0,0,0,0.4);
-    }
-    html.mobile-sim-active .enquiry-card {
-      max-width: 350px !important;
-      padding: 24px 18px !important;
+    /* Responsive Layout Breakpoints (Native Browser Viewports) */
+    @media (max-width: 900px) {
+      .demo-bar {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+        padding: 8px 16px;
+      }
+      .demo-bar-actions {
+        flex-wrap: wrap;
+        gap: 6px;
+      }
+      .hero-grid {
+        grid-template-columns: 1fr;
+      }
+      .concept-viewer {
+        grid-template-columns: 1fr;
+      }
+      .footer-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+      .grid-3 {
+        grid-template-columns: 1fr;
+      }
+      .nav-links {
+        display: none;
+      }
+      .hamburger {
+        display: flex;
+      }
     }
 
     @media (max-width: 480px) {
+      .container {
+        padding: 0 16px;
+      }
       .footer-grid {
         grid-template-columns: 1fr;
       }
@@ -912,8 +895,12 @@
         width: 320px;
         max-width: 85%;
       }
+      .modal-overlay {
+        padding: 12px;
+      }
       .enquiry-card {
-        padding: 24px 18px;
+        padding: 24px 16px;
+        max-width: 100%;
       }
     }
 
@@ -958,9 +945,17 @@
     <div>
       <span class="tag">VERIFICATION PROTOTYPE v3.3 (Final Reconciled)</span>
       <span style="margin-left: 8px; font-weight: 600;" id="demoBarTitle">FlowGrid Interactive Journey &amp; State Demonstrator (Contrast &ge; 6.21:1, 48px Targets)</span>
+      <div class="demo-bar-metrics" id="demoMetrics" style="display: flex; gap: 8px; flex-wrap: wrap; font-family: monospace; font-size: 11px; background: rgba(24,59,53,0.06); padding: 4px 8px; border-radius: 4px; border: 1px solid var(--fg-border-light); margin-top: 6px;">
+        <span id="metricViewport">Viewport: 390×844px</span>
+        <span>•</span>
+        <span id="metricMedia">matchMedia(≤900px): true</span>
+        <span>•</span>
+        <span id="metricSim">Simulator: false</span>
+        <span>•</span>
+        <span id="metricFocus">Focus: none</span>
+      </div>
     </div>
     <div class="demo-bar-actions">
-      <button class="demo-btn" id="btnDemoMobileView" onclick="toggleMobileSimulator()">📱 ৩৯০px ভিউ টগল</button>
       <button class="demo-btn" id="btnDemoMotion" onclick="toggleReducedMotion()">🏃 মোশন টগল</button>
       <button class="demo-btn" id="btnDemoDrawer" onclick="toggleDrawer(true)">📱 ড্রয়ার ডেমো</button>
       <button class="demo-btn" id="btnDemoOffline" onclick="toggleOfflineModal()">⚠️ অফলাইন ডেমো</button>
@@ -1407,6 +1402,12 @@
         if (stateId === 'stateForm') {
           const inputName = document.getElementById('inputName');
           if (inputName) inputName.focus();
+        } else if (stateId === 'stateSubmitting') {
+          const sub = document.getElementById('stateSubmitting');
+          if (sub) {
+            sub.setAttribute('tabindex', '-1');
+            sub.focus();
+          }
         } else if (stateId === 'stateReceipt') {
           const btnDone = document.getElementById('btnDone');
           if (btnDone) btnDone.focus();
@@ -1414,6 +1415,7 @@
           const btnRetry = document.getElementById('btnRetryOffline');
           if (btnRetry) btnRetry.focus();
         }
+        if (typeof updateMetrics === 'function') updateMetrics();
       }, 50);
     }
 
@@ -1445,6 +1447,12 @@
         const first = focusable[0];
         const last = focusable[focusable.length - 1];
 
+        if (!focusable.includes(document.activeElement)) {
+          first.focus();
+          e.preventDefault();
+          return;
+        }
+
         if (e.shiftKey) {
           if (document.activeElement === first) {
             last.focus();
@@ -1465,6 +1473,12 @@
         if (drawerFocusable.length === 0) return;
         const first = drawerFocusable[0];
         const last = drawerFocusable[drawerFocusable.length - 1];
+
+        if (!drawerFocusable.includes(document.activeElement)) {
+          first.focus();
+          e.preventDefault();
+          return;
+        }
 
         if (e.shiftKey) {
           if (document.activeElement === first) {
@@ -1636,19 +1650,6 @@
       }, 700);
     }
 
-    // 390px Mobile Viewport Simulator Toggle
-    function toggleMobileSimulator() {
-      const isSim = document.documentElement.classList.toggle('mobile-sim-active');
-      const btn = document.getElementById('btnDemoMobileView');
-      if (btn) {
-        if (currentLang === 'en') {
-          btn.innerText = isSim ? '💻 Desktop View' : '📱 390px View';
-        } else {
-          btn.innerText = isSim ? '💻 ডেস্কটপ ভিউ' : '📱 ৩৯০px ভিউ';
-        }
-      }
-    }
-
     // Interactive Reduced Motion Toggle
     function toggleReducedMotion() {
       const isReduced = document.documentElement.classList.toggle('reduced-motion');
@@ -1660,6 +1661,7 @@
           btn.innerText = isReduced ? '⚡ মোশন: সীমিত' : '🏃 মোশন টগল';
         }
       }
+      if (typeof updateMetrics === 'function') updateMetrics();
     }
 
     // Drawer Controls (220ms transition)
@@ -1670,12 +1672,14 @@
         drawer.classList.add('open');
         setTimeout(() => {
           document.getElementById('drawerCloseBtn').focus();
+          if (typeof updateMetrics === 'function') updateMetrics();
         }, 50);
       } else {
         drawer.classList.remove('open');
         if (lastActiveElement && typeof lastActiveElement.focus === 'function') {
           lastActiveElement.focus();
         }
+        if (typeof updateMetrics === 'function') updateMetrics();
       }
     }
 
@@ -1689,10 +1693,6 @@
       document.getElementById('demoBarTitle').innerText = isEn ?
         'FlowGrid Interactive Journey & State Demonstrator (Contrast ≥ 6.21:1, 48px Targets)' :
         'FlowGrid ইন্টেরিয়র আর্কিটেকচারাল প্রোটোটাইপ ও স্টেট ডেমোনস্ট্রেটর (কন্ট্রাস্ট ≥ ৬.২১:১, ৪৮px কন্ট্রোল)';
-      const isSimActive = document.documentElement.classList.contains('mobile-sim-active');
-      document.getElementById('btnDemoMobileView').innerText = isEn ?
-        (isSimActive ? '💻 Desktop View' : '📱 390px View') :
-        (isSimActive ? '💻 ডেস্কটপ ভিউ' : '📱 ৩৯০px ভিউ');
       const isMotionReduced = document.documentElement.classList.contains('reduced-motion');
       document.getElementById('btnDemoMotion').innerText = isEn ?
         (isMotionReduced ? '⚡ Motion: Reduced' : '🏃 Motion Toggle') :
@@ -1868,8 +1868,33 @@
       document.getElementById('btnBackToForm').innerText = isEn ? 'Edit Form' : 'ফর্মে ফিরে যান (Edit Form)';
     }
 
-    // Load draft if available on page load
-    window.addEventListener('DOMContentLoaded', loadDraft);
+    // Real-Time Viewport & Accessibility Metrics Monitor
+    function updateMetrics() {
+      const w = window.innerWidth;
+      const h = window.innerHeight;
+      const mq = window.matchMedia('(max-width: 900px)').matches;
+      const sim = document.documentElement.classList.contains('mobile-sim-active');
+      const act = document.activeElement;
+      const actDesc = act ? (act.id ? '#' + act.id : act.tagName.toLowerCase()) : 'none';
+
+      const vEl = document.getElementById('metricViewport');
+      if (vEl) vEl.innerText = `Viewport: ${w}×${h}px`;
+      const mEl = document.getElementById('metricMedia');
+      if (mEl) mEl.innerText = `matchMedia(≤900px): ${mq}`;
+      const sEl = document.getElementById('metricSim');
+      if (sEl) sEl.innerText = `Simulator: ${sim}`;
+      const fEl = document.getElementById('metricFocus');
+      if (fEl) fEl.innerText = `Focus: ${actDesc}`;
+    }
+
+    // Load draft and initialize metrics on page load
+    window.addEventListener('DOMContentLoaded', () => {
+      loadDraft();
+      updateMetrics();
+    });
+    window.addEventListener('resize', updateMetrics);
+    document.addEventListener('focusin', updateMetrics);
+    setInterval(updateMetrics, 200);
   </script>
 </body>
 </html>

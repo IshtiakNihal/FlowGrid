@@ -1,0 +1,101 @@
+<svg width="2400" height="1900" viewBox="0 0 2400 1900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="2400" height="1900" fill="#F4F1E8"/>
+  
+  <!-- Banner -->
+  <rect x="80" y="80" width="2240" height="140" fill="#183B35" rx="4"/>
+  <text x="120" y="145" fill="#F4F1E8" font-family="'Bodoni Moda', serif" font-size="36" font-weight="600">FlowGrid — Research &amp; Strategic Foundation (Audited v2)</text>
+  <text x="120" y="185" fill="#DEE7E2" font-family="'Manrope', sans-serif" font-size="18">Visual direction, architectural references, live social media audit, and local Bangladeshi design context</text>
+
+  <!-- Column 1: Business Context & Three Businesses -->
+  <rect x="80" y="260" width="700" height="740" fill="#FFFFFF" stroke="#B8C2BA" stroke-width="1" rx="4"/>
+  <rect x="80" y="260" width="700" height="60" fill="#183B35" rx="4 4 0 0"/>
+  <text x="110" y="300" fill="#F4F1E8" font-family="'Manrope', sans-serif" font-size="20" font-weight="600">01. Three Entities &amp; Boundary Governance</text>
+  
+  <text x="110" y="360" fill="#183B35" font-family="'Manrope', sans-serif" font-size="18" font-weight="700">1. FlowGrid (Interior Design Studio)</text>
+  <text x="110" y="390" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14" font-weight="400"><tspan x="110" dy="0">• Core Scope: Space planning, bespoke joinery, family living</tspan><tspan x="110" dy="22">solutions, and design consultation.</tspan></text>
+  <text x="110" y="440" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14" font-weight="400"><tspan x="110" dy="0">• Identity: Independent architectural studio serving urban</tspan><tspan x="110" dy="22">Bangladeshi homeowners.</tspan></text>
+  <text x="110" y="490" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14" font-weight="400"><tspan x="110" dy="0">• Location: Mirpur, Dhaka 1216 (verified on official Facebook page).</tspan></text>
+  <text x="110" y="540" fill="#895239" font-family="'Manrope', sans-serif" font-size="14" font-weight="600"><tspan x="110" dy="0">• Boundary Rule: Not an appliance retailer; not an influencer fan</tspan><tspan x="110" dy="22">club; not a generic construction contractor.</tspan></text>
+
+  <text x="110" y="610" fill="#183B35" font-family="'Manrope', sans-serif" font-size="18" font-weight="700">2. Rumi's Fashionable House (Community Sibling)</text>
+  <text x="110" y="640" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14" font-weight="400"><tspan x="110" dy="0">• Platform: YouTube (@RumisFashionableHouse, 140k subscribers, 2,368</tspan><tspan x="110" dy="22">videos, 36.6M views).</tspan></text>
+  <text x="110" y="690" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14" font-weight="400"><tspan x="110" dy="0">• Role: Personal lifestyle vlogs, home cooking, and loyal community</tspan><tspan x="110" dy="22">context.</tspan></text>
+  <text x="110" y="740" fill="#895239" font-family="'Manrope', sans-serif" font-size="14" font-weight="600"><tspan x="110" dy="0">• Governance Rule: Rumi is not an architect and must not be</tspan><tspan x="110" dy="22">described as one. She provides founder/lifestyle context. Linked</tspan><tspan x="110" dy="22">discreetly in footer/studio.</tspan></text>
+
+  <text x="110" y="820" fill="#183B35" font-family="'Manrope', sans-serif" font-size="18" font-weight="700">3. Onekta Product (Commerce Sibling)</text>
+  <text x="110" y="850" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14" font-weight="400"><tspan x="110" dy="0">• Scope: Commercial appliances, kitchenware, and household</tspan><tspan x="110" dy="22">merchandise.</tspan></text>
+  <text x="110" y="900" fill="#895239" font-family="'Manrope', sans-serif" font-size="14" font-weight="600"><tspan x="110" dy="0">• Boundary Rule: Completely separate commerce destination. FlowGrid</tspan><tspan x="110" dy="22">hosts zero retail products or checkout flows. Outbound footer link</tspan><tspan x="110" dy="22">only.</tspan></text>
+
+  <!-- Column 2: External Reference Synthesis Matrix -->
+  <rect x="820" y="260" width="740" height="740" fill="#FFFFFF" stroke="#B8C2BA" stroke-width="1" rx="4"/>
+  <rect x="820" y="260" width="740" height="60" fill="#183B35" rx="4 4 0 0"/>
+  <text x="850" y="300" fill="#F4F1E8" font-family="'Manrope', sans-serif" font-size="20" font-weight="600">02. Reference Sites Observed &amp; Synthesis Matrix</text>
+
+  <text x="850" y="355" fill="#895239" font-family="'Manrope', sans-serif" font-size="16" font-weight="700">ERA RESIDENCE (www.era-residence.com) — Primary Aesthetic</text>
+  <text x="850" y="380" fill="#183B35" font-family="'Manrope', sans-serif" font-size="14" font-weight="600">Observed:</text>
+  <text x="930" y="380" fill="#56645E" font-family="'Manrope', sans-serif" font-size="13" font-weight="400"><tspan x="930" dy="0">Monumental serif display type, full-bleed architectural</tspan><tspan x="930" dy="20">photography, warm stone palette, confident scale</tspan><tspan x="930" dy="20">transitions.</tspan></text>
+  <text x="850" y="430" fill="#183B35" font-family="'Manrope', sans-serif" font-size="14" font-weight="600">Adopted:</text>
+  <text x="930" y="430" fill="#56645E" font-family="'Manrope', sans-serif" font-size="13" font-weight="400"><tspan x="930" dy="0">Bodoni Moda editorial display type, architectural framing,</tspan><tspan x="930" dy="20">deliberate image transitions, generous breathing room.</tspan></text>
+  <text x="850" y="480" fill="#183B35" font-family="'Manrope', sans-serif" font-size="14" font-weight="600">Omitted:</text>
+  <text x="930" y="480" fill="#56645E" font-family="'Manrope', sans-serif" font-size="13" font-weight="400"><tspan x="930" dy="0">Apartment sales units, scroll hijacking, luxury resort</tspan><tspan x="930" dy="20">tropes.</tspan></text>
+
+  <line x1="850" y1="515" x2="1520" y2="515" stroke="#DEE7E2" stroke-width="1"/>
+
+  <text x="850" y="545" fill="#895239" font-family="'Manrope', sans-serif" font-size="16" font-weight="700">THIRDWAY (www.thirdway.com) — Project &amp; Journey Clarity</text>
+  <text x="850" y="570" fill="#183B35" font-family="'Manrope', sans-serif" font-size="14" font-weight="600">Observed:</text>
+  <text x="930" y="570" fill="#56645E" font-family="'Manrope', sans-serif" font-size="13" font-weight="400"><tspan x="930" dy="0">Structured project cards, clear briefs and design responses,</tspan><tspan x="930" dy="20">prominent 'Let's talk' action, named team.</tspan></text>
+  <text x="850" y="620" fill="#183B35" font-family="'Manrope', sans-serif" font-size="14" font-weight="600">Adopted:</text>
+  <text x="930" y="620" fill="#56645E" font-family="'Manrope', sans-serif" font-size="13" font-weight="400"><tspan x="930" dy="0">Concise case study hierarchy (Brief → Space Decisions →</tspan><tspan x="930" dy="20">Material Specs), visible direct enquiry paths.</tspan></text>
+  <text x="850" y="670" fill="#183B35" font-family="'Manrope', sans-serif" font-size="14" font-weight="600">Omitted:</text>
+  <text x="930" y="670" fill="#56645E" font-family="'Manrope', sans-serif" font-size="13" font-weight="400"><tspan x="930" dy="0">Corporate office positioning, animated ticker noise.</tspan></text>
+
+  <line x1="850" y1="705" x2="1520" y2="705" stroke="#DEE7E2" stroke-width="1"/>
+
+  <text x="850" y="735" fill="#895239" font-family="'Manrope', sans-serif" font-size="16" font-weight="700">QUINTA D. AMÁLIA (www.quintadamalia.com) — Spatial Pacing</text>
+  <text x="850" y="760" fill="#183B35" font-family="'Manrope', sans-serif" font-size="14" font-weight="600">Observed:</text>
+  <text x="930" y="760" fill="#56645E" font-family="'Manrope', sans-serif" font-size="13" font-weight="400"><tspan x="930" dy="0">Gentle rhythm, generous whitespace, warm natural lighting.</tspan></text>
+  <text x="850" y="805" fill="#183B35" font-family="'Manrope', sans-serif" font-size="14" font-weight="600">Adopted:</text>
+  <text x="930" y="805" fill="#56645E" font-family="'Manrope', sans-serif" font-size="13" font-weight="400"><tspan x="930" dy="0">Calm editorial pacing, breathing room between functional</tspan><tspan x="930" dy="20">sections.</tspan></text>
+  <text x="850" y="850" fill="#183B35" font-family="'Manrope', sans-serif" font-size="14" font-weight="600">Omitted:</text>
+  <text x="930" y="850" fill="#56645E" font-family="'Manrope', sans-serif" font-size="13" font-weight="400"><tspan x="930" dy="0">Curved pill frames, floating glow blobs, holiday retreat</tspan><tspan x="930" dy="20">copy.</tspan></text>
+
+  <!-- Column 3: Bangladesh Cultural & Spatial Context -->
+  <rect x="1580" y="260" width="740" height="740" fill="#FFFFFF" stroke="#B8C2BA" stroke-width="1" rx="4"/>
+  <rect x="1580" y="260" width="740" height="60" fill="#183B35" rx="4 4 0 0"/>
+  <text x="1610" y="300" fill="#F4F1E8" font-family="'Manrope', sans-serif" font-size="20" font-weight="600">03. Bangladeshi Apartment Realities</text>
+
+  <text x="1610" y="360" fill="#183B35" font-family="'Manrope', sans-serif" font-size="17" font-weight="700">1. Living Space &amp; Storage Density</text>
+  <text x="1610" y="390" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14" font-weight="400"><tspan x="1610" dy="0">Urban Dhaka apartments require maximizing floor area without</tspan><tspan x="1610" dy="22">crowding. Floor-to-ceiling joinery, concealed storage, and multi-</tspan><tspan x="1610" dy="22">functional seating keep circulation clear.</tspan></text>
+
+  <text x="1610" y="470" fill="#183B35" font-family="'Manrope', sans-serif" font-size="17" font-weight="700">2. Kitchen Routines &amp; Maintenance</text>
+  <text x="1610" y="500" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14" font-weight="400"><tspan x="1610" dy="0">Intensive everyday cooking requires grease-resistant tiles, high-</tspan><tspan x="1610" dy="22">suction hoods, dedicated ventilated LP gas storage, robust stone</tspan><tspan x="1610" dy="22">countertops, and open spice access.</tspan></text>
+
+  <text x="1610" y="580" fill="#183B35" font-family="'Manrope', sans-serif" font-size="17" font-weight="700">3. Climate, Ventilation &amp; Daylight</text>
+  <text x="1610" y="610" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14" font-weight="400"><tspan x="1610" dy="0">High humidity and tropical monsoon climate dictate cross-</tspan><tspan x="1610" dy="22">ventilation, ceiling fan integration with AC ducts, window safety</tspan><tspan x="1610" dy="22">grilles, and verandas.</tspan></text>
+
+  <text x="1610" y="690" fill="#183B35" font-family="'Manrope', sans-serif" font-size="17" font-weight="700">4. Material Palette</text>
+  <text x="1610" y="720" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14" font-weight="400"><tspan x="1610" dy="0">Teak, Segun wood, Chittagong timber, handcrafted cane, lime plaster,</tspan><tspan x="1610" dy="22">local terracotta accents, and breathable cotton/linen textiles.</tspan></text>
+
+  <!-- Bottom Section: Live Audit Findings Table & Motion Guidance -->
+  <rect x="80" y="1030" width="2240" height="780" fill="#FFFFFF" stroke="#B8C2BA" stroke-width="1" rx="4"/>
+  <rect x="80" y="1030" width="2240" height="60" fill="#183B35" rx="4 4 0 0"/>
+  <text x="110" y="1070" fill="#F4F1E8" font-family="'Manrope', sans-serif" font-size="20" font-weight="600">04. Dated Social Media Audit &amp; Motion Guidance (Emil Kowalski / Delphi Animate)</text>
+
+  <rect x="120" y="1120" width="1050" height="650" fill="#F4F1E8" rx="4"/>
+  <text x="150" y="1160" fill="#183B35" font-family="'Manrope', sans-serif" font-size="18" font-weight="700">Live Browser Audit Findings (Audited 26 Sept 2026)</text>
+  <text x="150" y="1195" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14" font-weight="400"><tspan x="150" dy="0">• FlowGrid Facebook: @FlowGridBD (ID: 61593130543449). Address: Mirpur, Dhaka</tspan><tspan x="150" dy="24">1216.</tspan></text>
+  <text x="150" y="1250" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14" font-weight="400"><tspan x="150" dy="0">• Account Activity: 29 followers, active branding posts. No direct phone or</tspan><tspan x="150" dy="24">email published.</tspan></text>
+  <text x="150" y="1305" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14" font-weight="400"><tspan x="150" dy="0">• Production Domain: Banner states www.flowgrid-interiors.com (DNS confirmed</tspan><tspan x="150" dy="24">NXDOMAIN; not yet deployed).</tspan></text>
+  <text x="150" y="1360" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14" font-weight="400"><tspan x="150" dy="0">• Visual Assets: Imagery on social accounts consists of branding graphics and AI</tspan><tspan x="150" dy="24">concept mockups.</tspan></text>
+  <text x="150" y="1415" fill="#895239" font-family="'Manrope', sans-serif" font-size="14" font-weight="700"><tspan x="150" dy="0">• Governance Decision: Label all 3D/AI visualizations honestly as Concepts. Do</tspan><tspan x="150" dy="24">not invent past builds.</tspan></text>
+  <text x="150" y="1470" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14" font-weight="400"><tspan x="150" dy="0">• Enquiry Channels: Verified direct telephone dialer and WhatsApp consultation,</tspan><tspan x="150" dy="24">plus clean web enquiry form.</tspan></text>
+  <text x="150" y="1525" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14" font-weight="400"><tspan x="150" dy="0">• Cross-Site Navigation: Discreet footer gateways to Rumi's portfolio & Onekta</tspan><tspan x="150" dy="24">Product.</tspan></text>
+
+  <rect x="1230" y="1120" width="1050" height="650" fill="#DEE7E2" rx="4"/>
+  <text x="1260" y="1160" fill="#183B35" font-family="'Manrope', sans-serif" font-size="18" font-weight="700">Motion &amp; Interaction Engineering Principles</text>
+  <text x="1260" y="1195" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14" font-weight="400"><tspan x="1260" dy="0">• Emil Kowalski Skills Guidance: Purpose-first motion. Economical timings: hover</tspan><tspan x="1260" dy="24">150ms, press 100ms, menu 220ms in / 160ms out.</tspan></text>
+  <text x="1260" y="1250" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14" font-weight="400"><tspan x="1260" dy="0">• Easing Conflict Resolution: Delphi suggests ease-in for exits; Kowalski</tspan><tspan x="1260" dy="24">rejects ease-in in UI. We adopt fast ease-out (cubic-bezier 0.23, 1, 0.32, 1)</tspan><tspan x="1260" dy="24">for both entrances and exits.</tspan></text>
+  <text x="1260" y="1315" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14" font-weight="400"><tspan x="1260" dy="0">• Signature Sequences: Architectural dual-wing mask wipe reveal on hero image +</tspan><tspan x="1260" dy="24">whole-line text rise. Zero per-character Bengali letter splitting.</tspan></text>
+  <text x="1260" y="1380" fill="#9B302B" font-family="'Manrope', sans-serif" font-size="14" font-weight="600"><tspan x="1260" dy="0">• Prohibited Behaviors: No scroll hijacking, no looping marquees, no cursor</tspan><tspan x="1260" dy="24">followers, no forced decorative preloader curtains.</tspan></text>
+  <text x="1260" y="1445" fill="#245C43" font-family="'Manrope', sans-serif" font-size="14" font-weight="600"><tspan x="1260" dy="0">• Accessibility Compliance: prefers-reduced-motion triggers immediate non-</tspan><tspan x="1260" dy="24">animated state. All essential navigation, copy and CTAs remain usable instantly</tspan><tspan x="1260" dy="24">without waiting for motion.</tspan></text>
+</svg>

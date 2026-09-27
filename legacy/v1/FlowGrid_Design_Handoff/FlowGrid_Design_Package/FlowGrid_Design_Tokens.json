@@ -1,0 +1,293 @@
+{
+  "metadata": {
+    "brand": "FlowGrid",
+    "version": "1.0",
+    "date": "2026-09-26",
+    "status": "Proposed design system; not implemented",
+    "source_of_truth": "FlowGrid_Design_Specification.md"
+  },
+  "color": {
+    "surface.page": {
+      "$type": "color",
+      "$value": "#F4F1E8"
+    },
+    "surface.clean": {
+      "$type": "color",
+      "$value": "#FFFFFF"
+    },
+    "surface.mist": {
+      "$type": "color",
+      "$value": "#DEE7E2"
+    },
+    "text.primary": {
+      "$type": "color",
+      "$value": "#183B35"
+    },
+    "text.secondary": {
+      "$type": "color",
+      "$value": "#56645E"
+    },
+    "action.primary": {
+      "$type": "color",
+      "$value": "#183B35"
+    },
+    "action.hover": {
+      "$type": "color",
+      "$value": "#102B26"
+    },
+    "accent.clay": {
+      "$type": "color",
+      "$value": "#895239"
+    },
+    "border.decorative": {
+      "$type": "color",
+      "$value": "#B8C2BA"
+    },
+    "border.control": {
+      "$type": "color",
+      "$value": "#718178"
+    },
+    "focus": {
+      "$type": "color",
+      "$value": "#895239"
+    },
+    "status.error": {
+      "$type": "color",
+      "$value": "#9B302B"
+    },
+    "status.success": {
+      "$type": "color",
+      "$value": "#245C43"
+    }
+  },
+  "font": {
+    "display.latin": "Bodoni Moda",
+    "body.latin": "Manrope",
+    "bengali": "Noto Sans Bengali"
+  },
+  "type": {
+    "hero.latin.desktop": {
+      "sizePx": [
+        88,
+        112
+      ],
+      "weight": 500,
+      "lineHeight": 1.02
+    },
+    "hero.latin.mobile": {
+      "sizePx": [
+        44,
+        52
+      ],
+      "weight": 500,
+      "lineHeight": 1.08
+    },
+    "hero.bn.desktop": {
+      "sizePx": [
+        56,
+        64
+      ],
+      "weight": 600,
+      "lineHeight": 1.35
+    },
+    "hero.bn.mobile": {
+      "sizePx": [
+        36,
+        42
+      ],
+      "weight": 600,
+      "lineHeight": 1.35
+    },
+    "body.latin": {
+      "sizePx": 18,
+      "weight": 400,
+      "lineHeight": 1.6
+    },
+    "body.bn": {
+      "sizePx": 18,
+      "weight": 400,
+      "lineHeight": 1.75
+    },
+    "ui": {
+      "sizePx": [
+        16,
+        18
+      ],
+      "weight": [
+        500,
+        600
+      ]
+    },
+    "metadata.latin": {
+      "sizePx": 14
+    },
+    "metadata.bn": {
+      "sizePx": 16
+    }
+  },
+  "spacePx": [
+    4,
+    8,
+    12,
+    16,
+    24,
+    32,
+    48,
+    64,
+    80,
+    96,
+    128
+  ],
+  "radiusPx": {
+    "image": 0,
+    "control": 2,
+    "overlayMax": 4
+  },
+  "layout": {
+    "contentMaxPx": 1312,
+    "bodyMaxPx": 640,
+    "formMaxPx": 640,
+    "headerDesktopPx": 88,
+    "headerMobilePx": 72,
+    "breakpointsPx": [
+      320,
+      768,
+      1024,
+      1440
+    ],
+    "gutterPx": {
+      "mobile": 20,
+      "narrow320": 16,
+      "tablet": 32,
+      "desktop": 48,
+      "wide": 64
+    },
+    "columns": {
+      "mobile": 4,
+      "tablet": 8,
+      "desktop": 12
+    },
+    "gapPx": {
+      "mobile": 16,
+      "tablet": 24,
+      "desktop": 24
+    }
+  },
+  "control": {
+    "minimumPrimaryTouchPx": 48,
+    "buttonMinHeightPx": 52,
+    "fieldMinHeightPx": 52,
+    "textareaMinHeightPx": 144,
+    "focusRingPx": 2,
+    "focusOffsetPx": 2
+  },
+  "layer": {
+    "content": 0,
+    "header": 20,
+    "contactBar": 30,
+    "backdrop": 80,
+    "dialog": 90,
+    "urgentStatus": 100
+  },
+  "motion": {
+    "easeOut": [
+      0.23,
+      1,
+      0.32,
+      1
+    ],
+    "durationMs": {
+      "hover": 150,
+      "press": 100,
+      "menuIn": 220,
+      "menuOut": 160,
+      "faq": 180,
+      "projectHover": 240,
+      "imageReveal": 360,
+      "gallery": 180,
+      "formState": 150
+    },
+    "reducedMotion": "Immediate final state; no translation or scale; retain all functionality",
+    "keyboardInitiated": "Immediate state changes",
+    "scroll": "Native"
+  },
+  "contrast": [
+    {
+      "pair": "Primary text / paper",
+      "foreground": "#183B35",
+      "background": "#F4F1E8",
+      "ratio": 10.84,
+      "use": "Ordinary text"
+    },
+    {
+      "pair": "Secondary text / paper",
+      "foreground": "#56645E",
+      "background": "#F4F1E8",
+      "ratio": 5.5,
+      "use": "Ordinary text"
+    },
+    {
+      "pair": "White / primary action",
+      "foreground": "#FFFFFF",
+      "background": "#183B35",
+      "ratio": 12.24,
+      "use": "Ordinary text"
+    },
+    {
+      "pair": "Clay / paper",
+      "foreground": "#895239",
+      "background": "#F4F1E8",
+      "ratio": 5.58,
+      "use": "Ordinary text"
+    },
+    {
+      "pair": "Error / paper",
+      "foreground": "#9B302B",
+      "background": "#F4F1E8",
+      "ratio": 6.52,
+      "use": "Ordinary text"
+    },
+    {
+      "pair": "Success / paper",
+      "foreground": "#245C43",
+      "background": "#F4F1E8",
+      "ratio": 6.92,
+      "use": "Ordinary text"
+    },
+    {
+      "pair": "Control boundary / paper",
+      "foreground": "#718178",
+      "background": "#F4F1E8",
+      "ratio": 3.64,
+      "use": "Control boundary, not body text"
+    },
+    {
+      "pair": "Decorative line / paper",
+      "foreground": "#B8C2BA",
+      "background": "#F4F1E8",
+      "ratio": 1.62,
+      "use": "Decorative only"
+    },
+    {
+      "pair": "Primary text / mist",
+      "foreground": "#183B35",
+      "background": "#DEE7E2",
+      "ratio": 9.69,
+      "use": "Ordinary text"
+    }
+  ],
+  "performanceTargets": {
+    "LCPseconds": 2.5,
+    "INPmilliseconds": 200,
+    "CLS": 0.1,
+    "percentile": 75,
+    "status": "Targets, not measured results"
+  },
+  "proposedBudgets": {
+    "heroMobileKB": 250,
+    "heroDesktopKB": 400,
+    "initialViewportKB": 1000,
+    "initialCompressedJSKB": 150,
+    "initialCompressedFontsKB": 200
+  }
+}

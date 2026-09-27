@@ -1,0 +1,300 @@
+"""
+FlowGrid - Full Figma Pages SVG Generator
+Generates all 9 detailed, production-grade SVG boards for Figma import.
+"""
+import os
+import json
+import base64
+
+os.makedirs('figma_svgs', exist_ok=True)
+
+def get_base64_image(path):
+    if os.path.exists(path):
+        with open(path, 'rb') as f:
+            data = base64.b64encode(f.read()).decode('utf-8')
+            ext = 'jpeg' if path.endswith('.jpg') else 'png'
+            return f"data:image/{ext};base64,{data}"
+    return ""
+
+img_living = get_base64_image('concepts/concept_01_living_dhaka.jpg')
+img_kitchen = get_base64_image('concepts/concept_02_kitchen_dhaka.jpg')
+img_bedroom = get_base64_image('concepts/concept_03_bedroom_dhaka.jpg')
+
+# -------------------------------------------------------------
+# 01 Foundations
+# -------------------------------------------------------------
+svg_01 = f"""<svg width="2400" height="2000" viewBox="0 0 2400 2000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="2400" height="2000" fill="#F4F1E8"/>
+  
+  <!-- Banner -->
+  <rect x="80" y="80" width="2240" height="140" fill="#183B35" rx="4"/>
+  <text x="120" y="145" fill="#F4F1E8" font-family="'Bodoni Moda', serif" font-size="36" font-weight="600">FlowGrid — Design System Foundations</text>
+  <text x="120" y="185" fill="#DEE7E2" font-family="'Manrope', sans-serif" font-size="18">Color tokens, contrast ratios (WCAG 2.2 AA), bilingual typography scale, spacing units, and responsive layout grids</text>
+
+  <!-- Section 1: Color Tokens & Contrast Ratios -->
+  <rect x="80" y="260" width="1080" height="840" fill="#FFFFFF" stroke="#B8C2BA" stroke-width="1" rx="4"/>
+  <rect x="80" y="260" width="1080" height="50" fill="#183B35" rx="4 4 0 0"/>
+  <text x="110" y="293" fill="#F4F1E8" font-family="'Manrope', sans-serif" font-size="18" font-weight="600">01. Semantic Color Tokens &amp; WCAG 2.2 AA Contrast Ratios</text>
+
+  <!-- Color Swatches Grid -->
+  <!-- Swatch 1: Page Paper -->
+  <rect x="110" y="340" width="220" height="110" fill="#F4F1E8" stroke="#B8C2BA" stroke-width="1" rx="4"/>
+  <text x="125" y="375" fill="#183B35" font-family="'Manrope', sans-serif" font-size="16" font-weight="700">surface.page</text>
+  <text x="125" y="400" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14">#F4F1E8</text>
+  <text x="125" y="425" fill="#183B35" font-family="'Manrope', sans-serif" font-size="12">Warm Architectural Paper</text>
+
+  <!-- Swatch 2: Deep Pine -->
+  <rect x="360" y="340" width="220" height="110" fill="#183B35" rx="4"/>
+  <text x="375" y="375" fill="#F4F1E8" font-family="'Manrope', sans-serif" font-size="16" font-weight="700">text.primary / action</text>
+  <text x="375" y="400" fill="#DEE7E2" font-family="'Manrope', sans-serif" font-size="14">#183B35</text>
+  <text x="375" y="425" fill="#F4F1E8" font-family="'Manrope', sans-serif" font-size="12">Deep Pine Ink (10.84:1)</text>
+
+  <!-- Swatch 3: Surface Mist -->
+  <rect x="610" y="340" width="220" height="110" fill="#DEE7E2" stroke="#B8C2BA" stroke-width="1" rx="4"/>
+  <text x="625" y="375" fill="#183B35" font-family="'Manrope', sans-serif" font-size="16" font-weight="700">surface.mist</text>
+  <text x="625" y="400" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14">#DEE7E2</text>
+  <text x="625" y="425" fill="#183B35" font-family="'Manrope', sans-serif" font-size="12">Supporting Panel Surface</text>
+
+  <!-- Swatch 4: Clay Accent -->
+  <rect x="860" y="340" width="220" height="110" fill="#895239" rx="4"/>
+  <text x="875" y="375" fill="#FFFFFF" font-family="'Manrope', sans-serif" font-size="16" font-weight="700">accent.clay / focus</text>
+  <text x="875" y="400" fill="#F4F1E8" font-family="'Manrope', sans-serif" font-size="14">#895239</text>
+  <text x="875" y="425" fill="#FFFFFF" font-family="'Manrope', sans-serif" font-size="12">Warm Terracotta (5.58:1)</text>
+
+  <!-- Swatch 5: Text Secondary -->
+  <rect x="110" y="470" width="220" height="110" fill="#56645E" rx="4"/>
+  <text x="125" y="505" fill="#FFFFFF" font-family="'Manrope', sans-serif" font-size="16" font-weight="700">text.secondary</text>
+  <text x="125" y="530" fill="#F4F1E8" font-family="'Manrope', sans-serif" font-size="14">#56645E</text>
+  <text x="125" y="555" fill="#FFFFFF" font-family="'Manrope', sans-serif" font-size="12">Supporting Text (5.50:1)</text>
+
+  <!-- Swatch 6: Control Border -->
+  <rect x="360" y="470" width="220" height="110" fill="#FFFFFF" stroke="#718178" stroke-width="2" rx="4"/>
+  <text x="375" y="505" fill="#183B35" font-family="'Manrope', sans-serif" font-size="16" font-weight="700">border.control</text>
+  <text x="375" y="530" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14">#718178</text>
+  <text x="375" y="555" fill="#183B35" font-family="'Manrope', sans-serif" font-size="12">Inputs &amp; Focus (3.64:1)</text>
+
+  <!-- Swatch 7: Status Error -->
+  <rect x="610" y="470" width="220" height="110" fill="#9B302B" rx="4"/>
+  <text x="625" y="505" fill="#FFFFFF" font-family="'Manrope', sans-serif" font-size="16" font-weight="700">status.error</text>
+  <text x="625" y="530" fill="#F4F1E8" font-family="'Manrope', sans-serif" font-size="14">#9B302B</text>
+  <text x="625" y="555" fill="#FFFFFF" font-family="'Manrope', sans-serif" font-size="12">Form Validation (6.52:1)</text>
+
+  <!-- Swatch 8: Status Success -->
+  <rect x="860" y="470" width="220" height="110" fill="#245C43" rx="4"/>
+  <text x="875" y="505" fill="#FFFFFF" font-family="'Manrope', sans-serif" font-size="16" font-weight="700">status.success</text>
+  <text x="875" y="530" fill="#F4F1E8" font-family="'Manrope', sans-serif" font-size="14">#245C43</text>
+  <text x="875" y="555" fill="#FFFFFF" font-family="'Manrope', sans-serif" font-size="12">Receipt State (6.92:1)</text>
+
+  <!-- Contrast Ratios Table -->
+  <rect x="110" y="610" width="1020" height="460" fill="#F4F1E8" rx="4"/>
+  <text x="130" y="640" fill="#183B35" font-family="'Manrope', sans-serif" font-size="16" font-weight="700">WCAG 2.2 AA Contrast Compliance Matrix</text>
+  
+  <text x="130" y="680" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14" font-weight="600">Color Pair</text>
+  <text x="450" y="680" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14" font-weight="600">Foreground / Background</text>
+  <text x="730" y="680" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14" font-weight="600">Contrast Ratio</text>
+  <text x="920" y="680" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14" font-weight="600">WCAG Status</text>
+  <line x1="130" y1="695" x2="1100" y2="695" stroke="#B8C2BA" stroke-width="1"/>
+
+  <text x="130" y="730" fill="#183B35" font-family="'Manrope', sans-serif" font-size="14">Primary text / Paper</text>
+  <text x="450" y="730" fill="#183B35" font-family="'Manrope', sans-serif" font-size="14">#183B35 on #F4F1E8</text>
+  <text x="730" y="730" fill="#245C43" font-family="'Manrope', sans-serif" font-size="14" font-weight="700">10.84 : 1</text>
+  <text x="920" y="730" fill="#245C43" font-family="'Manrope', sans-serif" font-size="14" font-weight="600">PASS (AAA)</text>
+
+  <text x="130" y="770" fill="#183B35" font-family="'Manrope', sans-serif" font-size="14">White text / Action Pine</text>
+  <text x="450" y="770" fill="#183B35" font-family="'Manrope', sans-serif" font-size="14">#FFFFFF on #183B35</text>
+  <text x="730" y="770" fill="#245C43" font-family="'Manrope', sans-serif" font-size="14" font-weight="700">12.24 : 1</text>
+  <text x="920" y="770" fill="#245C43" font-family="'Manrope', sans-serif" font-size="14" font-weight="600">PASS (AAA)</text>
+
+  <text x="130" y="810" fill="#183B35" font-family="'Manrope', sans-serif" font-size="14">Secondary text / Paper</text>
+  <text x="450" y="810" fill="#183B35" font-family="'Manrope', sans-serif" font-size="14">#56645E on #F4F1E8</text>
+  <text x="730" y="810" fill="#245C43" font-family="'Manrope', sans-serif" font-size="14" font-weight="700">5.50 : 1</text>
+  <text x="920" y="810" fill="#245C43" font-family="'Manrope', sans-serif" font-size="14" font-weight="600">PASS (AA)</text>
+
+  <text x="130" y="850" fill="#183B35" font-family="'Manrope', sans-serif" font-size="14">Clay accent / Paper</text>
+  <text x="450" y="850" fill="#183B35" font-family="'Manrope', sans-serif" font-size="14">#895239 on #F4F1E8</text>
+  <text x="730" y="850" fill="#245C43" font-family="'Manrope', sans-serif" font-size="14" font-weight="700">5.58 : 1</text>
+  <text x="920" y="850" fill="#245C43" font-family="'Manrope', sans-serif" font-size="14" font-weight="600">PASS (AA)</text>
+
+  <text x="130" y="890" fill="#183B35" font-family="'Manrope', sans-serif" font-size="14">Error text / Paper</text>
+  <text x="450" y="890" fill="#183B35" font-family="'Manrope', sans-serif" font-size="14">#9B302B on #F4F1E8</text>
+  <text x="730" y="890" fill="#245C43" font-family="'Manrope', sans-serif" font-size="14" font-weight="700">6.52 : 1</text>
+  <text x="920" y="890" fill="#245C43" font-family="'Manrope', sans-serif" font-size="14" font-weight="600">PASS (AA)</text>
+
+  <text x="130" y="930" fill="#183B35" font-family="'Manrope', sans-serif" font-size="14">Success text / Paper</text>
+  <text x="450" y="930" fill="#183B35" font-family="'Manrope', sans-serif" font-size="14">#245C43 on #F4F1E8</text>
+  <text x="730" y="930" fill="#245C43" font-family="'Manrope', sans-serif" font-size="14" font-weight="700">6.92 : 1</text>
+  <text x="920" y="930" fill="#245C43" font-family="'Manrope', sans-serif" font-size="14" font-weight="600">PASS (AA)</text>
+
+  <text x="130" y="970" fill="#183B35" font-family="'Manrope', sans-serif" font-size="14">Control boundary / Paper</text>
+  <text x="450" y="970" fill="#183B35" font-family="'Manrope', sans-serif" font-size="14">#718178 on #F4F1E8</text>
+  <text x="730" y="970" fill="#245C43" font-family="'Manrope', sans-serif" font-size="14" font-weight="700">3.64 : 1</text>
+  <text x="920" y="970" fill="#245C43" font-family="'Manrope', sans-serif" font-size="14" font-weight="600">PASS (UI &gt;= 3.0:1)</text>
+
+  <text x="130" y="1010" fill="#183B35" font-family="'Manrope', sans-serif" font-size="14">Primary text / Mist</text>
+  <text x="450" y="1010" fill="#183B35" font-family="'Manrope', sans-serif" font-size="14">#183B35 on #DEE7E2</text>
+  <text x="730" y="1010" fill="#245C43" font-family="'Manrope', sans-serif" font-size="14" font-weight="700">9.69 : 1</text>
+  <text x="920" y="1010" fill="#245C43" font-family="'Manrope', sans-serif" font-size="14" font-weight="600">PASS (AAA)</text>
+
+  <!-- Section 2: Typography System -->
+  <rect x="1200" y="260" width="1120" height="840" fill="#FFFFFF" stroke="#B8C2BA" stroke-width="1" rx="4"/>
+  <rect x="1200" y="260" width="1120" height="50" fill="#183B35" rx="4 4 0 0"/>
+  <text x="1230" y="293" fill="#F4F1E8" font-family="'Manrope', sans-serif" font-size="18" font-weight="600">02. Bilingual Typography Scale &amp; Type Rules</text>
+
+  <rect x="1230" y="340" width="510" height="230" fill="#F4F1E8" rx="4"/>
+  <text x="1250" y="375" fill="#895239" font-family="'Manrope', sans-serif" font-size="14" font-weight="700">LATIN EDITORIAL DISPLAY — Bodoni Moda</text>
+  <text x="1250" y="425" fill="#183B35" font-family="'Bodoni Moda', serif" font-size="38" font-weight="500">Room for everyday life.</text>
+  <text x="1250" y="470" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14">• Desktop Hero: 88-112px / 1.02 line-height / Weight 500</text>
+  <text x="1250" y="495" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14">• Mobile Hero: 44-52px / 1.08 line-height / Weight 500</text>
+  <text x="1250" y="520" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14">• Section Titles: 48-64px / 1.10 line-height</text>
+  <text x="1250" y="545" fill="#183B35" font-family="'Manrope', sans-serif" font-size="13" font-weight="600">Usage: Monumental architectural headlines only. Never used for body text.</text>
+
+  <rect x="1770" y="340" width="520" height="230" fill="#F4F1E8" rx="4"/>
+  <text x="1790" y="375" fill="#895239" font-family="'Manrope', sans-serif" font-size="14" font-weight="700">BANGLA PRIMARY DISPLAY &amp; UI — Noto Sans Bengali</text>
+  <text x="1790" y="425" fill="#183B35" font-family="'Noto Sans Bengali', sans-serif" font-size="30" font-weight="600">আপনার জীবনের ছন্দে, আপনার ঘর।</text>
+  <text x="1790" y="470" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14">• Desktop Hero: 56-64px / 1.35 line-height / Weight 600</text>
+  <text x="1790" y="495" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14">• Mobile Hero: 36-42px / 1.35 line-height / Weight 600</text>
+  <text x="1790" y="520" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14">• Body text: 18px / 1.75 line-height (room for Bengali ascenders/descenders)</text>
+  <text x="1790" y="545" fill="#183B35" font-family="'Manrope', sans-serif" font-size="13" font-weight="600">Rule: Never letter-space or italicize Bangla; maintain natural conjuncts.</text>
+
+  <rect x="1230" y="590" width="1060" height="200" fill="#F4F1E8" rx="4"/>
+  <text x="1250" y="625" fill="#895239" font-family="'Manrope', sans-serif" font-size="14" font-weight="700">LATIN INTERFACE &amp; BODY — Manrope</text>
+  <text x="1250" y="660" fill="#183B35" font-family="'Manrope', sans-serif" font-size="20" font-weight="600">Thoughtful interiors shaped around your everyday family life and budget.</text>
+  <text x="1250" y="695" fill="#56645E" font-family="'Manrope', sans-serif" font-size="15">• Body: 18px / 1.6 line-height / Weight 400 (45-70 characters per line max, max-width 640px)</text>
+  <text x="1250" y="720" fill="#56645E" font-family="'Manrope', sans-serif" font-size="15">• UI Controls / Buttons: 16-18px / Weight 500-600</text>
+  <text x="1250" y="745" fill="#56645E" font-family="'Manrope', sans-serif" font-size="15">• Secondary Metadata: 14px Latin, 16px Bangla</text>
+
+  <!-- Typography Comparison Table -->
+  <rect x="1230" y="810" width="1060" height="260" fill="#FFFFFF" stroke="#DEE7E2" stroke-width="1" rx="4"/>
+  <text x="1250" y="845" fill="#183B35" font-family="'Manrope', sans-serif" font-size="15" font-weight="700">Typography Scale Summary</text>
+  <text x="1250" y="880" fill="#56645E" font-family="'Manrope', sans-serif" font-size="13">Hero Latin: 88-112px | Bodoni Moda 500</text>
+  <text x="1600" y="880" fill="#56645E" font-family="'Manrope', sans-serif" font-size="13">Hero Bangla: 56-64px | Noto Sans Bengali 600</text>
+  <text x="1250" y="915" fill="#56645E" font-family="'Manrope', sans-serif" font-size="13">H1 Latin: 48-64px | Bodoni Moda 500</text>
+  <text x="1600" y="915" fill="#56645E" font-family="'Manrope', sans-serif" font-size="13">H1 Bangla: 36-42px | Noto Sans Bengali 600</text>
+  <text x="1250" y="950" fill="#56645E" font-family="'Manrope', sans-serif" font-size="13">H2 Project Title: 28-36px | Line-height 1.25 / 1.45</text>
+  <text x="1600" y="950" fill="#56645E" font-family="'Manrope', sans-serif" font-size="13">Body: 18px | Manrope 400 (1.6) / Noto Sans Bengali 400 (1.75)</text>
+  <text x="1250" y="985" fill="#56645E" font-family="'Manrope', sans-serif" font-size="13">UI Controls / Buttons: 16-18px | Weight 500-600</text>
+  <text x="1600" y="985" fill="#56645E" font-family="'Manrope', sans-serif" font-size="13">Touch Control Min Height: 52px (Mobile Target &gt;= 48px)</text>
+  <text x="1250" y="1020" fill="#183B35" font-family="'Manrope', sans-serif" font-size="13" font-weight="600">Radius Tokens: Media = 0px (strict architectural squared edges), Controls = 2px, Overlays = 4px max.</text>
+
+  <!-- Section 3: Spacing Scale & Layout Grids -->
+  <rect x="80" y="1130" width="2240" height="790" fill="#FFFFFF" stroke="#B8C2BA" stroke-width="1" rx="4"/>
+  <rect x="80" y="1130" width="2240" height="50" fill="#183B35" rx="4 4 0 0"/>
+  <text x="110" y="1163" fill="#F4F1E8" font-family="'Manrope', sans-serif" font-size="18" font-weight="600">03. Spacing Scale, Radius Tokens &amp; Responsive Layout Grids</text>
+
+  <!-- Spacing Scale Tokens -->
+  <text x="110" y="1220" fill="#183B35" font-family="'Manrope', sans-serif" font-size="16" font-weight="700">Spacing Tokens (8px Base Scale with 4px Subdivisions):</text>
+  <g transform="translate(110, 1240)">
+    <!-- 4px -->
+    <rect x="0" y="0" width="4" height="60" fill="#895239"/>
+    <text x="0" y="85" fill="#56645E" font-family="'Manrope', sans-serif" font-size="13">4px</text>
+
+    <!-- 8px -->
+    <rect x="40" y="0" width="8" height="60" fill="#895239"/>
+    <text x="40" y="85" fill="#56645E" font-family="'Manrope', sans-serif" font-size="13">8px</text>
+
+    <!-- 12px -->
+    <rect x="90" y="0" width="12" height="60" fill="#895239"/>
+    <text x="90" y="85" fill="#56645E" font-family="'Manrope', sans-serif" font-size="13">12px</text>
+
+    <!-- 16px -->
+    <rect x="150" y="0" width="16" height="60" fill="#895239"/>
+    <text x="150" y="85" fill="#56645E" font-family="'Manrope', sans-serif" font-size="13">16px</text>
+
+    <!-- 24px -->
+    <rect x="220" y="0" width="24" height="60" fill="#895239"/>
+    <text x="220" y="85" fill="#56645E" font-family="'Manrope', sans-serif" font-size="13">24px</text>
+
+    <!-- 32px -->
+    <rect x="300" y="0" width="32" height="60" fill="#895239"/>
+    <text x="300" y="85" fill="#56645E" font-family="'Manrope', sans-serif" font-size="13">32px</text>
+
+    <!-- 48px -->
+    <rect x="390" y="0" width="48" height="60" fill="#895239"/>
+    <text x="390" y="85" fill="#56645E" font-family="'Manrope', sans-serif" font-size="13">48px</text>
+
+    <!-- 64px -->
+    <rect x="500" y="0" width="64" height="60" fill="#895239"/>
+    <text x="500" y="85" fill="#56645E" font-family="'Manrope', sans-serif" font-size="13">64px</text>
+
+    <!-- 80px -->
+    <rect x="630" y="0" width="80" height="60" fill="#895239"/>
+    <text x="630" y="85" fill="#56645E" font-family="'Manrope', sans-serif" font-size="13">80px</text>
+
+    <!-- 96px -->
+    <rect x="780" y="0" width="96" height="60" fill="#895239"/>
+    <text x="780" y="85" fill="#56645E" font-family="'Manrope', sans-serif" font-size="13">96px</text>
+
+    <!-- 128px -->
+    <rect x="950" y="0" width="128" height="60" fill="#895239"/>
+    <text x="950" y="85" fill="#56645E" font-family="'Manrope', sans-serif" font-size="13">128px</text>
+  </g>
+
+  <!-- Responsive Grids Diagram -->
+  <text x="110" y="1370" fill="#183B35" font-family="'Manrope', sans-serif" font-size="16" font-weight="700">Responsive Viewports &amp; Grids:</text>
+
+  <!-- Desktop 1440px Grid Card -->
+  <rect x="110" y="1400" width="680" height="470" fill="#F4F1E8" rx="4"/>
+  <text x="130" y="1435" fill="#183B35" font-family="'Manrope', sans-serif" font-size="16" font-weight="700">Desktop Viewport: 1440px and above</text>
+  <text x="130" y="1465" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14">• 12 Columns, Max Content Width: 1312px, Outer Gutters: 64px, Column Gap: 24px</text>
+  <text x="130" y="1490" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14">• Asymmetrical 7/5 and 5/7 column project spreads for architectural rhythm</text>
+  <g transform="translate(130, 1510)">
+    <!-- 12 Columns visualization -->
+    <rect x="0" y="0" width="640" height="80" fill="#FFFFFF" stroke="#B8C2BA" stroke-width="1"/>
+    <!-- Draw 12 columns -->
+    <rect x="10" y="10" width="40" height="60" fill="#DEE7E2"/>
+    <rect x="62" y="10" width="40" height="60" fill="#DEE7E2"/>
+    <rect x="114" y="10" width="40" height="60" fill="#DEE7E2"/>
+    <rect x="166" y="10" width="40" height="60" fill="#DEE7E2"/>
+    <rect x="218" y="10" width="40" height="60" fill="#DEE7E2"/>
+    <rect x="270" y="10" width="40" height="60" fill="#DEE7E2"/>
+    <rect x="322" y="10" width="40" height="60" fill="#DEE7E2"/>
+    <rect x="374" y="10" width="40" height="60" fill="#DEE7E2"/>
+    <rect x="426" y="10" width="40" height="60" fill="#DEE7E2"/>
+    <rect x="478" y="10" width="40" height="60" fill="#DEE7E2"/>
+    <rect x="530" y="10" width="40" height="60" fill="#DEE7E2"/>
+    <rect x="582" y="10" width="40" height="60" fill="#DEE7E2"/>
+  </g>
+  <text x="130" y="1630" fill="#183B35" font-family="'Manrope', sans-serif" font-size="14" font-weight="600">Header: 88px tall, solid paper surface, no translucent blur</text>
+  <text x="130" y="1655" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14">Section spacing: 112-144px between major story blocks</text>
+
+  <!-- Tablet 768px Grid Card -->
+  <rect x="830" y="1400" width="680" height="470" fill="#F4F1E8" rx="4"/>
+  <text x="850" y="1435" fill="#183B35" font-family="'Manrope', sans-serif" font-size="16" font-weight="700">Tablet Viewport: 768px - 1023px</text>
+  <text x="850" y="1465" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14">• 8 Columns, Outer Gutters: 32px, Column Gap: 24px</text>
+  <text x="850" y="1490" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14">• Two-column cards collapse to balanced 4/4 or stacked 8-col blocks</text>
+  <g transform="translate(850, 1510)">
+    <rect x="0" y="0" width="640" height="80" fill="#FFFFFF" stroke="#B8C2BA" stroke-width="1"/>
+    <!-- 8 cols -->
+    <rect x="15" y="10" width="60" height="60" fill="#DEE7E2"/>
+    <rect x="92" y="10" width="60" height="60" fill="#DEE7E2"/>
+    <rect x="169" y="10" width="60" height="60" fill="#DEE7E2"/>
+    <rect x="246" y="10" width="60" height="60" fill="#DEE7E2"/>
+    <rect x="323" y="10" width="60" height="60" fill="#DEE7E2"/>
+    <rect x="400" y="10" width="60" height="60" fill="#DEE7E2"/>
+    <rect x="477" y="10" width="60" height="60" fill="#DEE7E2"/>
+    <rect x="554" y="10" width="60" height="60" fill="#DEE7E2"/>
+  </g>
+  <text x="850" y="1630" fill="#183B35" font-family="'Manrope', sans-serif" font-size="14" font-weight="600">Header: 80px tall, compact navigation or drawer trigger</text>
+  <text x="850" y="1655" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14">Section spacing: 80-96px</text>
+
+  <!-- Mobile 390px Grid Card -->
+  <rect x="1550" y="1400" width="730" height="470" fill="#F4F1E8" rx="4"/>
+  <text x="1570" y="1435" fill="#183B35" font-family="'Manrope', sans-serif" font-size="16" font-weight="700">Mobile Viewport: 320px - 767px (Primary: 390px)</text>
+  <text x="1570" y="1465" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14">• 4 Columns, Outer Gutters: 20px (16px at 320px), Gap: 16px</text>
+  <text x="1570" y="1490" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14">• Single column stacking: Title + CTA on paper BEFORE hero image</text>
+  <g transform="translate(1570, 1510)">
+    <rect x="0" y="0" width="690" height="80" fill="#FFFFFF" stroke="#B8C2BA" stroke-width="1"/>
+    <!-- 4 cols -->
+    <rect x="20" y="10" width="145" height="60" fill="#DEE7E2"/>
+    <rect x="185" y="10" width="145" height="60" fill="#DEE7E2"/>
+    <rect x="350" y="10" width="145" height="60" fill="#DEE7E2"/>
+    <rect x="515" y="10" width="145" height="60" fill="#DEE7E2"/>
+  </g>
+  <text x="1570" y="1630" fill="#183B35" font-family="'Manrope', sans-serif" font-size="14" font-weight="600">Header: 72px tall, full touch target Menu trigger (48px)</text>
+  <text x="1570" y="1655" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14">Persistent bottom contact bar: Call + WhatsApp (hidden on form &amp; menu)</text>
+</svg>"""
+
+with open('figma_svgs/01_foundations.svg', 'w', encoding='utf-8') as f:
+    f.write(svg_01)
+
+print("Saved 01_foundations.svg")

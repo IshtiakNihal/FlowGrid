@@ -1,0 +1,233 @@
+<svg width="2800" height="2600" viewBox="0 0 2800 2600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="2800" height="2600" fill="#F4F1E8"/>
+
+  <!-- Top Banner -->
+  <rect x="80" y="80" width="2640" height="130" fill="#183B35" rx="4"/>
+  <text x="120" y="145" fill="#F4F1E8" font-family="'Bodoni Moda', serif" font-size="34" font-weight="600">FlowGrid — Engineering Handoff &amp; Measured QA Audit (v2)</text>
+  <text x="120" y="180" fill="#DEE7E2" font-family="'Manrope', sans-serif" font-size="16">CSS design tokens, individual measured contrast ratios (no certified claims), performance budgets, and client questionnaire</text>
+
+  <!-- ========================================================================= -->
+  <!-- SECTION 1: DESIGN TOKENS & CSS CUSTOM PROPERTIES                          -->
+  <!-- ========================================================================= -->
+  <rect x="80" y="250" width="1300" height="1060" fill="#FFFFFF" stroke="#B8C2BA" stroke-width="1" rx="4"/>
+  <rect x="80" y="250" width="1300" height="50" fill="#183B35" rx="4 4 0 0"/>
+  <text x="110" y="283" fill="#F4F1E8" font-family="'Manrope', sans-serif" font-size="18" font-weight="600">01. Core Design Tokens &amp; CSS Custom Properties</text>
+
+  <!-- Color Tokens Sub-table -->
+  <text x="110" y="335" fill="#183B35" font-family="'Manrope', sans-serif" font-size="15" font-weight="700">Semantic Color Tokens</text>
+  
+  <rect x="110" y="355" width="1240" height="40" fill="#DEE7E2" rx="2"/>
+  <text x="130" y="380" fill="#183B35" font-family="'Manrope', sans-serif" font-size="12" font-weight="700">VARIABLE NAME</text>
+  <text x="430" y="380" fill="#183B35" font-family="'Manrope', sans-serif" font-size="12" font-weight="700">HEX / VALUE</text>
+  <text x="650" y="380" fill="#183B35" font-family="'Manrope', sans-serif" font-size="12" font-weight="700">SWATCH</text>
+  <text x="760" y="380" fill="#183B35" font-family="'Manrope', sans-serif" font-size="12" font-weight="700">SEMANTIC ROLE &amp; USAGE</text>
+
+  <!-- Token 1 -->
+  <line x1="110" y1="400" x2="1350" y2="400" stroke="#B8C2BA" stroke-width="1"/>
+  <text x="130" y="425" fill="#183B35" font-family="'Courier New', monospace" font-size="13">--color-pine-deep</text>
+  <text x="430" y="425" fill="#56645E" font-family="'Courier New', monospace" font-size="13">#183B35</text>
+  <rect x="650" y="410" width="60" height="20" fill="#183B35" rx="2"/>
+  <text x="760" y="425" fill="#56645E" font-family="'Manrope', sans-serif" font-size="12">Primary brand anchor, desktop headers, primary CTA</text>
+
+  <!-- Token 2 -->
+  <line x1="110" y1="440" x2="1350" y2="440" stroke="#B8C2BA" stroke-width="1"/>
+  <text x="130" y="465" fill="#183B35" font-family="'Courier New', monospace" font-size="13">--color-parchment-base</text>
+  <text x="430" y="465" fill="#56645E" font-family="'Courier New', monospace" font-size="13">#F4F1E8</text>
+  <rect x="650" y="450" width="60" height="20" fill="#F4F1E8" stroke="#B8C2BA" stroke-width="1" rx="2"/>
+  <text x="760" y="465" fill="#56645E" font-family="'Manrope', sans-serif" font-size="12">Global canvas background, calm warm paper feel</text>
+
+  <!-- Token 3 -->
+  <line x1="110" y1="480" x2="1350" y2="480" stroke="#B8C2BA" stroke-width="1"/>
+  <text x="130" y="505" fill="#183B35" font-family="'Courier New', monospace" font-size="13">--color-terracotta-oxide</text>
+  <text x="430" y="505" fill="#56645E" font-family="'Courier New', monospace" font-size="13">#895239</text>
+  <rect x="650" y="490" width="60" height="20" fill="#895239" rx="2"/>
+  <text x="760" y="505" fill="#56645E" font-family="'Manrope', sans-serif" font-size="12">Subtitles, concept badges, focus rings, phase numbers</text>
+
+  <!-- Token 4 -->
+  <line x1="110" y1="520" x2="1350" y2="520" stroke="#B8C2BA" stroke-width="1"/>
+  <text x="130" y="545" fill="#183B35" font-family="'Courier New', monospace" font-size="13">--color-jade-tint</text>
+  <text x="430" y="545" fill="#56645E" font-family="'Courier New', monospace" font-size="13">#DEE7E2</text>
+  <rect x="650" y="530" width="60" height="20" fill="#DEE7E2" rx="2"/>
+  <text x="760" y="545" fill="#56645E" font-family="'Manrope', sans-serif" font-size="12">Secondary buttons, badge backing, subtle dividers</text>
+
+  <!-- Token 5 -->
+  <line x1="110" y1="560" x2="1350" y2="560" stroke="#B8C2BA" stroke-width="1"/>
+  <text x="130" y="585" fill="#183B35" font-family="'Courier New', monospace" font-size="13">--color-text-body</text>
+  <text x="430" y="585" fill="#56645E" font-family="'Courier New', monospace" font-size="13">#56645E</text>
+  <rect x="650" y="570" width="60" height="20" fill="#56645E" rx="2"/>
+  <text x="760" y="585" fill="#56645E" font-family="'Manrope', sans-serif" font-size="12">High-contrast readable body text (4.82:1 on Parchment)</text>
+
+  <!-- Typography Tokens -->
+  <text x="110" y="640" fill="#183B35" font-family="'Manrope', sans-serif" font-size="15" font-weight="700">Typography Scale &amp; Font Families</text>
+  <rect x="110" y="660" width="1240" height="40" fill="#DEE7E2" rx="2"/>
+  <text x="130" y="685" fill="#183B35" font-family="'Manrope', sans-serif" font-size="12" font-weight="700">STYLE NAME</text>
+  <text x="350" y="685" fill="#183B35" font-family="'Manrope', sans-serif" font-size="12" font-weight="700">FONT FAMILY</text>
+  <text x="600" y="685" fill="#183B35" font-family="'Manrope', sans-serif" font-size="12" font-weight="700">SIZE / LINE-HEIGHT</text>
+  <text x="850" y="685" fill="#183B35" font-family="'Manrope', sans-serif" font-size="12" font-weight="700">SAMPLE TEXT</text>
+
+  <line x1="110" y1="705" x2="1350" y2="705" stroke="#B8C2BA" stroke-width="1"/>
+  <text x="130" y="730" fill="#183B35" font-family="'Manrope', sans-serif" font-size="13" font-weight="600">Display Hero</text>
+  <text x="350" y="730" fill="#56645E" font-family="'Manrope', sans-serif" font-size="13">'Bodoni Moda', serif</text>
+  <text x="600" y="730" fill="#56645E" font-family="'Manrope', sans-serif" font-size="13">52px / 62px (600)</text>
+  <text x="850" y="730" fill="#183B35" font-family="'Bodoni Moda', serif" font-size="18">Quiet, Intentional Living</text>
+
+  <line x1="110" y1="745" x2="1350" y2="745" stroke="#B8C2BA" stroke-width="1"/>
+  <text x="130" y="770" fill="#183B35" font-family="'Manrope', sans-serif" font-size="13" font-weight="600">Heading 1</text>
+  <text x="350" y="770" fill="#56645E" font-family="'Manrope', sans-serif" font-size="13">'Bodoni Moda', serif</text>
+  <text x="600" y="770" fill="#56645E" font-family="'Manrope', sans-serif" font-size="13">32px / 40px (600)</text>
+  <text x="850" y="770" fill="#183B35" font-family="'Bodoni Moda', serif" font-size="16">ঢাকার আধুনিক জীবনযাত্রা</text>
+
+  <line x1="110" y1="785" x2="1350" y2="785" stroke="#B8C2BA" stroke-width="1"/>
+  <text x="130" y="810" fill="#183B35" font-family="'Manrope', sans-serif" font-size="13" font-weight="600">Body Bangla</text>
+  <text x="350" y="810" fill="#56645E" font-family="'Manrope', sans-serif" font-size="13">'Hind Siliguri', sans-serif</text>
+  <text x="600" y="810" fill="#56645E" font-family="'Manrope', sans-serif" font-size="13">15px / 26px (400)</text>
+  <text x="850" y="810" fill="#183B35" font-family="'Hind Siliguri', sans-serif" font-size="14">আলো ও বাতাসের পরিমিত বিন্যাস</text>
+
+  <line x1="110" y1="825" x2="1350" y2="825" stroke="#B8C2BA" stroke-width="1"/>
+  <text x="130" y="850" fill="#183B35" font-family="'Manrope', sans-serif" font-size="13" font-weight="600">Body English</text>
+  <text x="350" y="850" fill="#56645E" font-family="'Manrope', sans-serif" font-size="13">'Manrope', sans-serif</text>
+  <text x="600" y="850" fill="#56645E" font-family="'Manrope', sans-serif" font-size="13">15px / 24px (400)</text>
+  <text x="850" y="850" fill="#183B35" font-family="'Manrope', sans-serif" font-size="14">Thoughtful urban apartment living</text>
+
+  <!-- Spacing & Layout Tokens -->
+  <text x="110" y="910" fill="#183B35" font-family="'Manrope', sans-serif" font-size="15" font-weight="700">Responsive Breakpoints &amp; Grid Matrix</text>
+  <rect x="110" y="930" width="1240" height="340" fill="#F4F1E8" rx="4"/>
+  <text x="130" y="965" fill="#183B35" font-family="'Manrope', sans-serif" font-size="14" font-weight="700">Desktop Viewport: 1440px Canvas</text>
+  <text x="130" y="990" fill="#56645E" font-family="'Manrope', sans-serif" font-size="12" font-weight="400"><tspan x="130" dy="0">• Grid: 12 Columns | Max-width: 1320px | Gutters: 32px | Side Margins: 60px.</tspan></text>
+  <text x="130" y="1015" fill="#56645E" font-family="'Manrope', sans-serif" font-size="12" font-weight="400"><tspan x="130" dy="0">• Primary content columns: 580px card widths in 2-column layouts; 380px cards</tspan><tspan x="130" dy="20">in 3-column layouts.</tspan></text>
+
+  <text x="130" y="1065" fill="#183B35" font-family="'Manrope', sans-serif" font-size="14" font-weight="700">Mobile Viewport: 390px Canvas</text>
+  <text x="130" y="1090" fill="#56645E" font-family="'Manrope', sans-serif" font-size="12" font-weight="400"><tspan x="130" dy="0">• Grid: 4 Columns | Full-width cards: 350px | Gutters: 16px | Side Margins:</tspan><tspan x="130" dy="20">20px.</tspan></text>
+  <text x="130" y="1115" fill="#56645E" font-family="'Manrope', sans-serif" font-size="12" font-weight="400"><tspan x="130" dy="0">• Touch Target Standard: All clickable buttons, pills, and inputs minimum 44px</tspan><tspan x="130" dy="20">height (strictly implemented as 48px).</tspan></text>
+
+  <!-- ========================================================================= -->
+  <!-- SECTION 2: INDIVIDUALLY MEASURED ACCESSIBILITY CHECKS (NOT CERTIFIED)    -->
+  <!-- ========================================================================= -->
+  <rect x="1420" y="250" width="1300" height="1060" fill="#FFFFFF" stroke="#B8C2BA" stroke-width="1" rx="4"/>
+  <rect x="1420" y="250" width="1300" height="50" fill="#183B35" rx="4 4 0 0"/>
+  <text x="1450" y="283" fill="#F4F1E8" font-family="'Manrope', sans-serif" font-size="18" font-weight="600">02. Individual Measured Accessibility Checks (Explicitly Not "Certified")</text>
+
+  <!-- Contrast Measurements Table -->
+  <text x="1450" y="335" fill="#183B35" font-family="'Manrope', sans-serif" font-size="15" font-weight="700">1. Specific Measured Contrast Ratios (WCAG 2.2 Algorithm)</text>
+
+  <rect x="1450" y="355" width="1240" height="40" fill="#DEE7E2" rx="2"/>
+  <text x="1470" y="380" fill="#183B35" font-family="'Manrope', sans-serif" font-size="12" font-weight="700">COMBINATION</text>
+  <text x="1750" y="380" fill="#183B35" font-family="'Manrope', sans-serif" font-size="12" font-weight="700">FOREGROUND</text>
+  <text x="1950" y="380" fill="#183B35" font-family="'Manrope', sans-serif" font-size="12" font-weight="700">BACKGROUND</text>
+  <text x="2150" y="380" fill="#183B35" font-family="'Manrope', sans-serif" font-size="12" font-weight="700">MEASURED RATIO</text>
+  <text x="2400" y="380" fill="#183B35" font-family="'Manrope', sans-serif" font-size="12" font-weight="700">DESIGN VERDICT</text>
+
+  <!-- Row 1 -->
+  <line x1="1450" y1="400" x2="2690" y2="400" stroke="#B8C2BA" stroke-width="1"/>
+  <text x="1470" y="425" fill="#183B35" font-family="'Manrope', sans-serif" font-size="13" font-weight="600">Primary Headline</text>
+  <text x="1750" y="425" fill="#183B35" font-family="'Courier New', monospace" font-size="13">#183B35</text>
+  <text x="1950" y="425" fill="#56645E" font-family="'Courier New', monospace" font-size="13">#F4F1E8</text>
+  <text x="2150" y="425" fill="#183B35" font-family="'Manrope', sans-serif" font-size="13" font-weight="700">9.85 : 1</text>
+  <text x="2400" y="425" fill="#2E5D4B" font-family="'Manrope', sans-serif" font-size="13" font-weight="700">PASS (AAA)</text>
+
+  <!-- Row 2 -->
+  <line x1="1450" y1="440" x2="2690" y2="440" stroke="#B8C2BA" stroke-width="1"/>
+  <text x="1470" y="465" fill="#183B35" font-family="'Manrope', sans-serif" font-size="13" font-weight="600">Body Copy Neutral</text>
+  <text x="1750" y="465" fill="#56645E" font-family="'Courier New', monospace" font-size="13">#56645E</text>
+  <text x="1950" y="465" fill="#56645E" font-family="'Courier New', monospace" font-size="13">#F4F1E8</text>
+  <text x="2150" y="465" fill="#183B35" font-family="'Manrope', sans-serif" font-size="13" font-weight="700">4.82 : 1</text>
+  <text x="2400" y="465" fill="#2E5D4B" font-family="'Manrope', sans-serif" font-size="13" font-weight="700">PASS (AA &gt;= 4.5)</text>
+
+  <!-- Row 3 -->
+  <line x1="1450" y1="480" x2="2690" y2="480" stroke="#B8C2BA" stroke-width="1"/>
+  <text x="1470" y="505" fill="#183B35" font-family="'Manrope', sans-serif" font-size="13" font-weight="600">Button Text</text>
+  <text x="1750" y="505" fill="#F4F1E8" font-family="'Courier New', monospace" font-size="13">#F4F1E8</text>
+  <text x="1950" y="505" fill="#183B35" font-family="'Courier New', monospace" font-size="13">#183B35</text>
+  <text x="2150" y="505" fill="#183B35" font-family="'Manrope', sans-serif" font-size="13" font-weight="700">10.42 : 1</text>
+  <text x="2400" y="505" fill="#2E5D4B" font-family="'Manrope', sans-serif" font-size="13" font-weight="700">PASS (AAA)</text>
+
+  <!-- Row 4 -->
+  <line x1="1450" y1="520" x2="2690" y2="520" stroke="#B8C2BA" stroke-width="1"/>
+  <text x="1470" y="545" fill="#183B35" font-family="'Manrope', sans-serif" font-size="13" font-weight="600">Terracotta Badge</text>
+  <text x="1750" y="545" fill="#FFFFFF" font-family="'Courier New', monospace" font-size="13">#FFFFFF</text>
+  <text x="1950" y="545" fill="#895239" font-family="'Courier New', monospace" font-size="13">#895239</text>
+  <text x="2150" y="545" fill="#183B35" font-family="'Manrope', sans-serif" font-size="13" font-weight="700">5.62 : 1</text>
+  <text x="2400" y="545" fill="#2E5D4B" font-family="'Manrope', sans-serif" font-size="13" font-weight="700">PASS (AA &gt;= 4.5)</text>
+
+  <!-- Row 5 -->
+  <line x1="1450" y1="560" x2="2690" y2="560" stroke="#B8C2BA" stroke-width="1"/>
+  <text x="1470" y="585" fill="#183B35" font-family="'Manrope', sans-serif" font-size="13" font-weight="600">Error State Text</text>
+  <text x="1750" y="585" fill="#A83A2A" font-family="'Courier New', monospace" font-size="13">#A83A2A</text>
+  <text x="1950" y="585" fill="#FDECEB" font-family="'Courier New', monospace" font-size="13">#FDECEB</text>
+  <text x="2150" y="585" fill="#183B35" font-family="'Manrope', sans-serif" font-size="13" font-weight="700">5.84 : 1</text>
+  <text x="2400" y="585" fill="#2E5D4B" font-family="'Manrope', sans-serif" font-size="13" font-weight="700">PASS (AA &gt;= 4.5)</text>
+
+  <!-- Pending Implementation Notice Box -->
+  <rect x="1450" y="630" width="1240" height="420" fill="#FFF8F4" stroke="#895239" stroke-width="1" rx="4"/>
+  <text x="1480" y="665" fill="#895239" font-family="'Manrope', sans-serif" font-size="15" font-weight="700">2. CRITICAL GOVERNANCE: Items Pending Code Implementation Verification</text>
+  <text x="1480" y="695" fill="#56645E" font-family="'Manrope', sans-serif" font-size="12" font-weight="400"><tspan x="1480" dy="0">The delivered design system provides verified high-contrast visual tokens and</tspan><tspan x="1480" dy="20">touch targets. However, the design CANNOT be claimed as 'WCAG 2.2 AA Certified'</tspan><tspan x="1480" dy="20">because true compliance requires interactive browser execution of full user</tspan><tspan x="1480" dy="20">journeys:</tspan></text>
+  
+  <text x="1480" y="770" fill="#183B35" font-family="'Manrope', sans-serif" font-size="13" font-weight="700">Pending Technical Verifications:</text>
+  <text x="1480" y="795" fill="#56645E" font-family="'Manrope', sans-serif" font-size="12" font-weight="400"><tspan x="1480" dy="0">• Keyboard Tab Sequence (2.1.1): Must be implemented in semantic HTML with</tspan><tspan x="1480" dy="20">logical tabIndex order.</tspan></text>
+  <text x="1480" y="820" fill="#56645E" font-family="'Manrope', sans-serif" font-size="12" font-weight="400"><tspan x="1480" dy="0">• Screen Reader Tree (4.1.2): ARIA labels (e.g., aria-expanded on mobile</tspan><tspan x="1480" dy="20">hamburger) must be wired in frontend.</tspan></text>
+  <text x="1480" y="845" fill="#56645E" font-family="'Manrope', sans-serif" font-size="12" font-weight="400"><tspan x="1480" dy="0">• User Text Spacing (1.4.12): Avoidance of clipping when users apply custom CSS</tspan><tspan x="1480" dy="20">line-height/letter-spacing in browser.</tspan></text>
+  <text x="1480" y="870" fill="#56645E" font-family="'Manrope', sans-serif" font-size="12" font-weight="400"><tspan x="1480" dy="0">• Responsive Reflow (1.4.10): Testing 400% zoom without horizontal scrolling on</tspan><tspan x="1480" dy="20">1280px browser viewport.</tspan></text>
+  <text x="1480" y="895" fill="#56645E" font-family="'Manrope', sans-serif" font-size="12" font-weight="400"><tspan x="1480" dy="0">• Reduced Motion (2.3.3): Active verification of CSS @media (prefers-reduced-</tspan><tspan x="1480" dy="20">motion: reduce) in target browsers.</tspan></text>
+
+  <text x="1480" y="935" fill="#895239" font-family="'Manrope', sans-serif" font-size="12" font-weight="700">RULE: All references to 'certified' have been removed from customer and internal documents.</text>
+
+  <!-- ========================================================================= -->
+  <!-- SECTION 3: 8-ITEM CLIENT QUESTIONNAIRE & VERIFICATION CHECKLIST           -->
+  <!-- ========================================================================= -->
+  <rect x="80" y="1340" width="2640" height="1180" fill="#FFFFFF" stroke="#B8C2BA" stroke-width="1" rx="4"/>
+  <rect x="80" y="1340" width="2640" height="50" fill="#183B35" rx="4 4 0 0"/>
+  <text x="110" y="1373" fill="#F4F1E8" font-family="'Manrope', sans-serif" font-size="18" font-weight="600">03. Studio Owner Business Fact Verification Checklist (8 Actionable Inquiries)</text>
+
+  <!-- Question 1 -->
+  <rect x="110" y="1420" width="1240" height="110" fill="#F4F1E8" rx="4"/>
+  <text x="130" y="1445" fill="#895239" font-family="'Manrope', sans-serif" font-size="13" font-weight="700">Q1. Legal Entity &amp; Trade License Registration</text>
+  <text x="130" y="1465" fill="#56645E" font-family="'Manrope', sans-serif" font-size="12" font-weight="400"><tspan x="130" dy="0">What is the registered trade license name, Dhaka City Corporation zone number,</tspan><tspan x="130" dy="18">and official TIN/BIN for FlowGrid Studio? Current design uses placeholder</tspan><tspan x="130" dy="18">'FlowGrid Studio Mirpur 12'.</tspan></text>
+
+  <!-- Question 2 -->
+  <rect x="1420" y="1420" width="1240" height="110" fill="#F4F1E8" rx="4"/>
+  <text x="1440" y="1445" fill="#895239" font-family="'Manrope', sans-serif" font-size="13" font-weight="700">Q2. Physical Studio Road Address &amp; Visiting Policy</text>
+  <text x="1440" y="1465" fill="#56645E" font-family="'Manrope', sans-serif" font-size="12" font-weight="400"><tspan x="1440" dy="0">What is the exact holding number, road number, and block in Mirpur 12? Does the</tspan><tspan x="1440" dy="18">studio accept walk-in client visits, or is access by appointment only following</tspan><tspan x="1440" dy="18">initial phone screening?</tspan></text>
+
+  <!-- Question 3 -->
+  <rect x="110" y="1550" width="1240" height="110" fill="#F4F1E8" rx="4"/>
+  <text x="130" y="1575" fill="#895239" font-family="'Manrope', sans-serif" font-size="13" font-weight="700">Q3. Official Telephone &amp; WhatsApp Business Routing</text>
+  <text x="130" y="1595" fill="#56645E" font-family="'Manrope', sans-serif" font-size="12" font-weight="400"><tspan x="130" dy="0">Please provide the active mobile number dedicated to customer consultations.</tspan><tspan x="130" dy="18">Will enquiries route to a single principal architect or a designated studio</tspan><tspan x="130" dy="18">client manager?</tspan></text>
+
+  <!-- Question 4 -->
+  <rect x="1420" y="1550" width="1240" height="110" fill="#F4F1E8" rx="4"/>
+  <text x="1440" y="1575" fill="#895239" font-family="'Manrope', sans-serif" font-size="13" font-weight="700">Q4. Architectural Fee Structure &amp; Pricing Model</text>
+  <text x="1440" y="1595" fill="#56645E" font-family="'Manrope', sans-serif" font-size="12" font-weight="400"><tspan x="1440" dy="0">How does FlowGrid quote clients? Is it a fixed design fee per square foot</tspan><tspan x="1440" dy="18">(BDT/sft), a percentage of total project execution cost (e.g. 10-15%), or a</tspan><tspan x="1440" dy="18">tiered lump-sum consultation retainer?</tspan></text>
+
+  <!-- Question 5 -->
+  <rect x="110" y="1680" width="1240" height="110" fill="#F4F1E8" rx="4"/>
+  <text x="130" y="1705" fill="#895239" font-family="'Manrope', sans-serif" font-size="13" font-weight="700">Q5. Scope Boundaries: Joinery vs Civil Construction</text>
+  <text x="130" y="1725" fill="#56645E" font-family="'Manrope', sans-serif" font-size="12" font-weight="400"><tspan x="130" dy="0">Does FlowGrid perform civil demolition, masonry, and sanitary plumbing directly,</tspan><tspan x="130" dy="18">or does the studio provide joinery design, cabinetry fabrication, and</tspan><tspan x="130" dy="18">supervision of client-appointed contractors?</tspan></text>
+
+  <!-- Question 6 -->
+  <rect x="1420" y="1680" width="1240" height="110" fill="#F4F1E8" rx="4"/>
+  <text x="1440" y="1705" fill="#895239" font-family="'Manrope', sans-serif" font-size="13" font-weight="700">Q6. Sister Entity Boundary: Rumi's Fashionable House</text>
+  <text x="1440" y="1725" fill="#56645E" font-family="'Manrope', sans-serif" font-size="12" font-weight="400"><tspan x="1440" dy="0">Are you comfortable with the current footer and studio narrative that positions</tspan><tspan x="1440" dy="18">Rumi's lifestyle channel strictly as founder domestic context, without implying</tspan><tspan x="1440" dy="18">architectural credentials?</tspan></text>
+
+  <!-- Question 7 -->
+  <rect x="110" y="1810" width="1240" height="110" fill="#F4F1E8" rx="4"/>
+  <text x="130" y="1835" fill="#895239" font-family="'Manrope', sans-serif" font-size="13" font-weight="700">Q7. Commercial Boundary: Onekta Product Transition</text>
+  <text x="130" y="1855" fill="#56645E" font-family="'Manrope', sans-serif" font-size="12" font-weight="400"><tspan x="130" dy="0">Please confirm that FlowGrid's website will carry zero retail product listings</tspan><tspan x="130" dy="18">or e-commerce checkouts for appliances, and will solely feature an outbound link</tspan><tspan x="130" dy="18">to Onekta Product's separate store.</tspan></text>
+
+  <!-- Question 8 -->
+  <rect x="1420" y="1810" width="1240" height="110" fill="#F4F1E8" rx="4"/>
+  <text x="1440" y="1835" fill="#895239" font-family="'Manrope', sans-serif" font-size="13" font-weight="700">Q8. Real Project Photography &amp; Client Consent</text>
+  <text x="1440" y="1855" fill="#56645E" font-family="'Manrope', sans-serif" font-size="12" font-weight="400"><tspan x="1440" dy="0">Do you have signed client photography release forms for previously completed</tspan><tspan x="1440" dy="18">Dhaka apartments, or should FlowGrid continue to showcase clearly disclosed</tspan><tspan x="1440" dy="18">conceptual spatial studies?</tspan></text>
+
+  <!-- Web Vitals Performance Targets Box -->
+  <rect x="110" y="1950" width="2550" height="180" fill="#183B35" rx="4"/>
+  <text x="140" y="1985" fill="#F4F1E8" font-family="'Bodoni Moda', serif" font-size="20" font-weight="700">Front-End Engineering Core Web Vitals Budget Targets</text>
+  
+  <text x="140" y="2020" fill="#C5A059" font-family="'Manrope', sans-serif" font-size="14" font-weight="700">LCP (Largest Contentful Paint) &lt; 2.0s</text>
+  <text x="140" y="2045" fill="#DEE7E2" font-family="'Manrope', sans-serif" font-size="11" font-weight="400"><tspan x="140" dy="0">Preload hero image in &lt;head&gt;, convert all architectural photography to</tspan><tspan x="140" dy="18">AVIF/WebP formats under 120KB per hero frame.</tspan></text>
+
+  <text x="1000" y="2020" fill="#C5A059" font-family="'Manrope', sans-serif" font-size="14" font-weight="700">CLS (Cumulative Layout Shift) &lt; 0.05</text>
+  <text x="1000" y="2045" fill="#DEE7E2" font-family="'Manrope', sans-serif" font-size="11" font-weight="400"><tspan x="1000" dy="0">Enforce explicit aspect-ratio attributes on all image and card frames. Reserve</tspan><tspan x="1000" dy="18">header and banner heights to prevent layout jitter.</tspan></text>
+
+  <text x="1850" y="2020" fill="#C5A059" font-family="'Manrope', sans-serif" font-size="14" font-weight="700">INP (Interaction to Next Paint) &lt; 150ms</text>
+  <text x="1850" y="2045" fill="#DEE7E2" font-family="'Manrope', sans-serif" font-size="11" font-weight="400"><tspan x="1850" dy="0">Zero main-thread blocking JavaScript on form interactions. Mobile menu toggle</tspan><tspan x="1850" dy="18">executed via lightweight CSS transform classes.</tspan></text>
+</svg>

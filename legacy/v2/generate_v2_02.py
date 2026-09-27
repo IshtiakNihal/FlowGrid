@@ -1,0 +1,348 @@
+"""
+FlowGrid - Page 02 (Reusable Components) Generator v2
+Comprehensive design system library: Navigation, Buttons, Cards, Form Controls, and all 6 Enquiry Form States.
+Strictly bounded text, zero overflow.
+"""
+import os
+import textwrap
+
+os.makedirs('figma_svgs_v2', exist_ok=True)
+
+def wrap_text(text, x, y, max_chars, line_height, font_family, font_size, fill, font_weight=400):
+    lines = textwrap.wrap(text, width=max_chars)
+    tspans = []
+    for i, line in enumerate(lines):
+        dy = 0 if i == 0 else line_height
+        tspans.append(f'<tspan x="{x}" dy="{dy}">{line}</tspan>')
+    return f'<text x="{x}" y="{y}" fill="{fill}" font-family="{font_family}" font-size="{font_size}" font-weight="{font_weight}">' + "".join(tspans) + '</text>'
+
+svg = f"""<svg width="2800" height="2600" viewBox="0 0 2800 2600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="2800" height="2600" fill="#F4F1E8"/>
+
+  <!-- Page Banner -->
+  <rect x="80" y="80" width="2640" height="140" fill="#183B35" rx="4"/>
+  <text x="120" y="145" fill="#F4F1E8" font-family="'Bodoni Moda', serif" font-size="36" font-weight="600">FlowGrid — Reusable Component Library (v2 Native)</text>
+  <text x="120" y="185" fill="#DEE7E2" font-family="'Manrope', sans-serif" font-size="18">Navigation, interaction states, project cards, and comprehensive 6-state enquiry form system</text>
+
+  <!-- ========================================== -->
+  <!-- SECTION 1: BUTTONS & INTERACTIVE CONTROLS -->
+  <!-- ========================================== -->
+  <rect x="80" y="260" width="1280" height="680" fill="#FFFFFF" stroke="#B8C2BA" stroke-width="1" rx="4"/>
+  <rect x="80" y="260" width="1280" height="50" fill="#183B35" rx="4 4 0 0"/>
+  <text x="110" y="293" fill="#F4F1E8" font-family="'Manrope', sans-serif" font-size="18" font-weight="600">01. Buttons &amp; Action Elements (4 States Each)</text>
+
+  <!-- Button Row 1: Primary Action -->
+  <text x="110" y="345" fill="#183B35" font-family="'Manrope', sans-serif" font-size="15" font-weight="700">Primary Filled Button (48px Height, Min 44px Touch Target)</text>
+  
+  <!-- Default -->
+  <rect x="110" y="365" width="220" height="48" fill="#183B35" rx="4"/>
+  <text x="220" y="395" fill="#F4F1E8" font-family="'Hind Siliguri', sans-serif" font-size="15" font-weight="600" text-anchor="middle">পরামর্শ শুরু করুন</text>
+  <text x="220" y="430" fill="#56645E" font-family="'Manrope', sans-serif" font-size="12" text-anchor="middle">Default State</text>
+
+  <!-- Hover -->
+  <rect x="360" y="365" width="220" height="48" fill="#2E5D4B" rx="4"/>
+  <text x="470" y="395" fill="#F4F1E8" font-family="'Hind Siliguri', sans-serif" font-size="15" font-weight="600" text-anchor="middle">পরামর্শ শুরু করুন</text>
+  <text x="470" y="430" fill="#56645E" font-family="'Manrope', sans-serif" font-size="12" text-anchor="middle">Hover / Active (#2E5D4B)</text>
+
+  <!-- Focused -->
+  <rect x="610" y="365" width="220" height="48" fill="#183B35" stroke="#895239" stroke-width="3" rx="4"/>
+  <text x="720" y="395" fill="#F4F1E8" font-family="'Hind Siliguri', sans-serif" font-size="15" font-weight="600" text-anchor="middle">পরামর্শ শুরু করুন</text>
+  <text x="720" y="430" fill="#56645E" font-family="'Manrope', sans-serif" font-size="12" text-anchor="middle">Focused (3px Terra Ring)</text>
+
+  <!-- Disabled -->
+  <rect x="860" y="365" width="220" height="48" fill="#E4EAE6" rx="4"/>
+  <text x="970" y="395" fill="#8E9E96" font-family="'Hind Siliguri', sans-serif" font-size="15" font-weight="600" text-anchor="middle">পরামর্শ শুরু করুন</text>
+  <text x="970" y="430" fill="#56645E" font-family="'Manrope', sans-serif" font-size="12" text-anchor="middle">Disabled (3.1:1 non-action)</text>
+
+  <!-- Button Row 2: Secondary Outline -->
+  <text x="110" y="475" fill="#183B35" font-family="'Manrope', sans-serif" font-size="15" font-weight="700">Secondary Outline Button</text>
+  
+  <!-- Default -->
+  <rect x="110" y="495" width="220" height="48" fill="none" stroke="#183B35" stroke-width="1.5" rx="4"/>
+  <text x="220" y="525" fill="#183B35" font-family="'Hind Siliguri', sans-serif" font-size="15" font-weight="600" text-anchor="middle">প্রকল্পসমূহ দেখুন</text>
+  <text x="220" y="560" fill="#56645E" font-family="'Manrope', sans-serif" font-size="12" text-anchor="middle">Default Outline</text>
+
+  <!-- Hover -->
+  <rect x="360" y="495" width="220" height="48" fill="#DEE7E2" stroke="#183B35" stroke-width="1.5" rx="4"/>
+  <text x="470" y="525" fill="#183B35" font-family="'Hind Siliguri', sans-serif" font-size="15" font-weight="600" text-anchor="middle">প্রকল্পসমূহ দেখুন</text>
+  <text x="470" y="560" fill="#56645E" font-family="'Manrope', sans-serif" font-size="12" text-anchor="middle">Hover Tint Fill</text>
+
+  <!-- Focused -->
+  <rect x="610" y="495" width="220" height="48" fill="none" stroke="#895239" stroke-width="2.5" rx="4"/>
+  <text x="720" y="525" fill="#183B35" font-family="'Hind Siliguri', sans-serif" font-size="15" font-weight="600" text-anchor="middle">প্রকল্পসমূহ দেখুন</text>
+  <text x="720" y="560" fill="#56645E" font-family="'Manrope', sans-serif" font-size="12" text-anchor="middle">Focus Ring 2.5px</text>
+
+  <!-- Disabled -->
+  <rect x="860" y="495" width="220" height="48" fill="none" stroke="#B8C2BA" stroke-width="1" rx="4"/>
+  <text x="970" y="525" fill="#8E9E96" font-family="'Hind Siliguri', sans-serif" font-size="15" font-weight="600" text-anchor="middle">প্রকল্পসমূহ দেখুন</text>
+  <text x="970" y="560" fill="#56645E" font-family="'Manrope', sans-serif" font-size="12" text-anchor="middle">Disabled Outline</text>
+
+  <!-- WhatsApp & Direct Chat Specialized Component -->
+  <text x="110" y="605" fill="#183B35" font-family="'Manrope', sans-serif" font-size="15" font-weight="700">Specialized Direct Channels (WhatsApp &amp; Language Switcher)</text>
+  
+  <rect x="110" y="625" width="260" height="48" fill="#128C7E" rx="4"/>
+  <!-- WhatsApp Icon SVG path -->
+  <circle cx="135" cy="649" r="12" fill="#FFFFFF"/>
+  <path d="M130 644 C132 642, 137 642, 139 644 C140 646, 140 649, 139 652 L139 655 L136 654 C134 655, 132 654, 131 653 L130 650 Z" fill="#128C7E"/>
+  <text x="160" y="655" fill="#FFFFFF" font-family="'Hind Siliguri', sans-serif" font-size="15" font-weight="600">হোয়াটসঅ্যাপে সরাসরি আলাপ</text>
+  <text x="240" y="690" fill="#56645E" font-family="'Manrope', sans-serif" font-size="12" text-anchor="middle">WhatsApp Direct (+880 1711-000000)</text>
+
+  <!-- Language Switcher Capsule -->
+  <rect x="420" y="625" width="140" height="48" fill="#DEE7E2" rx="24"/>
+  <rect x="424" y="629" width="66" height="40" fill="#183B35" rx="20"/>
+  <text x="457" y="654" fill="#F4F1E8" font-family="'Manrope', sans-serif" font-size="14" font-weight="700" text-anchor="middle">বাং</text>
+  <text x="523" y="654" fill="#183B35" font-family="'Manrope', sans-serif" font-size="14" font-weight="600" text-anchor="middle">EN</text>
+  <text x="490" y="690" fill="#56645E" font-family="'Manrope', sans-serif" font-size="12" text-anchor="middle">Bilingual Pill Switcher</text>
+
+  <!-- Concept Disclaimer Badge Specimen -->
+  <rect x="610" y="625" width="470" height="48" fill="#F4F1E8" stroke="#895239" stroke-width="1" rx="4"/>
+  <circle cx="630" cy="649" r="6" fill="#895239"/>
+  <text x="646" y="655" fill="#895239" font-family="'Hind Siliguri', sans-serif" font-size="13" font-weight="700">কনসেপ্ট ডিজাইন · AI ভিজ্যুয়ালাইজেশন · বাস্তবায়িত প্রকল্প নয়</text>
+  <text x="845" y="690" fill="#56645E" font-family="'Manrope', sans-serif" font-size="12" text-anchor="middle">Mandatory Concept Badge (Applied to all 3D/AI views)</text>
+
+  <!-- ========================================== -->
+  <!-- SECTION 2: NAVIGATION HEADERS & DRAWER    -->
+  <!-- ========================================== -->
+  <rect x="1400" y="260" width="1320" height="680" fill="#FFFFFF" stroke="#B8C2BA" stroke-width="1" rx="4"/>
+  <rect x="1400" y="260" width="1320" height="50" fill="#183B35" rx="4 4 0 0"/>
+  <text x="1430" y="293" fill="#F4F1E8" font-family="'Manrope', sans-serif" font-size="18" font-weight="600">02. Navigation Bars (Desktop Standard, Scrolled, &amp; Mobile Drawer)</text>
+
+  <!-- Desktop Header Default -->
+  <text x="1430" y="345" fill="#183B35" font-family="'Manrope', sans-serif" font-size="14" font-weight="700">Desktop Navigation Bar (1440px Canvas, 80px Height)</text>
+  <rect x="1430" y="360" width="1260" height="72" fill="#F4F1E8" stroke="#B8C2BA" stroke-width="1" rx="4"/>
+  <text x="1460" y="404" fill="#183B35" font-family="'Bodoni Moda', serif" font-size="24" font-weight="700">FLOWGRID</text>
+  <text x="1600" y="403" fill="#183B35" font-family="'Hind Siliguri', sans-serif" font-size="15" font-weight="600">প্রকল্পসমূহ</text>
+  <text x="1710" y="403" fill="#56645E" font-family="'Hind Siliguri', sans-serif" font-size="15">সেবা ও পরিধি</text>
+  <text x="1830" y="403" fill="#56645E" font-family="'Hind Siliguri', sans-serif" font-size="15">পদ্ধতি</text>
+  <text x="1920" y="403" fill="#56645E" font-family="'Hind Siliguri', sans-serif" font-size="15">স্টুডিও</text>
+  <text x="2000" y="403" fill="#56645E" font-family="'Hind Siliguri', sans-serif" font-size="15">যোগাযোগ</text>
+  <!-- Capsule switcher -->
+  <rect x="2100" y="378" width="90" height="36" fill="#DEE7E2" rx="18"/>
+  <rect x="2102" y="380" width="42" height="32" fill="#183B35" rx="16"/>
+  <text x="2123" y="401" fill="#F4F1E8" font-family="'Manrope', sans-serif" font-size="12" font-weight="700" text-anchor="middle">বাং</text>
+  <text x="2165" y="401" fill="#183B35" font-family="'Manrope', sans-serif" font-size="12" font-weight="600" text-anchor="middle">EN</text>
+  <!-- CTA Button -->
+  <rect x="2210" y="376" width="180" height="40" fill="#183B35" rx="4"/>
+  <text x="2300" y="401" fill="#F4F1E8" font-family="'Hind Siliguri', sans-serif" font-size="14" font-weight="600" text-anchor="middle">আপনার ঘর নিয়ে কথা বলি</text>
+
+  <!-- Desktop Header Scrolled (Sticky) -->
+  <text x="1430" y="475" fill="#183B35" font-family="'Manrope', sans-serif" font-size="14" font-weight="700">Desktop Sticky Scrolled State (64px Height, 96% Opacity + Backdrop Blur)</text>
+  <rect x="1430" y="490" width="1260" height="60" fill="#183B35" rx="4"/>
+  <text x="1460" y="527" fill="#F4F1E8" font-family="'Bodoni Moda', serif" font-size="20" font-weight="700">FLOWGRID</text>
+  <text x="1600" y="526" fill="#F4F1E8" font-family="'Hind Siliguri', sans-serif" font-size="14" font-weight="600">প্রকল্পসমূহ</text>
+  <text x="1710" y="526" fill="#DEE7E2" font-family="'Hind Siliguri', sans-serif" font-size="14">সেবা ও পরিধি</text>
+  <text x="1830" y="526" fill="#DEE7E2" font-family="'Hind Siliguri', sans-serif" font-size="14">পদ্ধতি</text>
+  <text x="1920" y="526" fill="#DEE7E2" font-family="'Hind Siliguri', sans-serif" font-size="14">স্টুডিও</text>
+  <text x="2000" y="526" fill="#DEE7E2" font-family="'Hind Siliguri', sans-serif" font-size="14">যোগাযোগ</text>
+  <rect x="2230" y="502" width="160" height="36" fill="#895239" rx="4"/>
+  <text x="2310" y="525" fill="#F4F1E8" font-family="'Hind Siliguri', sans-serif" font-size="13" font-weight="600" text-anchor="middle">পরামর্শ বুক করুন</text>
+
+  <!-- Mobile Header & Drawer -->
+  <text x="1430" y="590" fill="#183B35" font-family="'Manrope', sans-serif" font-size="14" font-weight="700">Mobile Navigation &amp; Off-Canvas Menu Drawer (390px)</text>
+  <!-- Mobile Bar -->
+  <rect x="1430" y="605" width="390" height="60" fill="#F4F1E8" stroke="#B8C2BA" stroke-width="1" rx="4"/>
+  <text x="1450" y="641" fill="#183B35" font-family="'Bodoni Moda', serif" font-size="18" font-weight="700">FLOWGRID</text>
+  <rect x="1740" y="618" width="60" height="34" fill="#DEE7E2" rx="4"/>
+  <text x="1770" y="640" fill="#183B35" font-family="'Hind Siliguri', sans-serif" font-size="13" font-weight="700" text-anchor="middle">মেনু ☰</text>
+
+  <!-- Drawer preview -->
+  <rect x="1860" y="580" width="390" height="340" fill="#183B35" rx="4"/>
+  <text x="1890" y="615" fill="#F4F1E8" font-family="'Bodoni Moda', serif" font-size="20" font-weight="700">FLOWGRID</text>
+  <text x="2210" y="615" fill="#DEE7E2" font-family="'Manrope', sans-serif" font-size="20" font-weight="600">✕</text>
+  <line x1="1890" y1="635" x2="2220" y2="635" stroke="#2E5D4B" stroke-width="1"/>
+  <text x="1890" y="665" fill="#F4F1E8" font-family="'Hind Siliguri', sans-serif" font-size="16" font-weight="600">১. প্রকল্পসমূহ (Projects)</text>
+  <text x="1890" y="700" fill="#DEE7E2" font-family="'Hind Siliguri', sans-serif" font-size="16">২. সেবা ও পরিধি (Services)</text>
+  <text x="1890" y="735" fill="#DEE7E2" font-family="'Hind Siliguri', sans-serif" font-size="16">৩. ডিজাইন পদ্ধতি (Process)</text>
+  <text x="1890" y="770" fill="#DEE7E2" font-family="'Hind Siliguri', sans-serif" font-size="16">৪. স্টুডিও দর্শন (Studio)</text>
+  <text x="1890" y="805" fill="#DEE7E2" font-family="'Hind Siliguri', sans-serif" font-size="16">৫. যোগাযোগ (Contact)</text>
+  <rect x="1890" y="830" width="330" height="44" fill="#895239" rx="4"/>
+  <text x="2055" y="857" fill="#F4F1E8" font-family="'Hind Siliguri', sans-serif" font-size="14" font-weight="600" text-anchor="middle">পরামর্শের জন্য কল করুন: 01711-XXXXXX</text>
+  <text x="2055" y="900" fill="#DEE7E2" font-family="'Manrope', sans-serif" font-size="11" text-anchor="middle">Off-canvas drawer: Tap overlay or [X] to dismiss</text>
+
+  <!-- ============================================================== -->
+  <!-- SECTION 3: COMPREHENSIVE 8-FIELD ENQUIRY FORM — ALL 6 STATES  -->
+  <!-- ============================================================== -->
+  <rect x="80" y="980" width="2640" height="1540" fill="#FFFFFF" stroke="#B8C2BA" stroke-width="1" rx="4"/>
+  <rect x="80" y="980" width="2640" height="50" fill="#183B35" rx="4 4 0 0"/>
+  <text x="110" y="1013" fill="#F4F1E8" font-family="'Manrope', sans-serif" font-size="18" font-weight="600">03. Design Consultation Enquiry System — All 6 Complete Interaction States</text>
+
+  <!-- STATE 1: IDLE / DEFAULT -->
+  <rect x="110" y="1060" width="410" height="1420" fill="#F4F1E8" stroke="#B8C2BA" stroke-width="1" rx="4"/>
+  <rect x="110" y="1060" width="410" height="45" fill="#183B35" rx="4 4 0 0"/>
+  <text x="130" y="1090" fill="#F4F1E8" font-family="'Manrope', sans-serif" font-size="15" font-weight="700">State 1: Idle (Default Blank)</text>
+  
+  <text x="130" y="1135" fill="#183B35" font-family="'Hind Siliguri', sans-serif" font-size="13" font-weight="700">আপনার নাম *</text>
+  <rect x="130" y="1145" width="370" height="44" fill="#FFFFFF" stroke="#B8C2BA" stroke-width="1" rx="4"/>
+  <text x="145" y="1172" fill="#8E9E96" font-family="'Hind Siliguri', sans-serif" font-size="13">উদা: তানভীর আহমেদ</text>
+
+  <text x="130" y="1215" fill="#183B35" font-family="'Hind Siliguri', sans-serif" font-size="13" font-weight="700">মোবাইল নম্বর (হোয়াটসঅ্যাপ সক্রিয়) *</text>
+  <rect x="130" y="1225" width="370" height="44" fill="#FFFFFF" stroke="#B8C2BA" stroke-width="1" rx="4"/>
+  <text x="145" y="1252" fill="#8E9E96" font-family="'Manrope', sans-serif" font-size="13">+880 17XX-XXXXXX</text>
+
+  <text x="130" y="1295" fill="#183B35" font-family="'Hind Siliguri', sans-serif" font-size="13" font-weight="700">ইমেইল ঠিকানা *</text>
+  <rect x="130" y="1305" width="370" height="44" fill="#FFFFFF" stroke="#B8C2BA" stroke-width="1" rx="4"/>
+  <text x="145" y="1332" fill="#8E9E96" font-family="'Manrope', sans-serif" font-size="13">name@example.com</text>
+
+  <text x="130" y="1375" fill="#183B35" font-family="'Hind Siliguri', sans-serif" font-size="13" font-weight="700">অ্যাপার্টমেন্টের এলাকা (ঢাকা) *</text>
+  <rect x="130" y="1385" width="370" height="44" fill="#FFFFFF" stroke="#B8C2BA" stroke-width="1" rx="4"/>
+  <text x="145" y="1412" fill="#8E9E96" font-family="'Hind Siliguri', sans-serif" font-size="13">এলাকা নির্বাচন করুন (উদা: ধানমন্ডি, মিরপুর)</text>
+  <text x="475" y="1412" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14">▼</text>
+
+  <text x="130" y="1455" fill="#183B35" font-family="'Hind Siliguri', sans-serif" font-size="13" font-weight="700">ফ্লোর এরিয়া (বর্গফুট / SFT)</text>
+  <rect x="130" y="1465" width="370" height="44" fill="#FFFFFF" stroke="#B8C2BA" stroke-width="1" rx="4"/>
+  <text x="145" y="1492" fill="#8E9E96" font-family="'Hind Siliguri', sans-serif" font-size="13">উদা: ১৮৫০ বর্গফুট</text>
+
+  <text x="130" y="1535" fill="#183B35" font-family="'Hind Siliguri', sans-serif" font-size="13" font-weight="700">অ্যাপার্টমেন্টের বর্তমান অবস্থা</text>
+  <rect x="130" y="1545" width="370" height="44" fill="#FFFFFF" stroke="#B8C2BA" stroke-width="1" rx="4"/>
+  <text x="145" y="1572" fill="#8E9E96" font-family="'Hind Siliguri', sans-serif" font-size="13">হস্তান্তর প্রাপ্ত / নির্মাণাধীন / সংস্কার</text>
+  <text x="475" y="1572" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14">▼</text>
+
+  <text x="130" y="1615" fill="#183B35" font-family="'Hind Siliguri', sans-serif" font-size="13" font-weight="700">বাজেট ও বাস্তবায়ন পরিকল্পনা</text>
+  <rect x="130" y="1625" width="370" height="44" fill="#FFFFFF" stroke="#B8C2BA" stroke-width="1" rx="4"/>
+  <text x="145" y="1652" fill="#8E9E96" font-family="'Hind Siliguri', sans-serif" font-size="13">বাজেট ব্যাপ্তি নির্বাচন করুন</text>
+  <text x="475" y="1652" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14">▼</text>
+
+  <text x="130" y="1695" fill="#183B35" font-family="'Hind Siliguri', sans-serif" font-size="13" font-weight="700">আপনার ঘরের বিশেষ চাহিদা বা মন্তব্য</text>
+  <rect x="130" y="1705" width="370" height="90" fill="#FFFFFF" stroke="#B8C2BA" stroke-width="1" rx="4"/>
+  <text x="145" y="1732" fill="#8E9E96" font-family="'Hind Siliguri', sans-serif" font-size="13">ঘরের স্টোরেজ, আলো-বাতাস বা কাঠের কাজ...</text>
+
+  <rect x="130" y="1815" width="370" height="48" fill="#183B35" rx="4"/>
+  <text x="315" y="1845" fill="#F4F1E8" font-family="'Hind Siliguri', sans-serif" font-size="15" font-weight="600" text-anchor="middle">পরামর্শের আবেদন পাঠান</text>
+  <text x="315" y="1890" fill="#56645E" font-family="'Hind Siliguri', sans-serif" font-size="12" text-anchor="middle">আমরা পরবর্তী ২৪ ঘণ্টার মধ্যে সরাসরি যোগাযোগ করব।</text>
+
+  <!-- STATE 2: FILLED / ACTIVE -->
+  <rect x="545" y="1060" width="410" height="1420" fill="#F4F1E8" stroke="#B8C2BA" stroke-width="1" rx="4"/>
+  <rect x="545" y="1060" width="410" height="45" fill="#183B35" rx="4 4 0 0"/>
+  <text x="565" y="1090" fill="#F4F1E8" font-family="'Manrope', sans-serif" font-size="15" font-weight="700">State 2: Filled / Focused</text>
+
+  <text x="565" y="1135" fill="#183B35" font-family="'Hind Siliguri', sans-serif" font-size="13" font-weight="700">আপনার নাম *</text>
+  <rect x="565" y="1145" width="370" height="44" fill="#FFFFFF" stroke="#183B35" stroke-width="1.5" rx="4"/>
+  <text x="580" y="1172" fill="#183B35" font-family="'Hind Siliguri', sans-serif" font-size="13" font-weight="600">মাহমুদুর রহমান</text>
+
+  <text x="565" y="1215" fill="#183B35" font-family="'Hind Siliguri', sans-serif" font-size="13" font-weight="700">মোবাইল নম্বর (হোয়াটসঅ্যাপ সক্রিয়) *</text>
+  <rect x="565" y="1225" width="370" height="44" fill="#FFFFFF" stroke="#183B35" stroke-width="1.5" rx="4"/>
+  <text x="580" y="1252" fill="#183B35" font-family="'Manrope', sans-serif" font-size="13" font-weight="600">+880 1712-345678</text>
+
+  <text x="565" y="1295" fill="#183B35" font-family="'Hind Siliguri', sans-serif" font-size="13" font-weight="700">ইমেইল ঠিকানা *</text>
+  <rect x="565" y="1305" width="370" height="44" fill="#FFFFFF" stroke="#183B35" stroke-width="1.5" rx="4"/>
+  <text x="580" y="1332" fill="#183B35" font-family="'Manrope', sans-serif" font-size="13" font-weight="600">mahmud.dhaka@gmail.com</text>
+
+  <text x="565" y="1375" fill="#183B35" font-family="'Hind Siliguri', sans-serif" font-size="13" font-weight="700">অ্যাপার্টমেন্টের এলাকা (ঢাকা) *</text>
+  <rect x="565" y="1385" width="370" height="44" fill="#FFFFFF" stroke="#895239" stroke-width="2" rx="4"/>
+  <text x="580" y="1412" fill="#183B35" font-family="'Hind Siliguri', sans-serif" font-size="13" font-weight="600">বনানী ডিওএইচএস, ঢাকা</text>
+  <text x="910" y="1412" fill="#895239" font-family="'Manrope', sans-serif" font-size="14">▲</text>
+
+  <text x="565" y="1455" fill="#183B35" font-family="'Hind Siliguri', sans-serif" font-size="13" font-weight="700">ফ্লোর এরিয়া (বর্গফুট / SFT)</text>
+  <rect x="565" y="1465" width="370" height="44" fill="#FFFFFF" stroke="#183B35" stroke-width="1.5" rx="4"/>
+  <text x="580" y="1492" fill="#183B35" font-family="'Hind Siliguri', sans-serif" font-size="13" font-weight="600">২২৫০ বর্গফুট</text>
+
+  <text x="565" y="1535" fill="#183B35" font-family="'Hind Siliguri', sans-serif" font-size="13" font-weight="700">অ্যাপার্টমেন্টের বর্তমান অবস্থা</text>
+  <rect x="565" y="1545" width="370" height="44" fill="#FFFFFF" stroke="#183B35" stroke-width="1.5" rx="4"/>
+  <text x="580" y="1572" fill="#183B35" font-family="'Hind Siliguri', sans-serif" font-size="13" font-weight="600">হস্তান্তর সম্পন্ন (চাবি প্রাপ্ত)</text>
+
+  <text x="565" y="1615" fill="#183B35" font-family="'Hind Siliguri', sans-serif" font-size="13" font-weight="700">বাজেট ও বাস্তবায়ন পরিকল্পনা</text>
+  <rect x="565" y="1625" width="370" height="44" fill="#FFFFFF" stroke="#183B35" stroke-width="1.5" rx="4"/>
+  <text x="580" y="1652" fill="#183B35" font-family="'Hind Siliguri', sans-serif" font-size="13" font-weight="600">পরিপূর্ণ ইন্টেরিয়র (বাজেট আলোচনা সাপেক্ষ)</text>
+
+  <text x="565" y="1695" fill="#183B35" font-family="'Hind Siliguri', sans-serif" font-size="13" font-weight="700">আপনার ঘরের বিশেষ চাহিদা বা মন্তব্য</text>
+  <rect x="565" y="1705" width="370" height="90" fill="#FFFFFF" stroke="#183B35" stroke-width="1.5" rx="4"/>
+  {wrap_text("লিভিং এরিয়াতে খোলামেলা আলোর সংস্থান এবং কিচেনে গ্যাস সিলিন্ডারের নিরাপদ ক্যাবিনেট প্রয়োজন।", 580, 1728, 38, 20, "'Hind Siliguri', sans-serif", 12, "#183B35", 500)}
+
+  <rect x="565" y="1815" width="370" height="48" fill="#183B35" rx="4"/>
+  <text x="750" y="1845" fill="#F4F1E8" font-family="'Hind Siliguri', sans-serif" font-size="15" font-weight="600" text-anchor="middle">পরামর্শের আবেদন পাঠান</text>
+
+  <!-- STATE 3: ERROR SUMMARY / VALIDATION -->
+  <rect x="980" y="1060" width="410" height="1420" fill="#F4F1E8" stroke="#A83A2A" stroke-width="1.5" rx="4"/>
+  <rect x="980" y="1060" width="410" height="45" fill="#A83A2A" rx="4 4 0 0"/>
+  <text x="1000" y="1090" fill="#FFFFFF" font-family="'Manrope', sans-serif" font-size="15" font-weight="700">State 3: Error Summary / Invalid</text>
+
+  <!-- Error Alert Banner -->
+  <rect x="1000" y="1120" width="370" height="54" fill="#FDECEB" stroke="#A83A2A" stroke-width="1" rx="4"/>
+  <text x="1015" y="1142" fill="#A83A2A" font-family="'Hind Siliguri', sans-serif" font-size="13" font-weight="700">অনুগ্রহ করে চিহ্নিত ত্রুটিগুলো সংশোধন করুন:</text>
+  <text x="1015" y="1162" fill="#A83A2A" font-family="'Hind Siliguri', sans-serif" font-size="12">• মোবাইল নম্বর এবং এলাকার নাম পূরণ করা আবশ্যক</text>
+
+  <text x="1000" y="1200" fill="#183B35" font-family="'Hind Siliguri', sans-serif" font-size="13" font-weight="700">আপনার নাম *</text>
+  <rect x="1000" y="1210" width="370" height="44" fill="#FFFFFF" stroke="#B8C2BA" stroke-width="1" rx="4"/>
+  <text x="1015" y="1237" fill="#183B35" font-family="'Hind Siliguri', sans-serif" font-size="13">মাহমুদুর রহমান</text>
+
+  <text x="1000" y="1280" fill="#A83A2A" font-family="'Hind Siliguri', sans-serif" font-size="13" font-weight="700">মোবাইল নম্বর * (ত্রুটি)</text>
+  <rect x="1000" y="1290" width="370" height="44" fill="#FFFFFF" stroke="#A83A2A" stroke-width="1.5" rx="4"/>
+  <text x="1015" y="1317" fill="#A83A2A" font-family="'Manrope', sans-serif" font-size="13">017123</text>
+  <text x="1000" y="1350" fill="#A83A2A" font-family="'Hind Siliguri', sans-serif" font-size="11" font-weight="600">সঠিক ১১ ডিজিটের বাংলাদেশি নম্বর লিখুন (উদা: 01711XXXXXX)</text>
+
+  <text x="1000" y="1380" fill="#183B35" font-family="'Hind Siliguri', sans-serif" font-size="13" font-weight="700">ইমেইল ঠিকানা *</text>
+  <rect x="1000" y="1390" width="370" height="44" fill="#FFFFFF" stroke="#B8C2BA" stroke-width="1" rx="4"/>
+  <text x="1015" y="1417" fill="#183B35" font-family="'Manrope', sans-serif" font-size="13">mahmud@example.com</text>
+
+  <text x="1000" y="1460" fill="#A83A2A" font-family="'Hind Siliguri', sans-serif" font-size="13" font-weight="700">অ্যাপার্টমেন্টের এলাকা (ঢাকা) * (ত্রুটি)</text>
+  <rect x="1000" y="1470" width="370" height="44" fill="#FFFFFF" stroke="#A83A2A" stroke-width="1.5" rx="4"/>
+  <text x="1015" y="1497" fill="#8E9E96" font-family="'Hind Siliguri', sans-serif" font-size="13">এলাকা নির্বাচন করুন</text>
+  <text x="1000" y="1530" fill="#A83A2A" font-family="'Hind Siliguri', sans-serif" font-size="11" font-weight="600">অনুগ্রহ করে আপনার অ্যাপার্টমেন্টের এলাকা নির্বাচন করুন</text>
+
+  <rect x="1000" y="1815" width="370" height="48" fill="#183B35" opacity="0.6" rx="4"/>
+  <text x="1185" y="1845" fill="#F4F1E8" font-family="'Hind Siliguri', sans-serif" font-size="15" font-weight="600" text-anchor="middle">পরামর্শের আবেদন পাঠান</text>
+
+  <!-- STATE 4: SUBMITTING / LOADING -->
+  <rect x="1415" y="1060" width="410" height="1420" fill="#F4F1E8" stroke="#B8C2BA" stroke-width="1" rx="4"/>
+  <rect x="1415" y="1060" width="410" height="45" fill="#183B35" rx="4 4 0 0"/>
+  <text x="1435" y="1090" fill="#F4F1E8" font-family="'Manrope', sans-serif" font-size="15" font-weight="700">State 4: Submitting (In Flight)</text>
+
+  <rect x="1435" y="1130" width="370" height="650" fill="#FFFFFF" opacity="0.6" rx="4"/>
+  <text x="1620" y="1420" fill="#183B35" font-family="'Hind Siliguri', sans-serif" font-size="15" font-weight="600" text-anchor="middle">তথ্য যাচাই করা হচ্ছে...</text>
+  <circle cx="1620" cy="1370" r="24" stroke="#B8C2BA" stroke-width="4" fill="none"/>
+  <path d="M1620 1346 A24 24 0 0 1 1644 1370" stroke="#183B35" stroke-width="4" fill="none"/>
+
+  <rect x="1435" y="1815" width="370" height="48" fill="#2E5D4B" rx="4"/>
+  <text x="1620" y="1845" fill="#F4F1E8" font-family="'Hind Siliguri', sans-serif" font-size="15" font-weight="600" text-anchor="middle">অনুরোধ পাঠানো হচ্ছে...</text>
+
+  <!-- STATE 5: RECEIVED / CONFIRMATION (ANNOTATED AS SIMULATION) -->
+  <rect x="1850" y="1060" width="410" height="1420" fill="#F4F1E8" stroke="#2E5D4B" stroke-width="1.5" rx="4"/>
+  <rect x="1850" y="1060" width="410" height="45" fill="#2E5D4B" rx="4 4 0 0"/>
+  <text x="1870" y="1090" fill="#FFFFFF" font-family="'Manrope', sans-serif" font-size="15" font-weight="700">State 5: Received (Simulation)</text>
+
+  <rect x="1875" y="1200" width="360" height="420" fill="#FFFFFF" stroke="#B8C2BA" stroke-width="1" rx="4"/>
+  <circle cx="2055" cy="1270" r="32" fill="#E4EAE6"/>
+  <path d="M2043 1270 L2051 1278 L2067 1262" stroke="#2E5D4B" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  
+  <text x="2055" y="1335" fill="#183B35" font-family="'Bodoni Moda', serif" font-size="22" font-weight="700" text-anchor="middle">ধন্যবাদ, আমরা পেয়েছি</text>
+  {wrap_text("আপনার অ্যাপার্টমেন্ট পরামর্শের অনুরোধটি আমাদের স্টুডিওতে নথিভুক্ত হয়েছে।", 1895, 1370, 36, 22, "'Hind Siliguri', sans-serif", 13, "#56645E")}
+  {wrap_text("আমাদের প্রধান ডিজাইনার আগামী ২৪ ঘণ্টার মধ্যে আপনার সাথে সরাসরি ফোনে অথবা হোয়াটসঅ্যাপে যোগাযোগ করবেন।", 1895, 1430, 36, 22, "'Hind Siliguri', sans-serif", 13, "#56645E")}
+
+  <rect x="1895" y="1510" width="320" height="60" fill="#F4F1E8" rx="4"/>
+  <text x="1910" y="1535" fill="#895239" font-family="'Hind Siliguri', sans-serif" font-size="12" font-weight="700">জরুরি আলোচনা প্রয়োজন?</text>
+  <text x="1910" y="1555" fill="#183B35" font-family="'Hind Siliguri', sans-serif" font-size="12">কল করুন: +880 1711-000000 (সকাল ১০টা - সন্ধ্যা ৭টা)</text>
+
+  <!-- Prototype Annotation Badge -->
+  <rect x="1875" y="1650" width="360" height="70" fill="#DEE7E2" stroke="#183B35" stroke-width="1" rx="4"/>
+  <text x="1890" y="1675" fill="#183B35" font-family="'Manrope', sans-serif" font-size="12" font-weight="700">PROTOTYPE SIMULATION NOTICE:</text>
+  {wrap_text("This confirmation view is a frontend interaction simulation. Real lead processing requires backend database integration.", 1890, 1695, 42, 16, "'Manrope', sans-serif", 11, "#56645E")}
+
+  <rect x="1875" y="1815" width="360" height="48" fill="#183B35" rx="4"/>
+  <text x="2055" y="1845" fill="#F4F1E8" font-family="'Hind Siliguri', sans-serif" font-size="15" font-weight="600" text-anchor="middle">হোমপেজে ফিরে যান</text>
+
+  <!-- STATE 6: DELIVERY FAILED / OFFLINE FALLBACK -->
+  <rect x="2285" y="1060" width="410" height="1420" fill="#F4F1E8" stroke="#895239" stroke-width="1.5" rx="4"/>
+  <rect x="2285" y="1060" width="410" height="45" fill="#895239" rx="4 4 0 0"/>
+  <text x="2305" y="1090" fill="#FFFFFF" font-family="'Manrope', sans-serif" font-size="15" font-weight="700">State 6: Delivery Failed / Fallback</text>
+
+  <!-- Warning Banner -->
+  <rect x="2305" y="1120" width="370" height="70" fill="#FFF8F4" stroke="#895239" stroke-width="1" rx="4"/>
+  <text x="2320" y="1145" fill="#895239" font-family="'Hind Siliguri', sans-serif" font-size="13" font-weight="700">নেটওয়ার্ক বিচ্ছিন্ন বা সংযোগে বিভ্রাট</text>
+  {wrap_text("সার্ভারের সাথে সাময়িক সংযোগ স্থাপন সম্ভব হয়নি। আপনার প্রবেশকৃত তথ্য সংরক্ষিত রয়েছে।", 2320, 1165, 40, 18, "'Hind Siliguri', sans-serif", 11, "#895239")}
+
+  <rect x="2305" y="1210" width="370" height="150" fill="#FFFFFF" stroke="#B8C2BA" stroke-width="1" rx="4"/>
+  <text x="2320" y="1240" fill="#183B35" font-family="'Hind Siliguri', sans-serif" font-size="14" font-weight="700">বিকল্প তাৎক্ষণিক যোগাযোগ:</text>
+  {wrap_text("আপনি সরাসরি আমাদের অফিসিয়াল হোয়াটসঅ্যাপে একটি মেসেজ পাঠাতে পারেন। এতে তথ্য হারানোর কোনো ঝুঁকি থাকবে না।", 2320, 1265, 40, 20, "'Hind Siliguri', sans-serif", 12, "#56645E")}
+
+  <rect x="2320" y="1310" width="340" height="40" fill="#128C7E" rx="4"/>
+  <text x="2490" y="1335" fill="#FFFFFF" font-family="'Hind Siliguri', sans-serif" font-size="13" font-weight="600" text-anchor="middle">হোয়াটসঅ্যাপে ড্রাফট পাঠান ↗</text>
+
+  <rect x="2305" y="1815" width="370" height="48" fill="#183B35" rx="4"/>
+  <text x="2490" y="1845" fill="#F4F1E8" font-family="'Hind Siliguri', sans-serif" font-size="15" font-weight="600" text-anchor="middle">পুনরায় চেষ্টা করুন (Retry)</text>
+
+</svg>"""
+
+with open('figma_svgs_v2/02_components.svg', 'w', encoding='utf-8') as f:
+    f.write(svg)
+
+print("Saved figma_svgs_v2/02_components.svg")

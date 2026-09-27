@@ -1,0 +1,115 @@
+<svg width="2400" height="2200" viewBox="0 0 2400 2200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="2400" height="2200" fill="#F4F1E8"/>
+
+  <!-- Banner -->
+  <rect x="80" y="80" width="2240" height="140" fill="#183B35" rx="4"/>
+  <text x="120" y="145" fill="#F4F1E8" font-family="'Bodoni Moda', serif" font-size="36" font-weight="600">FlowGrid — Developer Handoff, QA &amp; Client Checklist</text>
+  <text x="120" y="185" fill="#DEE7E2" font-family="'Manrope', sans-serif" font-size="18">Exportable tokens, WCAG 2.2 AA audit, Core Web Vitals targets, and actionable client decision checklist</text>
+
+  <!-- Section 1: Token Specifications -->
+  <rect x="80" y="260" width="1080" height="880" fill="#FFFFFF" stroke="#B8C2BA" stroke-width="1" rx="4"/>
+  <rect x="80" y="260" width="1080" height="50" fill="#183B35" rx="4 4 0 0"/>
+  <text x="110" y="293" fill="#F4F1E8" font-family="'Manrope', sans-serif" font-size="18" font-weight="600">01. Design Tokens &amp; CSS Custom Properties</text>
+
+  <rect x="110" y="330" width="1020" height="780" fill="#183B35" rx="4"/>
+  <text x="140" y="370" fill="#DEE7E2" font-family="'Courier New', monospace" font-size="14">:root {</text>
+  <text x="160" y="400" fill="#F4F1E8" font-family="'Courier New', monospace" font-size="14">/* Color Tokens */</text>
+  <text x="160" y="430" fill="#DEE7E2" font-family="'Courier New', monospace" font-size="14">--color-surface-page: #F4F1E8;</text>
+  <text x="160" y="460" fill="#DEE7E2" font-family="'Courier New', monospace" font-size="14">--color-surface-mist: #DEE7E2;</text>
+  <text x="160" y="490" fill="#DEE7E2" font-family="'Courier New', monospace" font-size="14">--color-text-primary: #183B35;</text>
+  <text x="160" y="520" fill="#DEE7E2" font-family="'Courier New', monospace" font-size="14">--color-text-secondary: #56645E;</text>
+  <text x="160" y="550" fill="#DEE7E2" font-family="'Courier New', monospace" font-size="14">--color-action-primary: #183B35;</text>
+  <text x="160" y="580" fill="#DEE7E2" font-family="'Courier New', monospace" font-size="14">--color-action-hover: #102B26;</text>
+  <text x="160" y="610" fill="#DEE7E2" font-family="'Courier New', monospace" font-size="14">--color-accent-clay: #895239;</text>
+  <text x="160" y="640" fill="#DEE7E2" font-family="'Courier New', monospace" font-size="14">--color-border-control: #718178;</text>
+  <text x="160" y="670" fill="#DEE7E2" font-family="'Courier New', monospace" font-size="14">--color-border-decorative: #B8C2BA;</text>
+  <text x="160" y="700" fill="#DEE7E2" font-family="'Courier New', monospace" font-size="14">--color-status-error: #9B302B;</text>
+  <text x="160" y="730" fill="#DEE7E2" font-family="'Courier New', monospace" font-size="14">--color-status-success: #245C43;</text>
+  
+  <text x="160" y="770" fill="#F4F1E8" font-family="'Courier New', monospace" font-size="14">/* Typography */</text>
+  <text x="160" y="800" fill="#DEE7E2" font-family="'Courier New', monospace" font-size="14">--font-display: 'Bodoni Moda', serif;</text>
+  <text x="160" y="830" fill="#DEE7E2" font-family="'Courier New', monospace" font-size="14">--font-ui: 'Manrope', sans-serif;</text>
+  <text x="160" y="860" fill="#DEE7E2" font-family="'Courier New', monospace" font-size="14">--font-bengali: 'Noto Sans Bengali', sans-serif;</text>
+
+  <text x="160" y="900" fill="#F4F1E8" font-family="'Courier New', monospace" font-size="14">/* Spacing &amp; Radii */</text>
+  <text x="160" y="930" fill="#DEE7E2" font-family="'Courier New', monospace" font-size="14">--space-4: 4px; --space-8: 8px; --space-16: 16px; --space-24: 24px;</text>
+  <text x="160" y="960" fill="#DEE7E2" font-family="'Courier New', monospace" font-size="14">--space-32: 32px; --space-48: 48px; --space-64: 64px; --space-96: 96px;</text>
+  <text x="160" y="990" fill="#DEE7E2" font-family="'Courier New', monospace" font-size="14">--radius-media: 0px; --radius-control: 2px; --radius-overlay: 4px;</text>
+  <text x="160" y="1030" fill="#DEE7E2" font-family="'Courier New', monospace" font-size="14">--ease-standard: cubic-bezier(0.23, 1, 0.32, 1);</text>
+  <text x="140" y="1070" fill="#DEE7E2" font-family="'Courier New', monospace" font-size="14">}</text>
+
+  <!-- Section 2: QA & Accessibility Checklist -->
+  <rect x="1200" y="260" width="1120" height="880" fill="#FFFFFF" stroke="#B8C2BA" stroke-width="1" rx="4"/>
+  <rect x="1200" y="260" width="1120" height="50" fill="#183B35" rx="4 4 0 0"/>
+  <text x="1230" y="293" fill="#F4F1E8" font-family="'Manrope', sans-serif" font-size="18" font-weight="600">02. WCAG 2.2 AA Accessibility Audit &amp; Performance Targets</text>
+
+  <rect x="1230" y="330" width="1060" height="780" fill="#F4F1E8" rx="4"/>
+  <text x="1260" y="375" fill="#183B35" font-family="'Manrope', sans-serif" font-size="16" font-weight="700">WCAG 2.2 AA Conformance Checkpoints:</text>
+
+  <text x="1260" y="415" fill="#245C43" font-family="'Manrope', sans-serif" font-size="15" font-weight="700">[PASS] 1.4.3 Contrast (Minimum):</text>
+  <text x="1560" y="415" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14">Primary text #183B35 on #F4F1E8 = 10.84:1 (exceeds 4.5:1 requirement).</text>
+
+  <text x="1260" y="455" fill="#245C43" font-family="'Manrope', sans-serif" font-size="15" font-weight="700">[PASS] 2.5.8 Target Size (Minimum):</text>
+  <text x="1560" y="455" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14">All primary touch controls are 52px (exceeds WCAG 24px requirement).</text>
+
+  <text x="1260" y="495" fill="#245C43" font-family="'Manrope', sans-serif" font-size="15" font-weight="700">[PASS] 2.4.7 Focus Visible:</text>
+  <text x="1560" y="495" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14">2px outer clay ring with 2px paper separation on light surfaces.</text>
+
+  <text x="1260" y="535" fill="#245C43" font-family="'Manrope', sans-serif" font-size="15" font-weight="700">[PASS] 1.4.12 Text Spacing:</text>
+  <text x="1560" y="535" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14">Bangla line-height 1.75; no artificial letter-spacing or font distortion.</text>
+
+  <text x="1260" y="575" fill="#245C43" font-family="'Manrope', sans-serif" font-size="15" font-weight="700">[PASS] 2.3.3 Animation from Interaction:</text>
+  <text x="1560" y="575" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14">prefers-reduced-motion triggers immediate non-animated states.</text>
+
+  <line x1="1260" y1="605" x2="2250" y2="605" stroke="#B8C2BA" stroke-width="1"/>
+
+  <text x="1260" y="645" fill="#183B35" font-family="'Manrope', sans-serif" font-size="16" font-weight="700">Core Web Vitals Engineering Targets:</text>
+  <text x="1260" y="685" fill="#183B35" font-family="'Manrope', sans-serif" font-size="14">• Largest Contentful Paint (LCP):</text>
+  <text x="1560" y="685" fill="#245C43" font-family="'Manrope', sans-serif" font-size="14" font-weight="600">&lt;= 2.5s (Mobile Hero image budget &lt;= 250KB WebP)</text>
+
+  <text x="1260" y="725" fill="#183B35" font-family="'Manrope', sans-serif" font-size="14">• Interaction to Next Paint (INP):</text>
+  <text x="1560" y="725" fill="#245C43" font-family="'Manrope', sans-serif" font-size="14" font-weight="600">&lt;= 200ms (Immediate button response, no thread blocking)</text>
+
+  <text x="1260" y="765" fill="#183B35" font-family="'Manrope', sans-serif" font-size="14">• Cumulative Layout Shift (CLS):</text>
+  <text x="1560" y="765" fill="#245C43" font-family="'Manrope', sans-serif" font-size="14" font-weight="600">&lt;= 0.1 (All images have explicit reserved aspect ratios)</text>
+
+  <text x="1260" y="805" fill="#183B35" font-family="'Manrope', sans-serif" font-size="14">• Initial Compressed Fonts:</text>
+  <text x="1560" y="805" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14">&lt;= 200KB per language subset (Noto Sans Bengali + Manrope)</text>
+
+  <text x="1260" y="845" fill="#183B35" font-family="'Manrope', sans-serif" font-size="14">• Initial Compressed JS:</text>
+  <text x="1560" y="845" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14">&lt;= 150KB (Native browser scrolling, zero motion bloat libraries)</text>
+
+  <!-- Section 3: Actionable Client Decision Checklist -->
+  <rect x="80" y="1180" width="2240" height="940" fill="#FFFFFF" stroke="#B8C2BA" stroke-width="1" rx="4"/>
+  <rect x="80" y="1180" width="2240" height="50" fill="#183B35" rx="4 4 0 0"/>
+  <text x="110" y="1213" fill="#F4F1E8" font-family="'Manrope', sans-serif" font-size="18" font-weight="600">03. Actionable Client Checklist (Unresolved Business Facts Needing Owner Approval)</text>
+
+  <rect x="120" y="1260" width="2160" height="820" fill="#F4F1E8" rx="4"/>
+  <text x="150" y="1305" fill="#895239" font-family="'Manrope', sans-serif" font-size="16" font-weight="700">The following operational items are currently marked as provisional and require business owner confirmation prior to public launch:</text>
+
+  <g transform="translate(150, 1340)">
+    <text x="0" y="25" fill="#183B35" font-family="'Manrope', sans-serif" font-size="16" font-weight="700">[ ] 1. Approved Brand Wordmark &amp; Vector Logo</text>
+    <text x="35" y="55" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14">Figma currently uses the provisional typographic Bodoni Moda wordmark. Provide final SVG vector files.</text>
+
+    <text x="0" y="105" fill="#183B35" font-family="'Manrope', sans-serif" font-size="16" font-weight="700">[ ] 2. Official Contact Numbers &amp; WhatsApp Business Account</text>
+    <text x="35" y="135" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14">Confirm the designated Bangladesh telephone number (+880...) that will receive calls and WhatsApp enquiries.</text>
+
+    <text x="0" y="185" fill="#183B35" font-family="'Manrope', sans-serif" font-size="16" font-weight="700">[ ] 3. Exact Geographic Service Area</text>
+    <text x="35" y="215" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14">Clarify whether on-site consultation and execution covers Mirpur, greater Dhaka city, or nationwide.</text>
+
+    <text x="0" y="265" fill="#183B35" font-family="'Manrope', sans-serif" font-size="16" font-weight="700">[ ] 4. Formal Service Offerings &amp; Execution Model</text>
+    <text x="35" y="295" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14">Confirm if FlowGrid provides design-only documentation or turnkey site execution and material procurement.</text>
+
+    <text x="0" y="345" fill="#183B35" font-family="'Manrope', sans-serif" font-size="16" font-weight="700">[ ] 5. Site Visit &amp; Initial Consultation Fee Policy</text>
+    <text x="35" y="375" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14">Confirm whether the initial site visit is chargeable, deductible from design fees, or complimentary.</text>
+
+    <text x="0" y="425" fill="#183B35" font-family="'Manrope', sans-serif" font-size="16" font-weight="700">[ ] 6. Team Profiles &amp; Accurate Design Qualifications</text>
+    <text x="35" y="455" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14">Supply verified names, verified credentials, and portraits of the design and project management team.</text>
+
+    <text x="0" y="505" fill="#183B35" font-family="'Manrope', sans-serif" font-size="16" font-weight="700">[ ] 7. Approved Relationship Statement with Rumi's Fashionable House</text>
+    <text x="35" y="535" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14">Confirm the exact authorized sentence describing Rumi's founder/community relationship to FlowGrid.</text>
+
+    <text x="0" y="585" fill="#183B35" font-family="'Manrope', sans-serif" font-size="16" font-weight="700">[ ] 8. Production Domain &amp; Hosting Setup</text>
+    <text x="35" y="615" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14">Resolve the DNS for www.flowgrid-interiors.com or confirm the final chosen production web address.</text>
+  </g>
+</svg>

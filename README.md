@@ -17,8 +17,8 @@ This repository contains the complete vector source suite, 1:1 pixel-accurate bo
 |---|---|---|
 | **Client Presentation Deck** | [`FlowGrid_Client_Presentation.pdf`](FlowGrid_Client_Presentation.pdf) | 8-Slide 16:9 Landscape PDF (1152 × 648 pt) with zero cut-off fitted screens |
 | **Comprehensive Handoff Report** | [`FlowGrid_Comprehensive_Design_Handoff_and_Correction_Report.md`](FlowGrid_Comprehensive_Design_Handoff_and_Correction_Report.md) | Authoritative technical specification, contrast formulas, and coordinate indices |
-| **Interactive Prototype** | [`prototype/index.html`](prototype/index.html) | Fully functioning bilingual prototype with strict BD validation and keyboard focus containment |
-| **Playable Journey Recording** | [`prototype/prototype_enquiry_journey.webp`](prototype/prototype_enquiry_journey.webp) | 18.1s animated WebP (181 frames, 1920 × 924 px) demonstrating all v3.2/v3.3 flows |
+| **Interactive Prototype** | [`prototype/index.html`](prototype/index.html) | Fully functioning bilingual prototype with strict BD validation, focus trap, and focus restoration |
+| **Playable Journey Recording** | [`prototype/prototype_enquiry_journey.webp`](prototype/prototype_enquiry_journey.webp) | Animated WebP recording (186 frames, 1783 × 997 px) demonstrating authentic 390px mobile viewport, off-canvas drawer, concept tabs, strict BD phone validation, submission receipt, and focus restoration to inputName on New Enquiry |
 | **Master Vector SVGs (v3)** | [`figma_svgs_v3/`](figma_svgs_v3/) | 9 master vector boards covering all 44 page layouts + 2 off-canvas drawers |
 | **Rendered Visual Evidence** | [`figma_exports/`](figma_exports/) | 1:1 pixel-accurate board PNGs rendered via headless Chromium/Edge |
 | **Architectural Concept Imagery** | [`concepts/`](concepts/) | 5 authentic Dhaka residential concept renders (1376 × 768 px) |

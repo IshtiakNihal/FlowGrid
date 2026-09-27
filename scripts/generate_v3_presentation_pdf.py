@@ -766,7 +766,7 @@ html_content = f"""<!DOCTYPE html>
             <img src="{img_crop_mob_form}" style="max-width: 100%; max-height: 100%; object-fit: contain; display: block;" alt="Complete Mobile Form Render">
           </div>
           <div style="font-size: 11px; color: #183B35; font-weight: 600; margin-top: 6px;">Complete 4-Field Form (Zero Cut-off)</div>
-          <div style="font-size: 10px; color: #56645E;">Header, 4 inputs &amp; 52px CTA all visible</div>
+          <div style="font-size: 10px; color: #56645E;">All 4 required inputs &amp; 52px CTA visible</div>
         </div>
       </div>
 

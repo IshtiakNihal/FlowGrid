@@ -875,7 +875,7 @@
   <!-- Demo Control Bar for Reviewer Verification -->
   <div class="demo-bar">
     <div>
-      <span class="tag">VERIFICATION PROTOTYPE v3.2 (Final Reconciled)</span>
+      <span class="tag">VERIFICATION PROTOTYPE v3.3 (Final Reconciled)</span>
       <span style="margin-left: 8px; font-weight: 600;" id="demoBarTitle">FlowGrid Interactive Journey &amp; State Demonstrator (Contrast &ge; 6.21:1, 48px Targets)</span>
     </div>
     <div class="demo-bar-actions">
@@ -1440,10 +1440,12 @@
 
       // Strip allowed separators
       let clean = normalized.replace(/[+\-\s().]/g, '');
-      if (clean.startsWith('8801')) {
-        clean = clean.substring(2);
-      } else if (clean.startsWith('880')) {
+      if (clean.startsWith('88001')) {
+        clean = clean.substring(3);
+      } else if (clean.startsWith('8801')) {
         clean = '0' + clean.substring(3);
+      } else if (clean.startsWith('880')) {
+        clean = '0' + clean.substring(3).replace(/^0+/, '');
       }
 
       // Must be exactly 11 digits starting with 01 and valid operator digit (3, 4, 5, 6, 7, 8, 9)
@@ -1652,8 +1654,8 @@
         'FlowGrid is an interior architecture practice based in Mirpur-10, Dhaka. Our focus is on practical durability, seasoned solid timber, and maximized natural light rather than superficial ornament. We design specifically for the humidity and daylight conditions of urban Dhaka apartments.' : 
         'মিরপুর-১০ এ অবস্থিত FlowGrid ইন্টেরিয়র আর্কিটেকচার অনুশীলন। অপ্রয়োজনীয় ডেকোরেশনের চেয়ে ব্যবহারিক স্থায়িত্ব, দীর্ঘস্থায়ী সলিড কাঠ ও প্রাকৃতিক আলো নিশ্চিত করাই আমাদের প্রধান মনোযোগ। আমরা প্রতিটি অ্যাপার্টমেন্টের প্রাকৃতিক আলো ও আর্দ্রতার বৈশিষ্ট্যকে গুরুত্ব দিয়ে ডিজাইন করি।';
       document.getElementById('stdGov').innerText = isEn ? 
-        'Community Context: Rumi's Fashionable House family provides community inspiration. Architectural design and joinery supervision are managed by an independent professional team.' : 
-        'কমিউনিটি প্রেক্ষাপট: রুমী'স ফ্যাশনেবল হাউস পরিবারের লাইফস্টাইল ও অনুপ্রেরণার উৎস। স্থাপত্য ডিজাইন ও জয়েনারি কাজ সম্পূর্ণ স্বতন্ত্র পেশাদার টিম দ্বারা পরিচালিত হয়।';
+        "Community Context: Rumi's Fashionable House family provides community inspiration. Architectural design and joinery supervision are managed by an independent professional team." : 
+        "কমিউনিটি প্রেক্ষাপট: রুমী'স ফ্যাশনেবল হাউস পরিবারের লাইফস্টাইল ও অনুপ্রেরণার উৎস। স্থাপত্য ডিজাইন ও জয়েনারি কাজ সম্পূর্ণ স্বতন্ত্র পেশাদার টিম দ্বারা পরিচালিত হয়।";
 
       // Footer
       document.getElementById('footerBrandDesc').innerText = isEn ? 
@@ -1709,7 +1711,7 @@
       document.getElementById('errName').innerHTML = isEn ? '<span>⚠️</span> Please provide your full name.' : '<span>⚠️</span> অনুগ্রহ করে আপনার পূর্ণ নাম লিখুন।';
       document.getElementById('errPhone').innerHTML = isEn ? '<span>⚠️</span> Please provide an active Bangladesh mobile number (e.g. 01700-000000). Letters and arbitrary punctuation are not accepted.' : '<span>⚠️</span> একটি সক্রিয় মোবাইল নম্বর দিন (উদা: ০১৭১১-০০০০০০)। অক্ষর বা অপ্রাসঙ্গিক চিহ্ন গ্রহণযোগ্য নয়।';
       document.getElementById('errArea').innerHTML = isEn ? '<span>⚠️</span> Please specify your project area/neighborhood.' : '<span>⚠️</span> আপনার প্রকল্পের এলাকা উল্লেখ করুন।';
-      document.getElementById('errType').innerHTML = isEn ? '<span>⚠️</span> Please select a project scope (or choose "Not sure yet").' : '<span>⚠️</span> একটি প্রকল্পের ধরন নির্বাচন করুন (অথবা 'নিশ্চিত নই' বেছে নিন)।';
+      document.getElementById('errType').innerHTML = isEn ? '<span>⚠️</span> Please select a project scope (or choose "Not sure yet").' : '<span>⚠️</span> একটি প্রকল্পের ধরন নির্বাচন করুন (অথবা "নিশ্চিত নই" বেছে নিন)।';
       document.getElementById('errorBannerText').innerText = isEn ? 'Please correct the highlighted fields below.' : 'অনুগ্রহ করে নিচের চিহ্নিত ক্ষেত্রগুলো সঠিকভাবে পূরণ করুন।';
       document.getElementById('btnSubmitEnquiry').innerText = isEn ? 'Request Consultation →' : 'পরামর্শের জন্য জমা দিন →';
 

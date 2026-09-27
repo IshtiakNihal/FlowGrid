@@ -1043,10 +1043,10 @@
         <div class="footer-col">
           <h4 id="footerNavTitle">নেভিগেশন</h4>
           <ul>
-            <li><a href="#concept">ধারণা সংগ্রহ (Concepts)</a></li>
-            <li><a href="#services">সেবাসমূহ (Services)</a></li>
-            <li><a href="#process">পদ্ধতি (Process)</a></li>
-            <li><a href="#studio">স্টুডিও (Studio)</a></li>
+            <li><a href="#concept" id="footNav1">ধারণা সংগ্রহ (Concepts)</a></li>
+            <li><a href="#services" id="footNav2">সেবাসমূহ (Services)</a></li>
+            <li><a href="#process" id="footNav3">পদ্ধতি (Process)</a></li>
+            <li><a href="#studio" id="footNav4">স্টুডিও (Studio)</a></li>
           </ul>
         </div>
         <div class="footer-col">
@@ -1066,7 +1066,7 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <div>&copy; ২০২৬ FlowGrid Interiors. সর্বস্বত্ব সংরক্ষিত।</div>
+        <div id="footerCopy">&copy; ২০২৬ FlowGrid Interiors. সর্বস্বত্ব সংরক্ষিত।</div>
         <div id="footerBottomNote">ঢাকার অ্যাপার্টমেন্টের জন্য বাস্তবসম্মত ইন্টেরিয়র আর্কিটেকচার</div>
       </div>
     </div>
@@ -1154,7 +1154,7 @@
           <p style="color: var(--fg-text-secondary); font-size: 14px;" id="receiptSubtitle">আমাদের ডিজাইন প্রতিনিধি ২৪ ঘণ্টার মধ্যে আপনার সাথে যোগাযোগ করবেন।</p>
           <div class="receipt-badge" id="receiptRef">রেফারেন্স নং: #FG-2026-9481</div>
 
-          <div class="simulated-notice">
+          <div class="simulated-notice" id="receiptSimNotice">
             <strong>📋 পর্যালোচকের জন্য নোট (Reviewer Annotation):</strong><br>
             এটি একটি সিমুলেটেড সাবমিশন স্টেট যা প্রোটোটাইপ পরীক্ষার জন্য নির্মিত। প্রোডাকশনে এটি সরাসরি FlowGrid ব্যাকএন্ড লিড প্রসেসিং এন্ডপয়েন্টে সংযুক্ত থাকবে।
           </div>
@@ -1205,8 +1205,8 @@
       <div>
         <button class="btn btn-primary" style="width: 100%; margin-bottom: 20px; background: var(--fg-surface-page); color: var(--fg-text-primary);" onclick="toggleDrawer(false); openModal();" id="drawBtnConsult">পরামর্শ শুরু করুন</button>
         <div class="drawer-footer">
-          <p>📍 মিরপুর-১০, ঢাকা ১২১৬</p>
-          <p>📞 +৮৮০ ১৭০০-০০০০০০</p>
+          <p id="drawAddr">📍 মিরপুর-১০, ঢাকা ১২১৬</p>
+          <p id="drawPhone">📞 +৮৮০ ১৭০০-০০০০০০</p>
           <p style="margin-top: 8px; font-size: 11px;">FlowGrid Studio · Dhaka</p>
         </div>
       </div>
@@ -1662,6 +1662,10 @@
         'Sensible, aesthetic, and durable interior architecture and custom joinery coordination for residential apartments in Dhaka.' : 
         'ঢাকার আবাসিক অ্যাপার্টমেন্টের জন্য বাস্তবসম্মত, নান্দনিক ও টেকসই অভ্যন্তরীণ নকশা ও জয়েনারি সমন্বয়।';
       document.getElementById('footerNavTitle').innerText = isEn ? 'Navigation' : 'নেভিগেশন';
+      document.getElementById('footNav1').innerText = isEn ? 'Concept Gallery (Concepts)' : 'ধারণা সংগ্রহ (Concepts)';
+      document.getElementById('footNav2').innerText = isEn ? 'Services & Joinery (Services)' : 'সেবাসমূহ (Services)';
+      document.getElementById('footNav3').innerText = isEn ? 'Process & Workflow (Process)' : 'পদ্ধতি (Process)';
+      document.getElementById('footNav4').innerText = isEn ? 'Studio & Philosophy (Studio)' : 'স্টুডিও (Studio)';
       document.getElementById('footerLegalTitle').innerText = isEn ? 'Legal & Policy' : 'আইনি ও নীতিমালা';
       document.getElementById('footLegal1').innerText = isEn ? 'Privacy Policy' : 'গোপনীয়তা নীতি (Privacy)';
       document.getElementById('footLegal2').innerText = isEn ? 'Terms of Service' : 'শর্তাবলী (Terms)';
@@ -1670,6 +1674,7 @@
       document.getElementById('footAddr').innerText = isEn ? '📍 Mirpur-10, Dhaka 1216, Bangladesh (Provisional)' : '📍 মিরপুর-১০, ঢাকা ১২১৬, বাংলাদেশ';
       document.getElementById('footPhone').innerText = isEn ? '📞 +880 1700-000000 (Provisional Client Channel)' : '📞 +৮৮০ ১৭০০-০০০০০০ (নমুনা চ্যানেল)';
       document.getElementById('footHours').innerText = isEn ? '⏰ Sun - Thu: 10:00 AM — 7:00 PM' : '⏰ রবি - বৃহস্পতি: সকাল ১০টা — সন্ধ্যা ৭টা';
+      document.getElementById('footerCopy').innerHTML = isEn ? '&copy; 2026 FlowGrid Interiors. All rights reserved.' : '&copy; ২০২৬ FlowGrid Interiors. সর্বস্বত্ব সংরক্ষিত।';
       document.getElementById('footerBottomNote').innerText = isEn ? 
         'Sensible Interior Architecture for Urban Dhaka Apartments' : 
         'ঢাকার অ্যাপার্টমেন্টের জন্য বাস্তবসম্মত ইন্টেরিয়র আর্কিটেকচার';
@@ -1681,6 +1686,8 @@
       document.getElementById('drawStudio').innerText = isEn ? 'Studio & Team' : 'স্টুডিও (Studio)';
       document.getElementById('drawContact').innerText = isEn ? 'Contact & Visit' : 'যোগাযোগ (Contact)';
       document.getElementById('drawBtnConsult').innerText = isEn ? 'Book Consultation' : 'পরামর্শ শুরু করুন';
+      document.getElementById('drawAddr').innerText = isEn ? '📍 Mirpur-10, Dhaka 1216, Bangladesh' : '📍 মিরপুর-১০, ঢাকা ১২১৬';
+      document.getElementById('drawPhone').innerText = isEn ? '📞 +880 1700-000000' : '📞 +৮৮০ ১৭০০-০০০০০০';
 
       // Form Modal Labels & Placeholders
       document.getElementById('modalTitle').innerText = isEn ? 'Book a Spatial Consultation' : 'পরামর্শের আবেদন করুন';
@@ -1723,6 +1730,9 @@
       document.getElementById('receiptTitle').innerText = isEn ? 'Consultation Request Received!' : 'পরামর্শের অনুরোধ গৃহীত হয়েছে!';
       document.getElementById('receiptSubtitle').innerText = isEn ? 'A design architect will review your project parameters and contact you within 24 business hours.' : 'আমাদের ডিজাইন প্রতিনিধি ২৪ ঘণ্টার মধ্যে আপনার সাথে যোগাযোগ করবেন।';
       document.getElementById('receiptRef').innerText = isEn ? 'Reference No: #FG-2026-9481' : 'রেফারেন্স নং: #FG-2026-9481';
+      document.getElementById('receiptSimNotice').innerHTML = isEn ? 
+        '<strong>📋 Reviewer Annotation:</strong><br>This is a simulated submission state engineered for prototype evaluation. In production, this dispatches directly to the FlowGrid backend lead triage endpoint.' : 
+        '<strong>📋 পর্যালোচকের জন্য নোট (Reviewer Annotation):</strong><br>এটি একটি সিমুলেটেড সাবমিশন স্টেট যা প্রোটোটাইপ পরীক্ষার জন্য নির্মিত। প্রোডাকশনে এটি সরাসরি FlowGrid ব্যাকএন্ড লিড প্রসেসিং এন্ডপয়েন্টে সংযুক্ত থাকবে।';
       document.getElementById('btnDone').innerText = isEn ? 'Done' : 'সম্পন্ন করুন (Done)';
       document.getElementById('btnNewEnquiry').innerText = isEn ? 'Submit Another Enquiry' : 'নতুন আবেদন করুন';
 

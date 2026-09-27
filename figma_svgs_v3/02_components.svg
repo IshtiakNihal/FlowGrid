@@ -1,0 +1,206 @@
+<svg width="2800" height="2550" viewBox="0 0 2800 2550" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="2800" height="2550" fill="#F4F1E8"/>
+<rect x="80" y="80" width="2640" height="140" fill="#183B35" rx="4"/>
+<text x="120" y="145" fill="#F4F1E8" font-family="'Bodoni Moda', serif" font-size="36" font-weight="600">FlowGrid — UI Component Library &amp; Enquiry States (v3.1 Audit Corrected)</text>
+<text x="120" y="185" fill="#DEE7E2" font-family="'Manrope', sans-serif" font-size="18">Reusable interactive controls, accessible headers, off-canvas navigation drawer, and all 6 consultation enquiry states</text>
+<rect x="80" y="260" width="1280" height="480" fill="#FFFFFF" stroke="#B8C2BA" stroke-width="1" rx="4"/>
+<rect x="80" y="260" width="1280" height="60" fill="#183B35" rx="4 4 0 0"/>
+<text x="110" y="300" fill="#F4F1E8" font-family="'Manrope', sans-serif" font-size="20" font-weight="600">01. Buttons &amp; Action States (52px Touch-Height, 2px Architectural Radius)</text>
+<text x="110" y="350" fill="#895239" font-family="'Manrope', sans-serif" font-size="14" font-weight="700">Primary Action</text>
+<text x="110" y="375" fill="#56645E" font-family="'Manrope', sans-serif" font-size="12">Default</text>
+<rect x="110" y="385" width="210" height="52" fill="#183B35" rx="2"/>
+<text x="215" y="417" fill="#F4F1E8" font-family="'Noto Sans Bengali', sans-serif" font-size="14" font-weight="600" text-anchor="middle">পরামর্শ বুক করুন</text>
+<text x="345" y="375" fill="#56645E" font-family="'Manrope', sans-serif" font-size="12">Hover (150ms)</text>
+<rect x="345" y="385" width="210" height="52" fill="#102B26" rx="2"/>
+<text x="450" y="417" fill="#F4F1E8" font-family="'Noto Sans Bengali', sans-serif" font-size="14" font-weight="600" text-anchor="middle">পরামর্শ বুক করুন</text>
+<text x="580" y="375" fill="#56645E" font-family="'Manrope', sans-serif" font-size="12">Focus (2px Ring)</text>
+<rect x="580" y="385" width="210" height="52" fill="#183B35" stroke="#895239" stroke-width="2" rx="2"/>
+<text x="685" y="417" fill="#F4F1E8" font-family="'Noto Sans Bengali', sans-serif" font-size="14" font-weight="600" text-anchor="middle">পরামর্শ বুক করুন</text>
+<text x="815" y="375" fill="#56645E" font-family="'Manrope', sans-serif" font-size="12">Loading</text>
+<rect x="815" y="385" width="210" height="52" fill="#183B35" rx="2"/>
+<text x="920" y="417" fill="#DEE7E2" font-family="'Noto Sans Bengali', sans-serif" font-size="14" font-weight="600" text-anchor="middle">স্পেস কনসালটেশন...</text>
+<text x="1050" y="375" fill="#56645E" font-family="'Manrope', sans-serif" font-size="12">Disabled</text>
+<rect x="1050" y="385" width="210" height="52" fill="#B8C2BA" rx="2"/>
+<text x="1155" y="417" fill="#56645E" font-family="'Noto Sans Bengali', sans-serif" font-size="14" font-weight="600" text-anchor="middle">পরামর্শ বুক করুন</text>
+<text x="110" y="475" fill="#895239" font-family="'Manrope', sans-serif" font-size="14" font-weight="700">Secondary Outlined</text>
+<text x="110" y="500" fill="#56645E" font-family="'Manrope', sans-serif" font-size="12">Default</text>
+<rect x="110" y="510" width="210" height="52" fill="transparent" stroke="#183B35" stroke-width="1.5" rx="2"/>
+<text x="215" y="542" fill="#183B35" font-family="'Noto Sans Bengali', sans-serif" font-size="14" font-weight="600" text-anchor="middle">পরামর্শ বুক করুন</text>
+<text x="345" y="500" fill="#56645E" font-family="'Manrope', sans-serif" font-size="12">Hover</text>
+<rect x="345" y="510" width="210" height="52" fill="#DEE7E2" stroke="#183B35" stroke-width="1.5" rx="2"/>
+<text x="450" y="542" fill="#183B35" font-family="'Noto Sans Bengali', sans-serif" font-size="14" font-weight="600" text-anchor="middle">পরামর্শ বুক করুন</text>
+<text x="580" y="500" fill="#56645E" font-family="'Manrope', sans-serif" font-size="12">Focus</text>
+<rect x="580" y="510" width="210" height="52" fill="transparent" stroke="#895239" stroke-width="2" rx="2"/>
+<text x="685" y="542" fill="#183B35" font-family="'Noto Sans Bengali', sans-serif" font-size="14" font-weight="600" text-anchor="middle">পরামর্শ বুক করুন</text>
+<text x="815" y="500" fill="#56645E" font-family="'Manrope', sans-serif" font-size="12">Loading</text>
+<rect x="815" y="510" width="210" height="52" fill="#F4F1E8" stroke="#B8C2BA" stroke-width="1" rx="2"/>
+<text x="920" y="542" fill="#56645E" font-family="'Noto Sans Bengali', sans-serif" font-size="14" font-weight="600" text-anchor="middle">পরামর্শ বুক করুন</text>
+<text x="1050" y="500" fill="#56645E" font-family="'Manrope', sans-serif" font-size="12">Disabled</text>
+<rect x="1050" y="510" width="210" height="52" fill="transparent" stroke="#B8C2BA" stroke-width="1" rx="2"/>
+<text x="1155" y="542" fill="#B8C2BA" font-family="'Noto Sans Bengali', sans-serif" font-size="14" font-weight="600" text-anchor="middle">পরামর্শ বুক করুন</text>
+<text x="110" y="600" fill="#895239" font-family="'Manrope', sans-serif" font-size="14" font-weight="700">Accessible Direct Actions</text>
+<text x="110" y="625" fill="#56645E" font-family="'Manrope', sans-serif" font-size="12">Call (+880)</text>
+<rect x="110" y="635" width="210" height="52" fill="#183B35" rx="2"/>
+<text x="215" y="667" fill="#F4F1E8" font-family="'Noto Sans Bengali', sans-serif" font-size="14" font-weight="600" text-anchor="middle">কল করুন: +880 1700...</text>
+<text x="345" y="625" fill="#56645E" font-family="'Manrope', sans-serif" font-size="12">WhatsApp (Dark Forest)</text>
+<rect x="345" y="635" width="210" height="52" fill="#0D5C52" rx="2"/>
+<text x="450" y="667" fill="#FFFFFF" font-family="'Noto Sans Bengali', sans-serif" font-size="14" font-weight="600" text-anchor="middle">হোয়াটসঅ্যাপ বার্তা</text>
+<text x="580" y="625" fill="#56645E" font-family="'Manrope', sans-serif" font-size="12">Text Action</text>
+<rect x="580" y="635" width="210" height="52" fill="transparent" rx="2"/>
+<text x="685" y="667" fill="#895239" font-family="'Noto Sans Bengali', sans-serif" font-size="14" font-weight="600" text-anchor="middle">প্রকল্প দেখুন →</text>
+<text x="815" y="625" fill="#56645E" font-family="'Manrope', sans-serif" font-size="12">Ghost Close</text>
+<rect x="815" y="635" width="210" height="52" fill="transparent" stroke="#B8C2BA" stroke-width="1" rx="2"/>
+<text x="920" y="667" fill="#183B35" font-family="'Noto Sans Bengali', sans-serif" font-size="14" font-weight="600" text-anchor="middle">✕ বন্ধ করুন</text>
+<text x="1050" y="625" fill="#56645E" font-family="'Manrope', sans-serif" font-size="12">Filter Pill</text>
+<rect x="1050" y="635" width="210" height="52" fill="#DEE7E2" rx="2"/>
+<text x="1155" y="667" fill="#183B35" font-family="'Noto Sans Bengali', sans-serif" font-size="14" font-weight="600" text-anchor="middle">আবাসিক লিভিং</text>
+<rect x="1400" y="260" width="1320" height="480" fill="#FFFFFF" stroke="#B8C2BA" stroke-width="1" rx="4"/>
+<rect x="1400" y="260" width="1320" height="60" fill="#183B35" rx="4 4 0 0"/>
+<text x="1430" y="300" fill="#F4F1E8" font-family="'Manrope', sans-serif" font-size="20" font-weight="600">02. Navigation Bars &amp; Off-Canvas Mobile Drawer</text>
+<text x="1430" y="350" fill="#895239" font-family="'Manrope', sans-serif" font-size="14" font-weight="700">Desktop Global Navigation (88px Height · Fixed/Sticky)</text>
+<rect x="1430" y="370" width="1260" height="88" fill="#F4F1E8" stroke="#B8C2BA" stroke-width="1" rx="2"/>
+<text x="1460" y="425" fill="#183B35" font-family="'Bodoni Moda', serif" font-size="28" font-weight="700">FlowGrid</text>
+<text x="1590" y="425" fill="#895239" font-family="'Manrope', sans-serif" font-size="12" font-weight="700">STUDIO</text>
+<text x="1750" y="424" fill="#183B35" font-family="'Noto Sans Bengali', sans-serif" font-size="15" font-weight="600">প্রকল্পসমূহ (Projects)</text>
+<text x="1890" y="424" fill="#183B35" font-family="'Noto Sans Bengali', sans-serif" font-size="15" font-weight="600">সেবাসমূহ (Services)</text>
+<text x="2030" y="424" fill="#183B35" font-family="'Noto Sans Bengali', sans-serif" font-size="15" font-weight="600">পদ্ধতি (Process)</text>
+<text x="2170" y="424" fill="#183B35" font-family="'Noto Sans Bengali', sans-serif" font-size="15" font-weight="600">স্টুডিও (Studio)</text>
+<text x="2310" y="424" fill="#183B35" font-family="'Noto Sans Bengali', sans-serif" font-size="15" font-weight="600">যোগাযোগ (Contact)</text>
+<rect x="2450" y="392" width="60" height="44" fill="#DEE7E2" rx="2"/>
+<text x="2480" y="420" fill="#183B35" font-family="'Manrope', sans-serif" font-size="13" font-weight="700" text-anchor="middle">EN</text>
+<rect x="2525" y="388" width="145" height="52" fill="#183B35" rx="2"/>
+<text x="2597" y="420" fill="#F4F1E8" font-family="'Noto Sans Bengali', sans-serif" font-size="14" font-weight="600" text-anchor="middle">পরামর্শ নিন</text>
+<text x="1430" y="495" fill="#895239" font-family="'Manrope', sans-serif" font-size="14" font-weight="700">Mobile Header (64px Height · 48x48px Touch Target) &amp; Off-Canvas Drawer</text>
+<rect x="1430" y="515" width="480" height="64" fill="#F4F1E8" stroke="#B8C2BA" stroke-width="1" rx="2"/>
+<text x="1455" y="555" fill="#183B35" font-family="'Bodoni Moda', serif" font-size="22" font-weight="700">FlowGrid</text>
+<rect x="1845" y="523" width="48" height="48" fill="#DEE7E2" rx="2"/>
+<line x1="1855" y1="539" x2="1883" y2="539" stroke="#183B35" stroke-width="2"/>
+<line x1="1855" y1="547" x2="1883" y2="547" stroke="#183B35" stroke-width="2"/>
+<line x1="1855" y1="555" x2="1883" y2="555" stroke="#183B35" stroke-width="2"/>
+<rect x="1950" y="500" width="380" height="220" fill="#183B35" rx="4"/>
+<text x="1975" y="535" fill="#F4F1E8" font-family="'Bodoni Moda', serif" font-size="20" font-weight="700">FlowGrid Studio</text>
+<text x="2290" y="535" fill="#DEE7E2" font-family="'Manrope', sans-serif" font-size="18">✕</text>
+<text x="1975" y="565" fill="#DEE7E2" font-family="'Noto Sans Bengali', sans-serif" font-size="13">• প্রচ্ছদ (Home)</text>
+<text x="1975" y="589" fill="#DEE7E2" font-family="'Noto Sans Bengali', sans-serif" font-size="13">• প্রকল্পসমূহ (Projects)</text>
+<text x="1975" y="613" fill="#DEE7E2" font-family="'Noto Sans Bengali', sans-serif" font-size="13">• সেবাসমূহ (Services)</text>
+<text x="1975" y="637" fill="#DEE7E2" font-family="'Noto Sans Bengali', sans-serif" font-size="13">• পদ্ধতি (Process)</text>
+<text x="1975" y="661" fill="#DEE7E2" font-family="'Noto Sans Bengali', sans-serif" font-size="13">• স্টুডিও ও যোগাযোগ (Studio &amp; Contact)</text>
+<rect x="1975" y="685" width="330" height="28" fill="#895239" rx="2"/>
+<text x="2140" y="704" fill="#FFFFFF" font-family="'Noto Sans Bengali', sans-serif" font-size="12" font-weight="600" text-anchor="middle">সরাসরি কল: +880 1700-000000</text>
+<rect x="80" y="770" width="2640" height="1700" fill="#FFFFFF" stroke="#B8C2BA" stroke-width="1" rx="4"/>
+<rect x="80" y="770" width="2640" height="60" fill="#183B35" rx="4 4 0 0"/>
+<text x="110" y="810" fill="#F4F1E8" font-family="'Manrope', sans-serif" font-size="20" font-weight="600">03. Consultation Enquiry Component — All 6 Standard States (4 Required Fields)</text>
+<rect x="110" y="850" width="830" height="680" fill="#F4F1E8" stroke="#B8C2BA" stroke-width="1" rx="4"/>
+<rect x="110" y="850" width="830" height="45" fill="#DEE7E2" rx="4 4 0 0"/>
+<text x="130" y="878" fill="#183B35" font-family="'Manrope', sans-serif" font-size="16" font-weight="700">State: 01. Idle State</text>
+<text x="920" y="878" fill="#56645E" font-family="'Manrope', sans-serif" font-size="13" text-anchor="end">Default initial presentation</text>
+<text x="140" y="915" fill="#183B35" font-family="'Noto Sans Bengali', sans-serif" font-size="14" font-weight="600">১. আপনার নাম (Full Name) *</text>
+<rect x="140" y="923" width="770" height="48" fill="#FFFFFF" stroke="#718178" stroke-width="1" rx="2"/>
+<text x="155" y="953" fill="#56645E" font-family="'Noto Sans Bengali', sans-serif" font-size="14">উদা: মো. ফারহান আহমেদ</text>
+<text x="140" y="989" fill="#183B35" font-family="'Noto Sans Bengali', sans-serif" font-size="14" font-weight="600">২. মোবাইল নম্বর (Mobile Number) *</text>
+<rect x="140" y="997" width="770" height="48" fill="#FFFFFF" stroke="#718178" stroke-width="1" rx="2"/>
+<text x="155" y="1027" fill="#56645E" font-family="'Manrope', sans-serif" font-size="14">01XXXXXXXXX বা +880 1XXXXXXXXX</text>
+<text x="140" y="1063" fill="#183B35" font-family="'Noto Sans Bengali', sans-serif" font-size="14" font-weight="600">৩. এলাকা ও শহর (Area / City) *</text>
+<rect x="140" y="1071" width="770" height="48" fill="#FFFFFF" stroke="#718178" stroke-width="1" rx="2"/>
+<text x="155" y="1101" fill="#56645E" font-family="'Noto Sans Bengali', sans-serif" font-size="14">উদা: মিরপুর / গুলশান / ধানমন্ডি / চট্টগ্রাম</text>
+<text x="140" y="1137" fill="#183B35" font-family="'Noto Sans Bengali', sans-serif" font-size="14" font-weight="600">৪. প্রয়োজনীয় সেবা (Service Interest) *</text>
+<rect x="140" y="1145" width="770" height="48" fill="#FFFFFF" stroke="#718178" stroke-width="1" rx="2"/>
+<text x="155" y="1175" fill="#56645E" font-family="'Noto Sans Bengali', sans-serif" font-size="14">সেবা নির্বাচন করুন (কাস্টম ফার্নিচার / ড্রয়িং / নিশ্চিত নই) ▼</text>
+<text x="140" y="1211" fill="#56645E" font-family="'Noto Sans Bengali', sans-serif" font-size="13">প্রকল্পের সংক্ষিপ্ত বিবরণ ও আয়তন (ঐচ্ছিক / Optional)</text>
+<rect x="140" y="1219" width="770" height="64" fill="#FFFFFF" stroke="#B8C2BA" stroke-width="1" rx="2"/>
+<text x="155" y="1245" fill="#56645E" font-family="'Noto Sans Bengali', sans-serif" font-size="13">ফ্লোর এরিয়া, রুমের সংখ্যা বা নির্দিষ্ট চাহিদা উল্লেখ করতে পারেন...</text>
+<rect x="140" y="1303" width="770" height="52" fill="#183B35" rx="2"/>
+<text x="525" y="1335" fill="#F4F1E8" font-family="'Noto Sans Bengali', sans-serif" font-size="15" font-weight="600" text-anchor="middle">পরামর্শ অনুরোধ পাঠান →</text>
+<rect x="980" y="850" width="830" height="680" fill="#F4F1E8" stroke="#B8C2BA" stroke-width="1" rx="4"/>
+<rect x="980" y="850" width="830" height="45" fill="#DEE7E2" rx="4 4 0 0"/>
+<text x="1000" y="878" fill="#183B35" font-family="'Manrope', sans-serif" font-size="16" font-weight="700">State: 02. Filled / Active State</text>
+<text x="1790" y="878" fill="#56645E" font-family="'Manrope', sans-serif" font-size="13" text-anchor="end">Valid inputs entered by user</text>
+<text x="1010" y="915" fill="#183B35" font-family="'Noto Sans Bengali', sans-serif" font-size="14" font-weight="600">১. আপনার নাম (Full Name) *</text>
+<rect x="1010" y="923" width="770" height="48" fill="#FFFFFF" stroke="#718178" stroke-width="1" rx="2"/>
+<text x="1025" y="953" fill="#183B35" font-family="'Noto Sans Bengali', sans-serif" font-size="15">মো. ফারহান আহমেদ</text>
+<text x="1010" y="989" fill="#183B35" font-family="'Noto Sans Bengali', sans-serif" font-size="14" font-weight="600">২. মোবাইল নম্বর (Mobile Number) *</text>
+<rect x="1010" y="997" width="770" height="48" fill="#FFFFFF" stroke="#718178" stroke-width="1" rx="2"/>
+<text x="1025" y="1027" fill="#183B35" font-family="'Manrope', sans-serif" font-size="15">01712-XXXXXX</text>
+<text x="1010" y="1063" fill="#183B35" font-family="'Noto Sans Bengali', sans-serif" font-size="14" font-weight="600">৩. এলাকা ও শহর (Area / City) *</text>
+<rect x="1010" y="1071" width="770" height="48" fill="#FFFFFF" stroke="#718178" stroke-width="1" rx="2"/>
+<text x="1025" y="1101" fill="#183B35" font-family="'Noto Sans Bengali', sans-serif" font-size="15">মিরপুর ডিওএইচএস, ঢাকা</text>
+<text x="1010" y="1137" fill="#183B35" font-family="'Noto Sans Bengali', sans-serif" font-size="14" font-weight="600">৪. প্রয়োজনীয় সেবা (Service Interest) *</text>
+<rect x="1010" y="1145" width="770" height="48" fill="#FFFFFF" stroke="#718178" stroke-width="1" rx="2"/>
+<text x="1025" y="1175" fill="#183B35" font-family="'Noto Sans Bengali', sans-serif" font-size="14">পূর্ণাঙ্গ ইন্টেরিয়র আর্কিটেকচার</text>
+<text x="1010" y="1211" fill="#56645E" font-family="'Noto Sans Bengali', sans-serif" font-size="13">প্রকল্পের সংক্ষিপ্ত বিবরণ ও আয়তন (ঐচ্ছিক / Optional)</text>
+<rect x="1010" y="1219" width="770" height="64" fill="#FFFFFF" stroke="#B8C2BA" stroke-width="1" rx="2"/>
+<text x="1025" y="1241" fill="#183B35" font-family="'Noto Sans Bengali', sans-serif" font-size="13" font-weight="400"><tspan x="1025" dy="0">৩ বেডরুমের অ্যাপার্টমেন্ট, প্রায় ১৮০০ বর্গফুট। ড্রয়িং ও</tspan><tspan x="1025" dy="18">কিচেন কেবিনেটরি প্রয়োজন।</tspan></text>
+<rect x="1010" y="1303" width="770" height="52" fill="#183B35" rx="2"/>
+<text x="1395" y="1335" fill="#F4F1E8" font-family="'Noto Sans Bengali', sans-serif" font-size="15" font-weight="600" text-anchor="middle">পরামর্শ অনুরোধ পাঠান →</text>
+<rect x="1850" y="850" width="830" height="680" fill="#F4F1E8" stroke="#B8C2BA" stroke-width="1" rx="4"/>
+<rect x="1850" y="850" width="830" height="45" fill="#DEE7E2" rx="4 4 0 0"/>
+<text x="1870" y="878" fill="#183B35" font-family="'Manrope', sans-serif" font-size="16" font-weight="700">State: 03. Validation Error State</text>
+<text x="2660" y="878" fill="#56645E" font-family="'Manrope', sans-serif" font-size="13" text-anchor="end">Required field check &amp; top summary alert</text>
+<rect x="1880" y="915" width="770" height="42" fill="#FDECEB" stroke="#9B302B" stroke-width="1.5" rx="3"/>
+<text x="1895" y="941" fill="#9B302B" font-family="'Noto Sans Bengali', sans-serif" font-size="13" font-weight="700">⚠️ অনুগ্রহ করে চিহ্নিত ক্ষেত্রগুলো সঠিকভাবে পূরণ করুন (Validation Alert)</text>
+<text x="1880" y="969" fill="#183B35" font-family="'Noto Sans Bengali', sans-serif" font-size="14" font-weight="600">১. আপনার নাম (Full Name) *</text>
+<rect x="1880" y="977" width="770" height="48" fill="#FFFFFF" stroke="#718178" stroke-width="1" rx="2"/>
+<text x="1895" y="1007" fill="#183B35" font-family="'Noto Sans Bengali', sans-serif" font-size="15">মো. ফারহান আহমেদ</text>
+<text x="1880" y="1043" fill="#183B35" font-family="'Noto Sans Bengali', sans-serif" font-size="14" font-weight="600">২. মোবাইল নম্বর (Mobile Number) *</text>
+<rect x="1880" y="1051" width="770" height="48" fill="#FFFFFF" stroke="#9B302B" stroke-width="2" rx="2"/>
+<text x="1895" y="1081" fill="#183B35" font-family="'Manrope', sans-serif" font-size="15">12345</text>
+<text x="2635" y="1081" fill="#9B302B" font-family="'Manrope', sans-serif" font-size="16" font-weight="700" text-anchor="end">!</text>
+<text x="1880" y="1113" fill="#9B302B" font-family="'Noto Sans Bengali', sans-serif" font-size="12">সঠিক ১১ ডিজিটের মোবাইল নম্বর দিন (উদা: 01712345678 বা +8801712345678)</text>
+<text x="1880" y="1139" fill="#183B35" font-family="'Noto Sans Bengali', sans-serif" font-size="14" font-weight="600">৩. এলাকা ও শহর (Area / City) *</text>
+<rect x="1880" y="1147" width="770" height="48" fill="#FFFFFF" stroke="#718178" stroke-width="1" rx="2"/>
+<text x="1895" y="1177" fill="#183B35" font-family="'Noto Sans Bengali', sans-serif" font-size="15">মিরপুর ডিওএইচএস, ঢাকা</text>
+<text x="1880" y="1213" fill="#183B35" font-family="'Noto Sans Bengali', sans-serif" font-size="14" font-weight="600">৪. প্রয়োজনীয় সেবা (Service Interest) *</text>
+<rect x="1880" y="1221" width="770" height="48" fill="#FFFFFF" stroke="#9B302B" stroke-width="2" rx="2"/>
+<text x="1895" y="1251" fill="#56645E" font-family="'Noto Sans Bengali', sans-serif" font-size="14">সেবা নির্বাচন করুন (কাস্টম ফার্নিচার / ড্রয়িং / নিশ্চিত নই) ▼</text>
+<text x="1880" y="1283" fill="#9B302B" font-family="'Noto Sans Bengali', sans-serif" font-size="12">দয়া করে একটি সেবা নির্বাচন করুন অথবা 'নিশ্চিত নই' সিলেক্ট করুন</text>
+<text x="1880" y="1309" fill="#56645E" font-family="'Noto Sans Bengali', sans-serif" font-size="13">প্রকল্পের সংক্ষিপ্ত বিবরণ ও আয়তন (ঐচ্ছিক / Optional)</text>
+<rect x="1880" y="1317" width="770" height="64" fill="#FFFFFF" stroke="#B8C2BA" stroke-width="1" rx="2"/>
+<text x="1895" y="1343" fill="#56645E" font-family="'Noto Sans Bengali', sans-serif" font-size="13">ফ্লোর এরিয়া, রুমের সংখ্যা বা নির্দিষ্ট চাহিদা উল্লেখ করতে পারেন...</text>
+<rect x="1880" y="1401" width="770" height="52" fill="#183B35" rx="2"/>
+<text x="2265" y="1433" fill="#F4F1E8" font-family="'Noto Sans Bengali', sans-serif" font-size="15" font-weight="600" text-anchor="middle">পরামর্শ অনুরোধ পাঠান →</text>
+<rect x="110" y="1570" width="830" height="680" fill="#F4F1E8" stroke="#B8C2BA" stroke-width="1" rx="4"/>
+<rect x="110" y="1570" width="830" height="45" fill="#DEE7E2" rx="4 4 0 0"/>
+<text x="130" y="1598" fill="#183B35" font-family="'Manrope', sans-serif" font-size="16" font-weight="700">State: 04. Submitting State</text>
+<text x="920" y="1598" fill="#56645E" font-family="'Manrope', sans-serif" font-size="13" text-anchor="end">In-flight transaction with disabled inputs</text>
+<text x="140" y="1635" fill="#183B35" font-family="'Noto Sans Bengali', sans-serif" font-size="14" font-weight="600">১. আপনার নাম (Full Name) *</text>
+<rect x="140" y="1643" width="770" height="48" fill="#FFFFFF" stroke="#718178" stroke-width="1" rx="2"/>
+<text x="155" y="1673" fill="#183B35" font-family="'Noto Sans Bengali', sans-serif" font-size="15">মো. ফারহান আহমেদ</text>
+<text x="140" y="1709" fill="#183B35" font-family="'Noto Sans Bengali', sans-serif" font-size="14" font-weight="600">২. মোবাইল নম্বর (Mobile Number) *</text>
+<rect x="140" y="1717" width="770" height="48" fill="#FFFFFF" stroke="#718178" stroke-width="1" rx="2"/>
+<text x="155" y="1747" fill="#183B35" font-family="'Manrope', sans-serif" font-size="15">01712-XXXXXX</text>
+<text x="140" y="1783" fill="#183B35" font-family="'Noto Sans Bengali', sans-serif" font-size="14" font-weight="600">৩. এলাকা ও শহর (Area / City) *</text>
+<rect x="140" y="1791" width="770" height="48" fill="#FFFFFF" stroke="#718178" stroke-width="1" rx="2"/>
+<text x="155" y="1821" fill="#183B35" font-family="'Noto Sans Bengali', sans-serif" font-size="15">মিরপুর ডিওএইচএস, ঢাকা</text>
+<text x="140" y="1857" fill="#183B35" font-family="'Noto Sans Bengali', sans-serif" font-size="14" font-weight="600">৪. প্রয়োজনীয় সেবা (Service Interest) *</text>
+<rect x="140" y="1865" width="770" height="48" fill="#FFFFFF" stroke="#718178" stroke-width="1" rx="2"/>
+<text x="155" y="1895" fill="#183B35" font-family="'Noto Sans Bengali', sans-serif" font-size="14">পূর্ণাঙ্গ ইন্টেরিয়র আর্কিটেকচার</text>
+<text x="140" y="1931" fill="#56645E" font-family="'Noto Sans Bengali', sans-serif" font-size="13">প্রকল্পের সংক্ষিপ্ত বিবরণ ও আয়তন (ঐচ্ছিক / Optional)</text>
+<rect x="140" y="1939" width="770" height="64" fill="#FFFFFF" stroke="#B8C2BA" stroke-width="1" rx="2"/>
+<text x="155" y="1961" fill="#183B35" font-family="'Noto Sans Bengali', sans-serif" font-size="13" font-weight="400"><tspan x="155" dy="0">৩ বেডরুমের অ্যাপার্টমেন্ট, প্রায় ১৮০০ বর্গফুট। ড্রয়িং ও</tspan><tspan x="155" dy="18">কিচেন কেবিনেটরি প্রয়োজন।</tspan></text>
+<rect x="140" y="2023" width="770" height="52" fill="#56645E" rx="2"/>
+<text x="525" y="2055" fill="#F4F1E8" font-family="'Noto Sans Bengali', sans-serif" font-size="15" font-weight="600" text-anchor="middle">অনুরোধ পাঠানো হচ্ছে...</text>
+<rect x="980" y="1570" width="830" height="680" fill="#F4F1E8" stroke="#B8C2BA" stroke-width="1" rx="4"/>
+<rect x="980" y="1570" width="830" height="45" fill="#DEE7E2" rx="4 4 0 0"/>
+<text x="1000" y="1598" fill="#183B35" font-family="'Manrope', sans-serif" font-size="16" font-weight="700">State: 05. Received Confirmation</text>
+<text x="1790" y="1598" fill="#56645E" font-family="'Manrope', sans-serif" font-size="13" text-anchor="end">Confirmed receipt &amp; simulation disclosure</text>
+<rect x="1010" y="1635" width="770" height="140" fill="#DEE7E2" stroke="#245C43" stroke-width="1.5" rx="4"/>
+<text x="1040" y="1680" fill="#245C43" font-family="'Noto Sans Bengali', sans-serif" font-size="22" font-weight="700">✓ আপনার বার্তাটি সফলভাবে গৃহীত হয়েছে</text>
+<text x="1040" y="1715" fill="#183B35" font-family="'Noto Sans Bengali', sans-serif" font-size="14" font-weight="400"><tspan x="1040" dy="0">ধন্যবাদ। FlowGrid স্টুডিও আপনার প্রকল্পের প্রাথমিক বিবরণ পর্যবেক্ষণ করে যোগাযোগ</tspan><tspan x="1040" dy="22">করবে। জরুরী প্রয়োজনে সরাসরি কল করুন: +880 1700-000000।</tspan></text>
+<rect x="1010" y="1810" width="770" height="100" fill="#FFFFFF" stroke="#895239" stroke-width="1" rx="4"/>
+<text x="1030" y="1838" fill="#895239" font-family="'Manrope', sans-serif" font-size="13" font-weight="700">[REVIEWER ANNOTATION — PROTOTYPE SIMULATION NOTICE]:</text>
+<text x="1030" y="1864" fill="#56645E" font-family="'Noto Sans Bengali', sans-serif" font-size="13" font-weight="400"><tspan x="1030" dy="0">এটি একটি ক্লায়েন্ট-সাইড প্রোটোটাইপ সিমুলেশন। উৎপাদন পরিবেশে ফর্মের তথ্য সুরক্ষিত</tspan><tspan x="1030" dy="20">REST API এবং ডেটাবেজে সংরক্ষিত হবে। কোনো কৃত্রিম প্রতিক্রিয়া প্রতিশ্রুতি ব্যতিরেকে</tspan><tspan x="1030" dy="20">প্রাথমিক যোগাযোগ সম্পন্ন হয়।</tspan></text>
+<rect x="1850" y="1570" width="830" height="680" fill="#F4F1E8" stroke="#B8C2BA" stroke-width="1" rx="4"/>
+<rect x="1850" y="1570" width="830" height="45" fill="#DEE7E2" rx="4 4 0 0"/>
+<text x="1870" y="1598" fill="#183B35" font-family="'Manrope', sans-serif" font-size="16" font-weight="700">State: 06. Offline Fallback &amp; Retry</text>
+<text x="2660" y="1598" fill="#56645E" font-family="'Manrope', sans-serif" font-size="13" text-anchor="end">Network error detection, retry action &amp; hotline</text>
+<rect x="1880" y="1635" width="770" height="140" fill="#FFFFFF" stroke="#895239" stroke-width="1.5" rx="4"/>
+<text x="1905" y="1675" fill="#895239" font-family="'Noto Sans Bengali', sans-serif" font-size="18" font-weight="700">⚠️ ইন্টারনেট সংযোগ বিচ্ছিন্ন রয়েছে (Connection Offline)</text>
+<text x="1905" y="1707" fill="#56645E" font-family="'Noto Sans Bengali', sans-serif" font-size="14" font-weight="400"><tspan x="1905" dy="0">আপনার ডিভাইস বর্তমানে অফলাইনে রয়েছে অথবা সার্ভারে সংযোগ পাওয়া যায়নি। ড্রাফট তথ্য</tspan><tspan x="1905" dy="20">সুরক্ষিত রয়েছে। পুনরায় সংযোগের পর ফর্মটি পাঠানো যাবে।</tspan></text>
+<rect x="1880" y="1800" width="770" height="52" fill="#183B35" rx="2"/>
+<text x="2265" y="1832" fill="#F4F1E8" font-family="'Noto Sans Bengali', sans-serif" font-size="15" font-weight="600" text-anchor="middle">পুনরায় চেষ্টা করুন (Retry Submission) ⟳</text>
+<text x="1880" y="1880" fill="#56645E" font-family="'Noto Sans Bengali', sans-serif" font-size="13">অথবা জরুরি প্রয়োজনে বিকল্প মাধ্যমে সরাসরি যোগাযোগ করুন:</text>
+<rect x="1880" y="1900" width="375" height="48" fill="#FFFFFF" stroke="#183B35" stroke-width="1.5" rx="2"/>
+<text x="2067" y="1930" fill="#183B35" font-family="'Noto Sans Bengali', sans-serif" font-size="14" font-weight="600" text-anchor="middle">সরাসরি কল: +880 1700...</text>
+<rect x="2275" y="1900" width="375" height="48" fill="#0D5C52" rx="2"/>
+<text x="2462" y="1930" fill="#FFFFFF" font-family="'Noto Sans Bengali', sans-serif" font-size="14" font-weight="600" text-anchor="middle">হোয়াটসঅ্যাপ বার্তা পাঠান</text>
+</svg>

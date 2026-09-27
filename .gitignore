@@ -1,0 +1,19 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Temporary and intermediate build artifacts
+scratch/
+*.tmp
+*.temp
+presentation_v3.html
+
+# Legacy archive packages (avoids pushing duplicate multi-hundred MB binaries)
+archives/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini

@@ -15,6 +15,7 @@ files_to_zip = [
     'concepts/concept_01_living_dhaka.jpg',
     'concepts/concept_02_kitchen_dhaka.jpg',
     'concepts/concept_03_bedroom_dhaka.jpg',
+    'docs/genuine_390_verification_assertions.json',
     'figma_exports/component_3_1190.png',
     'figma_exports/component_button_primary.svg',
     'figma_exports/crop_desktop_archive.png',
@@ -46,7 +47,8 @@ files_to_zip = [
     'figma_svgs_v3/07_project_and_concept_assets.svg',
     'figma_svgs_v3/08_handoff_qa.svg',
     'prototype/index.html',
-    'prototype/prototype_enquiry_journey.webp'
+    'prototype/prototype_enquiry_journey.webp',
+    'scripts/record_genuine_390_mobile.py'
 ]
 
 zip_name = 'FlowGrid_Revision_3_3_Deliverable.zip'
@@ -155,3 +157,27 @@ for f in files_to_zip:
         p = os.path.join(test_dir, f)
         ET.parse(p)
 print("PASS: All extracted master SVGs parse as valid XML.")
+
+# 4. Test extracted runtime assertions JSON
+import json
+assertions_file = os.path.join(test_dir, 'docs/genuine_390_verification_assertions.json')
+with open(assertions_file, 'r', encoding='utf-8') as f:
+    assert_data = json.load(f)
+
+with open(extracted_html, 'rb') as f:
+    extracted_html_sha = hashlib.sha256(f.read()).hexdigest()
+
+assertions_block = assert_data.get('assertions', {})
+tested_sha = assertions_block.get('tested_html_sha256')
+if tested_sha != extracted_html_sha:
+    raise ValueError(f"Assertions tested_html_sha256 mismatch! {tested_sha} vs {extracted_html_sha}")
+print(f"PASS: Extracted assertions JSON is valid and tested_html_sha256 matches extracted prototype ({extracted_html_sha[:16]}...).")
+
+# 5. Test extracted recorder script python syntax
+recorder_file = os.path.join(test_dir, 'scripts/record_genuine_390_mobile.py')
+py_compile_res = subprocess.run(['python', '-m', 'py_compile', recorder_file], capture_output=True, text=True)
+if py_compile_res.returncode != 0:
+    raise RuntimeError(f"Recorder script compilation failed: {py_compile_res.stderr}")
+print("PASS: Extracted scripts/record_genuine_390_mobile.py compiled successfully with zero syntax errors.")
+
+print(f"\nALL 5 EXTRACTION VERIFICATION CHECKS PASSED FOR {zip_name} (41 files total)!")

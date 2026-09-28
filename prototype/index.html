@@ -886,7 +886,30 @@
 
     @media (max-width: 480px) {
       .container {
-        padding: 0 16px;
+        padding: 0 12px;
+      }
+      .brand {
+        font-size: 20px;
+        letter-spacing: -0.3px;
+      }
+      .nav-actions {
+        gap: 6px;
+      }
+      .lang-btn {
+        padding: 6px 8px;
+        font-size: 11px;
+        min-height: 44px;
+      }
+      #btnHeaderConsult {
+        padding: 6px 10px;
+        font-size: 12px;
+        min-height: 44px;
+        white-space: nowrap;
+      }
+      .hamburger {
+        min-height: 44px;
+        min-width: 44px;
+        padding: 8px;
       }
       .footer-grid {
         grid-template-columns: 1fr;
@@ -901,6 +924,11 @@
       .enquiry-card {
         padding: 24px 16px;
         max-width: 100%;
+        box-sizing: border-box;
+      }
+      .receipt-wrap, .simulated-notice, .offline-banner {
+        word-break: break-word;
+        overflow-wrap: break-word;
       }
     }
 

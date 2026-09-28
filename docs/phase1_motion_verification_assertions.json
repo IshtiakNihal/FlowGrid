@@ -1,0 +1,51 @@
+{
+  "desktop_recording": {
+    "file": "figma_exports/phase1_motion_demo_desktop.webp",
+    "frames": 49,
+    "size_bytes": 1044116,
+    "sha256": "36d76aa9e3483018ab70d2506b25bce6d70030bddbe2e7cb16724d3b0677453a",
+    "assertions": [
+      {
+        "step": "desktop_hero_reveal_600ms",
+        "frames": 12,
+        "observed_duration_ms": 2471,
+        "status": "PASS"
+      },
+      {
+        "step": "project_transition_angle_2_dining_360ms",
+        "duration_ms": 1372,
+        "status": "PASS"
+      },
+      {
+        "step": "project_transition_angle_3_joinery_360ms",
+        "duration_ms": 1410,
+        "status": "PASS"
+      },
+      {
+        "step": "modal_open_and_clearance",
+        "duration_ms": 1586,
+        "clearance": {
+          "clearancePx": 16
+        },
+        "status": "PASS"
+      },
+      {
+        "step": "reduced_motion_instant_fallback",
+        "status": "PASS"
+      }
+    ]
+  },
+  "mobile_recording": {
+    "file": "figma_exports/phase1_motion_demo_mobile.webp",
+    "frames": 45,
+    "size_bytes": 503896,
+    "sha256": "84b46062c3de1b176dcc6f9b5ce439dd04f906089058fb0ca4812587dd33a7dc",
+    "assertions": [
+      {
+        "step": "mobile_drawer_open_220ms",
+        "duration_ms": 1556,
+        "status": "PASS"
+      }
+    ]
+  }
+}

@@ -1,0 +1,756 @@
+{
+  "figma_version": "live_cloud",
+  "collections": [
+    {
+      "id": "VariableCollectionId:10:2",
+      "name": "FlowGrid / Color Tokens",
+      "variable_count": 15,
+      "variables": [
+        {
+          "id": "VariableID:10:3",
+          "name": "surface/page",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "10:0": {
+              "r": 0.9570000171661377,
+              "g": 0.9449999928474426,
+              "b": 0.9100000262260437,
+              "a": 1
+            }
+          }
+        },
+        {
+          "id": "VariableID:10:6",
+          "name": "surface/clean",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "10:0": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            }
+          }
+        },
+        {
+          "id": "VariableID:10:7",
+          "name": "surface/mist",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "10:0": {
+              "r": 0.8709999918937683,
+              "g": 0.906000018119812,
+              "b": 0.8859999775886536,
+              "a": 1
+            }
+          }
+        },
+        {
+          "id": "VariableID:10:8",
+          "name": "text/primary",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "10:0": {
+              "r": 0.09399999678134918,
+              "g": 0.23100000619888306,
+              "b": 0.20800000429153442,
+              "a": 1
+            }
+          }
+        },
+        {
+          "id": "VariableID:10:9",
+          "name": "text/secondary",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "10:0": {
+              "r": 0.3370000123977661,
+              "g": 0.3919999897480011,
+              "b": 0.36899998784065247,
+              "a": 1
+            }
+          }
+        },
+        {
+          "id": "VariableID:10:10",
+          "name": "action/primary",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "10:0": {
+              "r": 0.09399999678134918,
+              "g": 0.23100000619888306,
+              "b": 0.20800000429153442,
+              "a": 1
+            }
+          }
+        },
+        {
+          "id": "VariableID:10:11",
+          "name": "action/hover",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "10:0": {
+              "r": 0.06300000101327896,
+              "g": 0.16899999976158142,
+              "b": 0.14900000393390656,
+              "a": 1
+            }
+          }
+        },
+        {
+          "id": "VariableID:10:12",
+          "name": "accent/clay",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "10:0": {
+              "r": 0.5370000004768372,
+              "g": 0.32199999690055847,
+              "b": 0.2240000069141388,
+              "a": 1
+            }
+          }
+        },
+        {
+          "id": "VariableID:10:13",
+          "name": "border/decorative",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "10:0": {
+              "r": 0.722000002861023,
+              "g": 0.7609999775886536,
+              "b": 0.7289999723434448,
+              "a": 1
+            }
+          }
+        },
+        {
+          "id": "VariableID:10:14",
+          "name": "border/control",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "10:0": {
+              "r": 0.4429999887943268,
+              "g": 0.5059999823570251,
+              "b": 0.47099998593330383,
+              "a": 1
+            }
+          }
+        },
+        {
+          "id": "VariableID:10:15",
+          "name": "focus",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "10:0": {
+              "r": 0.5370000004768372,
+              "g": 0.32199999690055847,
+              "b": 0.2240000069141388,
+              "a": 1
+            }
+          }
+        },
+        {
+          "id": "VariableID:10:16",
+          "name": "status/error",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "10:0": {
+              "r": 0.6079999804496765,
+              "g": 0.18799999356269836,
+              "b": 0.16899999976158142,
+              "a": 1
+            }
+          }
+        },
+        {
+          "id": "VariableID:10:17",
+          "name": "status/success",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "10:0": {
+              "r": 0.14100000262260437,
+              "g": 0.3610000014305115,
+              "b": 0.2630000114440918,
+              "a": 1
+            }
+          }
+        },
+        {
+          "id": "VariableID:10:18",
+          "name": "status/error-bg",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "10:0": {
+              "r": 0.9919999837875366,
+              "g": 0.9490000009536743,
+              "b": 0.9490000009536743,
+              "a": 1
+            }
+          }
+        },
+        {
+          "id": "VariableID:10:19",
+          "name": "status/success-bg",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "10:0": {
+              "r": 0.921999990940094,
+              "g": 0.9610000252723694,
+              "b": 0.9409999847412109,
+              "a": 1
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "VariableCollectionId:10:20",
+      "name": "FlowGrid / Spatial Spacing",
+      "variable_count": 11,
+      "variables": [
+        {
+          "id": "VariableID:10:21",
+          "name": "space/4",
+          "resolvedType": "FLOAT",
+          "valuesByMode": {
+            "10:1": 4
+          }
+        },
+        {
+          "id": "VariableID:10:22",
+          "name": "space/8",
+          "resolvedType": "FLOAT",
+          "valuesByMode": {
+            "10:1": 8
+          }
+        },
+        {
+          "id": "VariableID:10:23",
+          "name": "space/12",
+          "resolvedType": "FLOAT",
+          "valuesByMode": {
+            "10:1": 12
+          }
+        },
+        {
+          "id": "VariableID:10:24",
+          "name": "space/16",
+          "resolvedType": "FLOAT",
+          "valuesByMode": {
+            "10:1": 16
+          }
+        },
+        {
+          "id": "VariableID:10:25",
+          "name": "space/24",
+          "resolvedType": "FLOAT",
+          "valuesByMode": {
+            "10:1": 24
+          }
+        },
+        {
+          "id": "VariableID:10:26",
+          "name": "space/32",
+          "resolvedType": "FLOAT",
+          "valuesByMode": {
+            "10:1": 32
+          }
+        },
+        {
+          "id": "VariableID:10:27",
+          "name": "space/48",
+          "resolvedType": "FLOAT",
+          "valuesByMode": {
+            "10:1": 48
+          }
+        },
+        {
+          "id": "VariableID:10:28",
+          "name": "space/64",
+          "resolvedType": "FLOAT",
+          "valuesByMode": {
+            "10:1": 64
+          }
+        },
+        {
+          "id": "VariableID:10:29",
+          "name": "space/80",
+          "resolvedType": "FLOAT",
+          "valuesByMode": {
+            "10:1": 80
+          }
+        },
+        {
+          "id": "VariableID:10:30",
+          "name": "space/96",
+          "resolvedType": "FLOAT",
+          "valuesByMode": {
+            "10:1": 96
+          }
+        },
+        {
+          "id": "VariableID:10:31",
+          "name": "space/128",
+          "resolvedType": "FLOAT",
+          "valuesByMode": {
+            "10:1": 128
+          }
+        }
+      ]
+    },
+    {
+      "id": "VariableCollectionId:10:51",
+      "name": "FlowGrid / Radius Tokens",
+      "variable_count": 4,
+      "variables": [
+        {
+          "id": "VariableID:10:52",
+          "name": "radius/none",
+          "resolvedType": "FLOAT",
+          "valuesByMode": {
+            "10:2": 0
+          }
+        },
+        {
+          "id": "VariableID:10:53",
+          "name": "radius/control",
+          "resolvedType": "FLOAT",
+          "valuesByMode": {
+            "10:2": 2
+          }
+        },
+        {
+          "id": "VariableID:10:54",
+          "name": "radius/overlay",
+          "resolvedType": "FLOAT",
+          "valuesByMode": {
+            "10:2": 4
+          }
+        },
+        {
+          "id": "VariableID:10:55",
+          "name": "radius/pill",
+          "resolvedType": "FLOAT",
+          "valuesByMode": {
+            "10:2": 9999
+          }
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "id": "10:42",
+      "name": "Button / Primary CTA",
+      "type": "COMPONENT_SET",
+      "width": 1233,
+      "height": 50,
+      "layoutMode": "NONE",
+      "fillsBound": null,
+      "children": [
+        {
+          "id": "10:32",
+          "name": "State=Default",
+          "type": "COMPONENT",
+          "width": 225,
+          "height": 52,
+          "reactions": []
+        },
+        {
+          "id": "10:34",
+          "name": "State=Hover",
+          "type": "COMPONENT",
+          "width": 225,
+          "height": 52,
+          "reactions": []
+        },
+        {
+          "id": "10:36",
+          "name": "State=Focus",
+          "type": "COMPONENT",
+          "width": 229,
+          "height": 56,
+          "reactions": []
+        },
+        {
+          "id": "10:38",
+          "name": "State=Disabled",
+          "type": "COMPONENT",
+          "width": 225,
+          "height": 52,
+          "reactions": []
+        },
+        {
+          "id": "10:40",
+          "name": "State=Submitting",
+          "type": "COMPONENT",
+          "width": 203,
+          "height": 52,
+          "reactions": []
+        }
+      ]
+    },
+    {
+      "id": "10:43",
+      "name": "Modal / Consultation Enquiry Card",
+      "type": "COMPONENT",
+      "width": 460,
+      "height": 865,
+      "layoutMode": "VERTICAL",
+      "fillsBound": {
+        "color": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:6"
+        }
+      },
+      "children": [
+        {
+          "id": "17:91",
+          "name": "Modal Header",
+          "type": "FRAME",
+          "width": 268,
+          "height": 100,
+          "reactions": []
+        },
+        {
+          "id": "17:95",
+          "name": "Offline Alert Banner",
+          "type": "FRAME",
+          "width": 375,
+          "height": 100,
+          "reactions": []
+        },
+        {
+          "id": "17:97",
+          "name": "Form Fields Stack",
+          "type": "FRAME",
+          "width": 394,
+          "height": 468,
+          "reactions": []
+        },
+        {
+          "id": "17:119",
+          "name": "Action Stack",
+          "type": "FRAME",
+          "width": 394,
+          "height": 83,
+          "reactions": []
+        }
+      ]
+    },
+    {
+      "id": "10:56",
+      "name": "Navigation / Mobile Drawer",
+      "type": "COMPONENT",
+      "width": 320,
+      "height": 844,
+      "layoutMode": "VERTICAL",
+      "fillsBound": {
+        "color": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:8"
+        }
+      },
+      "children": [
+        {
+          "id": "17:123",
+          "name": "Drawer Top",
+          "type": "FRAME",
+          "width": 115,
+          "height": 100,
+          "reactions": []
+        },
+        {
+          "id": "17:127",
+          "name": "Navigation Links",
+          "type": "FRAME",
+          "width": 272,
+          "height": 152,
+          "reactions": []
+        },
+        {
+          "id": "17:133",
+          "name": "Drawer Bottom Actions",
+          "type": "FRAME",
+          "width": 272,
+          "height": 88,
+          "reactions": []
+        }
+      ]
+    }
+  ],
+  "screens": [
+    {
+      "id": "18:137",
+      "name": "Bengali Homepage — 1440px Desktop",
+      "type": "FRAME",
+      "width": 1440,
+      "height": 2650,
+      "layoutMode": "VERTICAL",
+      "fillsBound": {
+        "color": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        }
+      },
+      "sections": [
+        {
+          "id": "18:138",
+          "name": "Header / Global Navigation",
+          "type": "FRAME",
+          "width": 1440,
+          "height": 88,
+          "childCount": 3
+        },
+        {
+          "id": "18:151",
+          "name": "Hero Section / Architectural Storytelling",
+          "type": "FRAME",
+          "width": 1440,
+          "height": 1250,
+          "childCount": 4
+        },
+        {
+          "id": "18:167",
+          "name": "Section / Spatial Sequence & Material Craft",
+          "type": "FRAME",
+          "width": 1440,
+          "height": 591,
+          "childCount": 3
+        },
+        {
+          "id": "18:192",
+          "name": "Section / Studio Services & Practice",
+          "type": "FRAME",
+          "width": 1440,
+          "height": 393,
+          "childCount": 2
+        },
+        {
+          "id": "18:209",
+          "name": "Section / Consultation Practice Banner",
+          "type": "FRAME",
+          "width": 1440,
+          "height": 228,
+          "childCount": 1
+        },
+        {
+          "id": "18:218",
+          "name": "Footer / Colophon",
+          "type": "FRAME",
+          "width": 778,
+          "height": 100,
+          "childCount": 2
+        }
+      ]
+    },
+    {
+      "id": "18:221",
+      "name": "Bengali Project Detail — 1440px Desktop",
+      "type": "FRAME",
+      "width": 1440,
+      "height": 2231,
+      "layoutMode": "VERTICAL",
+      "fillsBound": {
+        "color": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        }
+      },
+      "sections": [
+        {
+          "id": "18:222",
+          "name": "Header / Project Navigation",
+          "type": "FRAME",
+          "width": 1440,
+          "height": 88,
+          "childCount": 3
+        },
+        {
+          "id": "18:227",
+          "name": "Project Meta & Title Header",
+          "type": "FRAME",
+          "width": 1440,
+          "height": 352,
+          "childCount": 3
+        },
+        {
+          "id": "18:247",
+          "name": "Showcase Primary Shot",
+          "type": "FRAME",
+          "width": 1440,
+          "height": 657,
+          "childCount": 2
+        },
+        {
+          "id": "18:250",
+          "name": "Architectural Narrative & Context",
+          "type": "FRAME",
+          "width": 496,
+          "height": 128,
+          "childCount": 2
+        },
+        {
+          "id": "18:256",
+          "name": "Secondary Views & Joinery Craft",
+          "type": "FRAME",
+          "width": 100,
+          "height": 100,
+          "childCount": 2
+        },
+        {
+          "id": "18:263",
+          "name": "Material Schedule & Joinery Craft",
+          "type": "FRAME",
+          "width": 1440,
+          "height": 640,
+          "childCount": 2
+        },
+        {
+          "id": "18:278",
+          "name": "Bottom Consultation Action",
+          "type": "FRAME",
+          "width": 1440,
+          "height": 266,
+          "childCount": 3
+        }
+      ]
+    },
+    {
+      "id": "18:283",
+      "name": "Bengali Homepage — 390px Mobile",
+      "type": "FRAME",
+      "width": 390,
+      "height": 2092,
+      "layoutMode": "VERTICAL",
+      "fillsBound": {
+        "color": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        }
+      },
+      "sections": [
+        {
+          "id": "18:284",
+          "name": "Mobile Header",
+          "type": "FRAME",
+          "width": 390,
+          "height": 64,
+          "childCount": 2
+        },
+        {
+          "id": "18:291",
+          "name": "Mobile Hero Section",
+          "type": "FRAME",
+          "width": 390,
+          "height": 504,
+          "childCount": 6
+        },
+        {
+          "id": "18:300",
+          "name": "Mobile Architectural Narrative",
+          "type": "FRAME",
+          "width": 390,
+          "height": 838,
+          "childCount": 7
+        },
+        {
+          "id": "18:320",
+          "name": "Mobile Services Section",
+          "type": "FRAME",
+          "width": 390,
+          "height": 495,
+          "childCount": 4
+        },
+        {
+          "id": "18:334",
+          "name": "Mobile Consultation Action",
+          "type": "FRAME",
+          "width": 390,
+          "height": 191,
+          "childCount": 3
+        }
+      ]
+    },
+    {
+      "id": "18:339",
+      "name": "Bengali Project Detail — 390px Mobile",
+      "type": "FRAME",
+      "width": 390,
+      "height": 1409,
+      "layoutMode": "VERTICAL",
+      "fillsBound": {
+        "color": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        }
+      },
+      "sections": [
+        {
+          "id": "18:340",
+          "name": "Mobile Project Header",
+          "type": "FRAME",
+          "width": 390,
+          "height": 64,
+          "childCount": 2
+        },
+        {
+          "id": "18:343",
+          "name": "Project Header",
+          "type": "FRAME",
+          "width": 390,
+          "height": 173,
+          "childCount": 3
+        },
+        {
+          "id": "18:348",
+          "name": "Architectural Photo",
+          "type": "RECTANGLE",
+          "width": 390,
+          "height": 230,
+          "childCount": 0
+        },
+        {
+          "id": "18:349",
+          "name": "Mobile Narrative",
+          "type": "FRAME",
+          "width": 390,
+          "height": 70,
+          "childCount": 1
+        },
+        {
+          "id": "18:351",
+          "name": "Architectural Photo",
+          "type": "RECTANGLE",
+          "width": 390,
+          "height": 220,
+          "childCount": 0
+        },
+        {
+          "id": "18:352",
+          "name": "Architectural Photo",
+          "type": "RECTANGLE",
+          "width": 390,
+          "height": 220,
+          "childCount": 0
+        },
+        {
+          "id": "18:353",
+          "name": "Mobile Materials",
+          "type": "FRAME",
+          "width": 390,
+          "height": 276,
+          "childCount": 4
+        },
+        {
+          "id": "18:366",
+          "name": "Mobile Detail CTA",
+          "type": "FRAME",
+          "width": 390,
+          "height": 156,
+          "childCount": 2
+        }
+      ]
+    }
+  ]
+}

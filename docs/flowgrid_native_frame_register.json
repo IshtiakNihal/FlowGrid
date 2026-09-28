@@ -1,0 +1,1003 @@
+{
+  "meta": {
+    "timestamp": "2026-09-28T17:54:22.446Z",
+    "fileKey": "eMRunQ80brYYvuTWkufV2o",
+    "totalNativeLayouts": 44,
+    "totalOverlays": 18,
+    "totalComponents": 7,
+    "totalVariables": 30,
+    "totalTextStyles": 13,
+    "totalReactionsWired": 83
+  },
+  "textStyles": [
+    {
+      "id": "S:4ad5531721807b78fa966de1c4e9a0f2d701fe29,",
+      "name": "Typography / Bengali / Display H1",
+      "fontFamily": "Noto Sans Bengali",
+      "fontStyle": "Bold",
+      "fontSize": 44,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 129.99999523162842
+      }
+    },
+    {
+      "id": "S:ca1c2ac7f9667a81c88c73446617922bfd56837f,",
+      "name": "Typography / Bengali / Section H2",
+      "fontFamily": "Noto Sans Bengali",
+      "fontStyle": "Bold",
+      "fontSize": 36,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 135.0000023841858
+      }
+    },
+    {
+      "id": "S:3aee54075486928eb0678b6e8d90a0037df6b547,",
+      "name": "Typography / Bengali / Card H3",
+      "fontFamily": "Noto Sans Bengali",
+      "fontStyle": "Bold",
+      "fontSize": 22,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 139.9999976158142
+      }
+    },
+    {
+      "id": "S:e6125655e748fb501044162710800eafb6dc6b68,",
+      "name": "Typography / Bengali / Body Large",
+      "fontFamily": "Noto Sans Bengali",
+      "fontStyle": "Regular",
+      "fontSize": 18,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 170.00000476837158
+      }
+    },
+    {
+      "id": "S:2dea02c1a72af1d054eed8c8875a841ab8c50ddb,",
+      "name": "Typography / Bengali / Body Regular",
+      "fontFamily": "Noto Sans Bengali",
+      "fontStyle": "Regular",
+      "fontSize": 15,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 160.0000023841858
+      }
+    },
+    {
+      "id": "S:9d0e2a15692b041d0492c0a89d5c8926cc14d953,",
+      "name": "Typography / Bengali / Body Small",
+      "fontFamily": "Noto Sans Bengali",
+      "fontStyle": "Regular",
+      "fontSize": 13,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 150
+      }
+    },
+    {
+      "id": "S:d30add84bdef4aa04433eae7953451cee50265b7,",
+      "name": "Typography / Bengali / Label Bold",
+      "fontFamily": "Noto Sans Bengali",
+      "fontStyle": "Bold",
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 139.9999976158142
+      }
+    },
+    {
+      "id": "S:c360536968778607fb16ea521f7a1c621bc57857,",
+      "name": "Typography / Latin / Brand Display",
+      "fontFamily": "Bodoni Moda",
+      "fontStyle": "Bold",
+      "fontSize": 28,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 120.00000476837158
+      }
+    },
+    {
+      "id": "S:275952e7321e412e88290da9a298c2be3e2b84f2,",
+      "name": "Typography / Latin / Display H1",
+      "fontFamily": "Bodoni Moda",
+      "fontStyle": "Bold",
+      "fontSize": 44,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 125
+      }
+    },
+    {
+      "id": "S:b90014d5450a319eb75d10ee8499158100676647,",
+      "name": "Typography / Latin / Section H2",
+      "fontFamily": "Bodoni Moda",
+      "fontStyle": "Bold",
+      "fontSize": 36,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 129.99999523162842
+      }
+    },
+    {
+      "id": "S:523d531c9b3a10935d0fdbe54f3e3477a07d1d3f,",
+      "name": "Typography / Latin / Card H3",
+      "fontFamily": "Inter",
+      "fontStyle": "Bold",
+      "fontSize": 20,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 139.9999976158142
+      }
+    },
+    {
+      "id": "S:4d0ee4a3ddd94ddbe890a2b7198825d03feb7374,",
+      "name": "Typography / Latin / Body Regular",
+      "fontFamily": "Inter",
+      "fontStyle": "Regular",
+      "fontSize": 15,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 160.0000023841858
+      }
+    },
+    {
+      "id": "S:37bcc974ec094ed613cc13d6bcce60b2ad1f72ff,",
+      "name": "Typography / Latin / Meta Small",
+      "fontFamily": "Inter",
+      "fontStyle": "Regular",
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 139.9999976158142
+      }
+    }
+  ],
+  "variables": [
+    {
+      "id": "VariableID:10:3",
+      "name": "surface/page",
+      "resolvedType": "COLOR"
+    },
+    {
+      "id": "VariableID:10:6",
+      "name": "surface/clean",
+      "resolvedType": "COLOR"
+    },
+    {
+      "id": "VariableID:10:7",
+      "name": "surface/mist",
+      "resolvedType": "COLOR"
+    },
+    {
+      "id": "VariableID:10:8",
+      "name": "text/primary",
+      "resolvedType": "COLOR"
+    },
+    {
+      "id": "VariableID:10:9",
+      "name": "text/secondary",
+      "resolvedType": "COLOR"
+    },
+    {
+      "id": "VariableID:10:10",
+      "name": "action/primary",
+      "resolvedType": "COLOR"
+    },
+    {
+      "id": "VariableID:10:11",
+      "name": "action/hover",
+      "resolvedType": "COLOR"
+    },
+    {
+      "id": "VariableID:10:12",
+      "name": "accent/clay",
+      "resolvedType": "COLOR"
+    },
+    {
+      "id": "VariableID:10:13",
+      "name": "border/decorative",
+      "resolvedType": "COLOR"
+    },
+    {
+      "id": "VariableID:10:14",
+      "name": "border/control",
+      "resolvedType": "COLOR"
+    },
+    {
+      "id": "VariableID:10:15",
+      "name": "focus",
+      "resolvedType": "COLOR"
+    },
+    {
+      "id": "VariableID:10:16",
+      "name": "status/error",
+      "resolvedType": "COLOR"
+    },
+    {
+      "id": "VariableID:10:17",
+      "name": "status/success",
+      "resolvedType": "COLOR"
+    },
+    {
+      "id": "VariableID:10:18",
+      "name": "status/error-bg",
+      "resolvedType": "COLOR"
+    },
+    {
+      "id": "VariableID:10:19",
+      "name": "status/success-bg",
+      "resolvedType": "COLOR"
+    },
+    {
+      "id": "VariableID:10:21",
+      "name": "space/4",
+      "resolvedType": "FLOAT"
+    },
+    {
+      "id": "VariableID:10:22",
+      "name": "space/8",
+      "resolvedType": "FLOAT"
+    },
+    {
+      "id": "VariableID:10:23",
+      "name": "space/12",
+      "resolvedType": "FLOAT"
+    },
+    {
+      "id": "VariableID:10:24",
+      "name": "space/16",
+      "resolvedType": "FLOAT"
+    },
+    {
+      "id": "VariableID:10:25",
+      "name": "space/24",
+      "resolvedType": "FLOAT"
+    },
+    {
+      "id": "VariableID:10:26",
+      "name": "space/32",
+      "resolvedType": "FLOAT"
+    },
+    {
+      "id": "VariableID:10:27",
+      "name": "space/48",
+      "resolvedType": "FLOAT"
+    },
+    {
+      "id": "VariableID:10:28",
+      "name": "space/64",
+      "resolvedType": "FLOAT"
+    },
+    {
+      "id": "VariableID:10:29",
+      "name": "space/80",
+      "resolvedType": "FLOAT"
+    },
+    {
+      "id": "VariableID:10:30",
+      "name": "space/96",
+      "resolvedType": "FLOAT"
+    },
+    {
+      "id": "VariableID:10:31",
+      "name": "space/128",
+      "resolvedType": "FLOAT"
+    },
+    {
+      "id": "VariableID:10:52",
+      "name": "radius/none",
+      "resolvedType": "FLOAT"
+    },
+    {
+      "id": "VariableID:10:53",
+      "name": "radius/control",
+      "resolvedType": "FLOAT"
+    },
+    {
+      "id": "VariableID:10:54",
+      "name": "radius/overlay",
+      "resolvedType": "FLOAT"
+    },
+    {
+      "id": "VariableID:10:55",
+      "name": "radius/pill",
+      "resolvedType": "FLOAT"
+    }
+  ],
+  "components": [
+    {
+      "id": "10:42",
+      "name": "Button / Primary CTA",
+      "type": "COMPONENT_SET",
+      "childCount": 5
+    },
+    {
+      "id": "10:43",
+      "name": "Modal / Consultation Enquiry Card",
+      "type": "COMPONENT",
+      "childCount": 4
+    },
+    {
+      "id": "10:56",
+      "name": "Navigation / Mobile Drawer",
+      "type": "COMPONENT",
+      "childCount": 3
+    },
+    {
+      "id": "18:383",
+      "name": "Badge / Concept Disclosure",
+      "type": "COMPONENT",
+      "childCount": 1
+    },
+    {
+      "id": "18:402",
+      "name": "Control / Text Field",
+      "type": "COMPONENT_SET",
+      "childCount": 4
+    },
+    {
+      "id": "18:403",
+      "name": "Modal / State = Submitting",
+      "type": "COMPONENT",
+      "childCount": 3
+    },
+    {
+      "id": "18:407",
+      "name": "Modal / State = Success",
+      "type": "COMPONENT",
+      "childCount": 0
+    }
+  ],
+  "nativeLayouts": [
+    {
+      "id": "18:137",
+      "page": "03 Desktop \u2014 BN",
+      "name": "Bengali Homepage \u2014 1440px Desktop",
+      "width": 1440,
+      "height": 2650,
+      "layoutMode": "VERTICAL",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "reactionCount": 9
+    },
+    {
+      "id": "18:221",
+      "page": "03 Desktop \u2014 BN",
+      "name": "Bengali Project Detail \u2014 1440px Desktop",
+      "width": 1440,
+      "height": 2231,
+      "layoutMode": "VERTICAL",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "reactionCount": 1
+    },
+    {
+      "id": "18:1587",
+      "page": "03 Desktop \u2014 BN",
+      "name": "Bengali Project Archive (\u09a7\u09be\u09b0\u09a3\u09be \u09b8\u0982\u0997\u09cd\u09b0\u09b9) \u2014 1440px Desktop",
+      "width": 1440,
+      "height": 600,
+      "layoutMode": "VERTICAL",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "reactionCount": 0
+    },
+    {
+      "id": "18:1624",
+      "page": "03 Desktop \u2014 BN",
+      "name": "Bengali Built-Project Framework (\u09ac\u09be\u09b8\u09cd\u09a4\u09ac\u09be\u09af\u09bc\u09a8 \u0995\u09be\u09a0\u09be\u09ae\u09cb) \u2014 1440px Desktop",
+      "width": 1440,
+      "height": 600,
+      "layoutMode": "VERTICAL",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "reactionCount": 0
+    },
+    {
+      "id": "18:1655",
+      "page": "03 Desktop \u2014 BN",
+      "name": "Bengali Services (\u09b8\u09cd\u09a5\u09be\u09aa\u09a4\u09cd\u09af \u09b8\u09c7\u09ac\u09be\u09b8\u09ae\u09c2\u09b9) \u2014 1440px Desktop",
+      "width": 1440,
+      "height": 600,
+      "layoutMode": "VERTICAL",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "reactionCount": 0
+    },
+    {
+      "id": "18:1686",
+      "page": "03 Desktop \u2014 BN",
+      "name": "Bengali Joinery Service Detail (\u0995\u09be\u09b8\u09cd\u099f\u09ae \u09ae\u09bf\u09b2\u0993\u09af\u09bc\u09be\u09b0\u09cd\u0995) \u2014 1440px Desktop",
+      "width": 1440,
+      "height": 600,
+      "layoutMode": "VERTICAL",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "reactionCount": 0
+    },
+    {
+      "id": "18:1718",
+      "page": "03 Desktop \u2014 BN",
+      "name": "Bengali Process (\u0995\u09be\u09b0\u09cd\u09af\u09aa\u09a6\u09cd\u09a7\u09a4\u09bf \u0993 \u09a7\u09be\u09aa) \u2014 1440px Desktop",
+      "width": 1440,
+      "height": 600,
+      "layoutMode": "VERTICAL",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "reactionCount": 0
+    },
+    {
+      "id": "18:1752",
+      "page": "03 Desktop \u2014 BN",
+      "name": "Bengali Studio (\u09b8\u09cd\u099f\u09c1\u09a1\u09bf\u0993 \u09a6\u09b0\u09cd\u09b6\u09a8 \u0993 \u099f\u09bf\u09ae) \u2014 1440px Desktop",
+      "width": 1440,
+      "height": 600,
+      "layoutMode": "VERTICAL",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "reactionCount": 0
+    },
+    {
+      "id": "18:1780",
+      "page": "03 Desktop \u2014 BN",
+      "name": "Bengali Contact (\u09af\u09cb\u0997\u09be\u09af\u09cb\u0997 \u0993 \u0995\u09a8\u09b8\u09be\u09b2\u09cd\u099f\u09c7\u09b6\u09a8) \u2014 1440px Desktop",
+      "width": 1440,
+      "height": 600,
+      "layoutMode": "VERTICAL",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "reactionCount": 0
+    },
+    {
+      "id": "18:1811",
+      "page": "03 Desktop \u2014 BN",
+      "name": "Bengali Privacy Policy (\u0997\u09cb\u09aa\u09a8\u09c0\u09af\u09bc\u09a4\u09be \u09a8\u09c0\u09a4\u09bf) \u2014 1440px Desktop",
+      "width": 1440,
+      "height": 476,
+      "layoutMode": "VERTICAL",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "reactionCount": 0
+    },
+    {
+      "id": "18:1832",
+      "page": "03 Desktop \u2014 BN",
+      "name": "Bengali 404 Not Found (\u09aa\u09c3\u09b7\u09cd\u09a0\u09be \u0996\u09c1\u0981\u099c\u09c7 \u09aa\u09be\u0993\u09af\u09bc\u09be \u09af\u09be\u09af\u09bc\u09a8\u09bf) \u2014 1440px Desktop",
+      "width": 1440,
+      "height": 476,
+      "layoutMode": "VERTICAL",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "reactionCount": 0
+    },
+    {
+      "id": "18:283",
+      "page": "04 Mobile \u2014 BN",
+      "name": "Bengali Homepage \u2014 390px Mobile",
+      "width": 390,
+      "height": 2092,
+      "layoutMode": "VERTICAL",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "reactionCount": 2
+    },
+    {
+      "id": "18:339",
+      "page": "04 Mobile \u2014 BN",
+      "name": "Bengali Project Detail \u2014 390px Mobile",
+      "width": 390,
+      "height": 1409,
+      "layoutMode": "VERTICAL",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "reactionCount": 0
+    },
+    {
+      "id": "18:1853",
+      "page": "04 Mobile \u2014 BN",
+      "name": "Bengali Project Archive (\u09a7\u09be\u09b0\u09a3\u09be \u09b8\u0982\u0997\u09cd\u09b0\u09b9) \u2014 390px Mobile",
+      "width": 390,
+      "height": 719,
+      "layoutMode": "VERTICAL",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "reactionCount": 1
+    },
+    {
+      "id": "18:1871",
+      "page": "04 Mobile \u2014 BN",
+      "name": "Bengali Built-Project Framework (\u09ac\u09be\u09b8\u09cd\u09a4\u09ac\u09be\u09af\u09bc\u09a8 \u0995\u09be\u09a0\u09be\u09ae\u09cb) \u2014 390px Mobile",
+      "width": 390,
+      "height": 719,
+      "layoutMode": "VERTICAL",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "reactionCount": 1
+    },
+    {
+      "id": "18:1889",
+      "page": "04 Mobile \u2014 BN",
+      "name": "Bengali Services (\u09b8\u09cd\u09a5\u09be\u09aa\u09a4\u09cd\u09af \u09b8\u09c7\u09ac\u09be\u09b8\u09ae\u09c2\u09b9) \u2014 390px Mobile",
+      "width": 390,
+      "height": 719,
+      "layoutMode": "VERTICAL",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "reactionCount": 1
+    },
+    {
+      "id": "18:1907",
+      "page": "04 Mobile \u2014 BN",
+      "name": "Bengali Joinery Service Detail (\u0995\u09be\u09b8\u09cd\u099f\u09ae \u09ae\u09bf\u09b2\u0993\u09af\u09bc\u09be\u09b0\u09cd\u0995) \u2014 390px Mobile",
+      "width": 390,
+      "height": 719,
+      "layoutMode": "VERTICAL",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "reactionCount": 1
+    },
+    {
+      "id": "18:1925",
+      "page": "04 Mobile \u2014 BN",
+      "name": "Bengali Process (\u0995\u09be\u09b0\u09cd\u09af\u09aa\u09a6\u09cd\u09a7\u09a4\u09bf \u0993 \u09a7\u09be\u09aa) \u2014 390px Mobile",
+      "width": 390,
+      "height": 719,
+      "layoutMode": "VERTICAL",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "reactionCount": 1
+    },
+    {
+      "id": "18:1943",
+      "page": "04 Mobile \u2014 BN",
+      "name": "Bengali Studio (\u09b8\u09cd\u099f\u09c1\u09a1\u09bf\u0993 \u09a6\u09b0\u09cd\u09b6\u09a8 \u0993 \u099f\u09bf\u09ae) \u2014 390px Mobile",
+      "width": 390,
+      "height": 719,
+      "layoutMode": "VERTICAL",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "reactionCount": 1
+    },
+    {
+      "id": "18:1961",
+      "page": "04 Mobile \u2014 BN",
+      "name": "Bengali Contact (\u09af\u09cb\u0997\u09be\u09af\u09cb\u0997 \u0993 \u0995\u09a8\u09b8\u09be\u09b2\u09cd\u099f\u09c7\u09b6\u09a8) \u2014 390px Mobile",
+      "width": 390,
+      "height": 719,
+      "layoutMode": "VERTICAL",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "reactionCount": 1
+    },
+    {
+      "id": "18:1979",
+      "page": "04 Mobile \u2014 BN",
+      "name": "Bengali Privacy Policy (\u0997\u09cb\u09aa\u09a8\u09c0\u09af\u09bc\u09a4\u09be \u09a8\u09c0\u09a4\u09bf) \u2014 390px Mobile",
+      "width": 390,
+      "height": 719,
+      "layoutMode": "VERTICAL",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "reactionCount": 1
+    },
+    {
+      "id": "18:1997",
+      "page": "04 Mobile \u2014 BN",
+      "name": "Bengali 404 Not Found (\u09aa\u09c3\u09b7\u09cd\u09a0\u09be \u0996\u09c1\u0981\u099c\u09c7 \u09aa\u09be\u0993\u09af\u09bc\u09be \u09af\u09be\u09af\u09bc\u09a8\u09bf) \u2014 390px Mobile",
+      "width": 390,
+      "height": 719,
+      "layoutMode": "VERTICAL",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "reactionCount": 1
+    },
+    {
+      "id": "18:1068",
+      "page": "05 English",
+      "name": "English Homepage \u2014 1440px Desktop",
+      "width": 1440,
+      "height": 595,
+      "layoutMode": "VERTICAL",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "reactionCount": 7
+    },
+    {
+      "id": "18:1102",
+      "page": "05 English",
+      "name": "English Project Archive \u2014 1440px Desktop",
+      "width": 1440,
+      "height": 595,
+      "layoutMode": "VERTICAL",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "reactionCount": 0
+    },
+    {
+      "id": "18:1139",
+      "page": "05 English",
+      "name": "English Concept Detail \u2014 1440px Desktop",
+      "width": 1440,
+      "height": 471,
+      "layoutMode": "VERTICAL",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "reactionCount": 0
+    },
+    {
+      "id": "18:1160",
+      "page": "05 English",
+      "name": "English Built Projects Framework \u2014 1440px Desktop",
+      "width": 1440,
+      "height": 595,
+      "layoutMode": "VERTICAL",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "reactionCount": 0
+    },
+    {
+      "id": "18:1191",
+      "page": "05 English",
+      "name": "English Architectural Services \u2014 1440px Desktop",
+      "width": 1440,
+      "height": 595,
+      "layoutMode": "VERTICAL",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "reactionCount": 0
+    },
+    {
+      "id": "18:1222",
+      "page": "05 English",
+      "name": "English Joinery Detail \u2014 1440px Desktop",
+      "width": 1440,
+      "height": 595,
+      "layoutMode": "VERTICAL",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "reactionCount": 0
+    },
+    {
+      "id": "18:1254",
+      "page": "05 English",
+      "name": "English Process & Delivery \u2014 1440px Desktop",
+      "width": 1440,
+      "height": 595,
+      "layoutMode": "VERTICAL",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "reactionCount": 0
+    },
+    {
+      "id": "18:1288",
+      "page": "05 English",
+      "name": "English Studio Practice \u2014 1440px Desktop",
+      "width": 1440,
+      "height": 595,
+      "layoutMode": "VERTICAL",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "reactionCount": 0
+    },
+    {
+      "id": "18:1316",
+      "page": "05 English",
+      "name": "English Contact & Consultation \u2014 1440px Desktop",
+      "width": 1440,
+      "height": 595,
+      "layoutMode": "VERTICAL",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "reactionCount": 0
+    },
+    {
+      "id": "18:1347",
+      "page": "05 English",
+      "name": "English Privacy Policy \u2014 1440px Desktop",
+      "width": 1440,
+      "height": 471,
+      "layoutMode": "VERTICAL",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "reactionCount": 0
+    },
+    {
+      "id": "18:1368",
+      "page": "05 English",
+      "name": "English 404 Not Found \u2014 1440px Desktop",
+      "width": 1440,
+      "height": 471,
+      "layoutMode": "VERTICAL",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "reactionCount": 0
+    },
+    {
+      "id": "18:1389",
+      "page": "05 English",
+      "name": "English Homepage \u2014 390px Mobile",
+      "width": 390,
+      "height": 706,
+      "layoutMode": "VERTICAL",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "reactionCount": 1
+    },
+    {
+      "id": "18:1407",
+      "page": "05 English",
+      "name": "English Project Archive \u2014 390px Mobile",
+      "width": 390,
+      "height": 706,
+      "layoutMode": "VERTICAL",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "reactionCount": 1
+    },
+    {
+      "id": "18:1425",
+      "page": "05 English",
+      "name": "English Concept Detail \u2014 390px Mobile",
+      "width": 390,
+      "height": 706,
+      "layoutMode": "VERTICAL",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "reactionCount": 1
+    },
+    {
+      "id": "18:1443",
+      "page": "05 English",
+      "name": "English Built Projects Framework \u2014 390px Mobile",
+      "width": 390,
+      "height": 706,
+      "layoutMode": "VERTICAL",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "reactionCount": 1
+    },
+    {
+      "id": "18:1461",
+      "page": "05 English",
+      "name": "English Architectural Services \u2014 390px Mobile",
+      "width": 390,
+      "height": 706,
+      "layoutMode": "VERTICAL",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "reactionCount": 1
+    },
+    {
+      "id": "18:1479",
+      "page": "05 English",
+      "name": "English Joinery Detail \u2014 390px Mobile",
+      "width": 390,
+      "height": 706,
+      "layoutMode": "VERTICAL",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "reactionCount": 1
+    },
+    {
+      "id": "18:1497",
+      "page": "05 English",
+      "name": "English Process & Delivery \u2014 390px Mobile",
+      "width": 390,
+      "height": 706,
+      "layoutMode": "VERTICAL",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "reactionCount": 1
+    },
+    {
+      "id": "18:1515",
+      "page": "05 English",
+      "name": "English Studio Practice \u2014 390px Mobile",
+      "width": 390,
+      "height": 706,
+      "layoutMode": "VERTICAL",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "reactionCount": 1
+    },
+    {
+      "id": "18:1533",
+      "page": "05 English",
+      "name": "English Contact & Consultation \u2014 390px Mobile",
+      "width": 390,
+      "height": 706,
+      "layoutMode": "VERTICAL",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "reactionCount": 1
+    },
+    {
+      "id": "18:1551",
+      "page": "05 English",
+      "name": "English Privacy Policy \u2014 390px Mobile",
+      "width": 390,
+      "height": 706,
+      "layoutMode": "VERTICAL",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "reactionCount": 1
+    },
+    {
+      "id": "18:1569",
+      "page": "05 English",
+      "name": "English 404 Not Found \u2014 390px Mobile",
+      "width": 390,
+      "height": 706,
+      "layoutMode": "VERTICAL",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "reactionCount": 1
+    }
+  ],
+  "overlays": [
+    {
+      "id": "18:2031",
+      "page": "03 Desktop \u2014 BN",
+      "name": "Overlay / Consultation Modal \u2014 Desktop BN",
+      "width": 560,
+      "height": 610,
+      "layoutMode": "VERTICAL",
+      "reactionCount": 3
+    },
+    {
+      "id": "18:2057",
+      "page": "03 Desktop \u2014 BN",
+      "name": "Overlay / Submitting \u2014 Desktop BN",
+      "width": 560,
+      "height": 281,
+      "layoutMode": "VERTICAL",
+      "reactionCount": 1
+    },
+    {
+      "id": "18:2063",
+      "page": "03 Desktop \u2014 BN",
+      "name": "Overlay / Success Receipt \u2014 Desktop BN",
+      "width": 560,
+      "height": 308,
+      "layoutMode": "VERTICAL",
+      "reactionCount": 1
+    },
+    {
+      "id": "18:2071",
+      "page": "03 Desktop \u2014 BN",
+      "name": "Overlay / Offline Error \u2014 Desktop BN",
+      "width": 560,
+      "height": 341,
+      "layoutMode": "VERTICAL",
+      "reactionCount": 2
+    },
+    {
+      "id": "18:2080",
+      "page": "04 Mobile \u2014 BN",
+      "name": "Overlay / Consultation Modal \u2014 Mobile BN",
+      "width": 358,
+      "height": 566,
+      "layoutMode": "VERTICAL",
+      "reactionCount": 3
+    },
+    {
+      "id": "18:2106",
+      "page": "04 Mobile \u2014 BN",
+      "name": "Overlay / Submitting \u2014 Mobile BN",
+      "width": 358,
+      "height": 281,
+      "layoutMode": "VERTICAL",
+      "reactionCount": 1
+    },
+    {
+      "id": "18:2112",
+      "page": "04 Mobile \u2014 BN",
+      "name": "Overlay / Success Receipt \u2014 Mobile BN",
+      "width": 358,
+      "height": 292,
+      "layoutMode": "VERTICAL",
+      "reactionCount": 1
+    },
+    {
+      "id": "18:2120",
+      "page": "04 Mobile \u2014 BN",
+      "name": "Overlay / Offline Error \u2014 Mobile BN",
+      "width": 358,
+      "height": 325,
+      "layoutMode": "VERTICAL",
+      "reactionCount": 2
+    },
+    {
+      "id": "18:2129",
+      "page": "04 Mobile \u2014 BN",
+      "name": "Overlay / Mobile Navigation Drawer \u2014 BN",
+      "width": 390,
+      "height": 976,
+      "layoutMode": "VERTICAL",
+      "reactionCount": 8
+    },
+    {
+      "id": "18:2149",
+      "page": "05 English",
+      "name": "Overlay / Consultation Modal \u2014 Desktop EN",
+      "width": 560,
+      "height": 609,
+      "layoutMode": "VERTICAL",
+      "reactionCount": 3
+    },
+    {
+      "id": "18:2175",
+      "page": "05 English",
+      "name": "Overlay / Submitting \u2014 Desktop EN",
+      "width": 560,
+      "height": 277,
+      "layoutMode": "VERTICAL",
+      "reactionCount": 1
+    },
+    {
+      "id": "18:2181",
+      "page": "05 English",
+      "name": "Overlay / Success Receipt \u2014 Desktop EN",
+      "width": 560,
+      "height": 304,
+      "layoutMode": "VERTICAL",
+      "reactionCount": 1
+    },
+    {
+      "id": "18:2189",
+      "page": "05 English",
+      "name": "Overlay / Offline Error \u2014 Desktop EN",
+      "width": 560,
+      "height": 338,
+      "layoutMode": "VERTICAL",
+      "reactionCount": 2
+    },
+    {
+      "id": "18:2198",
+      "page": "05 English",
+      "name": "Overlay / Consultation Modal \u2014 Mobile EN",
+      "width": 358,
+      "height": 564,
+      "layoutMode": "VERTICAL",
+      "reactionCount": 3
+    },
+    {
+      "id": "18:2224",
+      "page": "05 English",
+      "name": "Overlay / Submitting \u2014 Mobile EN",
+      "width": 358,
+      "height": 277,
+      "layoutMode": "VERTICAL",
+      "reactionCount": 1
+    },
+    {
+      "id": "18:2230",
+      "page": "05 English",
+      "name": "Overlay / Success Receipt \u2014 Mobile EN",
+      "width": 358,
+      "height": 288,
+      "layoutMode": "VERTICAL",
+      "reactionCount": 1
+    },
+    {
+      "id": "18:2238",
+      "page": "05 English",
+      "name": "Overlay / Offline Error \u2014 Mobile EN",
+      "width": 358,
+      "height": 322,
+      "layoutMode": "VERTICAL",
+      "reactionCount": 2
+    },
+    {
+      "id": "18:2247",
+      "page": "05 English",
+      "name": "Overlay / Mobile Navigation Drawer \u2014 EN",
+      "width": 390,
+      "height": 976,
+      "layoutMode": "VERTICAL",
+      "reactionCount": 8
+    }
+  ]
+}

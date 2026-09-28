@@ -1,10 +1,14 @@
 """
 Script to package FlowGrid_Revision_3_3_Deliverable.zip and verify the extracted contents.
+Includes complete visual direction, native foundations, 44 layouts, interactive prototype,
+and verification evidence suite.
 """
 import os
 import zipfile
 import subprocess
 import hashlib
+import json
+import xml.etree.ElementTree as ET
 from PIL import Image
 
 files_to_zip = [
@@ -16,6 +20,10 @@ files_to_zip = [
     'concepts/concept_02_kitchen_dhaka.jpg',
     'concepts/concept_03_bedroom_dhaka.jpg',
     'docs/genuine_390_verification_assertions.json',
+    'docs/phase1_motion_verification_assertions.json',
+    'docs/flowgrid_asset_register.md',
+    'docs/flowgrid_native_frame_register.md',
+    'docs/flowgrid_native_frame_register.json',
     'figma_exports/component_3_1190.png',
     'figma_exports/component_button_primary.svg',
     'figma_exports/crop_desktop_archive.png',
@@ -36,6 +44,19 @@ files_to_zip = [
     'figma_exports/page_06_motion.png',
     'figma_exports/page_07_assets.png',
     'figma_exports/page_08_handoff.png',
+    'figma_exports/phase1_desktop_home_bn.png',
+    'figma_exports/phase1_desktop_detail_bn.png',
+    'figma_exports/phase1_mobile_home_bn.png',
+    'figma_exports/phase1_mobile_detail_bn.png',
+    'figma_exports/phase1_motion_demo_desktop.webp',
+    'figma_exports/phase1_motion_demo_mobile.webp',
+    'figma_exports/phase2_token_propagation_verified.png',
+    'figma_exports/phase3_desktop_home_en.png',
+    'figma_exports/phase3_mobile_home_en.png',
+    'figma_exports/phase3_desktop_archive_bn.png',
+    'figma_exports/phase4_mobile_drawer_bn.png',
+    'figma_exports/phase4_modal_form_bn.png',
+    'figma_exports/phase4_modal_receipt_bn.png',
     'figma_exports/prototype_enquiry_journey.webp',
     'figma_svgs_v3/00_brief_and_research.svg',
     'figma_svgs_v3/01_foundations.svg',
@@ -67,6 +88,7 @@ with open(zip_name, 'rb') as f:
     zip_sha = hashlib.sha256(f.read()).hexdigest()
 
 print(f"\n{zip_name} created successfully!")
+print(f"Total Files: {len(files_to_zip)}")
 print(f"Size: {zip_size:,} bytes")
 print(f"SHA-256: {zip_sha}")
 
@@ -79,7 +101,7 @@ os.makedirs(test_dir, exist_ok=True)
 
 with zipfile.ZipFile(zip_name, 'r') as z:
     z.extractall(test_dir)
-print(f"\nExtracted all files to {test_dir} for independent verification.")
+print(f"\nExtracted all {len(files_to_zip)} files to {test_dir} for independent verification.")
 
 # 1. Test extracted prototype syntax
 extracted_html = os.path.join(test_dir, 'prototype/index.html')
@@ -145,14 +167,13 @@ print(val_proc.stdout.strip())
 if val_proc.returncode != 0:
     raise RuntimeError("Phone validator unit tests failed!")
 
-
-# 2. Test extracted WebP recording
-extracted_webp = os.path.join(test_dir, 'prototype/prototype_enquiry_journey.webp')
-with Image.open(extracted_webp) as im:
-    print(f"PASS: Extracted WebP recording: {im.size}, {im.n_frames} frames, animated={getattr(im, 'is_animated', False)}")
+# 2. Test extracted WebP recordings
+for webp_rel in ['prototype/prototype_enquiry_journey.webp', 'figma_exports/phase1_motion_demo_desktop.webp', 'figma_exports/phase1_motion_demo_mobile.webp']:
+    extracted_webp = os.path.join(test_dir, webp_rel)
+    with Image.open(extracted_webp) as im:
+        print(f"PASS: Extracted {webp_rel}: {im.size}, {im.n_frames} frames, animated={getattr(im, 'is_animated', False)}")
 
 # 3. Test extracted master SVGs parse as XML
-import xml.etree.ElementTree as ET
 for f in files_to_zip:
     if f.endswith('.svg'):
         p = os.path.join(test_dir, f)
@@ -160,7 +181,6 @@ for f in files_to_zip:
 print("PASS: All extracted master SVGs parse as valid XML.")
 
 # 4. Test extracted runtime assertions JSON
-import json
 assertions_file = os.path.join(test_dir, 'docs/genuine_390_verification_assertions.json')
 with open(assertions_file, 'r', encoding='utf-8') as f:
     assert_data = json.load(f)
@@ -173,6 +193,14 @@ tested_sha = assertions_block.get('tested_html_sha256')
 if tested_sha != extracted_html_sha:
     raise ValueError(f"Assertions tested_html_sha256 mismatch! {tested_sha} vs {extracted_html_sha}")
 print(f"PASS: Extracted assertions JSON is valid and tested_html_sha256 matches extracted prototype ({extracted_html_sha[:16]}...).")
+
+# 4b. Test extracted native frame register JSON
+reg_file = os.path.join(test_dir, 'docs/flowgrid_native_frame_register.json')
+with open(reg_file, 'r', encoding='utf-8') as f:
+    reg_data = json.load(f)
+assert reg_data['meta']['totalNativeLayouts'] == 44, f"Expected 44 layouts, got {reg_data['meta']['totalNativeLayouts']}"
+assert reg_data['meta']['totalReactionsWired'] >= 80, f"Expected >=80 reactions, got {reg_data['meta']['totalReactionsWired']}"
+print(f"PASS: Extracted native frame register contains {reg_data['meta']['totalNativeLayouts']} layouts and {reg_data['meta']['totalReactionsWired']} wired prototype reactions.")
 
 # 5. Test extracted recorder script python syntax
 recorder_file = os.path.join(test_dir, 'scripts/record_genuine_390_mobile.py')
@@ -188,4 +216,4 @@ if node_gen_test.returncode != 0:
     raise RuntimeError(f"Figma generator script syntax check failed: {node_gen_test.stderr}")
 print("PASS: Extracted scripts/figma_design_system_generator.js passed node --check with zero syntax errors.")
 
-print(f"\nALL 6 EXTRACTION VERIFICATION CHECKS PASSED FOR {zip_name} (42 files total)!")
+print(f"\nALL EXTRACTION VERIFICATION CHECKS PASSED FOR {zip_name} ({len(files_to_zip)} files total)!")

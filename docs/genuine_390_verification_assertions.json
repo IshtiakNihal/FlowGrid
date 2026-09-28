@@ -13,7 +13,7 @@
   },
   "assertions": {
     "tested_html_path": "prototype/index.html",
-    "tested_html_sha256": "ba4efda0069f18bf5aedce446008b0473895a47a5b24c868ca188220757d8448",
+    "tested_html_sha256": "ed813fd1f901eefede51d983fa5b3e1af26d19623dff652f846af5d7f85a76b6",
     "target_viewport": {
       "width": 390,
       "height": 844

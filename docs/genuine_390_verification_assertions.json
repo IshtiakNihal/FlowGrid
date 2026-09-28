@@ -1,11 +1,11 @@
 {
   "recording": {
     "file_name": "prototype_enquiry_journey.webp",
-    "frames": 74,
-    "decoded_frames": 74,
-    "captured_steps": 177,
-    "size_bytes": 1387614,
-    "sha256": "acc0723601a0a31cb9f0d87b93946b68cf0d4e0a202ca4bfa2a40d77eb03ba80",
+    "frames": 65,
+    "decoded_frames": 65,
+    "captured_steps": 178,
+    "size_bytes": 1436164,
+    "sha256": "bad4f8d8c225159c83a123030e6c9bb9de27e6709b1e1bff23167ba7ce0f74f1",
     "dimensions": [
       390,
       844
@@ -13,7 +13,7 @@
   },
   "assertions": {
     "tested_html_path": "prototype/index.html",
-    "tested_html_sha256": "852187338da828b3d686293ae8d312e1904640ba108549d3ea6ea0d72406e795",
+    "tested_html_sha256": "cbad8431f3c25e8408d800a717b82b711505d363cf39249f87b5d0da45cc5a5e",
     "target_viewport": {
       "width": 390,
       "height": 844
@@ -28,25 +28,100 @@
       "hasSimClass": false,
       "activeElement": "BODY"
     },
-    "drawer_initial_focus": "drawerCloseBtn",
+    "drawer_initial_focus": {
+      "expected": "drawerCloseBtn",
+      "actual": "drawerCloseBtn",
+      "pass": true
+    },
     "drawer_tab_sequence": [
-      "drawConcept",
-      "drawServices",
-      "drawProcess",
-      "drawStudio",
-      "drawContact"
+      {
+        "expected": "drawConcept",
+        "actual": "drawConcept",
+        "pass": true
+      },
+      {
+        "expected": "drawServices",
+        "actual": "drawServices",
+        "pass": true
+      },
+      {
+        "expected": "drawProcess",
+        "actual": "drawProcess",
+        "pass": true
+      },
+      {
+        "expected": "drawStudio",
+        "actual": "drawStudio",
+        "pass": true
+      },
+      {
+        "expected": "drawContact",
+        "actual": "drawContact",
+        "pass": true
+      },
+      {
+        "expected": "drawBtnConsult",
+        "actual": "drawBtnConsult",
+        "pass": true
+      }
     ],
-    "drawer_shift_tab_wrap": "drawBtnConsult",
-    "drawer_escape_focus_return": "",
-    "modal_initial_focus": "inputName",
-    "modal_shift_tab_wrap": "inputName",
+    "drawer_forward_wrap": {
+      "expected": "drawerCloseBtn",
+      "actual": "drawerCloseBtn",
+      "pass": true
+    },
+    "drawer_shift_tab_wrap": {
+      "expected": "drawBtnConsult",
+      "actual": "drawBtnConsult",
+      "pass": true
+    },
+    "drawer_escape": {
+      "closed": true,
+      "focus_return_expected": "btnHamburger",
+      "focus_return_actual": "btnHamburger",
+      "pass": true
+    },
+    "modal_initial_focus": {
+      "expected": "inputName",
+      "actual": "inputName",
+      "pass": true
+    },
+    "modal_shift_tab_step_back": {
+      "from": "inputName",
+      "expected": "modalCloseBtn",
+      "actual": "modalCloseBtn",
+      "pass": true
+    },
+    "modal_backward_boundary_wrap": {
+      "from": "modalCloseBtn",
+      "expected": "btnSubmitEnquiry",
+      "actual": "btnSubmitEnquiry",
+      "pass": true
+    },
+    "modal_forward_boundary_wrap": {
+      "from": "btnSubmitEnquiry",
+      "expected": "modalCloseBtn",
+      "actual": "modalCloseBtn",
+      "pass": true
+    },
+    "modal_tab_step_forward": {
+      "from": "modalCloseBtn",
+      "expected": "inputName",
+      "actual": "inputName",
+      "pass": true
+    },
     "empty_error_summary_visible": true,
     "empty_error_summary_focused": "errorSummaryBanner",
     "phone_invalid_err_shown": true,
     "submitting_focus": "stateSubmitting",
     "receipt_focus": "btnDone",
     "new_enquiry_focus_restored": "inputName",
-    "modal_escape_focus_return": "inputName",
+    "modal_escape": {
+      "closed": true,
+      "focus_return_expected": "btnHeaderConsult",
+      "focus_return_actual": "btnHeaderConsult",
+      "pass": true
+    },
     "en_switch_metrics": {
       "currentLang": "en",
       "innerWidth": 390,
@@ -64,17 +139,29 @@
       "modalCardWidth": 366,
       "docScrollW": 390
     },
-    "en_submitting_focus": "stateSubmitting",
     "en_receipt_geometry": {
       "receiptWrapRight": 361,
       "noticeRight": 361,
       "docScrollW": 390,
       "receiptFocus": "btnDone"
     },
+    "en_receipt_done_escape": {
+      "closed": true,
+      "focus_return": "btnHeaderConsult",
+      "pass": true
+    },
     "en_offline_geometry": {
-      "offlineBannerRight": 361,
+      "offlineBannerRight": 313,
+      "closeBtnLeft": 309,
+      "closeBtnRight": 357,
+      "clearanceOk": true,
       "docScrollW": 390,
       "focus": "btnRetryOffline"
+    },
+    "en_offline_escape": {
+      "closed": true,
+      "focus_return": "btnDemoOffline",
+      "pass": true
     },
     "bn_return_metrics": {
       "currentLang": "bn",
@@ -82,11 +169,7 @@
       "scrollWidth": 390,
       "clientWidth": 390
     },
-    "system_prefers_reduced_motion_mq": true,
-    "manual_reduced_motion_class": true,
-    "motion_specifications_status": {
-      "hero_reveal_600ms_wipe": "Documented design handoff specification on Board 06 (not implemented prototype feature)",
-      "project_expansion_360ms": "Documented design handoff specification on Board 06 (not implemented prototype feature)"
-    }
+    "system_reduced_motion_mq": true,
+    "manual_reduced_motion_class": true
   }
 }

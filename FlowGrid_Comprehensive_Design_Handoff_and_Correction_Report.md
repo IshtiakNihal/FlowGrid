@@ -4,14 +4,14 @@
 **Date:** 28 September 2026  
 **Status Breakdown:**
 - **Static Design Scope & Exports:** **PASSED** (44 Page Layouts + 2 Drawers, 9 XML-Valid Vector SVGs, 1:1 Matched PNG Canvases, 49 Matching Image Occurrences, 8 Matching Screen Crops, 100% Verified Layout Register matching SVG coordinates)
-- **Interactive Prototype Journey:** **VERIFIED** (Zero JS syntax errors, strict BD phone validator passing 13/13 test cases, native responsive breakpoints without simulator hacks, complete keyboard focus state management, verified zero horizontal overflow at 390px in both Bengali and English)
-- **Animated Video Proof:** **VERIFIED** ([`prototype/prototype_enquiry_journey.webp`](file:///c:/Nihal/Az_Works/FlowGrid/prototype/prototype_enquiry_journey.webp), 74 frames, 390 × 844 px, 1,387,614 bytes, SHA-256: `acc0723601a0a31cb9f0d87b93946b68cf0d4e0a202ca4bfa2a40d77eb03ba80`, verified genuine 390px mobile viewport without simulator, unclipped BN-EN-BN language round-trip, full keyboard focus states, and English localization)
-- **Native Cloud Figma Authoring:** **OPEN / TOOL-BLOCKED** (Cloud REST connector provides read-only inspection; external write/mutation endpoints are not exposed by Figma API for programmatic component creation or auto layout node manipulation)
+- **Interactive Prototype Journey:** **VERIFIED** (Zero JS syntax errors, strict BD phone validator passing 13/13 test cases, native responsive breakpoints without simulator hacks, verified zero horizontal overflow at 390px in both Bengali and English, clear space reserved for modal close button)
+- **Animated Video Proof:** **VERIFIED** ([`prototype/prototype_enquiry_journey.webp`](file:///c:/Nihal/Az_Works/FlowGrid/prototype/prototype_enquiry_journey.webp), 65 decoded frames, 178 captured steps, 390 × 844 px, 1,436,164 bytes, SHA-256: `bad4f8d8c225159c83a123030e6c9bb9de27e6709b1e1bff23167ba7ce0f74f1`, verified genuine 390px mobile viewport without simulator, unclipped BN-EN-BN language round-trip, genuine CDP keyboard focus navigation, and English localization)
+- **Native Cloud Figma Authoring:** **OPEN / TOOL-BLOCKED** (The available connector exposes only read operations, and no usable native authoring route was available in this session)
 
 **Primary Figma File Key:** `eMRunQ80brYYvuTWkufV2o`  
 **Figma Prototype Link:** [FlowGrid Prototype Flows](https://www.figma.com/proto/eMRunQ80brYYvuTWkufV2o/FlowGrid)  
 **Interactive Working Prototype:** [`prototype/index.html`](file:///c:/Nihal/Az_Works/FlowGrid/prototype/index.html)  
-**Recorded Interaction Proof:** [`prototype/prototype_enquiry_journey.webp`](file:///c:/Nihal/Az_Works/FlowGrid/prototype/prototype_enquiry_journey.webp) (74 frames, 390 × 844 px, 1,387,614 bytes, verified v3.3 journey)  
+**Recorded Interaction Proof:** [`prototype/prototype_enquiry_journey.webp`](file:///c:/Nihal/Az_Works/FlowGrid/prototype/prototype_enquiry_journey.webp) (65 decoded frames, 390 × 844 px, 1,436,164 bytes, verified v3.3 journey)  
 **Customer Presentation Deck:** [`FlowGrid_Client_Presentation.pdf`](file:///c:/Nihal/Az_Works/FlowGrid/FlowGrid_Client_Presentation.pdf) (16:9 Landscape, 8 Pages, 1152 × 648 pt, zero cut-off fitted form)  
 **Master Vector Source Suite:** [`figma_svgs_v3/`](file:///c:/Nihal/Az_Works/FlowGrid/figma_svgs_v3/) (All 9 boards, 100% valid XML, full 44-page layout scope + 2 drawers)  
 **Rendered Visual Evidence:** [`figma_exports/`](file:///c:/Nihal/Az_Works/FlowGrid/figma_exports/) (All 9 boards rendered at 1:1 canvas scale via headless Edge, explicitly categorized)  
@@ -22,24 +22,24 @@
 
 ## 1. Executive Summary & Verification Resolution
 
-Following the independent verification documented in `FlowGrid_3_3_Package_3_Verification.md`, this **Revision 3.3 (Package 4)** release systematically addresses all remaining findings with comprehensive runtime and document proof:
+Following the independent verification documented in `FlowGrid_3_3_Package_4_Verification.md`, this **Revision 3.3 (Package 5)** release consolidates all deliverables:
 
-We retain the static export work that has passed (all 9 board dimensions matching SVG canvases, 44 static page layouts + 2 drawers, 8 screenshot crops matching board PNGs, 49 embedded image occurrences matching concepts by SHA-256), restore the exact Package 2 page-register geometries (100% matching the unchanged master SVGs), eliminate English mobile header overflow (maintaining strict 390px layout across BN → EN → BN round-trip), package the cited runtime assertion JSON and recording script with immutable HTML hash identity, and maintain transparent disclosure of the Native Cloud Figma tooling boundary.
+Three remediation outcomes delivered (mobile-width correction, restored 46-layout register, and packaged runtime evidence suite); genuine keyboard navigation verification and report consolidation resolved; native Cloud Figma remains explicitly OPEN / TOOL-BLOCKED.
 
 ### Status Matrix Across Delivery Areas
 
 | Area | Verified Finding / Correction | Status |
 |---|---|---|
 | **Static Design Scope** | 44 page layouts + 2 off-canvas navigation drawers verified across Bengali Desktop, Bengali Mobile, and English boards. | **PASSED** |
-| **Page Register Geometries** | Restored verified Package 2 Section 2 register: all 46 layout rows, canvas coordinates `(x, y)`, and dimensions `(w, h)` validated against master SVGs with 100% match. | **PASSED (Restored)** |
+| **Page Register Geometries** | Restored verified Section 2 register: all 46 layout rows, canvas coordinates `(x, y)`, and dimensions `(w, h)` validated against master SVGs with 100% match. | **PASSED (Restored)** |
 | **Vector & Canvas Exports** | All 9 master SVGs parse as valid XML; all 9 PNG dimensions match corresponding SVG canvases 1:1. | **PASSED** |
 | **Presentation Deck** | 8 landscape pages (1152 × 648 pt); Slide 7 displays complete 4-field enquiry form with zero cut-off (accurate caption reflecting 4 required inputs and 52px CTA without page header or optional notes). | **PASSED (Closed)** |
 | **Interactive Prototype Script** | Fixed all quotation syntax errors in `prototype/index.html`; passes `node --check` with 0 errors. Enhanced BD phone validator normalizes trunk zero (`+৮৮০ ০১৭১১-০০০০০০` -> `01711000000`) and passes 13/13 automated test cases. | **VERIFIED (Closed)** |
-| **Genuine 390px Mobile Viewport & English Layout** | Eliminated `.mobile-sim-active` simulator CSS. Resolved English mobile header flex overflow by adding responsive rules for `.brand`, `.nav-actions`, and button padding under `@media (max-width: 480px)`. Confirmed `window.innerWidth === 390`, `scrollWidth === 390`, `clientWidth === 390` across BN → EN → BN round-trip with zero clipping of hamburger, modal, or receipt controls. | **VERIFIED (Closed)** |
-| **Keyboard Navigation & State Focus** | Programmatic focus explicitly managed across all states: initial form (`#inputName`), `stateSubmitting` (`#stateSubmitting` with `tabindex="-1"`), `stateReceipt` (`#btnDone`), `stateOffline` (`#btnRetryOffline`), and 'New enquiry' focus restoration (`#inputName`). Verified Tab/Shift+Tab wrapping inside modal and off-canvas drawer, Escape key closing, and focus return. | **VERIFIED (Closed)** |
+| **Genuine 390px Mobile Viewport & English Layout** | Eliminated `.mobile-sim-active` simulator CSS. Resolved English mobile header flex overflow by adding responsive rules for `.brand`, `.nav-actions`, and button padding under `@media (max-width: 480px)`. Confirmed `window.innerWidth === 390`, `scrollWidth === 390`, `clientWidth === 390` across BN → EN → BN round-trip with zero clipping of hamburger, modal, or receipt controls. Reserved clear space for modal close button on offline banner. | **VERIFIED (Closed)** |
+| **Genuine Keyboard Navigation & Focus Restoration** | Executed automated CDP keyboard input (`Input.dispatchKeyEvent`): verified initial focus on opening triggers (`#btnHamburger`, `#btnHeaderConsult`), forward Tab sequence through all links, forward boundary wrapping, backward boundary wrapping, and focus restoration to the opening triggers upon Escape. All checks verified with strict expected-vs-actual assertions in runtime JSON. | **VERIFIED (Closed)** |
 | **Reduced Motion Implementation** | System media-query `prefers-reduced-motion: reduce` verified separately via browser emulation from the manual `.reduced-motion` class toggle. *(Note: 600ms hero reveal and 360ms project expansion remain specified design targets documented in Board 06 rather than implemented prototype features.)* | **VERIFIED (Closed)** |
-| **Cited Runtime Evidence Packaging** | Packaged `docs/genuine_390_verification_assertions.json` (containing tested HTML SHA-256 `852187338da828b3d686293ae8d312e1904640ba108549d3ea6ea0d72406e795`, CDP metrics, and assertion outcomes) and `scripts/record_genuine_390_mobile.py` inside the deliverable release archive. | **VERIFIED (Closed)** |
-| **Native Cloud Figma** | Cloud REST API connector is strictly read-only (`get_figma_data`, `download_figma_images`). Native component sets, Auto Layout frames, variables, and connected prototype wires in cloud file remain unverified due to lack of write endpoints. | **OPEN / TOOL-BLOCKED** |
+| **Runtime Evidence Packaging** | Packaged `docs/genuine_390_verification_assertions.json` (containing tested HTML SHA-256 matching exact packaged HTML, CDP metrics, keyboard assertion outcomes) and `scripts/record_genuine_390_mobile.py` inside the deliverable release archive. | **VERIFIED (Closed)** |
+| **Native Cloud Figma** | The available connector exposes only read operations (`get_figma_data`, `download_figma_images`), and no usable native authoring route was available in this session. Native component sets, Auto Layout frames, variables, and connected prototype wires in cloud file remain unverified. | **OPEN / TOOL-BLOCKED** |
 
 ---
 
@@ -133,184 +133,10 @@ All coordinates and dimensions below represent actual, verified SVG root positio
 ### Figma Tooling Boundary & Authoring Gap Disclosure
 To maintain strict transparency regarding what has been programmatically proven versus what requires native Figma client operation:
 
-1. **Tool Capability Limitation:** The Figma MCP Server connector available to the agent operates via the **Figma REST API**, exposing read-only endpoints (`get_figma_data`, `download_figma_images`).
-2. **Authoring Gap:** The Figma REST API does not provide write/mutation endpoints for programmatic construction of canvas visual layers, Auto Layout frames, component variant relationships, design tokens / variables, or interactive prototype connection noodles in a live cloud file.
-3. **Cloud Completion Status:** In accordance with the reviewer's instructions, **native cloud Figma completion status remains OPEN / TOOL-BLOCKED by API authoring capabilities**. This is a tooling constraint of the REST API, not an assertion that Figma itself cannot support native components.
+1. **Tool Capability Limitation:** The available connector exposes only read operations (`get_figma_data`, `download_figma_images`), and no usable native authoring route was available in this session.
+2. **Authoring Route Limitation:** While Figma's REST API includes `POST /v1/files/:file_key/variables` endpoints (subject to Enterprise membership, edit access, and applicable scopes), it provides no REST endpoints for programmatic creation or mutation of canvas visual vector nodes, Auto Layout hierarchies, component sets/variants, or interactive prototype connection wires in a cloud file.
+3. **Cloud Completion Status:** In accordance with the reviewer's instructions, **native cloud Figma completion status remains OPEN / TOOL-BLOCKED**. The deliverable package provides the complete editable design handoff via master vector SVGs (`figma_svgs_v3/`) and matching 1:1 PNGs (`figma_exports/`), but native cloud components, Auto Layout, variables, and connected prototype flows remain unverified until inspected directly in Figma.
 4. **Editable Vector Checkpoint:** The deliverable package provides the complete editable design handoff via **master vector SVGs (`figma_svgs_v3/`)** with structured XML hierarchy, semantic groups, design tokens, and matching **1:1 pixel-accurate PNGs (`figma_exports/`)**. When dragged into Figma, these SVG boards import as editable vector frames, preserving typography, vectors, and embedded imagery.
-
----
-
-## 4. Interactive Prototype & Playable Video Verification
-
-### Recorded Multi-Viewport Journey (`prototype/prototype_enquiry_journey.webp`)
-The prototype interaction was recorded from the exact packaged v3.3 HTML prototype across desktop and mobile viewports:
-- **File:** [`prototype/prototype_enquiry_journey.webp`](file:///c:/Nihal/Az_Works/FlowGrid/prototype/prototype_enquiry_journey.webp)
-- **Geometry:** 186 frames, 1783 × 997 px, 3,002,420 bytes, verified animated WebP video.
-- **Verification Highlights Captured:**
-  1. **Visible Version Badge:** Displays **`VERIFICATION PROTOTYPE v3.3 (Final Reconciled)`**.
-  2. **Authentic 390px Mobile Viewport & Drawer:** Demonstrated via the 390px simulator mode (`#btnDemoMobileView`), collapsing desktop links into the mobile hamburger button (`#btnHamburger`). The 320px off-canvas drawer slides smoothly directly over the right side of the 390px mobile layout, establishing the authentic mobile viewport experience.
-  3. **Concept Switcher:** Smooth tab switching across Living Hero, Dining View, and Joinery Detail.
-  4. **Strict Phone Validation:** Form rejects invalid inputs (`01711abcxyz`), displaying field error message: `একটি সক্রিয় মোবাইল নম্বর দিন (উদা: ০১৭১১-০০০০০০)। অক্ষর বা অপ্রাসঙ্গিক চিহ্ন গ্রহণযোগ্য নয়।`
-  5. **Valid Form Submission:** Submits with valid BD number `01711-000000`, `not_sure` service option, and optional project notes.
-  6. **Simulated Receipt State:** Displays reference `#FG-2026-9481`, reviewer annotation notice, and exact buttons: **Done** (`#btnDone`) and **New enquiry** (`#btnNewEnquiry`).
-  7. **Focus Restoration on 'New Enquiry':** Clicking `#btnNewEnquiry` transitions back to the clean form, resets all inputs, clears errors, and immediately restores active keyboard focus directly to `#inputName` (`document.activeElement.id === 'inputName'`), visibly verified with focus outline in recording frame 155.
-  8. **Reduced Motion Accessibility:** Toggleable reduced motion mode (`#btnDemoMotion`) disabling kinetic transitions for vestibular safety (WCAG 2.2 SC 2.3.3).
-  9. **Complete Bilingual Journey:** Full language switch to English across header, hero, concept specs, services, process, studio, footer, off-canvas drawer, modal labels, and receipt state.
-
-### Packaged Script Fixes (`prototype/index.html`)
-The three string literal quotation defects identified in Revision 3.3 were corrected:
-- **Line 1656:** English studio governance string enclosed in double quotes: `"Community Context: Rumi's Fashionable House family..."`
-- **Line 1657:** Bengali studio governance string enclosed in double quotes: `"কমিউনিটি প্রেক্ষাপট: রুমী'স ফ্যাশনেবল হাউস..."`
-- **Line 1714:** Option quotation in validation message enclosed in double quotes: `'...অথবা "নিশ্চিত নই" বেছে নিন...'`
-
-Verified with `node --check`: **ZERO syntax errors**.
-
-### Strict Bangladesh Phone Validation Implementation
-The packaged validator in `prototype/index.html` normalizes Bengali digits, strips allowed separators, properly handles international prefixes with combined trunk zero (`+880 01...` and `+৮৮০ ০১...`), and validates the 11-digit operator pattern:
-
-```javascript
-function validateBDPhone(rawPhone) {
-  if (!rawPhone) return false;
-  const bnDigits = {'০':'0','১':'1','২':'2','৩':'3','৪':'4','৫':'5','৬':'6','৭':'7','৮':'8','৯':'9'};
-  const normalized = rawPhone.replace(/[০-৯]/g, d => bnDigits[d]);
-
-  // Reject if contains ANY letters (Latin or Bengali)
-  if (/[a-zA-Z\u0980-\u09FF]/.test(normalized)) {
-    return false;
-  }
-  // Reject if contains arbitrary punctuation (allowed only: digits, +, -, spaces, parentheses, dots)
-  if (/[^0-9+\-\s().]/.test(normalized)) {
-    return false;
-  }
-
-  // Strip allowed separators
-  let clean = normalized.replace(/[+\-\s().]/g, '');
-  if (clean.startsWith('88001')) {
-    clean = clean.substring(3);
-  } else if (clean.startsWith('8801')) {
-    clean = '0' + clean.substring(3);
-  } else if (clean.startsWith('880')) {
-    clean = '0' + clean.substring(3).replace(/^0+/, '');
-  }
-
-  // Must be exactly 11 digits starting with 01 and valid operator digit (3, 4, 5, 6, 7, 8, 9)
-  return /^01[3-9]\d{8}$/.test(clean);
-}
-```
-
-#### Automated Phone Validator Test Suite (13/13 Passed)
-
-| Test Input | Expected | Result | Validation Rationale |
-|---|---|---|---|
-| `01711000000` | Valid | **PASS** | Standard 11-digit mobile format with Grameenphone prefix (017) |
-| `01711-000000` | Valid | **PASS** | Allowed hyphen formatting |
-| `+880 1711 000000` | Valid | **PASS** | International format with country code and spaces |
-| `+8801711000000` | Valid | **PASS** | International contiguous format |
-| `+880 01711-000000` | Valid | **PASS** | Country code + trunk zero, normalized to `01711000000` |
-| `০১৭১১০০০০০০` | Valid | **PASS** | Native Bengali numerals normalized to Latin |
-| `+৮৮০ ০১৭১১-০০০০০০` | Valid | **PASS** | Bengali numerals + country code + trunk zero normalized to `01711000000` |
-| `abcdefgh` | Invalid | **PASS** | Letters strictly rejected |
-| `তানভীর আহমেদ` | Invalid | **PASS** | Bengali script strictly rejected |
-| `12345678` | Invalid | **PASS** | Too short (8 digits) |
-| `01234567890` | Invalid | **PASS** | Invalid operator code (012 is unassigned in BD) |
-| `01711000000@#$` | Invalid | **PASS** | Arbitrary punctuation strictly rejected |
-| `""` (Empty string) | Invalid | **PASS** | Required field rejects empty submission |
-
----
-
-## 5. Presentation Deck Screen Alignment (Slide 7 Form Fitting)
-
-### Reconciled Slide 7 Display (`FlowGrid_Client_Presentation.pdf`)
-In response to the reviewer finding regarding Slide 7 form cropping:
-- **Card 1 (Mobile Home Preview):** Rendered from `crop_mobile_home.png` showing top viewport styling at 390px.
-- **Card 2 (Off-Canvas Drawer Preview):** Rendered from `crop_mobile_drawer.png` showing drawer overlay interaction.
-- **Card 3 (Case Study Preview):** Rendered from `crop_mobile_study.png` showing top-of-study 390px render.
-- **Card 4 (Complete 4-Field Form):** Rendered from [`crop_mobile_form.png`](file:///c:/Nihal/Az_Works/FlowGrid/figma_exports/crop_mobile_form.png) (390 × 520 px) with `object-fit: contain;`, displaying all 4 required enquiry form fields (Name, Phone, Area, Service Scope) and the 52px Submit CTA with **zero cut-off** (the crop focuses specifically on the mandatory fields; it does not include the page header or optional notes textarea).
-- **Slide Footer & Bottom Banner:** Cards 1–3 explicitly labeled as **"Viewport Previews"**; Card 4 accurately described as capturing all 4 required inputs and the 52px submit CTA.
-
----
-
-## 6. Contrast Ratios & Ergonomic Verification
-
-All contrast ratios calculated from relative luminance:
-$$L = 0.2126 R + 0.7152 G + 0.0722 B$$
-$$\text{Contrast Ratio} = \frac{L_1 + 0.05}{L_2 + 0.05}$$
-
-| Color Token | Hex Code | Background | Measured Ratio | WCAG Compliance | Verified Usage Context |
-|---|---|---|---|---|---|
-| Deep Pine Ink | `#183B35` | `#F4F1E8` (Warm Paper) | **10.84 : 1** | **PASS (AAA)** | Primary titles, body text, primary button background |
-| Soft Mist | `#DEE7E2` | `#183B35` (Deep Pine) | **9.69 : 1** | **PASS (AAA)** | Dark footer navigation links and icons |
-| Dark Forest Teal | `#0D5C52` | `#FFFFFF` (White) | **7.87 : 1** | **PASS (AAA)** | WhatsApp action button background |
-| Light Slate | `#C4D1CA` | `#183B35` (Deep Pine) | **7.76 : 1** | **PASS (AAA)** | Dark footer secondary copy and copyright (reconciled on Board 08) |
-| Dark Forest Teal | `#0D5C52` | `#F4F1E8` (Warm Paper) | **6.96 : 1** | **PASS (AA)** | WhatsApp secondary CTAs on canvas |
-| Validation Crimson | `#9B302B` | `#F4F1E8` (Warm Paper) | **6.52 : 1** | **PASS (AA)** | Error message banners, invalid input borders |
-| Muted Pine Slate | `#56645E` | `#FFFFFF` (White) | **6.21 : 1** | **PASS (AA)** | Input placeholder text and field labels (reconciled on Board 08) |
-| Terracotta Clay | `#895239` | `#F4F1E8` (Warm Paper) | **5.58 : 1** | **PASS (AA)** | Category badges, eyebrow titles, link arrows |
-| Muted Pine Slate | `#56645E` | `#F4F1E8` (Warm Paper) | **5.50 : 1** | **PASS (AA)** | Secondary metadata and specifications on paper |
-
-*Board 08 QA Reconciled:* `08_handoff_qa.svg` and `page_08_handoff.png` accurately report slate-on-white as **6.21:1** and light-slate-on-pine as **7.76:1**, matching the presentation deck and technical documentation.
-
----
-
-## 7. Provisional Client Fact Register (Awaiting Owner Confirmation)
-
-All contact details and operational claims are classified as **provisional placeholders** awaiting client authorization:
-
-- **Brand Name:** FlowGrid Interior Studio *(Provisional Working Title)*
-- **Provisional Address:** Mirpur-10, Dhaka 1216, Bangladesh *(Client placeholder; pending physical studio lease confirmation)*
-- **Provisional Hotline & WhatsApp:** `+880 1700-000000` *(Placeholder routing channel; awaiting authorized business SIM)*
-- **Provisional Email:** `hello@flowgrid-interiors.com` *(Placeholder address; awaiting domain DNS activation)*
-- **Operational Timeline:** 24-hour response guideline and office hours *(Provisional service benchmark; awaiting owner operational sign-off)*
-- **Craftsmanship Policy:** Unverified factory ownership claims removed. Joinery described as supervised execution by partner workshops using seasoned timber.
-
----
-
-## 8. Master File Manifest & Exact File Sizes
-
-All file sizes below are generated directly from the final local files via `os.path.getsize()`:
-
-| File Path | Format | Size | Description & Verification Proof |
-|---|---|---|---|
-| [`FlowGrid_Client_Presentation.pdf`](file:///c:/Nihal/Az_Works/FlowGrid/FlowGrid_Client_Presentation.pdf) | PDF | 10,042,474 B | PDF Presentation Deck (8 Landscape Slides, 1152 × 648 pt, zero cut-off fitted form) |
-| [`prototype/prototype_enquiry_journey.webp`](file:///c:/Nihal/Az_Works/FlowGrid/prototype/prototype_enquiry_journey.webp) | WEBP | 3,002,420 B | Animated WebP Recording (186 frames, 1783 × 997 px, verified v3.3 journey with 390px mobile drawer and focus restoration) |
-| [`figma_exports/prototype_enquiry_journey.webp`](file:///c:/Nihal/Az_Works/FlowGrid/figma_exports/prototype_enquiry_journey.webp) | WEBP | 3,002,420 B | Duplicate Verified WebP Recording in export archive |
-| [`prototype/index.html`](file:///c:/Nihal/Az_Works/FlowGrid/prototype/index.html) | HTML | 93,692 B | Production HTML/JS/CSS Prototype (Strict BD phone validation, focus trap, complete translation) |
-| [`figma_svgs_v3/00_brief_and_research.svg`](file:///c:/Nihal/Az_Works/FlowGrid/figma_svgs_v3/00_brief_and_research.svg) | SVG | 17,131 B | Board 00: Project brief, market research, and audience personas |
-| [`figma_svgs_v3/01_foundations.svg`](file:///c:/Nihal/Az_Works/FlowGrid/figma_svgs_v3/01_foundations.svg) | SVG | 24,333 B | Board 01: Typography, color palette tokens, and 8px spatial grid |
-| [`figma_svgs_v3/02_components.svg`](file:///c:/Nihal/Az_Works/FlowGrid/figma_svgs_v3/02_components.svg) | SVG | 30,763 B | Board 02: 4-field consultation form across all 6 interactive states |
-| [`figma_svgs_v3/03_desktop_bn.svg`](file:///c:/Nihal/Az_Works/FlowGrid/figma_svgs_v3/03_desktop_bn.svg) | SVG | 12,875,429 B | Board 03: 11 Bengali Desktop templates at 1440px (6480 × 7200 px canvas, 48px buttons) |
-| [`figma_svgs_v3/04_mobile_bn.svg`](file:///c:/Nihal/Az_Works/FlowGrid/figma_svgs_v3/04_mobile_bn.svg) | SVG | 10,868,184 B | Board 04: 11 Bengali Mobile templates + 1 Drawer Overlay at 390px (2450 × 4850 px canvas) |
-| [`figma_svgs_v3/05_english.svg`](file:///c:/Nihal/Az_Works/FlowGrid/figma_svgs_v3/05_english.svg) | SVG | 23,680,772 B | Board 05: 11 English Desktop + 11 English Mobile templates + 1 Drawer (7000 × 7400 px canvas) |
-| [`figma_svgs_v3/06_prototype_motion.svg`](file:///c:/Nihal/Az_Works/FlowGrid/figma_svgs_v3/06_prototype_motion.svg) | SVG | 18,737 B | Board 06: Kinetic choreography, 600ms mask wipe, and reduced-motion CSS |
-| [`figma_svgs_v3/07_project_and_concept_assets.svg`](file:///c:/Nihal/Az_Works/FlowGrid/figma_svgs_v3/07_project_and_concept_assets.svg) | SVG | 5,376,940 B | Board 07: 5 authentic concept assets with disclaimer metadata (1376 × 768 px) |
-| [`figma_svgs_v3/08_handoff_qa.svg`](file:///c:/Nihal/Az_Works/FlowGrid/figma_svgs_v3/08_handoff_qa.svg) | SVG | 20,411 B | Board 08: Engineering handoff notes, CSS variables, and QA register (6.21:1 & 7.76:1 contrast) |
-| [`figma_exports/page_00_brief.png`](file:///c:/Nihal/Az_Works/FlowGrid/figma_exports/page_00_brief.png) | PNG | 273,268 B | Rendered Board 00 PNG (2400 × 1950 px at 1:1 scale) |
-| [`figma_exports/page_01_foundations.png`](file:///c:/Nihal/Az_Works/FlowGrid/figma_exports/page_01_foundations.png) | PNG | 230,708 B | Rendered Board 01 PNG (2400 × 2050 px at 1:1 scale) |
-| [`figma_exports/page_02_components.png`](file:///c:/Nihal/Az_Works/FlowGrid/figma_exports/page_02_components.png) | PNG | 315,837 B | Rendered Board 02 PNG (2800 × 2550 px at 1:1 scale) |
-| [`figma_exports/page_03_desktop_bn.png`](file:///c:/Nihal/Az_Works/FlowGrid/figma_exports/page_03_desktop_bn.png) | PNG | 6,880,832 B | Rendered Board 03 PNG (6480 × 7200 px at 1:1 scale) |
-| [`figma_exports/page_04_mobile_bn.png`](file:///c:/Nihal/Az_Works/FlowGrid/figma_exports/page_04_mobile_bn.png) | PNG | 2,113,132 B | Rendered Board 04 PNG (2450 × 4850 px at 1:1 scale) |
-| [`figma_exports/page_05_english.png`](file:///c:/Nihal/Az_Works/FlowGrid/figma_exports/page_05_english.png) | PNG | 8,212,219 B | Rendered Board 05 PNG (7000 × 7400 px at 1:1 scale) |
-| [`figma_exports/page_06_motion.png`](file:///c:/Nihal/Az_Works/FlowGrid/figma_exports/page_06_motion.png) | PNG | 267,256 B | Rendered Board 06 PNG (2800 × 2500 px at 1:1 scale) |
-| [`figma_exports/page_07_assets.png`](file:///c:/Nihal/Az_Works/FlowGrid/figma_exports/page_07_assets.png) | PNG | 1,598,054 B | Rendered Board 07 PNG (2800 × 2900 px at 1:1 scale) |
-| [`figma_exports/page_08_handoff.png`](file:///c:/Nihal/Az_Works/FlowGrid/figma_exports/page_08_handoff.png) | PNG | 297,137 B | Rendered Board 08 PNG (2800 × 2600 px at 1:1 scale) |
-| [`figma_exports/component_3_1190.png`](file:///c:/Nihal/Az_Works/FlowGrid/figma_exports/component_3_1190.png) | PNG | 1,349 B | Standalone Render of Primary CTA Button Component (210 × 52 px exact geometry) |
-| [`figma_exports/crop_mobile_form.png`](file:///c:/Nihal/Az_Works/FlowGrid/figma_exports/crop_mobile_form.png) | PNG | 15,726 B | Fitted Mobile 4-Field Form Crop for Slide 7 (390 × 520 px, zero clipping) |
-| [`concepts/concept_01_living_dhaka.jpg`](file:///c:/Nihal/Az_Works/FlowGrid/concepts/concept_01_living_dhaka.jpg) | JPG | 881,362 B | Authentic Concept 01 Living Room Hero (1376 × 768 px, SHA: 08e0b1f21db2789d) |
-| [`concepts/concept_01_living_alt.jpg`](file:///c:/Nihal/Az_Works/FlowGrid/concepts/concept_01_living_alt.jpg) | JPG | 903,212 B | Authentic Concept 01 Dining & Veranda Angle (1376 × 768 px, SHA: 8bfda450a7514508) |
-| [`concepts/concept_01_joinery_detail.jpg`](file:///c:/Nihal/Az_Works/FlowGrid/concepts/concept_01_joinery_detail.jpg) | JPG | 650,074 B | Authentic Concept 01 Joinery Macro Detail (1376 × 768 px, SHA: c76b0f2a5838bdc9) |
-| [`concepts/concept_02_kitchen_dhaka.jpg`](file:///c:/Nihal/Az_Works/FlowGrid/concepts/concept_02_kitchen_dhaka.jpg) | JPG | 787,429 B | Authentic Concept 02 Resilient Kitchen Slab (1376 × 768 px, SHA: 34eb1b7ea8875b7d) |
-| [`concepts/concept_03_bedroom_dhaka.jpg`](file:///c:/Nihal/Az_Works/FlowGrid/concepts/concept_03_bedroom_dhaka.jpg) | JPG | 798,520 B | Authentic Concept 03 Platform Bedroom (1376 × 768 px, SHA: b8e982b6cf29a56d) |
-
----
-
-## 9. Conclusion & Delivery Summary
-
-Revision 3.3 addresses all feedback from the Revision 3.3 verification review:
-1. **Interactive Prototype Script:** Resolved all 3 quotation syntax errors in `prototype/index.html`. Script passes `node --check` with 0 errors. Implemented enhanced BD phone normalization accepting combined country code and trunk zero (`+৮৮০ ০১৭১১-০০০০০০`), verified with 13 automated tests.
-2. **Authentic Multi-Viewport Interaction Recording:** Re-recorded the exact frozen prototype v3.3 (3,002,420 bytes, 330 frames) showing the `VERIFICATION PROTOTYPE v3.3 (Final Reconciled)` badge, mobile drawer, validation error state, valid form entry, "Not sure yet" scope, notes, receipt with Done / New enquiry buttons, and full English localization.
-3. **Truthful Status Reporting:** Replaced blanket completion claims with separate explicit statuses for Static Assets (Passed), Interactive Prototype (Verified), and Native Cloud Figma (Open / Tool-Blocked by REST API authoring limits).
-4. **Accurate Board 05 Dimensions:** Reconciled English desktop canvas heights to exact SVG coordinates (Archive: 2200 px, Concept detail: 2200 px, Process: 1950 px, Studio: 1950 px, Contact: 1950 px).
-5. **Form Caption Alignment:** Reconciled Slide 7 caption to accurately reflect the 4-field mobile form crop with zero cut-off.
 
 ---
 
@@ -319,7 +145,7 @@ Revision 3.3 addresses all feedback from the Revision 3.3 verification review:
 ### Recorded Genuine 390px Mobile Journey (`prototype/prototype_enquiry_journey.webp`)
 The prototype interaction was recorded from the exact packaged v3.3 HTML prototype at a genuine **390 × 844 px** mobile viewport:
 - **File:** [`prototype/prototype_enquiry_journey.webp`](file:///c:/Nihal/Az_Works/FlowGrid/prototype/prototype_enquiry_journey.webp)
-- **Geometry:** 74 decodable frames, 390 × 844 px, 1,387,614 bytes, SHA-256: `acc0723601a0a31cb9f0d87b93946b68cf0d4e0a202ca4bfa2a40d77eb03ba80`, verified animated WebP video.
+- **Geometry:** 65 decodable frames (178 captured interaction steps), 390 × 844 px, 1,436,164 bytes, SHA-256: `bad4f8d8c225159c83a123030e6c9bb9de27e6709b1e1bff23167ba7ce0f74f1`, verified animated WebP video.
 - **Zero Simulator Dependency:** All artificial `.mobile-sim-active` CSS overrides and the simulator toggle button were removed. Layout adapts strictly through native CSS media queries (`@media (max-width: 900px)` and `@media (max-width: 480px)`).
 - **English Mobile Overflow Resolution:** Resolved the English mobile header flex overflow by applying responsive styles at `@media (max-width: 480px)`:
   - Container padding adjusted to `0 12px` (24px total)
@@ -328,6 +154,7 @@ The prototype interaction was recorded from the exact packaged v3.3 HTML prototy
   - `#btnHeaderConsult` padding tuned to `6px 10px` with `font-size: 12px` and `min-height: 44px`
   - Hamburger button sized to `44 × 44 px` with `padding: 8px`
   - Word-break rules added to `.receipt-wrap`, `.simulated-notice`, and `.offline-banner`
+  - Reserved 48px right clearance for modal close button on `.offline-banner` and `.error-summary-banner`
 - **Runtime Viewport Assertions (Recorded Live Across BN -> EN -> BN):**
   ```javascript
   // Initial Bengali:
@@ -341,16 +168,16 @@ The prototype interaction was recorded from the exact packaged v3.3 HTML prototy
   ```
 - **Verification Highlights Captured:**
   1. **Visible Live Metrics Banner:** Real-time monitor visibly confirms `Viewport: 390×844px • matchMedia(≤900px): true • Simulator: false` across all frames and states.
-  2. **Mobile Off-Canvas Drawer Navigation:** Clicking `#btnHamburger` opens the 320px off-canvas drawer. Focus automatically moves to `#drawerCloseBtn` (`document.activeElement.id === 'drawerCloseBtn'`). Tab navigation cycles through links; Shift+Tab wraps to `#drawConsult`; pressing Escape closes the drawer.
+  2. **Mobile Off-Canvas Drawer Navigation:** Trigger `#btnHamburger` is focused before opening. Drawer opens with focus moving to `#drawerCloseBtn`. Tab navigation cycles through links (`#drawConcept` -> `#drawServices` -> `#drawProcess` -> `#drawStudio` -> `#drawContact` -> `#drawBtnConsult`); forward Tab wraps to `#drawerCloseBtn`; Shift+Tab wraps back to `#drawBtnConsult`; pressing Escape closes the drawer and restores focus directly to `#btnHamburger`.
   3. **Concept Switcher:** Interacts with `#tabAngle1`, `#tabAngle2`, `#tabAngle3` in 390px mobile view with instant high-contrast image and text updates.
-  4. **Enquiry Modal & Validation Flow:** Clicking `#btnHeaderConsult` opens the modal. Initial keyboard focus is automatically placed on `#inputName` (`document.activeElement.id === 'inputName'`).
-  5. **Empty Form Validation:** Submitting empty fields triggers the top `#errorSummaryBanner` with `aria-live` and inline error messages on all required fields.
+  4. **Enquiry Modal & Validation Flow:** Trigger `#btnHeaderConsult` is focused before opening. Modal opens with initial focus on `#inputName`. Shift+Tab moves backward to `#modalCloseBtn`; Shift+Tab wraps backward to `#btnSubmitEnquiry`; Tab wraps forward to `#modalCloseBtn`; Tab moves forward to `#inputName`.
+  5. **Empty Form Validation:** Submitting empty fields triggers `#errorSummaryBanner` with `aria-live` and focus placed on `errorSummaryBanner`.
   6. **Strict Phone Validation:** Form strictly rejects alphabetic characters (`01711abcxyz`), keeping the inline error message visible.
   7. **Valid Form Submission:** Submits with valid Bengali details (`Name: "তানভীর আহমেদ"`, `Phone: "০১৭১১০০০০০০"`, `Area: "ধানমন্ডি, ঢাকা"`, `Type: "residential_full"`).
-  8. **Explicit Submitting State Focus:** In `stateSubmitting`, focus is explicitly moved to `#stateSubmitting` with `tabindex="-1"` (`document.activeElement.id === 'stateSubmitting'`).
-  9. **Receipt State Focus:** In `stateReceipt`, focus is explicitly placed on `#btnDone` (`document.activeElement.id === 'btnDone'`).
-  10. **Focus Restoration on 'New Enquiry':** Clicking `#btnNewEnquiry` transitions back to `stateForm`, resets all inputs, and restores keyboard focus to `#inputName` (`document.activeElement.id === 'inputName'`).
-  11. **Bilingual English Mode (Unclipped & Zero Overflow):** Toggling `#langToggle` updates the entire interface to English, verifies `window.innerWidth === 390` and `scrollWidth === 390`, confirms `#btnHamburger` right edge at 378px (comfortably within 390px), tests the English off-canvas drawer, English modal (`modalCardRight: 378px`), English receipt (`receiptWrapRight: 361px`), and English offline modal (`offlineBannerRight: 361px`).
+  8. **Explicit Submitting State Focus:** In `stateSubmitting`, focus is explicitly moved to `#stateSubmitting` with `tabindex="-1"`.
+  9. **Receipt State Focus:** In `stateReceipt`, focus is explicitly placed on `#btnDone`.
+  10. **Focus Restoration on 'New Enquiry':** Clicking `#btnNewEnquiry` transitions back to `stateForm`, resets all inputs, and restores keyboard focus to `#inputName`. Pressing Escape closes the modal and restores focus directly to `#btnHeaderConsult`.
+  11. **Bilingual English Mode (Unclipped & Zero Overflow):** Toggling `#langToggle` updates the entire interface to English, verifies `window.innerWidth === 390` and `scrollWidth === 390`, confirms `#btnHamburger` right edge at 378px, tests English off-canvas drawer (Escape restores focus to `#btnHamburger`), English modal (`modalCardRight: 378px`), English receipt (`receiptWrapRight: 361px`), and English offline modal (`offlineBannerRight: 313px` clearing `#modalCloseBtn` at 309px).
   12. **Bilingual Return to Bengali:** Switching back to Bengali confirms `window.innerWidth === 390` and `scrollWidth === 390`.
   13. **Separate Reduced Motion Verification:** System `prefers-reduced-motion: reduce` media query verified via Chrome emulation independently from the manual `.reduced-motion` toggle. *(Note: 600ms hero wipe and 360ms project expansion remain specified design targets documented in Board 06 rather than implemented prototype features.)*
 
@@ -469,11 +296,11 @@ All file sizes below are generated directly from the final local files via `os.p
 | File Path | Format | Size | Description & Verification Proof |
 |---|---|---|---|
 | [`FlowGrid_Client_Presentation.pdf`](file:///c:/Nihal/Az_Works/FlowGrid/FlowGrid_Client_Presentation.pdf) | PDF | 10,042,474 B | PDF Presentation Deck (8 Landscape Slides, 1152 × 648 pt, zero cut-off fitted form) |
-| [`prototype/prototype_enquiry_journey.webp`](file:///c:/Nihal/Az_Works/FlowGrid/prototype/prototype_enquiry_journey.webp) | WEBP | 1,387,614 B | Animated WebP Recording (74 frames, 390 × 844 px, genuine 390px mobile viewport without simulator, verified BN-EN-BN round-trip, full keyboard focus states & unclipped controls) |
-| [`figma_exports/prototype_enquiry_journey.webp`](file:///c:/Nihal/Az_Works/FlowGrid/figma_exports/prototype_enquiry_journey.webp) | WEBP | 1,387,614 B | Duplicate Verified WebP Recording in export archive |
-| [`prototype/index.html`](file:///c:/Nihal/Az_Works/FlowGrid/prototype/index.html) | HTML | 95,223 B | Production HTML/JS/CSS Prototype (Strict BD phone validation, genuine 390px responsive breakpoints, complete focus management) |
-| [`docs/genuine_390_verification_assertions.json`](file:///c:/Nihal/Az_Works/FlowGrid/docs/genuine_390_verification_assertions.json) | JSON | 2,808 B | Runtime Verification Assertions JSON (tested HTML sha256, CDP viewport metrics, keyboard tab sequences, state focus assertions) |
-| [`scripts/record_genuine_390_mobile.py`](file:///c:/Nihal/Az_Works/FlowGrid/scripts/record_genuine_390_mobile.py) | PY | 22,308 B | Automated Headless Chrome CDP Recording & Assertion Script (reproducible 390x844 journey generator) |
+| [`prototype/prototype_enquiry_journey.webp`](file:///c:/Nihal/Az_Works/FlowGrid/prototype/prototype_enquiry_journey.webp) | WEBP | 1,436,164 B | Animated WebP Recording (65 frames, 390 × 844 px, genuine 390px mobile viewport without simulator, verified BN-EN-BN round-trip, genuine CDP keyboard navigation & unclipped controls) |
+| [`figma_exports/prototype_enquiry_journey.webp`](file:///c:/Nihal/Az_Works/FlowGrid/figma_exports/prototype_enquiry_journey.webp) | WEBP | 1,436,164 B | Duplicate Verified WebP Recording in export archive |
+| [`prototype/index.html`](file:///c:/Nihal/Az_Works/FlowGrid/prototype/index.html) | HTML | 95,399 B | Production HTML/JS/CSS Prototype (Strict BD phone validation, genuine 390px responsive breakpoints, complete focus management, clear close button spacing) |
+| [`docs/genuine_390_verification_assertions.json`](file:///c:/Nihal/Az_Works/FlowGrid/docs/genuine_390_verification_assertions.json) | JSON | 4,609 B | Runtime Verification Assertions JSON (tested HTML sha256, CDP viewport metrics, genuine keyboard Tab/Shift+Tab wrapping, Escape focus return, state focus assertions) |
+| [`scripts/record_genuine_390_mobile.py`](file:///c:/Nihal/Az_Works/FlowGrid/scripts/record_genuine_390_mobile.py) | PY | 33,843 B | Automated Headless Chrome CDP Recording & Assertion Script (reproducible 390x844 journey generator with Input.dispatchKeyEvent) |
 | [`figma_svgs_v3/00_brief_and_research.svg`](file:///c:/Nihal/Az_Works/FlowGrid/figma_svgs_v3/00_brief_and_research.svg) | SVG | 17,131 B | Board 00: Project brief, market research, and audience personas |
 | [`figma_svgs_v3/01_foundations.svg`](file:///c:/Nihal/Az_Works/FlowGrid/figma_svgs_v3/01_foundations.svg) | SVG | 24,333 B | Board 01: Typography, color palette tokens, and 8px spatial grid |
 | [`figma_svgs_v3/02_components.svg`](file:///c:/Nihal/Az_Works/FlowGrid/figma_svgs_v3/02_components.svg) | SVG | 30,763 B | Board 02: 4-field consultation form across all 6 interactive states |
@@ -506,10 +333,10 @@ All file sizes below are generated directly from the final local files via `os.p
 
 Revision 3.3 addresses the verification review findings with granular per-item statuses:
 1. **Interactive Prototype Script:** Resolved all quotation syntax errors in `prototype/index.html`. Script passes `node --check` with 0 errors. Enhanced BD phone normalization accepts combined country code and trunk zero (`+৮৮০ ০১৭১১-০০০০০০`), verified with 13 automated tests.
-2. **Genuine 390px Mobile Viewport Recording:** Re-recorded the exact prototype v3.3 (1,387,614 bytes, 74 decodable frames, 390 × 844 px, SHA-256: `acc0723601a0a31cb9f0d87b93946b68cf0d4e0a202ca4bfa2a40d77eb03ba80`) at a genuine 390 × 844 px mobile viewport with the simulator completely disabled. Live demonstrator strip visibly proves `window.innerWidth === 390`, `matchMedia('(max-width: 900px)').matches === true`, and `mobile-sim-active === false` across the entire BN → EN → BN round-trip with zero horizontal overflow (`scrollWidth === 390`).
-3. **Restored 46-Artboard Master Page Register:** Section 2 restores the verified Package 2 register, matching all 46 layout canvas coordinates `(x, y)` and dimensions `(w, h)` directly to the unchanged master SVGs with 100% agreement.
-4. **Comprehensive Keyboard State Focus:** Explicit focus handling across all modal views (`stateForm` -> `#inputName`, `stateSubmitting` -> `#stateSubmitting` with `tabindex="-1"`, `stateReceipt` -> `#btnDone`, `stateOffline` -> `#btnRetryOffline`), with focus restoration to `#inputName` after 'New enquiry' and clean Tab/Shift+Tab wrapping in modal and drawer.
+2. **Genuine 390px Mobile Viewport Recording:** Re-recorded the exact prototype v3.3 (1,436,164 bytes, 65 decodable frames, 178 captured steps, 390 × 844 px, SHA-256: `bad4f8d8c225159c83a123030e6c9bb9de27e6709b1e1bff23167ba7ce0f74f1`) at a genuine 390 × 844 px mobile viewport with the simulator completely disabled. Live demonstrator strip visibly proves `window.innerWidth === 390`, `matchMedia('(max-width: 900px)').matches === true`, and `mobile-sim-active === false` across the entire BN → EN → BN round-trip with zero horizontal overflow (`scrollWidth === 390`). Clear space reserved for modal close button on offline banner (`offlineBannerRight: 313px` clearing close button at `309px`).
+3. **Restored 46-Artboard Master Page Register:** Section 2 restores the verified register, matching all 46 layout canvas coordinates `(x, y)` and dimensions `(w, h)` directly to the unchanged master SVGs with 100% agreement.
+4. **Comprehensive Keyboard State Focus:** Automated CDP keyboard input (`Input.dispatchKeyEvent`) demonstrates full Tab navigation order, forward boundary wrapping, backward boundary wrapping, and focus restoration to the opening triggers (`#btnHamburger` and `#btnHeaderConsult`) after Escape, verified with strict expected-vs-actual assertions in runtime JSON.
 5. **Packaged Runtime Evidence:** Release archive includes `docs/genuine_390_verification_assertions.json` (with immutable tested HTML SHA-256 identity, live metrics, and focus assertions) and `scripts/record_genuine_390_mobile.py`.
 6. **Independent Reduced Motion Handling:** System media query preference verified via Chrome emulation independently from the manual toggle. Note that 600ms hero reveal and 360ms project expansion remain specified design targets documented in Board 06 rather than implemented prototype features.
 7. **Form Caption Alignment:** Reconciled Slide 7 caption to accurately reflect the 4 required enquiry inputs and 52px CTA with zero cut-off.
-8. **Native Cloud Figma Status (Open):** Explicitly documented as **OPEN / TOOL-BLOCKED** due to Figma Cloud REST API limitations (read-only access; lack of write endpoints for creating native Auto Layout frames, components, and variables).
+8. **Native Cloud Figma Status (Open):** Explicitly documented as **OPEN / TOOL-BLOCKED**. The available connector exposes only read operations, and no usable native authoring route was available in this session.

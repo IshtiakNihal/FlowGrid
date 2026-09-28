@@ -48,7 +48,8 @@ files_to_zip = [
     'figma_svgs_v3/08_handoff_qa.svg',
     'prototype/index.html',
     'prototype/prototype_enquiry_journey.webp',
-    'scripts/record_genuine_390_mobile.py'
+    'scripts/record_genuine_390_mobile.py',
+    'scripts/figma_design_system_generator.js'
 ]
 
 zip_name = 'FlowGrid_Revision_3_3_Deliverable.zip'
@@ -180,4 +181,11 @@ if py_compile_res.returncode != 0:
     raise RuntimeError(f"Recorder script compilation failed: {py_compile_res.stderr}")
 print("PASS: Extracted scripts/record_genuine_390_mobile.py compiled successfully with zero syntax errors.")
 
-print(f"\nALL 5 EXTRACTION VERIFICATION CHECKS PASSED FOR {zip_name} (41 files total)!")
+# 6. Test extracted figma generator script syntax
+figma_gen_file = os.path.join(test_dir, 'scripts/figma_design_system_generator.js')
+node_gen_test = subprocess.run(['node', '--check', figma_gen_file], capture_output=True, text=True)
+if node_gen_test.returncode != 0:
+    raise RuntimeError(f"Figma generator script syntax check failed: {node_gen_test.stderr}")
+print("PASS: Extracted scripts/figma_design_system_generator.js passed node --check with zero syntax errors.")
+
+print(f"\nALL 6 EXTRACTION VERIFICATION CHECKS PASSED FOR {zip_name} (42 files total)!")

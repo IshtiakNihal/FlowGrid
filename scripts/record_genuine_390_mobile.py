@@ -326,16 +326,32 @@ async def run_journey():
             assert step_fwd_pass, f"Expected inputName, got {step_fwd}"
             await sample(2, pause=0.06)
 
-            # --- STEP 6: Empty Form Validation ---
+            # --- STEP 6: Empty Form Validation & Clearance Check ---
             await eval_js(ws, "document.getElementById('btnSubmitEnquiry').click();", msg_id=80)
             await asyncio.sleep(0.15)
             has_error_summary = await eval_js(ws, "document.getElementById('errorSummaryBanner').classList.contains('visible')", msg_id=81)
             err_banner_focus = await eval_js(ws, "document.activeElement.id", msg_id=82)
+            err_summary_geom = await eval_js(ws, """
+                (() => {
+                    const banner = document.getElementById('errorSummaryBanner').getBoundingClientRect();
+                    const closeBtn = document.getElementById('modalCloseBtn').getBoundingClientRect();
+                    const gap = closeBtn.left - banner.right;
+                    return {
+                        bannerRight: Math.round(banner.right),
+                        closeBtnLeft: Math.round(closeBtn.left),
+                        clearanceGap: Math.round(gap),
+                        clearanceOk: (banner.right + 8 <= closeBtn.left)
+                    };
+                })()
+            """, msg_id=83)
             assertions['empty_error_summary_visible'] = has_error_summary
             assertions['empty_error_summary_focused'] = err_banner_focus
-            print("6. Empty Error Summary Visible:", has_error_summary, "Focused:", err_banner_focus)
+            assertions['empty_error_summary_geometry'] = err_summary_geom
+            print("6. Empty Error Summary Visible:", has_error_summary, "Focused:", err_banner_focus, "Geom:", err_summary_geom)
             assert has_error_summary, "Error summary banner should be visible"
             assert err_banner_focus == 'errorSummaryBanner', f"Expected focus on errorSummaryBanner, got {err_banner_focus}"
+            assert err_summary_geom['clearanceOk'], f"Error summary clearance gap < 8px: {err_summary_geom}"
+            assert err_summary_geom['clearanceGap'] >= 8, f"Error summary clearance gap must be >= 8px, got {err_summary_geom['clearanceGap']}"
             await sample(6, pause=0.1)
 
             # --- STEP 7: Invalid Phone Input Validation ---
@@ -507,21 +523,27 @@ async def run_journey():
             await eval_js(ws, "document.getElementById('btnDemoOffline').click();", msg_id=171)
             await asyncio.sleep(0.2)
             en_offline_geom = await eval_js(ws, """
-                const banner = document.querySelector('.offline-banner').getBoundingClientRect();
-                const closeBtn = document.getElementById('modalCloseBtn').getBoundingClientRect();
-                return {
-                    offlineBannerRight: banner.right,
-                    closeBtnLeft: closeBtn.left,
-                    closeBtnRight: closeBtn.right,
-                    clearanceOk: (banner.right <= closeBtn.left + 5), // Banner clears close button
-                    docScrollW: document.documentElement.scrollWidth,
-                    focus: document.activeElement.id
-                };
+                (() => {
+                    const banner = document.querySelector('.offline-banner').getBoundingClientRect();
+                    const closeBtn = document.getElementById('modalCloseBtn').getBoundingClientRect();
+                    const gap = closeBtn.left - banner.right;
+                    return {
+                        offlineBannerRight: Math.round(banner.right),
+                        closeBtnLeft: Math.round(closeBtn.left),
+                        closeBtnRight: Math.round(closeBtn.right),
+                        clearanceGap: Math.round(gap),
+                        clearanceOk: (banner.right + 8 <= closeBtn.left),
+                        docScrollW: document.documentElement.scrollWidth,
+                        focus: document.activeElement.id
+                    };
+                })()
             """, msg_id=172)
             assertions['en_offline_geometry'] = en_offline_geom
             print("14. English Offline Geometry & Clearance:", en_offline_geom)
             assert en_offline_geom['offlineBannerRight'] <= 390, f"Offline banner overflow: {en_offline_geom['offlineBannerRight']}"
             assert en_offline_geom['docScrollW'] == 390, f"Doc overflow in offline: {en_offline_geom['docScrollW']}"
+            assert en_offline_geom['clearanceOk'], f"Offline banner clearance gap < 8px: {en_offline_geom}"
+            assert en_offline_geom['clearanceGap'] >= 8, f"Offline banner clearance gap must be >= 8px, got {en_offline_geom['clearanceGap']}"
             await sample(8, pause=0.1)
 
             # Close modal via Escape and verify focus returns to btnDemoOffline

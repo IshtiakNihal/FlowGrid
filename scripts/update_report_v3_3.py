@@ -21,9 +21,9 @@ manifest_files = [
     ('FlowGrid_Client_Presentation.pdf', 'PDF Presentation Deck (8 Landscape Slides, 1152 × 648 pt, zero cut-off fitted form)'),
     ('prototype/prototype_enquiry_journey.webp', f'Animated WebP Recording ({proto_frames} frames, {proto_w} × {proto_h} px, genuine 390px mobile viewport without simulator, verified BN-EN-BN round-trip, genuine CDP keyboard navigation & unclipped controls)'),
     ('figma_exports/prototype_enquiry_journey.webp', 'Duplicate Verified WebP Recording in export archive'),
-    ('prototype/index.html', 'Production HTML/JS/CSS Prototype (Strict BD phone validation, genuine 390px responsive breakpoints, complete focus management, clear close button spacing)'),
-    ('docs/genuine_390_verification_assertions.json', 'Runtime Verification Assertions JSON (tested HTML sha256, CDP viewport metrics, genuine keyboard Tab/Shift+Tab wrapping, Escape focus return, state focus assertions)'),
-    ('scripts/record_genuine_390_mobile.py', 'Automated Headless Chrome CDP Recording & Assertion Script (reproducible 390x844 journey generator with Input.dispatchKeyEvent)'),
+    ('prototype/index.html', 'Production HTML/JS/CSS Prototype (Strict BD phone validation, genuine 390px responsive breakpoints, complete focus management, strictly positive >=8px close button clearance)'),
+    ('docs/genuine_390_verification_assertions.json', 'Runtime Verification Assertions JSON (tested HTML sha256, CDP viewport metrics, genuine keyboard Tab/Shift+Tab wrapping, Escape focus return, error & offline banner clearance assertions)'),
+    ('scripts/record_genuine_390_mobile.py', 'Automated Headless Chrome CDP Recording & Assertion Script (reproducible 390x844 journey generator with Input.dispatchKeyEvent and banner clearance gap enforcement)'),
     ('figma_svgs_v3/00_brief_and_research.svg', 'Board 00: Project brief, market research, and audience personas'),
     ('figma_svgs_v3/01_foundations.svg', 'Board 01: Typography, color palette tokens, and 8px spatial grid'),
     ('figma_svgs_v3/02_components.svg', 'Board 02: 4-field consultation form across all 6 interactive states'),
@@ -73,8 +73,8 @@ report_content = f"""# FlowGrid — Comprehensive Design Handoff & Technical Cor
 **Date:** 28 September 2026  
 **Status Breakdown:**
 - **Static Design Scope & Exports:** **PASSED** (44 Page Layouts + 2 Drawers, 9 XML-Valid Vector SVGs, 1:1 Matched PNG Canvases, 49 Matching Image Occurrences, 8 Matching Screen Crops, 100% Verified Layout Register matching SVG coordinates)
-- **Interactive Prototype Journey:** **VERIFIED** (Zero JS syntax errors, strict BD phone validator passing 13/13 test cases, native responsive breakpoints without simulator hacks, verified zero horizontal overflow at 390px in both Bengali and English, clear space reserved for modal close button)
-- **Animated Video Proof:** **VERIFIED** ([`prototype/prototype_enquiry_journey.webp`](file:///c:/Nihal/Az_Works/FlowGrid/prototype/prototype_enquiry_journey.webp), {proto_frames} decoded frames, 178 captured steps, {proto_w} × {proto_h} px, {proto_size:,} bytes, SHA-256: `{proto_sha}`, verified genuine 390px mobile viewport without simulator, unclipped BN-EN-BN language round-trip, genuine CDP keyboard focus navigation, and English localization)
+- **Interactive Prototype Journey:** **VERIFIED** (Zero JS syntax errors, strict BD phone validator passing 13/13 test cases, native responsive breakpoints without simulator hacks, verified zero horizontal overflow at 390px in both Bengali and English, strictly positive clearance gap >= 8px for modal close button on both error summary and offline banners)
+- **Animated Video Proof:** **VERIFIED** ([`prototype/prototype_enquiry_journey.webp`](file:///c:/Nihal/Az_Works/FlowGrid/prototype/prototype_enquiry_journey.webp), {proto_frames} decoded frames, 178 captured steps, {proto_w} × {proto_h} px, {proto_size:,} bytes, SHA-256: `{proto_sha}`, verified genuine 390px mobile viewport without simulator, unclipped BN-EN-BN language round-trip, genuine CDP keyboard focus navigation, strictly positive +16px banner clearance, and English localization)
 - **Native Cloud Figma Authoring:** **OPEN / TOOL-BLOCKED** (The available connector exposes only read operations, and no usable native authoring route was available in this session)
 
 **Primary Figma File Key:** `eMRunQ80brYYvuTWkufV2o`  
@@ -91,9 +91,9 @@ report_content = f"""# FlowGrid — Comprehensive Design Handoff & Technical Cor
 
 ## 1. Executive Summary & Verification Resolution
 
-Following the independent verification documented in `FlowGrid_3_3_Package_4_Verification.md`, this **Revision 3.3 (Package 5)** release consolidates all deliverables:
+Following the independent verification documented in `FlowGrid_3_3_Package_5_Verification.md`, this **Revision 3.3 (Package 6)** release consolidates all deliverables:
 
-Three remediation outcomes delivered (mobile-width correction, restored 46-layout register, and packaged runtime evidence suite); genuine keyboard navigation verification and report consolidation resolved; native Cloud Figma remains explicitly OPEN / TOOL-BLOCKED.
+Keyboard navigation verification, report consolidation, and banner clearance (strictly >= 8px positive gap, zero overlap) verified and resolved; native Cloud Figma remains explicitly OPEN / TOOL-BLOCKED.
 
 ### Status Matrix Across Delivery Areas
 
@@ -104,7 +104,7 @@ Three remediation outcomes delivered (mobile-width correction, restored 46-layou
 | **Vector & Canvas Exports** | All 9 master SVGs parse as valid XML; all 9 PNG dimensions match corresponding SVG canvases 1:1. | **PASSED** |
 | **Presentation Deck** | 8 landscape pages (1152 × 648 pt); Slide 7 displays complete 4-field enquiry form with zero cut-off (accurate caption reflecting 4 required inputs and 52px CTA without page header or optional notes). | **PASSED (Closed)** |
 | **Interactive Prototype Script** | Fixed all quotation syntax errors in `prototype/index.html`; passes `node --check` with 0 errors. Enhanced BD phone validator normalizes trunk zero (`+৮৮০ ০১৭১১-০০০০০০` -> `01711000000`) and passes 13/13 automated test cases. | **VERIFIED (Closed)** |
-| **Genuine 390px Mobile Viewport & English Layout** | Eliminated `.mobile-sim-active` simulator CSS. Resolved English mobile header flex overflow by adding responsive rules for `.brand`, `.nav-actions`, and button padding under `@media (max-width: 480px)`. Confirmed `window.innerWidth === 390`, `scrollWidth === 390`, `clientWidth === 390` across BN → EN → BN round-trip with zero clipping of hamburger, modal, or receipt controls. Reserved clear space for modal close button on offline banner. | **VERIFIED (Closed)** |
+| **Genuine 390px Mobile Viewport & English Layout** | Eliminated `.mobile-sim-active` simulator CSS. Resolved English mobile header flex overflow by adding responsive rules for `.brand`, `.nav-actions`, and button padding under `@media (max-width: 480px)`. Confirmed `window.innerWidth === 390`, `scrollWidth === 390`, `clientWidth === 390` across BN → EN → BN round-trip with zero clipping of hamburger, modal, or receipt controls. Enforced strictly positive clearance gap >= 8px between modal close button and banners (`clearanceGap = +16px`, zero overlap). | **VERIFIED (Closed)** |
 | **Genuine Keyboard Navigation & Focus Restoration** | Executed automated CDP keyboard input (`Input.dispatchKeyEvent`): verified initial focus on opening triggers (`#btnHamburger`, `#btnHeaderConsult`), forward Tab sequence through all links, forward boundary wrapping, backward boundary wrapping, and focus restoration to the opening triggers upon Escape. All checks verified with strict expected-vs-actual assertions in runtime JSON. | **VERIFIED (Closed)** |
 | **Reduced Motion Implementation** | System media-query `prefers-reduced-motion: reduce` verified separately via browser emulation from the manual `.reduced-motion` class toggle. *(Note: 600ms hero reveal and 360ms project expansion remain specified design targets documented in Board 06 rather than implemented prototype features.)* | **VERIFIED (Closed)** |
 | **Runtime Evidence Packaging** | Packaged `docs/genuine_390_verification_assertions.json` (containing tested HTML SHA-256 matching exact packaged HTML, CDP metrics, keyboard assertion outcomes) and `scripts/record_genuine_390_mobile.py` inside the deliverable release archive. | **VERIFIED (Closed)** |
@@ -128,7 +128,7 @@ The prototype interaction was recorded from the exact packaged v3.3 HTML prototy
   - `#btnHeaderConsult` padding tuned to `6px 10px` with `font-size: 12px` and `min-height: 44px`
   - Hamburger button sized to `44 × 44 px` with `padding: 8px`
   - Word-break rules added to `.receipt-wrap`, `.simulated-notice`, and `.offline-banner`
-  - Reserved 48px right clearance for modal close button on `.offline-banner` and `.error-summary-banner`
+  - Reserved 68px right clearance for modal close button on `.offline-banner` and `.error-summary-banner` (enforcing `bannerRight = 293px` vs `closeBtnLeft = 309px`, establishing a strictly positive +16px clearance gap >= 8px with zero overlap)
 - **Runtime Viewport Assertions (Recorded Live Across BN -> EN -> BN):**
   ```javascript
   // Initial Bengali:
@@ -151,7 +151,7 @@ The prototype interaction was recorded from the exact packaged v3.3 HTML prototy
   8. **Explicit Submitting State Focus:** In `stateSubmitting`, focus is explicitly moved to `#stateSubmitting` with `tabindex="-1"`.
   9. **Receipt State Focus:** In `stateReceipt`, focus is explicitly placed on `#btnDone`.
   10. **Focus Restoration on 'New Enquiry':** Clicking `#btnNewEnquiry` transitions back to `stateForm`, resets all inputs, and restores keyboard focus to `#inputName`. Pressing Escape closes the modal and restores focus directly to `#btnHeaderConsult`.
-  11. **Bilingual English Mode (Unclipped & Zero Overflow):** Toggling `#langToggle` updates the entire interface to English, verifies `window.innerWidth === 390` and `scrollWidth === 390`, confirms `#btnHamburger` right edge at 378px, tests English off-canvas drawer (Escape restores focus to `#btnHamburger`), English modal (`modalCardRight: 378px`), English receipt (`receiptWrapRight: 361px`), and English offline modal (`offlineBannerRight: 313px` clearing `#modalCloseBtn` at 309px).
+  11. **Bilingual English Mode (Unclipped & Zero Overflow):** Toggling `#langToggle` updates the entire interface to English, verifies `window.innerWidth === 390` and `scrollWidth === 390`, confirms `#btnHamburger` right edge at 378px, tests English off-canvas drawer (Escape restores focus to `#btnHamburger`), English modal (`modalCardRight: 378px`), English receipt (`receiptWrapRight: 361px`), and English offline modal (`offlineBannerRight: 293px`, `closeBtnLeft: 309px`, establishing a strictly positive +16px clearance gap with zero overlap).
   12. **Bilingual Return to Bengali:** Switching back to Bengali confirms `window.innerWidth === 390` and `scrollWidth === 390`.
   13. **Separate Reduced Motion Verification:** System `prefers-reduced-motion: reduce` media query verified via Chrome emulation independently from the manual `.reduced-motion` toggle. *(Note: 600ms hero wipe and 360ms project expansion remain specified design targets documented in Board 06 rather than implemented prototype features.)*
 
@@ -277,7 +277,7 @@ All file sizes below are generated directly from the final local files via `os.p
 
 Revision 3.3 addresses the verification review findings with granular per-item statuses:
 1. **Interactive Prototype Script:** Resolved all quotation syntax errors in `prototype/index.html`. Script passes `node --check` with 0 errors. Enhanced BD phone normalization accepts combined country code and trunk zero (`+৮৮০ ০১৭১১-০০০০০০`), verified with 13 automated tests.
-2. **Genuine 390px Mobile Viewport Recording:** Re-recorded the exact prototype v3.3 ({proto_size:,} bytes, {proto_frames} decodable frames, 178 captured steps, {proto_w} × {proto_h} px, SHA-256: `{proto_sha}`) at a genuine 390 × 844 px mobile viewport with the simulator completely disabled. Live demonstrator strip visibly proves `window.innerWidth === 390`, `matchMedia('(max-width: 900px)').matches === true`, and `mobile-sim-active === false` across the entire BN → EN → BN round-trip with zero horizontal overflow (`scrollWidth === 390`). Clear space reserved for modal close button on offline banner (`offlineBannerRight: 313px` clearing close button at `309px`).
+2. **Genuine 390px Mobile Viewport Recording:** Re-recorded the exact prototype v3.3 ({proto_size:,} bytes, {proto_frames} decodable frames, 178 captured steps, {proto_w} × {proto_h} px, SHA-256: `{proto_sha}`) at a genuine 390 × 844 px mobile viewport with the simulator completely disabled. Live demonstrator strip visibly proves `window.innerWidth === 390`, `matchMedia('(max-width: 900px)').matches === true`, and `mobile-sim-active === false` across the entire BN → EN → BN round-trip with zero horizontal overflow (`scrollWidth === 390`). Clear space strictly enforced for modal close button on offline and error banners (`bannerRight: 293px`, `closeBtnLeft: 309px`, establishing a strictly positive +16px clearance gap >= 8px with zero overlap).
 3. **Restored 46-Artboard Master Page Register:** Section 2 restores the verified register, matching all 46 layout canvas coordinates `(x, y)` and dimensions `(w, h)` directly to the unchanged master SVGs with 100% agreement.
 4. **Comprehensive Keyboard State Focus:** Automated CDP keyboard input (`Input.dispatchKeyEvent`) demonstrates full Tab navigation order, forward boundary wrapping, backward boundary wrapping, and focus restoration to the opening triggers (`#btnHamburger` and `#btnHeaderConsult`) after Escape, verified with strict expected-vs-actual assertions in runtime JSON.
 5. **Packaged Runtime Evidence:** Release archive includes `docs/genuine_390_verification_assertions.json` (with immutable tested HTML SHA-256 identity, live metrics, and focus assertions) and `scripts/record_genuine_390_mobile.py`.

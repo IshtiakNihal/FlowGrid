@@ -1,11 +1,11 @@
 {
   "recording": {
     "file_name": "prototype_enquiry_journey.webp",
-    "frames": 65,
-    "decoded_frames": 65,
+    "frames": 66,
+    "decoded_frames": 66,
     "captured_steps": 178,
-    "size_bytes": 1436164,
-    "sha256": "bad4f8d8c225159c83a123030e6c9bb9de27e6709b1e1bff23167ba7ce0f74f1",
+    "size_bytes": 1401052,
+    "sha256": "d60eeb1ea185482382f8f8b5c69aad188d0ac53de9998e504d3eac8a8303aa05",
     "dimensions": [
       390,
       844
@@ -13,7 +13,7 @@
   },
   "assertions": {
     "tested_html_path": "prototype/index.html",
-    "tested_html_sha256": "cbad8431f3c25e8408d800a717b82b711505d363cf39249f87b5d0da45cc5a5e",
+    "tested_html_sha256": "ba4efda0069f18bf5aedce446008b0473895a47a5b24c868ca188220757d8448",
     "target_viewport": {
       "width": 390,
       "height": 844
@@ -112,6 +112,12 @@
     },
     "empty_error_summary_visible": true,
     "empty_error_summary_focused": "errorSummaryBanner",
+    "empty_error_summary_geometry": {
+      "bannerRight": 293,
+      "closeBtnLeft": 309,
+      "clearanceGap": 16,
+      "clearanceOk": true
+    },
     "phone_invalid_err_shown": true,
     "submitting_focus": "stateSubmitting",
     "receipt_focus": "btnDone",
@@ -151,9 +157,10 @@
       "pass": true
     },
     "en_offline_geometry": {
-      "offlineBannerRight": 313,
+      "offlineBannerRight": 293,
       "closeBtnLeft": 309,
       "closeBtnRight": 357,
+      "clearanceGap": 16,
       "clearanceOk": true,
       "docScrollW": 390,
       "focus": "btnRetryOffline"

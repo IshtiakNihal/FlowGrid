@@ -1,0 +1,63 @@
+Page,Node ID,Template / Screen Name,Language,Device,Width,Height,Export Path,Status
+03 Desktop — BN,18:137,Bengali Homepage — 1440px Desktop,BN,Desktop,1440,2920,figma_exports/phase3_desktop_home_bn.png,VERIFIED EXPORT AVAILABLE
+03 Desktop — BN,18:221,Bengali Project Detail — 1440px Desktop,BN,Desktop,1440,2573,figma_exports/phase3_desktop_detail_bn.png,VERIFIED EXPORT AVAILABLE
+03 Desktop — BN,18:1587,Bengali Project Archive (ধারণা সংগ্রহ) — 1440px Desktop,BN,Desktop,1440,2218,figma_exports/phase3_desktop_archive_bn.png,VERIFIED EXPORT AVAILABLE
+03 Desktop — BN,18:1624,Bengali Built-Project Framework (বাস্তবায়ন কাঠামো) — 1440px Desktop,BN,Desktop,1440,977,figma_exports/phase3_desktop_built_framework_bn.png,VERIFIED EXPORT AVAILABLE
+03 Desktop — BN,18:1655,Bengali Services (স্থাপত্য সেবাসমূহ) — 1440px Desktop,BN,Desktop,1440,1727,figma_exports/phase3_desktop_services_bn.png,VERIFIED EXPORT AVAILABLE
+03 Desktop — BN,18:1686,Bengali Joinery Service Detail (কাস্টম মিলওয়ার্ক) — 1440px Desktop,BN,Desktop,1440,1737,figma_exports/phase3_desktop_joinery_bn.png,VERIFIED EXPORT AVAILABLE
+03 Desktop — BN,18:1718,Bengali Process (কার্যপদ্ধতি ও ধাপ) — 1440px Desktop,BN,Desktop,1440,1807,figma_exports/phase3_desktop_process_bn.png,VERIFIED EXPORT AVAILABLE
+03 Desktop — BN,18:1752,Bengali Studio (স্টুডিও দর্শন ও টিম) — 1440px Desktop,BN,Desktop,1440,1607,figma_exports/phase3_desktop_studio_bn.png,VERIFIED EXPORT AVAILABLE
+03 Desktop — BN,18:1780,Bengali Contact (যোগাযোগ ও কনসাল্টেশন) — 1440px Desktop,BN,Desktop,1440,1207,figma_exports/phase3_desktop_contact_bn.png,VERIFIED EXPORT AVAILABLE
+03 Desktop — BN,18:1811,Bengali Privacy Policy (গোপনীয়তা নীতি) — 1440px Desktop,BN,Desktop,1440,1277,figma_exports/phase3_desktop_privacy_bn.png,VERIFIED EXPORT AVAILABLE
+03 Desktop — BN,18:1832,Bengali 404 Not Found (পৃষ্ঠা খুঁজে পাওয়া যায়নি) — 1440px Desktop,BN,Desktop,1440,717,figma_exports/phase3_desktop_404_bn.png,VERIFIED EXPORT AVAILABLE
+05 English,18:1068,English Homepage — 1440px Desktop,EN,Desktop,1440,2902,figma_exports/phase3_desktop_home_en.png,VERIFIED EXPORT AVAILABLE
+05 English,18:1102,English Project Archive — 1440px Desktop,EN,Desktop,1440,2320,figma_exports/phase3_desktop_archive_en.png,VERIFIED EXPORT AVAILABLE
+05 English,18:1139,English Concept Detail — 1440px Desktop,EN,Desktop,1440,2350,figma_exports/phase3_desktop_detail_en.png,VERIFIED EXPORT AVAILABLE
+05 English,18:1160,English Built Projects Framework — 1440px Desktop,EN,Desktop,1440,977,figma_exports/phase3_desktop_built_framework_en.png,VERIFIED EXPORT AVAILABLE
+05 English,18:1191,English Architectural Services — 1440px Desktop,EN,Desktop,1440,1687,figma_exports/phase3_desktop_services_en.png,VERIFIED EXPORT AVAILABLE
+05 English,18:1222,English Joinery Detail — 1440px Desktop,EN,Desktop,1440,1737,figma_exports/phase3_desktop_joinery_en.png,VERIFIED EXPORT AVAILABLE
+05 English,18:1254,English Process & Delivery — 1440px Desktop,EN,Desktop,1440,1807,figma_exports/phase3_desktop_process_en.png,VERIFIED EXPORT AVAILABLE
+05 English,18:1288,English Studio Practice — 1440px Desktop,EN,Desktop,1440,1607,figma_exports/phase3_desktop_studio_en.png,VERIFIED EXPORT AVAILABLE
+05 English,18:1316,English Contact & Consultation — 1440px Desktop,EN,Desktop,1440,1077,figma_exports/phase3_desktop_contact_en.png,VERIFIED EXPORT AVAILABLE
+05 English,18:1347,English Privacy Policy — 1440px Desktop,EN,Desktop,1440,1277,figma_exports/phase3_desktop_privacy_en.png,VERIFIED EXPORT AVAILABLE
+05 English,18:1368,English 404 Not Found — 1440px Desktop,EN,Desktop,1440,717,figma_exports/phase3_desktop_404_en.png,VERIFIED EXPORT AVAILABLE
+04 Mobile — BN,18:283,Bengali Homepage — 390px Mobile,BN,Mobile,390,2494,figma_exports/phase3_mobile_home_bn.png,VERIFIED EXPORT AVAILABLE
+04 Mobile — BN,18:339,Bengali Project Detail — 390px Mobile,BN,Mobile,390,2125,figma_exports/phase3_mobile_detail_bn.png,VERIFIED EXPORT AVAILABLE
+04 Mobile — BN,18:1853,Bengali Project Archive (ধারণা সংগ্রহ) — 390px Mobile,BN,Mobile,390,2925,figma_exports/phase3_mobile_archive_bn.png,VERIFIED EXPORT AVAILABLE
+04 Mobile — BN,18:1871,Bengali Built-Project Framework (বাস্তবায়ন কাঠামো) — 390px Mobile,BN,Mobile,390,1332,figma_exports/phase3_mobile_built_framework_bn.png,VERIFIED EXPORT AVAILABLE
+04 Mobile — BN,18:1889,Bengali Services (স্থাপত্য সেবাসমূহ) — 390px Mobile,BN,Mobile,390,1832,figma_exports/phase3_mobile_services_bn.png,VERIFIED EXPORT AVAILABLE
+04 Mobile — BN,18:1907,Bengali Joinery Service Detail (কাস্টম মিলওয়ার্ক) — 390px Mobile,BN,Mobile,390,1632,figma_exports/phase3_mobile_joinery_bn.png,VERIFIED EXPORT AVAILABLE
+04 Mobile — BN,18:1925,Bengali Process (কার্যপদ্ধতি ও ধাপ) — 390px Mobile,BN,Mobile,390,1622,figma_exports/phase3_mobile_process_bn.png,VERIFIED EXPORT AVAILABLE
+04 Mobile — BN,18:1943,Bengali Studio (স্টুডিও দর্শন ও টিম) — 390px Mobile,BN,Mobile,390,1322,figma_exports/phase3_mobile_studio_bn.png,VERIFIED EXPORT AVAILABLE
+04 Mobile — BN,18:1961,Bengali Contact (যোগাযোগ ও কনসাল্টেশন) — 390px Mobile,BN,Mobile,390,1140,figma_exports/phase3_mobile_contact_bn.png,VERIFIED EXPORT AVAILABLE
+04 Mobile — BN,18:1979,Bengali Privacy Policy (গোপনীয়তা নীতি) — 390px Mobile,BN,Mobile,390,1282,figma_exports/phase3_mobile_privacy_bn.png,VERIFIED EXPORT AVAILABLE
+04 Mobile — BN,18:1997,Bengali 404 Not Found (পৃষ্ঠা খুঁজে পাওয়া যায়নি) — 390px Mobile,BN,Mobile,390,632,figma_exports/phase3_mobile_404_bn.png,VERIFIED EXPORT AVAILABLE
+05 English,18:1389,English Homepage — 390px Mobile,EN,Mobile,390,2510,figma_exports/phase3_mobile_home_en.png,VERIFIED EXPORT AVAILABLE
+05 English,18:1407,English Project Archive — 390px Mobile,EN,Mobile,390,2924,figma_exports/phase3_mobile_archive_en.png,VERIFIED EXPORT AVAILABLE
+05 English,18:1425,English Concept Detail — 390px Mobile,EN,Mobile,390,1832,figma_exports/phase3_mobile_detail_en.png,VERIFIED EXPORT AVAILABLE
+05 English,18:1443,English Built Projects Framework — 390px Mobile,EN,Mobile,390,1332,figma_exports/phase3_mobile_built_framework_en.png,VERIFIED EXPORT AVAILABLE
+05 English,18:1461,English Architectural Services — 390px Mobile,EN,Mobile,390,1832,figma_exports/phase3_mobile_services_en.png,VERIFIED EXPORT AVAILABLE
+05 English,18:1479,English Joinery Detail — 390px Mobile,EN,Mobile,390,1632,figma_exports/phase3_mobile_joinery_en.png,VERIFIED EXPORT AVAILABLE
+05 English,18:1497,English Process & Delivery — 390px Mobile,EN,Mobile,390,1622,figma_exports/phase3_mobile_process_en.png,VERIFIED EXPORT AVAILABLE
+05 English,18:1515,English Studio Practice — 390px Mobile,EN,Mobile,390,1322,figma_exports/phase3_mobile_studio_en.png,VERIFIED EXPORT AVAILABLE
+05 English,18:1533,English Contact & Consultation — 390px Mobile,EN,Mobile,390,1140,figma_exports/phase3_mobile_contact_en.png,VERIFIED EXPORT AVAILABLE
+05 English,18:1551,English Privacy Policy — 390px Mobile,EN,Mobile,390,1282,figma_exports/phase3_mobile_privacy_en.png,VERIFIED EXPORT AVAILABLE
+05 English,18:1569,English 404 Not Found — 390px Mobile,EN,Mobile,390,632,figma_exports/phase3_mobile_404_en.png,VERIFIED EXPORT AVAILABLE
+03 Desktop — BN,18:2031,Overlay / Consultation Modal — Desktop BN,BN,Desktop Overlay,560,749,figma_exports/phase4_modal_form_bn.png,VERIFIED EXPORT AVAILABLE
+03 Desktop — BN,18:2057,Overlay / Submitting — Desktop BN,BN,Desktop Overlay,560,281,figma_exports/phase4_modal_submitting_bn.png,VERIFIED EXPORT AVAILABLE
+03 Desktop — BN,18:2063,Overlay / Success Receipt — Desktop BN,BN,Desktop Overlay,560,308,figma_exports/phase4_modal_receipt_bn.png,VERIFIED EXPORT AVAILABLE
+03 Desktop — BN,18:2071,Overlay / Offline Error — Desktop BN,BN,Desktop Overlay,560,341,figma_exports/phase4_modal_error_bn.png,VERIFIED EXPORT AVAILABLE
+04 Mobile — BN,18:2080,Overlay / Consultation Modal — Mobile BN,BN,Mobile Overlay,358,774,figma_exports/phase4_modal_form_mobile_bn.png,VERIFIED EXPORT AVAILABLE
+04 Mobile — BN,18:2106,Overlay / Submitting — Mobile BN,BN,Mobile Overlay,358,281,figma_exports/phase4_modal_submitting_mobile_bn.png,VERIFIED EXPORT AVAILABLE
+04 Mobile — BN,18:2112,Overlay / Success Receipt — Mobile BN,BN,Mobile Overlay,358,292,figma_exports/phase4_modal_receipt_mobile_bn.png,VERIFIED EXPORT AVAILABLE
+04 Mobile — BN,18:2120,Overlay / Offline Error — Mobile BN,BN,Mobile Overlay,358,325,figma_exports/phase4_modal_error_mobile_bn.png,VERIFIED EXPORT AVAILABLE
+04 Mobile — BN,18:2129,Overlay / Mobile Navigation Drawer — BN,BN,Mobile Overlay,390,976,figma_exports/phase4_mobile_drawer_bn.png,VERIFIED EXPORT AVAILABLE
+05 English,18:2149,Overlay / Consultation Modal — Desktop EN,EN,Desktop Overlay,560,737,figma_exports/phase4_modal_form_en.png,VERIFIED EXPORT AVAILABLE
+05 English,18:2175,Overlay / Submitting — Desktop EN,EN,Desktop Overlay,560,277,figma_exports/phase4_modal_submitting_en.png,VERIFIED EXPORT AVAILABLE
+05 English,18:2181,Overlay / Success Receipt — Desktop EN,EN,Desktop Overlay,560,304,figma_exports/phase4_modal_receipt_en.png,VERIFIED EXPORT AVAILABLE
+05 English,18:2189,Overlay / Offline Error — Desktop EN,EN,Desktop Overlay,560,338,figma_exports/phase4_modal_error_en.png,VERIFIED EXPORT AVAILABLE
+05 English,18:2198,Overlay / Consultation Modal — Mobile EN,EN,Mobile Overlay,358,737,figma_exports/phase4_modal_form_mobile_en.png,VERIFIED EXPORT AVAILABLE
+05 English,18:2224,Overlay / Submitting — Mobile EN,EN,Mobile Overlay,358,277,figma_exports/phase4_modal_submitting_mobile_en.png,VERIFIED EXPORT AVAILABLE
+05 English,18:2230,Overlay / Success Receipt — Mobile EN,EN,Mobile Overlay,358,288,figma_exports/phase4_modal_receipt_mobile_en.png,VERIFIED EXPORT AVAILABLE
+05 English,18:2238,Overlay / Offline Error — Mobile EN,EN,Mobile Overlay,358,322,figma_exports/phase4_modal_error_mobile_en.png,VERIFIED EXPORT AVAILABLE
+05 English,18:2247,Overlay / Mobile Navigation Drawer — EN,EN,Mobile Overlay,390,976,figma_exports/phase4_mobile_drawer_en.png,VERIFIED EXPORT AVAILABLE

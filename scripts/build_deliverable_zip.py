@@ -21,6 +21,8 @@ files_to_zip = [
     'concepts/concept_03_bedroom_dhaka.jpg',
     'docs/genuine_390_verification_assertions.json',
     'docs/phase1_motion_verification_assertions.json',
+    'docs/flowgrid_prototype_journey_readback.json',
+    'docs/phase1_native_figma_readback.json',
     'docs/flowgrid_asset_register.md',
     'docs/flowgrid_native_frame_register.md',
     'docs/flowgrid_native_frame_register.json',
@@ -54,8 +56,17 @@ files_to_zip = [
     'figma_exports/phase3_desktop_home_en.png',
     'figma_exports/phase3_mobile_home_en.png',
     'figma_exports/phase3_desktop_archive_bn.png',
+    'figma_exports/phase3_desktop_archive_en.png',
+    'figma_exports/phase3_desktop_services_bn.png',
+    'figma_exports/phase3_desktop_contact_bn.png',
+    'figma_exports/phase3_desktop_detail_en.png',
+    'figma_exports/phase3_mobile_archive_bn.png',
+    'figma_exports/phase3_mobile_detail_en.png',
     'figma_exports/phase4_mobile_drawer_bn.png',
     'figma_exports/phase4_modal_form_bn.png',
+    'figma_exports/phase4_modal_form_mobile_bn.png',
+    'figma_exports/phase4_modal_form_en.png',
+    'figma_exports/phase4_modal_form_mobile_en.png',
     'figma_exports/phase4_modal_receipt_bn.png',
     'figma_exports/prototype_enquiry_journey.webp',
     'figma_svgs_v3/00_brief_and_research.svg',
@@ -69,7 +80,13 @@ files_to_zip = [
     'figma_svgs_v3/08_handoff_qa.svg',
     'prototype/index.html',
     'prototype/prototype_enquiry_journey.webp',
+    'scripts/repair_principal_bengali_screens.js',
+    'scripts/repair_consultation_form_modal.js',
+    'scripts/repair_templates_english_and_archive.js',
+    'scripts/wire_prototype_verified_v2.js',
+    'scripts/generate_comprehensive_journey_readback.js',
     'scripts/record_genuine_390_mobile.py',
+    'scripts/record_phase1_motion_demo.py',
     'scripts/figma_design_system_generator.js'
 ]
 
@@ -199,15 +216,31 @@ reg_file = os.path.join(test_dir, 'docs/flowgrid_native_frame_register.json')
 with open(reg_file, 'r', encoding='utf-8') as f:
     reg_data = json.load(f)
 assert reg_data['meta']['totalNativeLayouts'] == 44, f"Expected 44 layouts, got {reg_data['meta']['totalNativeLayouts']}"
-assert reg_data['meta']['totalReactionsWired'] >= 80, f"Expected >=80 reactions, got {reg_data['meta']['totalReactionsWired']}"
+assert reg_data['meta']['totalReactionsWired'] >= 180, f"Expected >=180 reactions, got {reg_data['meta']['totalReactionsWired']}"
 print(f"PASS: Extracted native frame register contains {reg_data['meta']['totalNativeLayouts']} layouts and {reg_data['meta']['totalReactionsWired']} wired prototype reactions.")
 
-# 5. Test extracted recorder script python syntax
-recorder_file = os.path.join(test_dir, 'scripts/record_genuine_390_mobile.py')
-py_compile_res = subprocess.run(['python', '-m', 'py_compile', recorder_file], capture_output=True, text=True)
-if py_compile_res.returncode != 0:
-    raise RuntimeError(f"Recorder script compilation failed: {py_compile_res.stderr}")
-print("PASS: Extracted scripts/record_genuine_390_mobile.py compiled successfully with zero syntax errors.")
+# 5. Test extracted python scripts syntax
+for py_f in ['scripts/record_genuine_390_mobile.py', 'scripts/record_phase1_motion_demo.py']:
+    py_path = os.path.join(test_dir, py_f)
+    py_res = subprocess.run(['python', '-m', 'py_compile', py_path], capture_output=True, text=True)
+    if py_res.returncode != 0:
+        raise RuntimeError(f"Python compile failed on {py_f}: {py_res.stderr}")
+print("PASS: Extracted Python scripts compiled successfully with zero syntax errors.")
+
+# 6. Test extracted JavaScript scripts with node --check
+for js_f in [
+    'scripts/repair_principal_bengali_screens.js',
+    'scripts/repair_consultation_form_modal.js',
+    'scripts/repair_templates_english_and_archive.js',
+    'scripts/wire_prototype_verified_v2.js',
+    'scripts/generate_comprehensive_journey_readback.js',
+    'scripts/figma_design_system_generator.js'
+]:
+    js_path = os.path.join(test_dir, js_f)
+    js_res = subprocess.run(['node', '--check', js_path], capture_output=True, text=True)
+    if js_res.returncode != 0:
+        raise RuntimeError(f"Node --check failed on {js_f}: {js_res.stderr}")
+print("PASS: All extracted authoring and wiring JavaScript scripts passed node --check with zero errors.")
 
 # 6. Test extracted figma generator script syntax
 figma_gen_file = os.path.join(test_dir, 'scripts/figma_design_system_generator.js')

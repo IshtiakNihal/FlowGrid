@@ -1,11 +1,11 @@
 {
   "recording": {
     "file_name": "prototype_enquiry_journey.webp",
-    "frames": 66,
-    "decoded_frames": 66,
+    "frames": 65,
+    "decoded_frames": 65,
     "captured_steps": 178,
-    "size_bytes": 1401052,
-    "sha256": "d60eeb1ea185482382f8f8b5c69aad188d0ac53de9998e504d3eac8a8303aa05",
+    "size_bytes": 1441206,
+    "sha256": "2405583fcfa877961f140c6847ce6436375020cda0c1d71c60e36944b0bfaf47",
     "dimensions": [
       390,
       844
@@ -13,7 +13,7 @@
   },
   "assertions": {
     "tested_html_path": "prototype/index.html",
-    "tested_html_sha256": "ed813fd1f901eefede51d983fa5b3e1af26d19623dff652f846af5d7f85a76b6",
+    "tested_html_sha256": "bd70501d9acc2ef672757b3641b70705453d18a7530be71282f97025b9964403",
     "target_viewport": {
       "width": 390,
       "height": 844

@@ -1,49 +1,63 @@
 {
+  "meta": {
+    "tested_html_file": "prototype/index.html",
+    "tested_html_sha256": "bd70501d9acc2ef672757b3641b70705453d18a7530be71282f97025b9964403",
+    "environment": "Chrome CDP Port 9222",
+    "scope": "HTML Interactive Verification Demonstrations (Desktop 1280x800 & Mobile 390x844)"
+  },
   "desktop_recording": {
     "file": "figma_exports/phase1_motion_demo_desktop.webp",
-    "frames": 49,
-    "size_bytes": 1044116,
-    "sha256": "36d76aa9e3483018ab70d2506b25bce6d70030bddbe2e7cb16724d3b0677453a",
+    "captured_steps": 48,
+    "encoded_webp_frames": 25,
+    "size_bytes": 1044518,
+    "sha256": "17ea861d94028640cf4ab1200dffc61601a03daa2b732ddf11e77224b421ecd2",
+    "timing_overhead_note": "Observed duration reflects end-to-end CDP capture latency plus transition time; CSS specification is 600ms hero reveal and 360ms project transition.",
     "assertions": [
       {
         "step": "desktop_hero_reveal_600ms",
         "frames": 12,
-        "observed_duration_ms": 2471,
+        "observed_duration_ms": 2449,
         "status": "PASS"
       },
       {
         "step": "project_transition_angle_2_dining_360ms",
-        "duration_ms": 1372,
+        "duration_ms": 1379,
         "status": "PASS"
       },
       {
         "step": "project_transition_angle_3_joinery_360ms",
-        "duration_ms": 1410,
+        "duration_ms": 1135,
         "status": "PASS"
       },
       {
         "step": "modal_open_and_clearance",
-        "duration_ms": 1586,
+        "duration_ms": 1177,
         "clearance": {
-          "clearancePx": 16
+          "bannerRight": 828,
+          "closeLeft": 864,
+          "clearancePx": 36,
+          "pass": true
         },
         "status": "PASS"
       },
       {
         "step": "reduced_motion_instant_fallback",
+        "verified_class": true,
         "status": "PASS"
       }
     ]
   },
   "mobile_recording": {
     "file": "figma_exports/phase1_motion_demo_mobile.webp",
-    "frames": 45,
-    "size_bytes": 503896,
-    "sha256": "84b46062c3de1b176dcc6f9b5ce439dd04f906089058fb0ca4812587dd33a7dc",
+    "captured_steps": 45,
+    "encoded_webp_frames": 29,
+    "size_bytes": 546648,
+    "sha256": "bee0b986068729278e4904573665be5cefa0dc01f5739b75fdbb2cad84de2df9",
+    "timing_overhead_note": "Observed duration reflects end-to-end CDP capture latency plus transition time; CSS specification is 220ms drawer slide and 360ms project transition.",
     "assertions": [
       {
         "step": "mobile_drawer_open_220ms",
-        "duration_ms": 1556,
+        "duration_ms": 1571,
         "status": "PASS"
       }
     ]

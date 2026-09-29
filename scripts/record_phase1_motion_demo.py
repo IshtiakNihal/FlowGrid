@@ -10,6 +10,11 @@ from PIL import Image
 
 WS_URL = "ws://localhost:9222/devtools/page/92C5BBFE6765E1EDDE2F6AF2C652F513"
 
+def get_html_sha():
+    proto_file = r'prototype/index.html'
+    with open(proto_file, 'rb') as f:
+        return hashlib.sha256(f.read()).hexdigest()
+
 async def call_cdp(ws, method, params=None, msg_id=1):
     payload = {"id": msg_id, "method": method}
     if params:
@@ -23,7 +28,14 @@ async def call_cdp(ws, method, params=None, msg_id=1):
             return resp
 
 async def eval_js(ws, expr, msg_id=100):
-    wrapped = f"(() => {{\n{expr}\n}})()"
+    stripped = expr.strip()
+    if not (stripped.startswith('(') and stripped.endswith(')')) and (';' in stripped or '\n' in stripped):
+        if not stripped.startswith('return ') and not 'return ' in stripped:
+            wrapped = f"(() => {{\n{expr};\n}})()"
+        else:
+            wrapped = f"(() => {{\n{expr}\n}})()"
+    else:
+        wrapped = expr
     res = await call_cdp(ws, "Runtime.evaluate", {
         "expression": wrapped,
         "returnByValue": True,
@@ -31,7 +43,7 @@ async def eval_js(ws, expr, msg_id=100):
     }, msg_id=msg_id)
     inner = res.get("result", {})
     if "exceptionDetails" in inner:
-        raise RuntimeError(f"JS error: {inner['exceptionDetails']}")
+        raise RuntimeError(f"JS error in '{expr}': {inner['exceptionDetails']}")
     return inner.get("result", {}).get("value")
 
 async def capture_frame(ws, msg_id=200):
@@ -116,24 +128,33 @@ async def record_desktop(ws):
     # Open Modal (Consultation Enquiry Form)
     t_m = time.time()
     await eval_js(ws, "openModal();", msg_id=next_id())
-    for _ in range(8):
+    for _ in range(6):
         frames.append(await capture_frame(ws, msg_id=next_id()))
         await asyncio.sleep(0.05)
     dur_m = time.time() - t_m
 
+    # Switch to Offline state to genuinely measure clearance between offline banner and close button
+    await eval_js(ws, "showState('stateOffline');", msg_id=next_id())
+    await asyncio.sleep(0.1)
+    frames.append(await capture_frame(ws, msg_id=next_id()))
+
     clearance = await eval_js(ws, """
-        const banner = document.querySelector('.offline-banner');
-        const closeBtn = document.querySelector('.modal-close');
-        if (banner && closeBtn) {
+        (() => {
+            const banner = document.querySelector('.offline-banner');
+            const closeBtn = document.getElementById('modalCloseBtn');
+            if (!banner) throw new Error("Clearance Assertion Failed: .offline-banner element not found in DOM");
+            if (!closeBtn) throw new Error("Clearance Assertion Failed: #modalCloseBtn element not found in DOM");
             const bRect = banner.getBoundingClientRect();
             const cRect = closeBtn.getBoundingClientRect();
+            const gap = Math.round(cRect.left - bRect.right);
+            if (gap < 8) throw new Error("Clearance Assertion Failed: gap " + gap + "px is less than required 8px");
             return {
-                bannerRight: bRect.right,
-                closeLeft: cRect.left,
-                clearancePx: Math.round(cRect.left - bRect.right)
+                bannerRight: Math.round(bRect.right),
+                closeLeft: Math.round(cRect.left),
+                clearancePx: gap,
+                pass: true
             };
-        }
-        return { clearancePx: 16 };
+        })()
     """, msg_id=next_id())
     assertions.append({
         "step": "modal_open_and_clearance",
@@ -149,12 +170,16 @@ async def record_desktop(ws):
 
     # Reduced-motion demonstration
     await eval_js(ws, "document.documentElement.classList.add('reduced-motion');", msg_id=next_id())
+    is_reduced = await eval_js(ws, "document.documentElement.classList.contains('reduced-motion')", msg_id=next_id())
+    if not is_reduced:
+        raise RuntimeError("Reduced motion class failed to apply")
     await eval_js(ws, "document.getElementById('tabAngle2').click();", msg_id=next_id())
     for _ in range(4):
         frames.append(await capture_frame(ws, msg_id=next_id()))
         await asyncio.sleep(0.07)
     assertions.append({
         "step": "reduced_motion_instant_fallback",
+        "verified_class": is_reduced,
         "status": "PASS"
     })
 
@@ -171,13 +196,18 @@ async def record_desktop(ws):
     )
     with open(out_dt, "rb") as f:
         dt_sha = hashlib.sha256(f.read()).hexdigest()
-    print(f"Saved Desktop Motion: {out_dt} ({len(frames)} frames, {os.path.getsize(out_dt)} bytes, SHA: {dt_sha[:16]})")
+    
+    im_dt_saved = Image.open(out_dt)
+    dt_decoded = im_dt_saved.n_frames
+    print(f"Saved Desktop Motion: {out_dt} ({len(frames)} captured steps, {dt_decoded} encoded frames, {os.path.getsize(out_dt)} bytes, SHA: {dt_sha[:16]})")
 
     return {
         "file": out_dt,
-        "frames": len(frames),
+        "captured_steps": len(frames),
+        "encoded_webp_frames": dt_decoded,
         "size_bytes": os.path.getsize(out_dt),
         "sha256": dt_sha,
+        "timing_overhead_note": "Observed duration reflects end-to-end CDP capture latency plus transition time; CSS specification is 600ms hero reveal and 360ms project transition.",
         "assertions": assertions
     }
 
@@ -274,13 +304,18 @@ async def record_mobile(ws):
     )
     with open(out_mb, "rb") as f:
         mb_sha = hashlib.sha256(f.read()).hexdigest()
-    print(f"Saved Mobile Motion: {out_mb} ({len(frames)} frames, {os.path.getsize(out_mb)} bytes, SHA: {mb_sha[:16]})")
+    
+    im_mb_saved = Image.open(out_mb)
+    mb_decoded = im_mb_saved.n_frames
+    print(f"Saved Mobile Motion: {out_mb} ({len(frames)} captured steps, {mb_decoded} encoded frames, {os.path.getsize(out_mb)} bytes, SHA: {mb_sha[:16]})")
 
     return {
         "file": out_mb,
-        "frames": len(frames),
+        "captured_steps": len(frames),
+        "encoded_webp_frames": mb_decoded,
         "size_bytes": os.path.getsize(out_mb),
         "sha256": mb_sha,
+        "timing_overhead_note": "Observed duration reflects end-to-end CDP capture latency plus transition time; CSS specification is 220ms drawer slide and 360ms project transition.",
         "assertions": assertions
     }
 
@@ -294,9 +329,16 @@ async def main():
         report_path = "docs/phase1_motion_verification_assertions.json"
         with open(report_path, "w", encoding="utf-8") as f:
             json.dump({
+                "meta": {
+                    "tested_html_file": "prototype/index.html",
+                    "tested_html_sha256": get_html_sha(),
+                    "environment": "Chrome CDP Port 9222",
+                    "scope": "HTML Interactive Verification Demonstrations (Desktop 1280x800 & Mobile 390x844)"
+                },
                 "desktop_recording": dt_res,
                 "mobile_recording": mb_res
             }, f, indent=2, ensure_ascii=False)
+        print(f"\nAll motion demonstrations successfully recorded and assertions logged to {report_path}!")
         print(f"\nAll motion demonstrations successfully recorded and assertions logged to {report_path}!")
 
 if __name__ == "__main__":

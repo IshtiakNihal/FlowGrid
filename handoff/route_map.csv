@@ -1,0 +1,358 @@
+Source Frame,Source Node ID,Trigger,Action,Destination Node ID,Navigation Type,Observed Result
+Bengali Homepage — 1440px Desktop,22:3077,ON_CLICK,NODE,18:1587,NAVIGATE,Native In-Canvas Transition Verified
+Bengali Homepage — 1440px Desktop,22:3078,ON_CLICK,NODE,18:1655,NAVIGATE,Native In-Canvas Transition Verified
+Bengali Homepage — 1440px Desktop,22:3079,ON_CLICK,NODE,18:1718,NAVIGATE,Native In-Canvas Transition Verified
+Bengali Homepage — 1440px Desktop,22:3080,ON_CLICK,NODE,18:1752,NAVIGATE,Native In-Canvas Transition Verified
+Bengali Homepage — 1440px Desktop,22:3081,ON_CLICK,NODE,18:1780,NAVIGATE,Native In-Canvas Transition Verified
+Bengali Homepage — 1440px Desktop,22:3083,ON_CLICK,URL,/en/,NAVIGATE,Bilingual Navigation Switch: Transition to /en/
+Bengali Homepage — 1440px Desktop,22:3085,ON_CLICK,NODE,18:2031,OVERLAY,Native In-Canvas Transition Verified
+Bengali Homepage — 1440px Desktop,22:3092,ON_CLICK,NODE,18:2031,OVERLAY,Native In-Canvas Transition Verified
+Bengali Homepage — 1440px Desktop,22:3094,ON_CLICK,NODE,18:221,NAVIGATE,Native In-Canvas Transition Verified
+Bengali Homepage — 1440px Desktop,22:3141,ON_CLICK,NODE,18:2031,OVERLAY,Native In-Canvas Transition Verified
+Bengali Homepage — 1440px Desktop,22:3145,ON_CLICK,NODE,18:2031,OVERLAY,Native In-Canvas Transition Verified
+Bengali Project Detail — 1440px Desktop,22:3151,ON_CLICK,NODE,18:137,NAVIGATE,Native In-Canvas Transition Verified
+Bengali Project Detail — 1440px Desktop,22:3153,ON_CLICK,NODE,18:1587,NAVIGATE,Native In-Canvas Transition Verified
+Bengali Project Detail — 1440px Desktop,22:3154,ON_CLICK,NODE,18:1655,NAVIGATE,Native In-Canvas Transition Verified
+Bengali Project Detail — 1440px Desktop,22:3155,ON_CLICK,NODE,18:1718,NAVIGATE,Native In-Canvas Transition Verified
+Bengali Project Detail — 1440px Desktop,22:3156,ON_CLICK,NODE,18:1752,NAVIGATE,Native In-Canvas Transition Verified
+Bengali Project Detail — 1440px Desktop,22:3157,ON_CLICK,NODE,18:1780,NAVIGATE,Native In-Canvas Transition Verified
+Bengali Project Detail — 1440px Desktop,22:3159,ON_CLICK,URL,/en/detail,NAVIGATE,Bilingual Navigation Switch: Transition to /en/detail
+Bengali Project Detail — 1440px Desktop,22:3161,ON_CLICK,NODE,18:2031,OVERLAY,Native In-Canvas Transition Verified
+Bengali Project Detail — 1440px Desktop,22:3197,ON_CLICK,NODE,18:2031,OVERLAY,Native In-Canvas Transition Verified
+Bengali Project Archive (ধারণা সংগ্রহ) — 1440px Desktop,23:457,ON_CLICK,NODE,18:137,NAVIGATE,Native In-Canvas Transition Verified
+Bengali Project Archive (ধারণা সংগ্রহ) — 1440px Desktop,23:460,ON_CLICK,NODE,18:1655,NAVIGATE,Native In-Canvas Transition Verified
+Bengali Project Archive (ধারণা সংগ্রহ) — 1440px Desktop,23:461,ON_CLICK,NODE,18:1718,NAVIGATE,Native In-Canvas Transition Verified
+Bengali Project Archive (ধারণা সংগ্রহ) — 1440px Desktop,23:462,ON_CLICK,NODE,18:1752,NAVIGATE,Native In-Canvas Transition Verified
+Bengali Project Archive (ধারণা সংগ্রহ) — 1440px Desktop,23:463,ON_CLICK,NODE,18:1780,NAVIGATE,Native In-Canvas Transition Verified
+Bengali Project Archive (ধারণা সংগ্রহ) — 1440px Desktop,23:465,ON_CLICK,URL,/en/archive,NAVIGATE,Bilingual Navigation Switch: Transition to /en/archive
+Bengali Project Archive (ধারণা সংগ্রহ) — 1440px Desktop,23:467,ON_CLICK,NODE,18:2031,OVERLAY,Native In-Canvas Transition Verified
+Bengali Project Archive (ধারণা সংগ্রহ) — 1440px Desktop,23:476,ON_CLICK,NODE,18:221,NAVIGATE,Native In-Canvas Transition Verified
+Bengali Project Archive (ধারণা সংগ্রহ) — 1440px Desktop,23:487,ON_CLICK,NODE,18:221,NAVIGATE,Native In-Canvas Transition Verified
+Bengali Project Archive (ধারণা সংগ্রহ) — 1440px Desktop,23:494,ON_CLICK,NODE,18:221,NAVIGATE,Native In-Canvas Transition Verified
+Bengali Project Archive (ধারণা সংগ্রহ) — 1440px Desktop,23:496,ON_CLICK,NODE,18:221,NAVIGATE,Native In-Canvas Transition Verified
+Bengali Project Archive (ধারণা সংগ্রহ) — 1440px Desktop,23:503,ON_CLICK,NODE,18:221,NAVIGATE,Native In-Canvas Transition Verified
+Bengali Project Archive (ধারণা সংগ্রহ) — 1440px Desktop,23:505,ON_CLICK,NODE,18:221,NAVIGATE,Native In-Canvas Transition Verified
+Bengali Project Archive (ধারণা সংগ্রহ) — 1440px Desktop,23:512,ON_CLICK,NODE,18:221,NAVIGATE,Native In-Canvas Transition Verified
+Bengali Project Archive (ধারণা সংগ্রহ) — 1440px Desktop,23:514,ON_CLICK,NODE,18:221,NAVIGATE,Native In-Canvas Transition Verified
+Bengali Project Archive (ধারণা সংগ্রহ) — 1440px Desktop,23:521,ON_CLICK,NODE,18:221,NAVIGATE,Native In-Canvas Transition Verified
+Bengali Project Archive (ধারণা সংগ্রহ) — 1440px Desktop,23:523,ON_CLICK,NODE,18:2031,OVERLAY,Native In-Canvas Transition Verified
+Bengali Project Archive (ধারণা সংগ্রহ) — 1440px Desktop,23:527,ON_CLICK,NODE,18:2031,OVERLAY,Native In-Canvas Transition Verified
+Bengali Services (স্থাপত্য সেবাসমূহ) — 1440px Desktop,23:609,ON_CLICK,NODE,18:137,NAVIGATE,Native In-Canvas Transition Verified
+Bengali Services (স্থাপত্য সেবাসমূহ) — 1440px Desktop,23:611,ON_CLICK,NODE,18:1587,NAVIGATE,Native In-Canvas Transition Verified
+Bengali Services (স্থাপত্য সেবাসমূহ) — 1440px Desktop,23:613,ON_CLICK,NODE,18:1718,NAVIGATE,Native In-Canvas Transition Verified
+Bengali Services (স্থাপত্য সেবাসমূহ) — 1440px Desktop,23:614,ON_CLICK,NODE,18:1752,NAVIGATE,Native In-Canvas Transition Verified
+Bengali Services (স্থাপত্য সেবাসমূহ) — 1440px Desktop,23:615,ON_CLICK,NODE,18:1780,NAVIGATE,Native In-Canvas Transition Verified
+Bengali Services (স্থাপত্য সেবাসমূহ) — 1440px Desktop,23:617,ON_CLICK,URL,/en/services,NAVIGATE,Bilingual Navigation Switch: Transition to /en/services
+Bengali Services (স্থাপত্য সেবাসমূহ) — 1440px Desktop,23:619,ON_CLICK,NODE,18:2031,OVERLAY,Native In-Canvas Transition Verified
+Bengali Services (স্থাপত্য সেবাসমূহ) — 1440px Desktop,23:644,ON_CLICK,NODE,18:2031,OVERLAY,Native In-Canvas Transition Verified
+Bengali Services (স্থাপত্য সেবাসমূহ) — 1440px Desktop,23:648,ON_CLICK,NODE,18:2031,OVERLAY,Native In-Canvas Transition Verified
+Bengali Contact (যোগাযোগ ও কনসাল্টেশন) — 1440px Desktop,23:654,ON_CLICK,NODE,18:137,NAVIGATE,Native In-Canvas Transition Verified
+Bengali Contact (যোগাযোগ ও কনসাল্টেশন) — 1440px Desktop,23:656,ON_CLICK,NODE,18:1587,NAVIGATE,Native In-Canvas Transition Verified
+Bengali Contact (যোগাযোগ ও কনসাল্টেশন) — 1440px Desktop,23:657,ON_CLICK,NODE,18:1655,NAVIGATE,Native In-Canvas Transition Verified
+Bengali Contact (যোগাযোগ ও কনসাল্টেশন) — 1440px Desktop,23:658,ON_CLICK,NODE,18:1718,NAVIGATE,Native In-Canvas Transition Verified
+Bengali Contact (যোগাযোগ ও কনসাল্টেশন) — 1440px Desktop,23:659,ON_CLICK,NODE,18:1752,NAVIGATE,Native In-Canvas Transition Verified
+Bengali Contact (যোগাযোগ ও কনসাল্টেশন) — 1440px Desktop,23:662,ON_CLICK,URL,/en/contact,NAVIGATE,Bilingual Navigation Switch: Transition to /en/contact
+Bengali Contact (যোগাযোগ ও কনসাল্টেশন) — 1440px Desktop,23:664,ON_CLICK,NODE,18:2031,OVERLAY,Native In-Canvas Transition Verified
+Overlay / Consultation Modal — Desktop BN,22:3487,ON_CLICK,CLOSE,N/A,NAVIGATE,Native In-Canvas Transition Verified
+Overlay / Consultation Modal — Desktop BN,22:3511,ON_CLICK,NODE,18:2071,SWAP,Native In-Canvas Transition Verified
+Overlay / Consultation Modal — Desktop BN,22:3513,ON_CLICK,NODE,18:2057,SWAP,Native In-Canvas Transition Verified
+Overlay / Submitting — Desktop BN,18:2061,ON_CLICK,NODE,18:2063,SWAP,Native In-Canvas Transition Verified
+Overlay / Success Receipt — Desktop BN,18:2069,ON_CLICK,CLOSE,N/A,NAVIGATE,Native In-Canvas Transition Verified
+Overlay / Offline Error — Desktop BN,18:2076,ON_CLICK,NODE,18:2057,SWAP,Native In-Canvas Transition Verified
+Overlay / Offline Error — Desktop BN,18:2078,ON_CLICK,CLOSE,N/A,NAVIGATE,Native In-Canvas Transition Verified
+Bengali Homepage — 390px Mobile,22:3203,ON_CLICK,NODE,18:2129,OVERLAY,Native In-Canvas Transition Verified
+Bengali Homepage — 390px Mobile,22:3210,ON_CLICK,NODE,18:2080,OVERLAY,Native In-Canvas Transition Verified
+Bengali Homepage — 390px Mobile,22:3214,ON_CLICK,NODE,18:339,NAVIGATE,Native In-Canvas Transition Verified
+Bengali Homepage — 390px Mobile,22:3218,ON_CLICK,NODE,18:339,NAVIGATE,Native In-Canvas Transition Verified
+Bengali Project Detail — 390px Mobile,22:3240,ON_CLICK,NODE,18:283,NAVIGATE,Native In-Canvas Transition Verified
+Bengali Project Detail — 390px Mobile,22:3241,ON_CLICK,NODE,18:2129,OVERLAY,Native In-Canvas Transition Verified
+Bengali Project Detail — 390px Mobile,22:3267,ON_CLICK,NODE,18:2080,OVERLAY,Native In-Canvas Transition Verified
+Bengali Project Detail — 390px Mobile,22:3268,ON_CLICK,NODE,18:2080,OVERLAY,Native In-Canvas Transition Verified
+Bengali Project Archive (ধারণা সংগ্রহ) — 390px Mobile,23:770,ON_CLICK,NODE,18:283,NAVIGATE,Native In-Canvas Transition Verified
+Bengali Project Archive (ধারণা সংগ্রহ) — 390px Mobile,23:772,ON_CLICK,URL,/en/archive,NAVIGATE,Bilingual Navigation Switch: Transition to /en/archive
+Bengali Project Archive (ধারণা সংগ্রহ) — 390px Mobile,23:774,ON_CLICK,NODE,18:2129,OVERLAY,Native In-Canvas Transition Verified
+Bengali Project Archive (ধারণা সংগ্রহ) — 390px Mobile,23:783,ON_CLICK,NODE,18:339,NAVIGATE,Native In-Canvas Transition Verified
+Bengali Project Archive (ধারণা সংগ্রহ) — 390px Mobile,23:792,ON_CLICK,NODE,18:339,NAVIGATE,Native In-Canvas Transition Verified
+Bengali Project Archive (ধারণা সংগ্রহ) — 390px Mobile,23:801,ON_CLICK,NODE,18:339,NAVIGATE,Native In-Canvas Transition Verified
+Bengali Project Archive (ধারণা সংগ্রহ) — 390px Mobile,23:810,ON_CLICK,NODE,18:339,NAVIGATE,Native In-Canvas Transition Verified
+Bengali Project Archive (ধারণা সংগ্রহ) — 390px Mobile,23:819,ON_CLICK,NODE,18:2080,OVERLAY,Native In-Canvas Transition Verified
+Bengali Project Archive (ধারণা সংগ্রহ) — 390px Mobile,23:822,ON_CLICK,NODE,18:2080,OVERLAY,Native In-Canvas Transition Verified
+Overlay / Consultation Modal — Mobile BN,22:3517,ON_CLICK,CLOSE,N/A,NAVIGATE,Native In-Canvas Transition Verified
+Overlay / Consultation Modal — Mobile BN,22:3541,ON_CLICK,NODE,18:2120,SWAP,Native In-Canvas Transition Verified
+Overlay / Consultation Modal — Mobile BN,22:3543,ON_CLICK,NODE,18:2106,SWAP,Native In-Canvas Transition Verified
+Overlay / Submitting — Mobile BN,18:2110,ON_CLICK,NODE,18:2112,SWAP,Native In-Canvas Transition Verified
+Overlay / Success Receipt — Mobile BN,18:2118,ON_CLICK,CLOSE,N/A,NAVIGATE,Native In-Canvas Transition Verified
+Overlay / Offline Error — Mobile BN,18:2125,ON_CLICK,NODE,18:2106,SWAP,Native In-Canvas Transition Verified
+Overlay / Offline Error — Mobile BN,18:2127,ON_CLICK,CLOSE,N/A,NAVIGATE,Native In-Canvas Transition Verified
+Overlay / Mobile Navigation Drawer — BN,18:2132,ON_CLICK,CLOSE,N/A,NAVIGATE,Native In-Canvas Transition Verified
+Overlay / Mobile Navigation Drawer — BN,18:2135,ON_CLICK,NODE,18:283,NAVIGATE,Native In-Canvas Transition Verified
+Overlay / Mobile Navigation Drawer — BN,18:2137,ON_CLICK,NODE,18:1853,NAVIGATE,Native In-Canvas Transition Verified
+Overlay / Mobile Navigation Drawer — BN,18:2139,ON_CLICK,NODE,18:1889,NAVIGATE,Native In-Canvas Transition Verified
+Overlay / Mobile Navigation Drawer — BN,18:2141,ON_CLICK,NODE,18:1925,NAVIGATE,Native In-Canvas Transition Verified
+Overlay / Mobile Navigation Drawer — BN,18:2143,ON_CLICK,NODE,18:1943,NAVIGATE,Native In-Canvas Transition Verified
+Overlay / Mobile Navigation Drawer — BN,18:2145,ON_CLICK,NODE,18:1961,NAVIGATE,Native In-Canvas Transition Verified
+Overlay / Mobile Navigation Drawer — BN,18:2147,ON_CLICK,NODE,18:2080,OVERLAY,Native In-Canvas Transition Verified
+English Homepage — 1440px Desktop,22:3684,ON_CLICK,NODE,18:1102,NAVIGATE,Native In-Canvas Transition Verified
+English Homepage — 1440px Desktop,22:3685,ON_CLICK,NODE,18:1191,NAVIGATE,Native In-Canvas Transition Verified
+English Homepage — 1440px Desktop,22:3686,ON_CLICK,NODE,18:1254,NAVIGATE,Native In-Canvas Transition Verified
+English Homepage — 1440px Desktop,22:3687,ON_CLICK,NODE,18:1288,NAVIGATE,Native In-Canvas Transition Verified
+English Homepage — 1440px Desktop,22:3688,ON_CLICK,NODE,18:1316,NAVIGATE,Native In-Canvas Transition Verified
+English Homepage — 1440px Desktop,22:3690,ON_CLICK,URL,/bn/,NAVIGATE,Bilingual Navigation Switch: Transition to /bn/
+English Homepage — 1440px Desktop,22:3692,ON_CLICK,NODE,18:2149,OVERLAY,Native In-Canvas Transition Verified
+English Homepage — 1440px Desktop,22:3699,ON_CLICK,NODE,18:2149,OVERLAY,Native In-Canvas Transition Verified
+English Homepage — 1440px Desktop,22:3701,ON_CLICK,NODE,18:1139,NAVIGATE,Native In-Canvas Transition Verified
+English Homepage — 1440px Desktop,22:3752,ON_CLICK,NODE,18:2149,OVERLAY,Native In-Canvas Transition Verified
+English Project Archive — 1440px Desktop,23:533,ON_CLICK,NODE,18:1068,NAVIGATE,Native In-Canvas Transition Verified
+English Project Archive — 1440px Desktop,23:536,ON_CLICK,NODE,18:1191,NAVIGATE,Native In-Canvas Transition Verified
+English Project Archive — 1440px Desktop,23:537,ON_CLICK,NODE,18:1254,NAVIGATE,Native In-Canvas Transition Verified
+English Project Archive — 1440px Desktop,23:538,ON_CLICK,NODE,18:1288,NAVIGATE,Native In-Canvas Transition Verified
+English Project Archive — 1440px Desktop,23:539,ON_CLICK,NODE,18:1316,NAVIGATE,Native In-Canvas Transition Verified
+English Project Archive — 1440px Desktop,23:541,ON_CLICK,URL,/bn/archive,NAVIGATE,Bilingual Navigation Switch: Transition to /bn/archive
+English Project Archive — 1440px Desktop,23:543,ON_CLICK,NODE,18:2149,OVERLAY,Native In-Canvas Transition Verified
+English Project Archive — 1440px Desktop,23:552,ON_CLICK,NODE,18:1139,NAVIGATE,Native In-Canvas Transition Verified
+English Project Archive — 1440px Desktop,23:563,ON_CLICK,NODE,18:1139,NAVIGATE,Native In-Canvas Transition Verified
+English Project Archive — 1440px Desktop,23:570,ON_CLICK,NODE,18:1139,NAVIGATE,Native In-Canvas Transition Verified
+English Project Archive — 1440px Desktop,23:572,ON_CLICK,NODE,18:1139,NAVIGATE,Native In-Canvas Transition Verified
+English Project Archive — 1440px Desktop,23:579,ON_CLICK,NODE,18:1139,NAVIGATE,Native In-Canvas Transition Verified
+English Project Archive — 1440px Desktop,23:581,ON_CLICK,NODE,18:1139,NAVIGATE,Native In-Canvas Transition Verified
+English Project Archive — 1440px Desktop,23:588,ON_CLICK,NODE,18:1139,NAVIGATE,Native In-Canvas Transition Verified
+English Project Archive — 1440px Desktop,23:590,ON_CLICK,NODE,18:1139,NAVIGATE,Native In-Canvas Transition Verified
+English Project Archive — 1440px Desktop,23:597,ON_CLICK,NODE,18:1139,NAVIGATE,Native In-Canvas Transition Verified
+English Project Archive — 1440px Desktop,23:599,ON_CLICK,NODE,18:2149,OVERLAY,Native In-Canvas Transition Verified
+English Project Archive — 1440px Desktop,23:603,ON_CLICK,NODE,18:2149,OVERLAY,Native In-Canvas Transition Verified
+English Concept Detail — 1440px Desktop,23:711,ON_CLICK,NODE,18:1068,NAVIGATE,Native In-Canvas Transition Verified
+English Concept Detail — 1440px Desktop,23:713,ON_CLICK,NODE,18:1102,NAVIGATE,Native In-Canvas Transition Verified
+English Concept Detail — 1440px Desktop,23:714,ON_CLICK,NODE,18:1191,NAVIGATE,Native In-Canvas Transition Verified
+English Concept Detail — 1440px Desktop,23:715,ON_CLICK,NODE,18:1254,NAVIGATE,Native In-Canvas Transition Verified
+English Concept Detail — 1440px Desktop,23:716,ON_CLICK,NODE,18:1288,NAVIGATE,Native In-Canvas Transition Verified
+English Concept Detail — 1440px Desktop,23:717,ON_CLICK,NODE,18:1316,NAVIGATE,Native In-Canvas Transition Verified
+English Concept Detail — 1440px Desktop,23:719,ON_CLICK,URL,/bn/detail,NAVIGATE,Bilingual Navigation Switch: Transition to /bn/detail
+English Concept Detail — 1440px Desktop,23:721,ON_CLICK,NODE,18:2149,OVERLAY,Native In-Canvas Transition Verified
+English Concept Detail — 1440px Desktop,23:724,ON_CLICK,NODE,18:1102,NAVIGATE,Native In-Canvas Transition Verified
+English Concept Detail — 1440px Desktop,23:760,ON_CLICK,NODE,18:2149,OVERLAY,Native In-Canvas Transition Verified
+English Concept Detail — 1440px Desktop,23:764,ON_CLICK,NODE,18:2149,OVERLAY,Native In-Canvas Transition Verified
+English Homepage — 390px Mobile,22:3759,ON_CLICK,NODE,18:2247,OVERLAY,Native In-Canvas Transition Verified
+English Homepage — 390px Mobile,22:3766,ON_CLICK,NODE,18:2198,OVERLAY,Native In-Canvas Transition Verified
+English Homepage — 390px Mobile,22:3770,ON_CLICK,NODE,18:1425,NAVIGATE,Native In-Canvas Transition Verified
+English Homepage — 390px Mobile,22:3774,ON_CLICK,NODE,18:1425,NAVIGATE,Native In-Canvas Transition Verified
+English Project Archive — 390px Mobile,24:1299,ON_CLICK,NODE,18:1425,NAVIGATE,Native In-Canvas Transition Verified
+English Project Archive — 390px Mobile,24:1308,ON_CLICK,NODE,18:1425,NAVIGATE,Native In-Canvas Transition Verified
+English Project Archive — 390px Mobile,24:1317,ON_CLICK,NODE,18:1425,NAVIGATE,Native In-Canvas Transition Verified
+English Project Archive — 390px Mobile,24:1326,ON_CLICK,NODE,18:1425,NAVIGATE,Native In-Canvas Transition Verified
+English Concept Detail — 390px Mobile,23:828,ON_CLICK,NODE,18:1389,NAVIGATE,Native In-Canvas Transition Verified
+English Concept Detail — 390px Mobile,23:830,ON_CLICK,URL,/bn/detail,NAVIGATE,Bilingual Navigation Switch: Transition to /bn/detail
+English Concept Detail — 390px Mobile,23:832,ON_CLICK,NODE,18:2247,OVERLAY,Native In-Canvas Transition Verified
+English Concept Detail — 390px Mobile,23:837,ON_CLICK,NODE,18:1407,NAVIGATE,Native In-Canvas Transition Verified
+Overlay / Consultation Modal — Desktop EN,22:3547,ON_CLICK,CLOSE,N/A,NAVIGATE,Native In-Canvas Transition Verified
+Overlay / Consultation Modal — Desktop EN,22:3571,ON_CLICK,NODE,18:2189,SWAP,Native In-Canvas Transition Verified
+Overlay / Consultation Modal — Desktop EN,22:3573,ON_CLICK,NODE,18:2175,SWAP,Native In-Canvas Transition Verified
+Overlay / Submitting — Desktop EN,18:2179,ON_CLICK,NODE,18:2181,SWAP,Native In-Canvas Transition Verified
+Overlay / Success Receipt — Desktop EN,18:2187,ON_CLICK,CLOSE,N/A,NAVIGATE,Native In-Canvas Transition Verified
+Overlay / Offline Error — Desktop EN,18:2194,ON_CLICK,NODE,18:2175,SWAP,Native In-Canvas Transition Verified
+Overlay / Offline Error — Desktop EN,18:2196,ON_CLICK,CLOSE,N/A,NAVIGATE,Native In-Canvas Transition Verified
+Overlay / Consultation Modal — Mobile EN,22:3577,ON_CLICK,CLOSE,N/A,NAVIGATE,Native In-Canvas Transition Verified
+Overlay / Consultation Modal — Mobile EN,22:3601,ON_CLICK,NODE,18:2238,SWAP,Native In-Canvas Transition Verified
+Overlay / Consultation Modal — Mobile EN,22:3603,ON_CLICK,NODE,18:2224,SWAP,Native In-Canvas Transition Verified
+Overlay / Submitting — Mobile EN,18:2228,ON_CLICK,NODE,18:2230,SWAP,Native In-Canvas Transition Verified
+Overlay / Success Receipt — Mobile EN,18:2236,ON_CLICK,CLOSE,N/A,NAVIGATE,Native In-Canvas Transition Verified
+Overlay / Offline Error — Mobile EN,18:2243,ON_CLICK,NODE,18:2224,SWAP,Native In-Canvas Transition Verified
+Overlay / Offline Error — Mobile EN,18:2245,ON_CLICK,CLOSE,N/A,NAVIGATE,Native In-Canvas Transition Verified
+Overlay / Mobile Navigation Drawer — EN,18:2250,ON_CLICK,CLOSE,N/A,NAVIGATE,Native In-Canvas Transition Verified
+Overlay / Mobile Navigation Drawer — EN,18:2253,ON_CLICK,NODE,18:1389,NAVIGATE,Native In-Canvas Transition Verified
+Overlay / Mobile Navigation Drawer — EN,18:2255,ON_CLICK,NODE,18:1407,NAVIGATE,Native In-Canvas Transition Verified
+Overlay / Mobile Navigation Drawer — EN,18:2257,ON_CLICK,NODE,18:1461,NAVIGATE,Native In-Canvas Transition Verified
+Overlay / Mobile Navigation Drawer — EN,18:2259,ON_CLICK,NODE,18:1497,NAVIGATE,Native In-Canvas Transition Verified
+Overlay / Mobile Navigation Drawer — EN,18:2261,ON_CLICK,NODE,18:1515,NAVIGATE,Native In-Canvas Transition Verified
+Overlay / Mobile Navigation Drawer — EN,18:2263,ON_CLICK,NODE,18:2198,OVERLAY,Native In-Canvas Transition Verified
+Overlay / Mobile Navigation Drawer — EN,18:2265,ON_CLICK,NODE,18:2198,OVERLAY,Native In-Canvas Transition Verified
+Flow / Bengali Homepage — 1440px Desktop,24:8044,ON_CLICK,NODE,24:8456,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Bengali Homepage — 1440px Desktop,24:8046,ON_CLICK,NODE,24:9571,OVERLAY,Native In-Canvas Transition Verified
+Flow / Bengali Homepage — 1440px Desktop,I24:8046;10:33,ON_CLICK,NODE,24:9571,OVERLAY,Native In-Canvas Transition Verified
+Flow / Bengali Homepage — 1440px Desktop,I24:8053;10:33,ON_CLICK,NODE,24:9571,OVERLAY,Native In-Canvas Transition Verified
+Flow / Bengali Homepage — 1440px Desktop,24:8105,ON_CLICK,NODE,24:9571,OVERLAY,Native In-Canvas Transition Verified
+Flow / Bengali Homepage — 1440px Desktop,I24:8105;10:33,ON_CLICK,NODE,24:9571,OVERLAY,Native In-Canvas Transition Verified
+Flow / Bengali Project Archive (ধারণা সংগ্রহ) — 1440px Desktop,24:8111,ON_CLICK,NODE,24:8034,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Bengali Project Archive (ধারণা সংগ্রহ) — 1440px Desktop,24:8119,ON_CLICK,NODE,24:8531,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Bengali Project Archive (ধারণা সংগ্রহ) — 1440px Desktop,24:8121,ON_CLICK,NODE,24:9571,OVERLAY,Native In-Canvas Transition Verified
+Flow / Bengali Project Archive (ধারণা সংগ্রহ) — 1440px Desktop,I24:8121;10:33,ON_CLICK,NODE,24:9571,OVERLAY,Native In-Canvas Transition Verified
+Flow / Bengali Project Archive (ধারণা সংগ্রহ) — 1440px Desktop,24:8139,ON_CLICK,NODE,24:8180,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Bengali Project Archive (ধারণা সংগ্রহ) — 1440px Desktop,I24:8146;10:33,ON_CLICK,NODE,24:9571,OVERLAY,Native In-Canvas Transition Verified
+Flow / Bengali Project Archive (ধারণা সংগ্রহ) — 1440px Desktop,24:8147,ON_CLICK,NODE,24:8180,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Bengali Project Archive (ধারণা সংগ্রহ) — 1440px Desktop,I24:8154;10:33,ON_CLICK,NODE,24:9571,OVERLAY,Native In-Canvas Transition Verified
+Flow / Bengali Project Archive (ধারণা সংগ্রহ) — 1440px Desktop,24:8156,ON_CLICK,NODE,24:8180,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Bengali Project Archive (ধারণা সংগ্রহ) — 1440px Desktop,I24:8163;10:33,ON_CLICK,NODE,24:9571,OVERLAY,Native In-Canvas Transition Verified
+Flow / Bengali Project Archive (ধারণা সংগ্রহ) — 1440px Desktop,24:8164,ON_CLICK,NODE,24:8180,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Bengali Project Archive (ধারণা সংগ্রহ) — 1440px Desktop,I24:8171;10:33,ON_CLICK,NODE,24:9571,OVERLAY,Native In-Canvas Transition Verified
+Flow / Bengali Project Archive (ধারণা সংগ্রহ) — 1440px Desktop,24:8173,ON_CLICK,NODE,24:9571,OVERLAY,Native In-Canvas Transition Verified
+Flow / Bengali Project Archive (ধারণা সংগ্রহ) — 1440px Desktop,24:8175,ON_CLICK,NODE,24:9571,OVERLAY,Native In-Canvas Transition Verified
+Flow / Bengali Project Archive (ধারণা সংগ্রহ) — 1440px Desktop,24:8176,ON_CLICK,NODE,24:9571,OVERLAY,Native In-Canvas Transition Verified
+Flow / Bengali Project Archive (ধারণা সংগ্রহ) — 1440px Desktop,I24:8176;10:33,ON_CLICK,NODE,24:9571,OVERLAY,Native In-Canvas Transition Verified
+Flow / Bengali Project Detail — 1440px Desktop,24:8182,ON_CLICK,NODE,24:8034,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Bengali Project Detail — 1440px Desktop,24:8190,ON_CLICK,NODE,24:8602,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Bengali Project Detail — 1440px Desktop,24:8192,ON_CLICK,NODE,24:9571,OVERLAY,Native In-Canvas Transition Verified
+Flow / Bengali Project Detail — 1440px Desktop,I24:8192;10:33,ON_CLICK,NODE,24:9571,OVERLAY,Native In-Canvas Transition Verified
+Flow / Bengali Project Detail — 1440px Desktop,24:8228,ON_CLICK,NODE,24:9571,OVERLAY,Native In-Canvas Transition Verified
+Flow / Bengali Project Detail — 1440px Desktop,I24:8228;10:33,ON_CLICK,NODE,24:9571,OVERLAY,Native In-Canvas Transition Verified
+Flow / Bengali Services (স্থাপত্য সেবাসমূহ) — 1440px Desktop,24:8234,ON_CLICK,NODE,24:8034,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Bengali Services (স্থাপত্য সেবাসমূহ) — 1440px Desktop,24:8242,ON_CLICK,NODE,24:8660,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Bengali Process (কার্যপদ্ধতি ও ধাপ) — 1440px Desktop,24:8278,ON_CLICK,NODE,24:8034,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Bengali Process (কার্যপদ্ধতি ও ধাপ) — 1440px Desktop,24:8280,ON_CLICK,NODE,24:8109,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Bengali Process (কার্যপদ্ধতি ও ধাপ) — 1440px Desktop,24:8281,ON_CLICK,NODE,24:8232,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Bengali Process (কার্যপদ্ধতি ও ধাপ) — 1440px Desktop,24:8283,ON_CLICK,NODE,24:8330,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Bengali Process (কার্যপদ্ধতি ও ধাপ) — 1440px Desktop,24:8284,ON_CLICK,NODE,24:8372,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Bengali Process (কার্যপদ্ধতি ও ধাপ) — 1440px Desktop,24:8286,ON_CLICK,NODE,24:8706,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Bengali Studio (স্টুডিও দর্শন ও টিম) — 1440px Desktop,24:8332,ON_CLICK,NODE,24:8034,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Bengali Studio (স্টুডিও দর্শন ও টিম) — 1440px Desktop,24:8334,ON_CLICK,NODE,24:8109,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Bengali Studio (স্টুডিও দর্শন ও টিম) — 1440px Desktop,24:8335,ON_CLICK,NODE,24:8232,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Bengali Studio (স্টুডিও দর্শন ও টিম) — 1440px Desktop,24:8336,ON_CLICK,NODE,24:8276,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Bengali Studio (স্টুডিও দর্শন ও টিম) — 1440px Desktop,24:8338,ON_CLICK,NODE,24:8372,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Bengali Studio (স্টুডিও দর্শন ও টিম) — 1440px Desktop,24:8340,ON_CLICK,NODE,24:8760,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Bengali Contact (যোগাযোগ ও কনসাল্টেশন) — 1440px Desktop,24:8374,ON_CLICK,NODE,24:8034,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Bengali Contact (যোগাযোগ ও কনসাল্টেশন) — 1440px Desktop,24:8382,ON_CLICK,NODE,24:8802,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Bengali 404 Not Found (পৃষ্ঠা খুঁজে পাওয়া যায়নি) — 1440px Desktop,24:8430,ON_CLICK,NODE,24:8034,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Bengali 404 Not Found (পৃষ্ঠা খুঁজে পাওয়া যায়নি) — 1440px Desktop,24:8432,ON_CLICK,NODE,24:8109,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Bengali 404 Not Found (পৃষ্ঠা খুঁজে পাওয়া যায়নি) — 1440px Desktop,24:8433,ON_CLICK,NODE,24:8232,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Bengali 404 Not Found (পৃষ্ঠা খুঁজে পাওয়া যায়নি) — 1440px Desktop,24:8434,ON_CLICK,NODE,24:8276,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Bengali 404 Not Found (পৃষ্ঠা খুঁজে পাওয়া যায়নি) — 1440px Desktop,24:8435,ON_CLICK,NODE,24:8330,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Bengali 404 Not Found (পৃষ্ঠা খুঁজে পাওয়া যায়নি) — 1440px Desktop,24:8436,ON_CLICK,NODE,24:8372,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Bengali 404 Not Found (পৃষ্ঠা খুঁজে পাওয়া যায়নি) — 1440px Desktop,24:8438,ON_CLICK,NODE,24:8862,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Bengali 404 Not Found (পৃষ্ঠা খুঁজে পাওয়া যায়নি) — 1440px Desktop,24:8447,ON_CLICK,NODE,24:8034,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Bengali 404 Not Found (পৃষ্ঠা খুঁজে পাওয়া যায়নি) — 1440px Desktop,24:8451,ON_CLICK,NODE,24:8109,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English Homepage — 1440px Desktop,24:8466,ON_CLICK,NODE,24:8034,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English Homepage — 1440px Desktop,24:8467,ON_CLICK,NODE,24:8034,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English Homepage — 1440px Desktop,24:8468,ON_CLICK,NODE,24:9598,OVERLAY,Native In-Canvas Transition Verified
+Flow / English Homepage — 1440px Desktop,I24:8468;10:33,ON_CLICK,NODE,24:9598,OVERLAY,Native In-Canvas Transition Verified
+Flow / English Homepage — 1440px Desktop,24:8475,ON_CLICK,NODE,24:8531,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English Homepage — 1440px Desktop,I24:8475;10:33,ON_CLICK,NODE,24:9598,OVERLAY,Native In-Canvas Transition Verified
+Flow / English Homepage — 1440px Desktop,24:8527,ON_CLICK,NODE,24:9598,OVERLAY,Native In-Canvas Transition Verified
+Flow / English Homepage — 1440px Desktop,I24:8527;10:33,ON_CLICK,NODE,24:9598,OVERLAY,Native In-Canvas Transition Verified
+Flow / English Project Archive — 1440px Desktop,24:8533,ON_CLICK,NODE,24:8456,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English Project Archive — 1440px Desktop,24:8541,ON_CLICK,NODE,24:8109,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English Project Archive — 1440px Desktop,24:8543,ON_CLICK,NODE,24:9598,OVERLAY,Native In-Canvas Transition Verified
+Flow / English Project Archive — 1440px Desktop,I24:8543;10:33,ON_CLICK,NODE,24:9598,OVERLAY,Native In-Canvas Transition Verified
+Flow / English Project Archive — 1440px Desktop,24:8561,ON_CLICK,NODE,24:8602,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English Project Archive — 1440px Desktop,I24:8568;10:33,ON_CLICK,NODE,24:9598,OVERLAY,Native In-Canvas Transition Verified
+Flow / English Project Archive — 1440px Desktop,24:8569,ON_CLICK,NODE,24:8602,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English Project Archive — 1440px Desktop,I24:8576;10:33,ON_CLICK,NODE,24:9598,OVERLAY,Native In-Canvas Transition Verified
+Flow / English Project Archive — 1440px Desktop,24:8578,ON_CLICK,NODE,24:8602,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English Project Archive — 1440px Desktop,I24:8585;10:33,ON_CLICK,NODE,24:9598,OVERLAY,Native In-Canvas Transition Verified
+Flow / English Project Archive — 1440px Desktop,24:8586,ON_CLICK,NODE,24:8602,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English Project Archive — 1440px Desktop,I24:8593;10:33,ON_CLICK,NODE,24:9598,OVERLAY,Native In-Canvas Transition Verified
+Flow / English Project Archive — 1440px Desktop,24:8595,ON_CLICK,NODE,24:9598,OVERLAY,Native In-Canvas Transition Verified
+Flow / English Project Archive — 1440px Desktop,24:8597,ON_CLICK,NODE,24:9598,OVERLAY,Native In-Canvas Transition Verified
+Flow / English Project Archive — 1440px Desktop,24:8598,ON_CLICK,NODE,24:9598,OVERLAY,Native In-Canvas Transition Verified
+Flow / English Project Archive — 1440px Desktop,I24:8598;10:33,ON_CLICK,NODE,24:9598,OVERLAY,Native In-Canvas Transition Verified
+Flow / English Concept Detail — 1440px Desktop,24:8604,ON_CLICK,NODE,24:8456,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English Concept Detail — 1440px Desktop,24:8606,ON_CLICK,NODE,24:8531,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English Concept Detail — 1440px Desktop,24:8612,ON_CLICK,NODE,24:8180,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English Concept Detail — 1440px Desktop,24:8614,ON_CLICK,NODE,24:9598,OVERLAY,Native In-Canvas Transition Verified
+Flow / English Concept Detail — 1440px Desktop,I24:8614;10:33,ON_CLICK,NODE,24:9598,OVERLAY,Native In-Canvas Transition Verified
+Flow / English Concept Detail — 1440px Desktop,24:8653,ON_CLICK,NODE,24:9598,OVERLAY,Native In-Canvas Transition Verified
+Flow / English Concept Detail — 1440px Desktop,24:8655,ON_CLICK,NODE,24:9598,OVERLAY,Native In-Canvas Transition Verified
+Flow / English Concept Detail — 1440px Desktop,24:8656,ON_CLICK,NODE,24:9598,OVERLAY,Native In-Canvas Transition Verified
+Flow / English Concept Detail — 1440px Desktop,I24:8656;10:33,ON_CLICK,NODE,24:9598,OVERLAY,Native In-Canvas Transition Verified
+Flow / English Architectural Services — 1440px Desktop,24:8662,ON_CLICK,NODE,24:8456,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English Architectural Services — 1440px Desktop,24:8664,ON_CLICK,NODE,24:8531,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English Architectural Services — 1440px Desktop,24:8666,ON_CLICK,NODE,24:8706,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English Architectural Services — 1440px Desktop,24:8667,ON_CLICK,NODE,24:8760,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English Architectural Services — 1440px Desktop,24:8668,ON_CLICK,NODE,24:8802,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English Architectural Services — 1440px Desktop,24:8670,ON_CLICK,NODE,24:8232,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English Process & Delivery — 1440px Desktop,24:8708,ON_CLICK,NODE,24:8456,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English Process & Delivery — 1440px Desktop,24:8710,ON_CLICK,NODE,24:8531,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English Process & Delivery — 1440px Desktop,24:8711,ON_CLICK,NODE,24:8660,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English Process & Delivery — 1440px Desktop,24:8713,ON_CLICK,NODE,24:8760,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English Process & Delivery — 1440px Desktop,24:8714,ON_CLICK,NODE,24:8802,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English Process & Delivery — 1440px Desktop,24:8716,ON_CLICK,NODE,24:8276,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English Studio Practice — 1440px Desktop,24:8762,ON_CLICK,NODE,24:8456,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English Studio Practice — 1440px Desktop,24:8764,ON_CLICK,NODE,24:8531,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English Studio Practice — 1440px Desktop,24:8765,ON_CLICK,NODE,24:8660,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English Studio Practice — 1440px Desktop,24:8766,ON_CLICK,NODE,24:8706,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English Studio Practice — 1440px Desktop,24:8768,ON_CLICK,NODE,24:8802,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English Studio Practice — 1440px Desktop,24:8770,ON_CLICK,NODE,24:8330,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English Contact & Consultation — 1440px Desktop,24:8804,ON_CLICK,NODE,24:8456,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English Contact & Consultation — 1440px Desktop,24:8806,ON_CLICK,NODE,24:8531,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English Contact & Consultation — 1440px Desktop,24:8807,ON_CLICK,NODE,24:8660,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English Contact & Consultation — 1440px Desktop,24:8808,ON_CLICK,NODE,24:8706,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English Contact & Consultation — 1440px Desktop,24:8809,ON_CLICK,NODE,24:8760,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English Contact & Consultation — 1440px Desktop,24:8812,ON_CLICK,NODE,24:8372,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English 404 Not Found — 1440px Desktop,24:8864,ON_CLICK,NODE,24:8456,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English 404 Not Found — 1440px Desktop,24:8866,ON_CLICK,NODE,24:8531,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English 404 Not Found — 1440px Desktop,24:8867,ON_CLICK,NODE,24:8660,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English 404 Not Found — 1440px Desktop,24:8868,ON_CLICK,NODE,24:8706,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English 404 Not Found — 1440px Desktop,24:8869,ON_CLICK,NODE,24:8760,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English 404 Not Found — 1440px Desktop,24:8870,ON_CLICK,NODE,24:8802,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English 404 Not Found — 1440px Desktop,24:8872,ON_CLICK,NODE,24:8428,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English 404 Not Found — 1440px Desktop,24:8883,ON_CLICK,NODE,24:8456,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English 404 Not Found — 1440px Desktop,24:8885,ON_CLICK,NODE,24:8531,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Bengali Homepage — 390px Mobile,24:8893,ON_CLICK,NODE,24:9652,OVERLAY,Native In-Canvas Transition Verified
+Flow / Bengali Homepage — 390px Mobile,I24:8901;10:33,ON_CLICK,NODE,24:9625,OVERLAY,Native In-Canvas Transition Verified
+Flow / Bengali Project Archive (ধারণা সংগ্রহ) — 390px Mobile,24:8933,ON_CLICK,NODE,24:9260,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Bengali Project Archive (ধারণা সংগ্রহ) — 390px Mobile,24:8944,ON_CLICK,NODE,24:8983,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Bengali Project Archive (ধারণা সংগ্রহ) — 390px Mobile,I24:8951;10:33,ON_CLICK,NODE,24:9625,OVERLAY,Native In-Canvas Transition Verified
+Flow / Bengali Project Archive (ধারণা সংগ্রহ) — 390px Mobile,24:8952,ON_CLICK,NODE,24:8983,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Bengali Project Archive (ধারণা সংগ্রহ) — 390px Mobile,I24:8959;10:33,ON_CLICK,NODE,24:9625,OVERLAY,Native In-Canvas Transition Verified
+Flow / Bengali Project Archive (ধারণা সংগ্রহ) — 390px Mobile,24:8960,ON_CLICK,NODE,24:8983,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Bengali Project Archive (ধারণা সংগ্রহ) — 390px Mobile,I24:8967;10:33,ON_CLICK,NODE,24:9625,OVERLAY,Native In-Canvas Transition Verified
+Flow / Bengali Project Archive (ধারণা সংগ্রহ) — 390px Mobile,24:8968,ON_CLICK,NODE,24:8983,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Bengali Project Archive (ধারণা সংগ্রহ) — 390px Mobile,I24:8975;10:33,ON_CLICK,NODE,24:9625,OVERLAY,Native In-Canvas Transition Verified
+Flow / Bengali Project Archive (ধারণা সংগ্রহ) — 390px Mobile,24:8976,ON_CLICK,NODE,24:9625,OVERLAY,Native In-Canvas Transition Verified
+Flow / Bengali Project Archive (ধারণা সংগ্রহ) — 390px Mobile,24:8978,ON_CLICK,NODE,24:9625,OVERLAY,Native In-Canvas Transition Verified
+Flow / Bengali Project Archive (ধারণা সংগ্রহ) — 390px Mobile,I24:8979;10:33,ON_CLICK,NODE,24:9625,OVERLAY,Native In-Canvas Transition Verified
+Flow / Bengali Project Detail — 390px Mobile,I24:9013;10:33,ON_CLICK,NODE,24:9625,OVERLAY,Native In-Canvas Transition Verified
+Flow / Bengali Services (স্থাপত্য সেবাসমূহ) — 390px Mobile,24:9021,ON_CLICK,NODE,24:9367,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Bengali Process (কার্যপদ্ধতি ও ধাপ) — 390px Mobile,24:9062,ON_CLICK,NODE,24:9408,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Bengali Studio (স্টুডিও দর্শন ও টিম) — 390px Mobile,24:9112,ON_CLICK,NODE,24:9458,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Bengali Contact (যোগাযোগ ও কনসাল্টেশন) — 390px Mobile,24:9150,ON_CLICK,NODE,24:9496,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Bengali 404 Not Found (পৃষ্ঠা খুঁজে পাওয়া যায়নি) — 390px Mobile,24:9201,ON_CLICK,NODE,24:9547,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Bengali 404 Not Found (পৃষ্ঠা খুঁজে পাওয়া যায়নি) — 390px Mobile,24:9212,ON_CLICK,NODE,24:8890,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Bengali 404 Not Found (পৃষ্ঠা খুঁজে পাওয়া যায়নি) — 390px Mobile,24:9216,ON_CLICK,NODE,24:8929,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English Homepage — 390px Mobile,24:9224,ON_CLICK,NODE,24:9698,OVERLAY,Native In-Canvas Transition Verified
+Flow / English Homepage — 390px Mobile,24:9232,ON_CLICK,NODE,24:9260,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English Homepage — 390px Mobile,I24:9232;10:33,ON_CLICK,NODE,24:9671,OVERLAY,Native In-Canvas Transition Verified
+Flow / English Project Archive — 390px Mobile,24:9264,ON_CLICK,NODE,24:8929,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English Project Archive — 390px Mobile,24:9275,ON_CLICK,NODE,24:9319,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English Project Archive — 390px Mobile,24:9284,ON_CLICK,NODE,24:9319,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English Project Archive — 390px Mobile,24:9293,ON_CLICK,NODE,24:9319,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English Project Archive — 390px Mobile,24:9302,ON_CLICK,NODE,24:9319,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English Project Archive — 390px Mobile,24:9311,ON_CLICK,NODE,24:9671,OVERLAY,Native In-Canvas Transition Verified
+Flow / English Project Archive — 390px Mobile,24:9313,ON_CLICK,NODE,24:9671,OVERLAY,Native In-Canvas Transition Verified
+Flow / English Project Archive — 390px Mobile,24:9314,ON_CLICK,NODE,24:9671,OVERLAY,Native In-Canvas Transition Verified
+Flow / English Project Archive — 390px Mobile,24:9315,ON_CLICK,NODE,24:9671,OVERLAY,Native In-Canvas Transition Verified
+Flow / English Concept Detail — 390px Mobile,24:9323,ON_CLICK,NODE,24:8983,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English Concept Detail — 390px Mobile,24:9330,ON_CLICK,NODE,24:9260,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English Concept Detail — 390px Mobile,24:9360,ON_CLICK,NODE,24:9671,OVERLAY,Native In-Canvas Transition Verified
+Flow / English Concept Detail — 390px Mobile,24:9362,ON_CLICK,NODE,24:9671,OVERLAY,Native In-Canvas Transition Verified
+Flow / English Concept Detail — 390px Mobile,I24:9363;10:33,ON_CLICK,NODE,24:9671,OVERLAY,Native In-Canvas Transition Verified
+Flow / English Architectural Services — 390px Mobile,24:9371,ON_CLICK,NODE,24:9017,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English Process & Delivery — 390px Mobile,24:9412,ON_CLICK,NODE,24:9058,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English Studio Practice — 390px Mobile,24:9462,ON_CLICK,NODE,24:9108,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English Contact & Consultation — 390px Mobile,24:9500,ON_CLICK,NODE,24:9146,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English 404 Not Found — 390px Mobile,24:9551,ON_CLICK,NODE,24:9197,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English 404 Not Found — 390px Mobile,24:9564,ON_CLICK,NODE,24:9221,NAVIGATE,Native In-Canvas Transition Verified
+Flow / English 404 Not Found — 390px Mobile,24:9566,ON_CLICK,NODE,24:9260,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Overlay / Consultation Modal — Desktop BN,24:9574,ON_CLICK,CLOSE,N/A,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Overlay / Consultation Modal — Desktop BN,24:9585,ON_CLICK,NODE,24:9586,SWAP,Native In-Canvas Transition Verified
+Flow / Overlay / Submitting — Desktop BN,24:9586,AFTER_TIMEOUT,NODE,24:9591,SWAP,Native In-Canvas Transition Verified
+Flow / Overlay / Success Receipt — Desktop BN,24:9597,ON_CLICK,CLOSE,N/A,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Overlay / Consultation Modal — Desktop EN,24:9601,ON_CLICK,CLOSE,N/A,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Overlay / Consultation Modal — Desktop EN,24:9612,ON_CLICK,NODE,24:9613,SWAP,Native In-Canvas Transition Verified
+Flow / Overlay / Submitting — Desktop EN,24:9613,AFTER_TIMEOUT,NODE,24:9618,SWAP,Native In-Canvas Transition Verified
+Flow / Overlay / Success Receipt — Desktop EN,24:9624,ON_CLICK,CLOSE,N/A,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Overlay / Consultation Modal — Mobile BN,24:9628,ON_CLICK,CLOSE,N/A,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Overlay / Consultation Modal — Mobile BN,24:9639,ON_CLICK,NODE,24:9640,SWAP,Native In-Canvas Transition Verified
+Flow / Overlay / Submitting — Mobile BN,24:9640,AFTER_TIMEOUT,NODE,24:9645,SWAP,Native In-Canvas Transition Verified
+Flow / Overlay / Success Receipt — Mobile BN,24:9651,ON_CLICK,CLOSE,N/A,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Overlay / Mobile Navigation Drawer — BN,24:9655,ON_CLICK,CLOSE,N/A,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Overlay / Mobile Navigation Drawer — BN,24:9662,ON_CLICK,NODE,24:9017,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Overlay / Mobile Navigation Drawer — BN,24:9664,ON_CLICK,NODE,24:9058,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Overlay / Mobile Navigation Drawer — BN,24:9666,ON_CLICK,NODE,24:9108,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Overlay / Mobile Navigation Drawer — BN,24:9668,ON_CLICK,NODE,24:9146,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Overlay / Consultation Modal — Mobile EN,24:9674,ON_CLICK,CLOSE,N/A,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Overlay / Consultation Modal — Mobile EN,24:9685,ON_CLICK,NODE,24:9686,SWAP,Native In-Canvas Transition Verified
+Flow / Overlay / Submitting — Mobile EN,24:9686,AFTER_TIMEOUT,NODE,24:9691,SWAP,Native In-Canvas Transition Verified
+Flow / Overlay / Success Receipt — Mobile EN,24:9697,ON_CLICK,CLOSE,N/A,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Overlay / Mobile Navigation Drawer — EN,24:9701,ON_CLICK,CLOSE,N/A,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Overlay / Mobile Navigation Drawer — EN,24:9708,ON_CLICK,NODE,24:9367,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Overlay / Mobile Navigation Drawer — EN,24:9710,ON_CLICK,NODE,24:9408,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Overlay / Mobile Navigation Drawer — EN,24:9712,ON_CLICK,NODE,24:9458,NAVIGATE,Native In-Canvas Transition Verified
+Flow / Overlay / Mobile Navigation Drawer — EN,24:9714,ON_CLICK,NODE,24:9496,NAVIGATE,Native In-Canvas Transition Verified

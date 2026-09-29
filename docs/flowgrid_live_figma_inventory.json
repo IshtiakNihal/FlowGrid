@@ -1,0 +1,3179 @@
+{
+  "pages": [
+    {
+      "id": "3:3",
+      "name": "00 Brief & Research"
+    },
+    {
+      "id": "0:1",
+      "name": "01 Foundations"
+    },
+    {
+      "id": "3:2",
+      "name": "02 Components"
+    },
+    {
+      "id": "3:4",
+      "name": "03 Desktop \u2014 BN"
+    },
+    {
+      "id": "3:5",
+      "name": "04 Mobile \u2014 BN"
+    },
+    {
+      "id": "3:6",
+      "name": "05 English"
+    },
+    {
+      "id": "3:7",
+      "name": "06 Prototype & Motion"
+    },
+    {
+      "id": "3:8",
+      "name": "07 Project & Concept Assets"
+    },
+    {
+      "id": "3:9",
+      "name": "08 Handoff & QA"
+    }
+  ],
+  "layouts": [
+    {
+      "pageId": "3:2",
+      "pageName": "02 Components",
+      "id": "10:42",
+      "name": "Button / Primary CTA",
+      "type": "COMPONENT_SET",
+      "x": 2900,
+      "y": 100,
+      "width": 1233,
+      "height": 50,
+      "childrenCount": 5,
+      "childrenNames": [
+        "State=Default",
+        "State=Hover",
+        "State=Focus",
+        "State=Disabled",
+        "State=Submitting"
+      ],
+      "reactionsCount": 0,
+      "reactions": []
+    },
+    {
+      "pageId": "3:2",
+      "pageName": "02 Components",
+      "id": "18:383",
+      "name": "Badge / Concept Disclosure",
+      "type": "COMPONENT",
+      "x": 2900,
+      "y": 80,
+      "width": 356,
+      "height": 100,
+      "childrenCount": 1,
+      "childrenNames": [
+        "\u0995\u09a8\u09b8\u09c7\u09aa\u09cd\u099f \u09a1\u09bf\u099c\u09be\u0987\u09a8 \u00b7 AI \u09ad\u09bf\u099c\u09cd\u09af\u09c1\u09df\u09be\u09b2\u09be\u0987\u099c\u09c7\u09b6\u09a8 \u00b7 \u09ac\u09be\u09b8\u09cd\u09a4\u09ac\u09be\u09df\u09bf\u09a4 \u09aa\u09cd\u09b0\u0995\u09b2\u09cd\u09aa \u09a8\u09df"
+      ],
+      "reactionsCount": 0,
+      "reactions": []
+    },
+    {
+      "pageId": "3:2",
+      "pageName": "02 Components",
+      "id": "18:408",
+      "name": "Success Icon Badge",
+      "type": "FRAME",
+      "x": 0,
+      "y": 0,
+      "width": 56,
+      "height": 56,
+      "childrenCount": 0,
+      "childrenNames": [],
+      "reactionsCount": 0,
+      "reactions": []
+    },
+    {
+      "pageId": "3:2",
+      "pageName": "02 Components",
+      "id": "18:409",
+      "name": "Proof / Token Propagation Demo",
+      "type": "FRAME",
+      "x": 2900,
+      "y": 1900,
+      "width": 600,
+      "height": 360,
+      "childrenCount": 4,
+      "childrenNames": [
+        "\u099f\u09cb\u0995\u09c7\u09a8 \u09ac\u09be\u0987\u09a8\u09cd\u09a1\u09bf\u0982 \u0993 \u09aa\u09cd\u09b0\u09cb\u09aa\u09be\u0997\u09c7\u09b6\u09a8 \u09aa\u09b0\u09c0\u0995\u09cd\u09b7\u09be (Token Verification)",
+        "\u098f\u0987 \u09ab\u09cd\u09b0\u09c7\u09ae\u09c7\u09b0 \u09aa\u09cd\u09af\u09be\u09a1\u09bf\u0982, \u0995\u09cb\u09a3\u09be, \u09ab\u09bf\u09b2 \u098f\u09ac\u0982 \u098f\u09b0 \u09ad\u09c7\u09a4\u09b0\u09c7\u09b0 \u09ac\u09cb\u09a4\u09be\u09ae \u0987\u09a8\u09b8\u09cd\u099f\u09cd\u09af\u09be\u09a8\u09cd\u09b8 \u09b8\u09b0\u09be\u09b8\u09b0\u09bf FlowGrid \u09ad\u09cd\u09af\u09be\u09b0\u09bf\u09af\u09bc\u09c7\u09ac\u09b2 \u099f\u09cb\u0995\u09c7\u09a8\u09c7\u09b0 \u09b8\u09be\u09a5\u09c7 \u09b8\u0982\u09af\u09c1\u0995\u09cd\u09a4\u0964",
+        "Button / Primary CTA",
+        "Frame"
+      ],
+      "reactionsCount": 0,
+      "reactions": []
+    },
+    {
+      "pageId": "3:2",
+      "pageName": "02 Components",
+      "id": "21:2599",
+      "name": "Control / Text Field",
+      "type": "COMPONENT_SET",
+      "x": 2900,
+      "y": 1250,
+      "width": 2040,
+      "height": 96,
+      "childrenCount": 4,
+      "childrenNames": [
+        "State=Default",
+        "State=Focus",
+        "State=Filled",
+        "State=Error"
+      ],
+      "reactionsCount": 0,
+      "reactions": []
+    },
+    {
+      "pageId": "3:4",
+      "pageName": "03 Desktop \u2014 BN",
+      "id": "18:137",
+      "name": "Bengali Homepage \u2014 1440px Desktop",
+      "type": "FRAME",
+      "x": 5200,
+      "y": 0,
+      "width": 1440,
+      "height": 2920,
+      "childrenCount": 6,
+      "childrenNames": [
+        "Header / Global Navigation",
+        "Section / Hero Architectural Showcase",
+        "Section / Spatial Sequence & Material Craft",
+        "Section / Studio Services & Practice",
+        "Section / Consultation Practice Banner",
+        "Footer / Colophon"
+      ],
+      "reactionsCount": 11,
+      "reactions": [
+        {
+          "sourceNode": "\u09a7\u09be\u09b0\u09a3\u09be \u09b8\u0982\u0997\u09cd\u09b0\u09b9",
+          "sourceId": "22:3077",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1587",
+          "url": null
+        },
+        {
+          "sourceNode": "\u09b8\u09c7\u09ac\u09be\u09b8\u09ae\u09c2\u09b9",
+          "sourceId": "22:3078",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1655",
+          "url": null
+        },
+        {
+          "sourceNode": "\u09aa\u09a6\u09cd\u09a7\u09a4\u09bf",
+          "sourceId": "22:3079",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1718",
+          "url": null
+        },
+        {
+          "sourceNode": "\u09b8\u09cd\u099f\u09c1\u09a1\u09bf\u0993",
+          "sourceId": "22:3080",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1752",
+          "url": null
+        },
+        {
+          "sourceNode": "\u09af\u09cb\u0997\u09be\u09af\u09cb\u0997",
+          "sourceId": "22:3081",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1780",
+          "url": null
+        },
+        {
+          "sourceNode": "Language Pill",
+          "sourceId": "22:3083",
+          "trigger": "ON_CLICK",
+          "actionType": "URL",
+          "navigation": null,
+          "destId": null,
+          "url": "https://www.figma.com/design/eMRunQ80brYYvuTWkufV2o/?node-id=18-1068"
+        },
+        {
+          "sourceNode": "Header Consultation CTA",
+          "sourceId": "22:3085",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destId": "18:2031",
+          "url": null
+        },
+        {
+          "sourceNode": "Hero Primary CTA",
+          "sourceId": "22:3092",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destId": "18:2031",
+          "url": null
+        },
+        {
+          "sourceNode": "Button / Secondary View Project",
+          "sourceId": "22:3094",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:221",
+          "url": null
+        },
+        {
+          "sourceNode": "Consultation Card",
+          "sourceId": "22:3141",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destId": "18:2031",
+          "url": null
+        },
+        {
+          "sourceNode": "Consultation Action Button",
+          "sourceId": "22:3145",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destId": "18:2031",
+          "url": null
+        }
+      ]
+    },
+    {
+      "pageId": "3:4",
+      "pageName": "03 Desktop \u2014 BN",
+      "id": "18:221",
+      "name": "Bengali Project Detail \u2014 1440px Desktop",
+      "type": "FRAME",
+      "x": 6800,
+      "y": 0,
+      "width": 1440,
+      "height": 2635,
+      "childrenCount": 6,
+      "childrenNames": [
+        "Header / Global Navigation",
+        "Section / Project Narrative & Specs",
+        "Section / Secondary Spatial Perspectives",
+        "Material Schedule & Joinery Craft",
+        "Section / Consultation Practice Banner",
+        "Footer / Colophon"
+      ],
+      "reactionsCount": 9,
+      "reactions": [
+        {
+          "sourceNode": "FlowGrid",
+          "sourceId": "22:3151",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:137",
+          "url": null
+        },
+        {
+          "sourceNode": "\u09a7\u09be\u09b0\u09a3\u09be \u09b8\u0982\u0997\u09cd\u09b0\u09b9",
+          "sourceId": "22:3153",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1587",
+          "url": null
+        },
+        {
+          "sourceNode": "\u09b8\u09c7\u09ac\u09be\u09b8\u09ae\u09c2\u09b9",
+          "sourceId": "22:3154",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1655",
+          "url": null
+        },
+        {
+          "sourceNode": "\u09aa\u09a6\u09cd\u09a7\u09a4\u09bf",
+          "sourceId": "22:3155",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1718",
+          "url": null
+        },
+        {
+          "sourceNode": "\u09b8\u09cd\u099f\u09c1\u09a1\u09bf\u0993",
+          "sourceId": "22:3156",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1752",
+          "url": null
+        },
+        {
+          "sourceNode": "\u09af\u09cb\u0997\u09be\u09af\u09cb\u0997",
+          "sourceId": "22:3157",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1780",
+          "url": null
+        },
+        {
+          "sourceNode": "Language Pill",
+          "sourceId": "22:3159",
+          "trigger": "ON_CLICK",
+          "actionType": "URL",
+          "navigation": null,
+          "destId": null,
+          "url": "https://www.figma.com/design/eMRunQ80brYYvuTWkufV2o/?node-id=18-1068"
+        },
+        {
+          "sourceNode": "Header Consultation CTA",
+          "sourceId": "22:3161",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destId": "18:2031",
+          "url": null
+        },
+        {
+          "sourceNode": "Consultation Action Button",
+          "sourceId": "22:3197",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destId": "18:2031",
+          "url": null
+        }
+      ]
+    },
+    {
+      "pageId": "3:4",
+      "pageName": "03 Desktop \u2014 BN",
+      "id": "18:1587",
+      "name": "Bengali Project Archive (\u09a7\u09be\u09b0\u09a3\u09be \u09b8\u0982\u0997\u09cd\u09b0\u09b9) \u2014 1440px Desktop",
+      "type": "FRAME",
+      "x": 8400,
+      "y": 0,
+      "width": 1440,
+      "height": 2218,
+      "childrenCount": 5,
+      "childrenNames": [
+        "Header / Global Navigation",
+        "Section / Archive Hero",
+        "Section / Concept Studies Grid",
+        "Section / Consultation CTA",
+        "Footer / Colophon"
+      ],
+      "reactionsCount": 21,
+      "reactions": [
+        {
+          "sourceNode": "FlowGrid",
+          "sourceId": "23:457",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:137",
+          "url": null
+        },
+        {
+          "sourceNode": "\u09b8\u09c7\u09ac\u09be\u09b8\u09ae\u09c2\u09b9",
+          "sourceId": "23:460",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1655",
+          "url": null
+        },
+        {
+          "sourceNode": "\u09aa\u09a6\u09cd\u09a7\u09a4\u09bf",
+          "sourceId": "23:461",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1718",
+          "url": null
+        },
+        {
+          "sourceNode": "\u09b8\u09cd\u099f\u09c1\u09a1\u09bf\u0993",
+          "sourceId": "23:462",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1752",
+          "url": null
+        },
+        {
+          "sourceNode": "\u09af\u09cb\u0997\u09be\u09af\u09cb\u0997",
+          "sourceId": "23:463",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1780",
+          "url": null
+        },
+        {
+          "sourceNode": "Language Pill",
+          "sourceId": "23:465",
+          "trigger": "ON_CLICK",
+          "actionType": "URL",
+          "navigation": null,
+          "destId": null,
+          "url": "https://www.figma.com/design/eMRunQ80brYYvuTWkufV2o/?node-id=18-1068"
+        },
+        {
+          "sourceNode": "Header Consultation CTA",
+          "sourceId": "23:467",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destId": "18:2031",
+          "url": null
+        },
+        {
+          "sourceNode": "Tab / \u0986\u09ac\u09be\u09b8\u09bf\u0995 \u09b2\u09bf\u09ad\u09bf\u0982",
+          "sourceId": "23:476",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:221",
+          "url": null
+        },
+        {
+          "sourceNode": "Tab / \u09ae\u09a1\u09c1\u09b2\u09be\u09b0 \u0995\u09bf\u099a\u09c7\u09a8",
+          "sourceId": "23:478",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1624",
+          "url": null
+        },
+        {
+          "sourceNode": "Tab / \u09ae\u09be\u09b8\u09cd\u099f\u09be\u09b0 \u09b8\u09cd\u09af\u09c1\u099f",
+          "sourceId": "23:480",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1655",
+          "url": null
+        },
+        {
+          "sourceNode": "Tab / \u099c\u09af\u09bc\u09c7\u09a8\u09be\u09b0\u09bf \u0995\u09cd\u09b0\u09be\u09ab\u099f",
+          "sourceId": "23:482",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1686",
+          "url": null
+        },
+        {
+          "sourceNode": "Card / \u09a7\u09be\u09b0\u09a3\u09be \u09b8\u09ae\u09c0\u0995\u09cd\u09b7\u09be \u09e6\u09e7",
+          "sourceId": "23:487",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:221",
+          "url": null
+        },
+        {
+          "sourceNode": "Button / View Study Detail 1",
+          "sourceId": "23:494",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:221",
+          "url": null
+        },
+        {
+          "sourceNode": "Card / \u09a7\u09be\u09b0\u09a3\u09be \u09b8\u09ae\u09c0\u0995\u09cd\u09b7\u09be \u09e6\u09e8",
+          "sourceId": "23:496",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1624",
+          "url": null
+        },
+        {
+          "sourceNode": "Button / View Study Detail 2",
+          "sourceId": "23:503",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1624",
+          "url": null
+        },
+        {
+          "sourceNode": "Card / \u09a7\u09be\u09b0\u09a3\u09be \u09b8\u09ae\u09c0\u0995\u09cd\u09b7\u09be \u09e6\u09e9",
+          "sourceId": "23:505",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1655",
+          "url": null
+        },
+        {
+          "sourceNode": "Button / View Study Detail 3",
+          "sourceId": "23:512",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1655",
+          "url": null
+        },
+        {
+          "sourceNode": "Card / \u09a7\u09be\u09b0\u09a3\u09be \u09b8\u09ae\u09c0\u0995\u09cd\u09b7\u09be \u09e6\u09ea",
+          "sourceId": "23:514",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1686",
+          "url": null
+        },
+        {
+          "sourceNode": "Button / View Study Detail 4",
+          "sourceId": "23:521",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1686",
+          "url": null
+        },
+        {
+          "sourceNode": "Section / Consultation CTA",
+          "sourceId": "23:523",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destId": "18:2031",
+          "url": null
+        },
+        {
+          "sourceNode": "Button / Consultation CTA",
+          "sourceId": "23:527",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destId": "18:2031",
+          "url": null
+        }
+      ]
+    },
+    {
+      "pageId": "3:4",
+      "pageName": "03 Desktop \u2014 BN",
+      "id": "18:1624",
+      "name": "Bengali Built-Project Framework (\u09ac\u09be\u09b8\u09cd\u09a4\u09ac\u09be\u09af\u09bc\u09a8 \u0995\u09be\u09a0\u09be\u09ae\u09cb) \u2014 1440px Desktop",
+      "type": "FRAME",
+      "x": 10000,
+      "y": 0,
+      "width": 1440,
+      "height": 600,
+      "childrenCount": 3,
+      "childrenNames": [
+        "Header / Navigation",
+        "Section / \u09ac\u09be\u09b8\u09cd\u09a4\u09ac\u09be\u09af\u09bc\u09a8 \u0995\u09be\u09a0\u09be\u09ae\u09cb \u0993 \u09aa\u09cd\u09b0\u099c\u09c7\u0995\u09cd\u099f \u0995\u09ae\u09bf\u09b6\u09a8",
+        "Footer / Colophon"
+      ],
+      "reactionsCount": 0,
+      "reactions": []
+    },
+    {
+      "pageId": "3:4",
+      "pageName": "03 Desktop \u2014 BN",
+      "id": "18:1655",
+      "name": "Bengali Services (\u09b8\u09cd\u09a5\u09be\u09aa\u09a4\u09cd\u09af \u09b8\u09c7\u09ac\u09be\u09b8\u09ae\u09c2\u09b9) \u2014 1440px Desktop",
+      "type": "FRAME",
+      "x": 11600,
+      "y": 0,
+      "width": 1440,
+      "height": 1727,
+      "childrenCount": 6,
+      "childrenNames": [
+        "Header / Global Navigation",
+        "Section / Services Hero",
+        "Section / Service Pillars",
+        "Section / Engineering & Technical Standards",
+        "Section / Consultation CTA",
+        "Footer / Colophon"
+      ],
+      "reactionsCount": 9,
+      "reactions": [
+        {
+          "sourceNode": "FlowGrid",
+          "sourceId": "23:609",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:137",
+          "url": null
+        },
+        {
+          "sourceNode": "\u09a7\u09be\u09b0\u09a3\u09be \u09b8\u0982\u0997\u09cd\u09b0\u09b9",
+          "sourceId": "23:611",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1587",
+          "url": null
+        },
+        {
+          "sourceNode": "\u09aa\u09a6\u09cd\u09a7\u09a4\u09bf",
+          "sourceId": "23:613",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1718",
+          "url": null
+        },
+        {
+          "sourceNode": "\u09b8\u09cd\u099f\u09c1\u09a1\u09bf\u0993",
+          "sourceId": "23:614",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1752",
+          "url": null
+        },
+        {
+          "sourceNode": "\u09af\u09cb\u0997\u09be\u09af\u09cb\u0997",
+          "sourceId": "23:615",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1780",
+          "url": null
+        },
+        {
+          "sourceNode": "Language Pill",
+          "sourceId": "23:617",
+          "trigger": "ON_CLICK",
+          "actionType": "URL",
+          "navigation": null,
+          "destId": null,
+          "url": "https://www.figma.com/design/eMRunQ80brYYvuTWkufV2o/?node-id=18-1068"
+        },
+        {
+          "sourceNode": "Header Consultation CTA",
+          "sourceId": "23:619",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destId": "18:2031",
+          "url": null
+        },
+        {
+          "sourceNode": "Section / Consultation CTA",
+          "sourceId": "23:644",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destId": "18:2031",
+          "url": null
+        },
+        {
+          "sourceNode": "Button / Consultation CTA",
+          "sourceId": "23:648",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destId": "18:2031",
+          "url": null
+        }
+      ]
+    },
+    {
+      "pageId": "3:4",
+      "pageName": "03 Desktop \u2014 BN",
+      "id": "18:1686",
+      "name": "Bengali Joinery Service Detail (\u0995\u09be\u09b8\u09cd\u099f\u09ae \u09ae\u09bf\u09b2\u0993\u09af\u09bc\u09be\u09b0\u09cd\u0995) \u2014 1440px Desktop",
+      "type": "FRAME",
+      "x": 13200,
+      "y": 0,
+      "width": 1440,
+      "height": 600,
+      "childrenCount": 3,
+      "childrenNames": [
+        "Header / Navigation",
+        "Section / \u0995\u09be\u09b8\u09cd\u099f\u09ae \u09ae\u09bf\u09b2\u0993\u09af\u09bc\u09be\u09b0\u09cd\u0995 \u0993 \u099c\u09af\u09bc\u09c7\u09a8\u09be\u09b0\u09bf \u0996\u09c1\u0981\u099f\u09bf\u09a8\u09be\u099f\u09bf",
+        "Footer / Colophon"
+      ],
+      "reactionsCount": 0,
+      "reactions": []
+    },
+    {
+      "pageId": "3:4",
+      "pageName": "03 Desktop \u2014 BN",
+      "id": "18:1718",
+      "name": "Bengali Process (\u0995\u09be\u09b0\u09cd\u09af\u09aa\u09a6\u09cd\u09a7\u09a4\u09bf \u0993 \u09a7\u09be\u09aa) \u2014 1440px Desktop",
+      "type": "FRAME",
+      "x": 14800,
+      "y": 0,
+      "width": 1440,
+      "height": 600,
+      "childrenCount": 3,
+      "childrenNames": [
+        "Header / Navigation",
+        "Section / \u09aa\u09cd\u09b0\u099c\u09c7\u0995\u09cd\u099f \u09ac\u09be\u09b8\u09cd\u09a4\u09ac\u09be\u09af\u09bc\u09a8 \u09aa\u09a6\u09cd\u09a7\u09a4\u09bf",
+        "Footer / Colophon"
+      ],
+      "reactionsCount": 0,
+      "reactions": []
+    },
+    {
+      "pageId": "3:4",
+      "pageName": "03 Desktop \u2014 BN",
+      "id": "18:1752",
+      "name": "Bengali Studio (\u09b8\u09cd\u099f\u09c1\u09a1\u09bf\u0993 \u09a6\u09b0\u09cd\u09b6\u09a8 \u0993 \u099f\u09bf\u09ae) \u2014 1440px Desktop",
+      "type": "FRAME",
+      "x": 16400,
+      "y": 0,
+      "width": 1440,
+      "height": 600,
+      "childrenCount": 3,
+      "childrenNames": [
+        "Header / Navigation",
+        "Section / \u09b8\u09cd\u099f\u09c1\u09a1\u09bf\u0993 \u09a6\u09b0\u09cd\u09b6\u09a8 \u0993 \u099f\u09bf\u09ae \u09aa\u09b0\u09bf\u099a\u09bf\u09a4\u09bf",
+        "Footer / Colophon"
+      ],
+      "reactionsCount": 0,
+      "reactions": []
+    },
+    {
+      "pageId": "3:4",
+      "pageName": "03 Desktop \u2014 BN",
+      "id": "18:1780",
+      "name": "Bengali Contact (\u09af\u09cb\u0997\u09be\u09af\u09cb\u0997 \u0993 \u0995\u09a8\u09b8\u09be\u09b2\u09cd\u099f\u09c7\u09b6\u09a8) \u2014 1440px Desktop",
+      "type": "FRAME",
+      "x": 18000,
+      "y": 0,
+      "width": 1440,
+      "height": 1207,
+      "childrenCount": 4,
+      "childrenNames": [
+        "Header / Global Navigation",
+        "Section / Contact Hero",
+        "Section / Contact Split Layout",
+        "Footer / Colophon"
+      ],
+      "reactionsCount": 7,
+      "reactions": [
+        {
+          "sourceNode": "FlowGrid",
+          "sourceId": "23:654",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:137",
+          "url": null
+        },
+        {
+          "sourceNode": "\u09a7\u09be\u09b0\u09a3\u09be \u09b8\u0982\u0997\u09cd\u09b0\u09b9",
+          "sourceId": "23:656",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1587",
+          "url": null
+        },
+        {
+          "sourceNode": "\u09b8\u09c7\u09ac\u09be\u09b8\u09ae\u09c2\u09b9",
+          "sourceId": "23:657",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1655",
+          "url": null
+        },
+        {
+          "sourceNode": "\u09aa\u09a6\u09cd\u09a7\u09a4\u09bf",
+          "sourceId": "23:658",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1718",
+          "url": null
+        },
+        {
+          "sourceNode": "\u09b8\u09cd\u099f\u09c1\u09a1\u09bf\u0993",
+          "sourceId": "23:659",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1752",
+          "url": null
+        },
+        {
+          "sourceNode": "Language Pill",
+          "sourceId": "23:662",
+          "trigger": "ON_CLICK",
+          "actionType": "URL",
+          "navigation": null,
+          "destId": null,
+          "url": "https://www.figma.com/design/eMRunQ80brYYvuTWkufV2o/?node-id=18-1068"
+        },
+        {
+          "sourceNode": "Header Consultation CTA",
+          "sourceId": "23:664",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destId": "18:2031",
+          "url": null
+        }
+      ]
+    },
+    {
+      "pageId": "3:4",
+      "pageName": "03 Desktop \u2014 BN",
+      "id": "18:1811",
+      "name": "Bengali Privacy Policy (\u0997\u09cb\u09aa\u09a8\u09c0\u09af\u09bc\u09a4\u09be \u09a8\u09c0\u09a4\u09bf) \u2014 1440px Desktop",
+      "type": "FRAME",
+      "x": 19600,
+      "y": 0,
+      "width": 1440,
+      "height": 476,
+      "childrenCount": 3,
+      "childrenNames": [
+        "Header / Navigation",
+        "Section / \u0997\u09cb\u09aa\u09a8\u09c0\u09af\u09bc\u09a4\u09be \u0993 \u09a4\u09a5\u09cd\u09af \u09b8\u09c1\u09b0\u0995\u09cd\u09b7\u09be \u09a8\u09c0\u09a4\u09bf",
+        "Footer / Colophon"
+      ],
+      "reactionsCount": 0,
+      "reactions": []
+    },
+    {
+      "pageId": "3:4",
+      "pageName": "03 Desktop \u2014 BN",
+      "id": "18:1832",
+      "name": "Bengali 404 Not Found (\u09aa\u09c3\u09b7\u09cd\u09a0\u09be \u0996\u09c1\u0981\u099c\u09c7 \u09aa\u09be\u0993\u09af\u09bc\u09be \u09af\u09be\u09af\u09bc\u09a8\u09bf) \u2014 1440px Desktop",
+      "type": "FRAME",
+      "x": 21200,
+      "y": 0,
+      "width": 1440,
+      "height": 476,
+      "childrenCount": 3,
+      "childrenNames": [
+        "Header / Navigation",
+        "Section / \u09ea\u09e6\u09ea \u2014 \u09aa\u09c3\u09b7\u09cd\u09a0\u09be \u0996\u09c1\u0981\u099c\u09c7 \u09aa\u09be\u0993\u09af\u09bc\u09be \u09af\u09be\u09af\u09bc\u09a8\u09bf",
+        "Footer / Colophon"
+      ],
+      "reactionsCount": 0,
+      "reactions": []
+    },
+    {
+      "pageId": "3:5",
+      "pageName": "04 Mobile \u2014 BN",
+      "id": "3:667",
+      "name": "Frame",
+      "type": "FRAME",
+      "x": 0,
+      "y": 0,
+      "width": 2400,
+      "height": 2800,
+      "childrenCount": 4,
+      "childrenNames": [
+        "Vector",
+        "Group",
+        "Group",
+        "Group"
+      ],
+      "reactionsCount": 0,
+      "reactions": []
+    },
+    {
+      "pageId": "3:5",
+      "pageName": "04 Mobile \u2014 BN",
+      "id": "18:283",
+      "name": "Bengali Homepage \u2014 390px Mobile",
+      "type": "FRAME",
+      "x": 2800,
+      "y": 0,
+      "width": 390,
+      "height": 2464,
+      "childrenCount": 5,
+      "childrenNames": [
+        "Header / Navigation",
+        "Section / Hero Architectural Showcase",
+        "Section / Spatial Sequence & Material Craft",
+        "Section / Studio Services",
+        "Footer / Colophon"
+      ],
+      "reactionsCount": 4,
+      "reactions": [
+        {
+          "sourceNode": "Hamburger Button",
+          "sourceId": "22:3203",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destId": "18:2129",
+          "url": null
+        },
+        {
+          "sourceNode": "Hero Mobile CTA",
+          "sourceId": "22:3210",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destId": "18:2080",
+          "url": null
+        },
+        {
+          "sourceNode": "Card / Angle 02",
+          "sourceId": "22:3214",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:339",
+          "url": null
+        },
+        {
+          "sourceNode": "Card / Angle 03",
+          "sourceId": "22:3218",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:339",
+          "url": null
+        }
+      ]
+    },
+    {
+      "pageId": "3:5",
+      "pageName": "04 Mobile \u2014 BN",
+      "id": "18:339",
+      "name": "Bengali Project Detail \u2014 390px Mobile",
+      "type": "FRAME",
+      "x": 3300,
+      "y": 0,
+      "width": 390,
+      "height": 2126,
+      "childrenCount": 6,
+      "childrenNames": [
+        "Header / Navigation",
+        "Section / Project Narrative & Specs",
+        "Section / Multi-Angle Visuals",
+        "Section / Architectural Specifications",
+        "Mobile Detail CTA",
+        "Footer / Colophon"
+      ],
+      "reactionsCount": 4,
+      "reactions": [
+        {
+          "sourceNode": "FlowGrid",
+          "sourceId": "22:3240",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:283",
+          "url": null
+        },
+        {
+          "sourceNode": "Hamburger Button",
+          "sourceId": "22:3241",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destId": "18:2129",
+          "url": null
+        },
+        {
+          "sourceNode": "Mobile Detail CTA",
+          "sourceId": "22:3267",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destId": "18:2080",
+          "url": null
+        },
+        {
+          "sourceNode": "Button / Primary CTA",
+          "sourceId": "22:3268",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destId": "18:2080",
+          "url": null
+        }
+      ]
+    },
+    {
+      "pageId": "3:5",
+      "pageName": "04 Mobile \u2014 BN",
+      "id": "18:1853",
+      "name": "Bengali Project Archive (\u09a7\u09be\u09b0\u09a3\u09be \u09b8\u0982\u0997\u09cd\u09b0\u09b9) \u2014 390px Mobile",
+      "type": "FRAME",
+      "x": 3800,
+      "y": 0,
+      "width": 390,
+      "height": 2865,
+      "childrenCount": 5,
+      "childrenNames": [
+        "Header / Global Navigation Mobile",
+        "Section / Mobile Archive Hero",
+        "Section / Mobile Concept Cards",
+        "Mobile CTA / Consultation",
+        "Footer / Colophon Mobile"
+      ],
+      "reactionsCount": 9,
+      "reactions": [
+        {
+          "sourceNode": "FlowGrid",
+          "sourceId": "23:770",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:283",
+          "url": null
+        },
+        {
+          "sourceNode": "Language Pill Mobile",
+          "sourceId": "23:772",
+          "trigger": "ON_CLICK",
+          "actionType": "URL",
+          "navigation": null,
+          "destId": null,
+          "url": "https://www.figma.com/design/eMRunQ80brYYvuTWkufV2o/?node-id=18-1389"
+        },
+        {
+          "sourceNode": "Button / Mobile Menu Toggle",
+          "sourceId": "23:774",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destId": "18:2129",
+          "url": null
+        },
+        {
+          "sourceNode": "Mobile Card / \u09a7\u09be\u09b0\u09a3\u09be \u09b8\u09ae\u09c0\u0995\u09cd\u09b7\u09be \u09e6\u09e7",
+          "sourceId": "23:783",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:339",
+          "url": null
+        },
+        {
+          "sourceNode": "Mobile Card / \u09a7\u09be\u09b0\u09a3\u09be \u09b8\u09ae\u09c0\u0995\u09cd\u09b7\u09be \u09e6\u09e8",
+          "sourceId": "23:792",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1871",
+          "url": null
+        },
+        {
+          "sourceNode": "Mobile Card / \u09a7\u09be\u09b0\u09a3\u09be \u09b8\u09ae\u09c0\u0995\u09cd\u09b7\u09be \u09e6\u09e9",
+          "sourceId": "23:801",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1889",
+          "url": null
+        },
+        {
+          "sourceNode": "Mobile Card / \u09a7\u09be\u09b0\u09a3\u09be \u09b8\u09ae\u09c0\u0995\u09cd\u09b7\u09be \u09e6\u09ea",
+          "sourceId": "23:810",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1907",
+          "url": null
+        },
+        {
+          "sourceNode": "Mobile CTA / Consultation",
+          "sourceId": "23:819",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destId": "18:2080",
+          "url": null
+        },
+        {
+          "sourceNode": "Button / Primary CTA",
+          "sourceId": "23:822",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destId": "18:2080",
+          "url": null
+        }
+      ]
+    },
+    {
+      "pageId": "3:5",
+      "pageName": "04 Mobile \u2014 BN",
+      "id": "18:1871",
+      "name": "Bengali Built-Project Framework (\u09ac\u09be\u09b8\u09cd\u09a4\u09ac\u09be\u09af\u09bc\u09a8 \u0995\u09be\u09a0\u09be\u09ae\u09cb) \u2014 390px Mobile",
+      "type": "FRAME",
+      "x": 4300,
+      "y": 0,
+      "width": 390,
+      "height": 719,
+      "childrenCount": 3,
+      "childrenNames": [
+        "Header / Navigation",
+        "Section / Built-Project Framework (\u09ac\u09be\u09b8\u09cd\u09a4\u09ac\u09be\u09af\u09bc\u09a8 \u0995\u09be\u09a0\u09be\u09ae\u09cb)",
+        "Footer / Colophon"
+      ],
+      "reactionsCount": 1,
+      "reactions": [
+        {
+          "sourceNode": "Hamburger Button",
+          "sourceId": "18:1875",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destId": "18:2129",
+          "url": null
+        }
+      ]
+    },
+    {
+      "pageId": "3:5",
+      "pageName": "04 Mobile \u2014 BN",
+      "id": "18:1889",
+      "name": "Bengali Services (\u09b8\u09cd\u09a5\u09be\u09aa\u09a4\u09cd\u09af \u09b8\u09c7\u09ac\u09be\u09b8\u09ae\u09c2\u09b9) \u2014 390px Mobile",
+      "type": "FRAME",
+      "x": 4800,
+      "y": 0,
+      "width": 390,
+      "height": 719,
+      "childrenCount": 3,
+      "childrenNames": [
+        "Header / Navigation",
+        "Section / Services (\u09b8\u09cd\u09a5\u09be\u09aa\u09a4\u09cd\u09af \u09b8\u09c7\u09ac\u09be\u09b8\u09ae\u09c2\u09b9)",
+        "Footer / Colophon"
+      ],
+      "reactionsCount": 1,
+      "reactions": [
+        {
+          "sourceNode": "Hamburger Button",
+          "sourceId": "18:1893",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destId": "18:2129",
+          "url": null
+        }
+      ]
+    },
+    {
+      "pageId": "3:5",
+      "pageName": "04 Mobile \u2014 BN",
+      "id": "18:1907",
+      "name": "Bengali Joinery Service Detail (\u0995\u09be\u09b8\u09cd\u099f\u09ae \u09ae\u09bf\u09b2\u0993\u09af\u09bc\u09be\u09b0\u09cd\u0995) \u2014 390px Mobile",
+      "type": "FRAME",
+      "x": 5300,
+      "y": 0,
+      "width": 390,
+      "height": 719,
+      "childrenCount": 3,
+      "childrenNames": [
+        "Header / Navigation",
+        "Section / Joinery Service Detail (\u0995\u09be\u09b8\u09cd\u099f\u09ae \u09ae\u09bf\u09b2\u0993\u09af\u09bc\u09be\u09b0\u09cd\u0995)",
+        "Footer / Colophon"
+      ],
+      "reactionsCount": 1,
+      "reactions": [
+        {
+          "sourceNode": "Hamburger Button",
+          "sourceId": "18:1911",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destId": "18:2129",
+          "url": null
+        }
+      ]
+    },
+    {
+      "pageId": "3:5",
+      "pageName": "04 Mobile \u2014 BN",
+      "id": "18:1925",
+      "name": "Bengali Process (\u0995\u09be\u09b0\u09cd\u09af\u09aa\u09a6\u09cd\u09a7\u09a4\u09bf \u0993 \u09a7\u09be\u09aa) \u2014 390px Mobile",
+      "type": "FRAME",
+      "x": 5800,
+      "y": 0,
+      "width": 390,
+      "height": 719,
+      "childrenCount": 3,
+      "childrenNames": [
+        "Header / Navigation",
+        "Section / Process (\u0995\u09be\u09b0\u09cd\u09af\u09aa\u09a6\u09cd\u09a7\u09a4\u09bf \u0993 \u09a7\u09be\u09aa)",
+        "Footer / Colophon"
+      ],
+      "reactionsCount": 1,
+      "reactions": [
+        {
+          "sourceNode": "Hamburger Button",
+          "sourceId": "18:1929",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destId": "18:2129",
+          "url": null
+        }
+      ]
+    },
+    {
+      "pageId": "3:5",
+      "pageName": "04 Mobile \u2014 BN",
+      "id": "18:1943",
+      "name": "Bengali Studio (\u09b8\u09cd\u099f\u09c1\u09a1\u09bf\u0993 \u09a6\u09b0\u09cd\u09b6\u09a8 \u0993 \u099f\u09bf\u09ae) \u2014 390px Mobile",
+      "type": "FRAME",
+      "x": 6300,
+      "y": 0,
+      "width": 390,
+      "height": 719,
+      "childrenCount": 3,
+      "childrenNames": [
+        "Header / Navigation",
+        "Section / Studio (\u09b8\u09cd\u099f\u09c1\u09a1\u09bf\u0993 \u09a6\u09b0\u09cd\u09b6\u09a8 \u0993 \u099f\u09bf\u09ae)",
+        "Footer / Colophon"
+      ],
+      "reactionsCount": 1,
+      "reactions": [
+        {
+          "sourceNode": "Hamburger Button",
+          "sourceId": "18:1947",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destId": "18:2129",
+          "url": null
+        }
+      ]
+    },
+    {
+      "pageId": "3:5",
+      "pageName": "04 Mobile \u2014 BN",
+      "id": "18:1961",
+      "name": "Bengali Contact (\u09af\u09cb\u0997\u09be\u09af\u09cb\u0997 \u0993 \u0995\u09a8\u09b8\u09be\u09b2\u09cd\u099f\u09c7\u09b6\u09a8) \u2014 390px Mobile",
+      "type": "FRAME",
+      "x": 6800,
+      "y": 0,
+      "width": 390,
+      "height": 719,
+      "childrenCount": 3,
+      "childrenNames": [
+        "Header / Navigation",
+        "Section / Contact (\u09af\u09cb\u0997\u09be\u09af\u09cb\u0997 \u0993 \u0995\u09a8\u09b8\u09be\u09b2\u09cd\u099f\u09c7\u09b6\u09a8)",
+        "Footer / Colophon"
+      ],
+      "reactionsCount": 1,
+      "reactions": [
+        {
+          "sourceNode": "Hamburger Button",
+          "sourceId": "18:1965",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destId": "18:2129",
+          "url": null
+        }
+      ]
+    },
+    {
+      "pageId": "3:5",
+      "pageName": "04 Mobile \u2014 BN",
+      "id": "18:1979",
+      "name": "Bengali Privacy Policy (\u0997\u09cb\u09aa\u09a8\u09c0\u09af\u09bc\u09a4\u09be \u09a8\u09c0\u09a4\u09bf) \u2014 390px Mobile",
+      "type": "FRAME",
+      "x": 7300,
+      "y": 0,
+      "width": 390,
+      "height": 719,
+      "childrenCount": 3,
+      "childrenNames": [
+        "Header / Navigation",
+        "Section / Privacy Policy (\u0997\u09cb\u09aa\u09a8\u09c0\u09af\u09bc\u09a4\u09be \u09a8\u09c0\u09a4\u09bf)",
+        "Footer / Colophon"
+      ],
+      "reactionsCount": 1,
+      "reactions": [
+        {
+          "sourceNode": "Hamburger Button",
+          "sourceId": "18:1983",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destId": "18:2129",
+          "url": null
+        }
+      ]
+    },
+    {
+      "pageId": "3:5",
+      "pageName": "04 Mobile \u2014 BN",
+      "id": "18:1997",
+      "name": "Bengali 404 Not Found (\u09aa\u09c3\u09b7\u09cd\u09a0\u09be \u0996\u09c1\u0981\u099c\u09c7 \u09aa\u09be\u0993\u09af\u09bc\u09be \u09af\u09be\u09af\u09bc\u09a8\u09bf) \u2014 390px Mobile",
+      "type": "FRAME",
+      "x": 7800,
+      "y": 0,
+      "width": 390,
+      "height": 719,
+      "childrenCount": 3,
+      "childrenNames": [
+        "Header / Navigation",
+        "Section / 404 Not Found (\u09aa\u09c3\u09b7\u09cd\u09a0\u09be \u0996\u09c1\u0981\u099c\u09c7 \u09aa\u09be\u0993\u09af\u09bc\u09be \u09af\u09be\u09af\u09bc\u09a8\u09bf)",
+        "Footer / Colophon"
+      ],
+      "reactionsCount": 1,
+      "reactions": [
+        {
+          "sourceNode": "Hamburger Button",
+          "sourceId": "18:2001",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destId": "18:2129",
+          "url": null
+        }
+      ]
+    },
+    {
+      "pageId": "3:6",
+      "pageName": "05 English",
+      "id": "18:1068",
+      "name": "English Homepage \u2014 1440px Desktop",
+      "type": "FRAME",
+      "x": 4000,
+      "y": 0,
+      "width": 1440,
+      "height": 2878,
+      "childrenCount": 6,
+      "childrenNames": [
+        "Header / Global Navigation",
+        "Section / Hero Architectural Showcase",
+        "Section / Spatial Sequence & Material Craft",
+        "Section / Studio Services & Practice",
+        "Section / Consultation Practice Banner",
+        "Footer / Colophon"
+      ],
+      "reactionsCount": 10,
+      "reactions": [
+        {
+          "sourceNode": "Archive",
+          "sourceId": "22:3684",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1102",
+          "url": null
+        },
+        {
+          "sourceNode": "Services",
+          "sourceId": "22:3685",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1191",
+          "url": null
+        },
+        {
+          "sourceNode": "Process",
+          "sourceId": "22:3686",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1254",
+          "url": null
+        },
+        {
+          "sourceNode": "Studio",
+          "sourceId": "22:3687",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1288",
+          "url": null
+        },
+        {
+          "sourceNode": "Contact",
+          "sourceId": "22:3688",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1316",
+          "url": null
+        },
+        {
+          "sourceNode": "Language Pill",
+          "sourceId": "22:3690",
+          "trigger": "ON_CLICK",
+          "actionType": "URL",
+          "navigation": null,
+          "destId": null,
+          "url": "https://www.figma.com/design/eMRunQ80brYYvuTWkufV2o/?node-id=18-137"
+        },
+        {
+          "sourceNode": "Header Consultation CTA",
+          "sourceId": "22:3692",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destId": "18:2149",
+          "url": null
+        },
+        {
+          "sourceNode": "Button / Primary CTA",
+          "sourceId": "22:3699",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destId": "18:2149",
+          "url": null
+        },
+        {
+          "sourceNode": "Button / Secondary View Project",
+          "sourceId": "22:3701",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1139",
+          "url": null
+        },
+        {
+          "sourceNode": "Consultation Action Button",
+          "sourceId": "22:3752",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destId": "18:2149",
+          "url": null
+        }
+      ]
+    },
+    {
+      "pageId": "3:6",
+      "pageName": "05 English",
+      "id": "18:1102",
+      "name": "English Project Archive \u2014 1440px Desktop",
+      "type": "FRAME",
+      "x": 5600,
+      "y": 0,
+      "width": 1440,
+      "height": 2220,
+      "childrenCount": 5,
+      "childrenNames": [
+        "Header / Global Navigation",
+        "Section / Archive Hero",
+        "Section / Concept Studies Grid",
+        "Section / Consultation CTA",
+        "Footer / Colophon"
+      ],
+      "reactionsCount": 21,
+      "reactions": [
+        {
+          "sourceNode": "FlowGrid",
+          "sourceId": "23:533",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1068",
+          "url": null
+        },
+        {
+          "sourceNode": "Services",
+          "sourceId": "23:536",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1191",
+          "url": null
+        },
+        {
+          "sourceNode": "Process",
+          "sourceId": "23:537",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1254",
+          "url": null
+        },
+        {
+          "sourceNode": "Studio",
+          "sourceId": "23:538",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1288",
+          "url": null
+        },
+        {
+          "sourceNode": "Contact",
+          "sourceId": "23:539",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1316",
+          "url": null
+        },
+        {
+          "sourceNode": "Language Pill",
+          "sourceId": "23:541",
+          "trigger": "ON_CLICK",
+          "actionType": "URL",
+          "navigation": null,
+          "destId": null,
+          "url": "https://www.figma.com/design/eMRunQ80brYYvuTWkufV2o/?node-id=18-137"
+        },
+        {
+          "sourceNode": "Header Consultation CTA",
+          "sourceId": "23:543",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destId": "18:2149",
+          "url": null
+        },
+        {
+          "sourceNode": "Tab / Living & Dining",
+          "sourceId": "23:552",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1139",
+          "url": null
+        },
+        {
+          "sourceNode": "Tab / Modular Kitchen",
+          "sourceId": "23:554",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1160",
+          "url": null
+        },
+        {
+          "sourceNode": "Tab / Master Suite",
+          "sourceId": "23:556",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1191",
+          "url": null
+        },
+        {
+          "sourceNode": "Tab / Joinery Craft",
+          "sourceId": "23:558",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1222",
+          "url": null
+        },
+        {
+          "sourceNode": "Card / Concept Study 01",
+          "sourceId": "23:563",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1139",
+          "url": null
+        },
+        {
+          "sourceNode": "Button / View Study Detail 1",
+          "sourceId": "23:570",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1139",
+          "url": null
+        },
+        {
+          "sourceNode": "Card / Concept Study 02",
+          "sourceId": "23:572",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1160",
+          "url": null
+        },
+        {
+          "sourceNode": "Button / View Study Detail 2",
+          "sourceId": "23:579",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1160",
+          "url": null
+        },
+        {
+          "sourceNode": "Card / Concept Study 03",
+          "sourceId": "23:581",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1191",
+          "url": null
+        },
+        {
+          "sourceNode": "Button / View Study Detail 3",
+          "sourceId": "23:588",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1191",
+          "url": null
+        },
+        {
+          "sourceNode": "Card / Concept Study 04",
+          "sourceId": "23:590",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1222",
+          "url": null
+        },
+        {
+          "sourceNode": "Button / View Study Detail 4",
+          "sourceId": "23:597",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1222",
+          "url": null
+        },
+        {
+          "sourceNode": "Section / Consultation CTA",
+          "sourceId": "23:599",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destId": "18:2149",
+          "url": null
+        },
+        {
+          "sourceNode": "Button / Consultation CTA",
+          "sourceId": "23:603",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destId": "18:2149",
+          "url": null
+        }
+      ]
+    },
+    {
+      "pageId": "3:6",
+      "pageName": "05 English",
+      "id": "18:1139",
+      "name": "English Concept Detail \u2014 1440px Desktop",
+      "type": "FRAME",
+      "x": 7200,
+      "y": 0,
+      "width": 1440,
+      "height": 1771,
+      "childrenCount": 6,
+      "childrenNames": [
+        "Header / Global Navigation",
+        "Section / Concept Detail Hero",
+        "Section / Spatial Sequence Gallery",
+        "Section / Architectural Specifications",
+        "Section / Consultation CTA",
+        "Footer / Colophon"
+      ],
+      "reactionsCount": 11,
+      "reactions": [
+        {
+          "sourceNode": "FlowGrid",
+          "sourceId": "23:711",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1068",
+          "url": null
+        },
+        {
+          "sourceNode": "Concept Archive",
+          "sourceId": "23:713",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1102",
+          "url": null
+        },
+        {
+          "sourceNode": "Services",
+          "sourceId": "23:714",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1191",
+          "url": null
+        },
+        {
+          "sourceNode": "Process",
+          "sourceId": "23:715",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1254",
+          "url": null
+        },
+        {
+          "sourceNode": "Studio",
+          "sourceId": "23:716",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1288",
+          "url": null
+        },
+        {
+          "sourceNode": "Contact",
+          "sourceId": "23:717",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1316",
+          "url": null
+        },
+        {
+          "sourceNode": "Language Pill",
+          "sourceId": "23:719",
+          "trigger": "ON_CLICK",
+          "actionType": "URL",
+          "navigation": null,
+          "destId": null,
+          "url": "https://www.figma.com/design/eMRunQ80brYYvuTWkufV2o/?node-id=18-137"
+        },
+        {
+          "sourceNode": "Header Consultation CTA",
+          "sourceId": "23:721",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destId": "18:2149",
+          "url": null
+        },
+        {
+          "sourceNode": "Link / Back to Archive",
+          "sourceId": "23:724",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1102",
+          "url": null
+        },
+        {
+          "sourceNode": "Section / Consultation CTA",
+          "sourceId": "23:760",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destId": "18:2149",
+          "url": null
+        },
+        {
+          "sourceNode": "Button / Consultation CTA",
+          "sourceId": "23:764",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destId": "18:2149",
+          "url": null
+        }
+      ]
+    },
+    {
+      "pageId": "3:6",
+      "pageName": "05 English",
+      "id": "18:1160",
+      "name": "English Built Projects Framework \u2014 1440px Desktop",
+      "type": "FRAME",
+      "x": 8800,
+      "y": 0,
+      "width": 1440,
+      "height": 595,
+      "childrenCount": 3,
+      "childrenNames": [
+        "Header / Navigation",
+        "Section / Built Projects Commission Framework",
+        "Footer / Colophon"
+      ],
+      "reactionsCount": 0,
+      "reactions": []
+    },
+    {
+      "pageId": "3:6",
+      "pageName": "05 English",
+      "id": "18:1191",
+      "name": "English Architectural Services \u2014 1440px Desktop",
+      "type": "FRAME",
+      "x": 10400,
+      "y": 0,
+      "width": 1440,
+      "height": 595,
+      "childrenCount": 3,
+      "childrenNames": [
+        "Header / Navigation",
+        "Section / Studio Architectural Services",
+        "Footer / Colophon"
+      ],
+      "reactionsCount": 0,
+      "reactions": []
+    },
+    {
+      "pageId": "3:6",
+      "pageName": "05 English",
+      "id": "18:1222",
+      "name": "English Joinery Detail \u2014 1440px Desktop",
+      "type": "FRAME",
+      "x": 12000,
+      "y": 0,
+      "width": 1440,
+      "height": 595,
+      "childrenCount": 3,
+      "childrenNames": [
+        "Header / Navigation",
+        "Section / Custom Joinery & Millwork Craftsmanship",
+        "Footer / Colophon"
+      ],
+      "reactionsCount": 0,
+      "reactions": []
+    },
+    {
+      "pageId": "3:6",
+      "pageName": "05 English",
+      "id": "18:1254",
+      "name": "English Process & Delivery \u2014 1440px Desktop",
+      "type": "FRAME",
+      "x": 13600,
+      "y": 0,
+      "width": 1440,
+      "height": 595,
+      "childrenCount": 3,
+      "childrenNames": [
+        "Header / Navigation",
+        "Section / Architectural Delivery Process",
+        "Footer / Colophon"
+      ],
+      "reactionsCount": 0,
+      "reactions": []
+    },
+    {
+      "pageId": "3:6",
+      "pageName": "05 English",
+      "id": "18:1288",
+      "name": "English Studio Practice \u2014 1440px Desktop",
+      "type": "FRAME",
+      "x": 15200,
+      "y": 0,
+      "width": 1440,
+      "height": 595,
+      "childrenCount": 3,
+      "childrenNames": [
+        "Header / Navigation",
+        "Section / About FlowGrid Studio",
+        "Footer / Colophon"
+      ],
+      "reactionsCount": 0,
+      "reactions": []
+    },
+    {
+      "pageId": "3:6",
+      "pageName": "05 English",
+      "id": "18:1316",
+      "name": "English Contact & Consultation \u2014 1440px Desktop",
+      "type": "FRAME",
+      "x": 16800,
+      "y": 0,
+      "width": 1440,
+      "height": 595,
+      "childrenCount": 3,
+      "childrenNames": [
+        "Header / Navigation",
+        "Section / Start a Spatial Conversation",
+        "Footer / Colophon"
+      ],
+      "reactionsCount": 0,
+      "reactions": []
+    },
+    {
+      "pageId": "3:6",
+      "pageName": "05 English",
+      "id": "18:1347",
+      "name": "English Privacy Policy \u2014 1440px Desktop",
+      "type": "FRAME",
+      "x": 18400,
+      "y": 0,
+      "width": 1440,
+      "height": 471,
+      "childrenCount": 3,
+      "childrenNames": [
+        "Header / Navigation",
+        "Section / Privacy Policy & Data Security",
+        "Footer / Colophon"
+      ],
+      "reactionsCount": 0,
+      "reactions": []
+    },
+    {
+      "pageId": "3:6",
+      "pageName": "05 English",
+      "id": "18:1368",
+      "name": "English 404 Not Found \u2014 1440px Desktop",
+      "type": "FRAME",
+      "x": 20000,
+      "y": 0,
+      "width": 1440,
+      "height": 471,
+      "childrenCount": 3,
+      "childrenNames": [
+        "Header / Navigation",
+        "Section / 404 \u2014 Architectural Space Not Found",
+        "Footer / Colophon"
+      ],
+      "reactionsCount": 0,
+      "reactions": []
+    },
+    {
+      "pageId": "3:6",
+      "pageName": "05 English",
+      "id": "18:1389",
+      "name": "English Homepage \u2014 390px Mobile",
+      "type": "FRAME",
+      "x": 4000,
+      "y": 3200,
+      "width": 390,
+      "height": 2480,
+      "childrenCount": 5,
+      "childrenNames": [
+        "Header / Navigation",
+        "Section / Hero",
+        "Section / Spatial Sequence",
+        "Section / Studio Services",
+        "Footer / Colophon"
+      ],
+      "reactionsCount": 4,
+      "reactions": [
+        {
+          "sourceNode": "Hamburger Button",
+          "sourceId": "22:3759",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destId": "18:2247",
+          "url": null
+        },
+        {
+          "sourceNode": "Button / Primary CTA",
+          "sourceId": "22:3766",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destId": "18:2198",
+          "url": null
+        },
+        {
+          "sourceNode": "Mobile Card / Dining Connection",
+          "sourceId": "22:3770",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1425",
+          "url": null
+        },
+        {
+          "sourceNode": "Mobile Card / Joinery Detail",
+          "sourceId": "22:3774",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1425",
+          "url": null
+        }
+      ]
+    },
+    {
+      "pageId": "3:6",
+      "pageName": "05 English",
+      "id": "18:1407",
+      "name": "English Project Archive \u2014 390px Mobile",
+      "type": "FRAME",
+      "x": 4500,
+      "y": 3200,
+      "width": 390,
+      "height": 706,
+      "childrenCount": 3,
+      "childrenNames": [
+        "Header / Navigation",
+        "Section / Project Archive",
+        "Footer / Colophon"
+      ],
+      "reactionsCount": 1,
+      "reactions": [
+        {
+          "sourceNode": "Hamburger Button",
+          "sourceId": "18:1411",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destId": "18:2247",
+          "url": null
+        }
+      ]
+    },
+    {
+      "pageId": "3:6",
+      "pageName": "05 English",
+      "id": "18:1425",
+      "name": "English Concept Detail \u2014 390px Mobile",
+      "type": "FRAME",
+      "x": 5000,
+      "y": 3200,
+      "width": 390,
+      "height": 1832,
+      "childrenCount": 6,
+      "childrenNames": [
+        "Header / Global Navigation Mobile",
+        "Section / Mobile Concept Hero",
+        "Section / Mobile Gallery",
+        "Section / Mobile Specifications",
+        "Mobile CTA / Consultation",
+        "Footer / Colophon Mobile"
+      ],
+      "reactionsCount": 4,
+      "reactions": [
+        {
+          "sourceNode": "FlowGrid",
+          "sourceId": "23:828",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1389",
+          "url": null
+        },
+        {
+          "sourceNode": "Language Pill Mobile",
+          "sourceId": "23:830",
+          "trigger": "ON_CLICK",
+          "actionType": "URL",
+          "navigation": null,
+          "destId": null,
+          "url": "https://www.figma.com/design/eMRunQ80brYYvuTWkufV2o/?node-id=18-283"
+        },
+        {
+          "sourceNode": "Button / Mobile Menu Toggle",
+          "sourceId": "23:832",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destId": "18:2247",
+          "url": null
+        },
+        {
+          "sourceNode": "Link / Back to Archive Mobile",
+          "sourceId": "23:837",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1407",
+          "url": null
+        }
+      ]
+    },
+    {
+      "pageId": "3:6",
+      "pageName": "05 English",
+      "id": "18:1443",
+      "name": "English Built Projects Framework \u2014 390px Mobile",
+      "type": "FRAME",
+      "x": 5500,
+      "y": 3200,
+      "width": 390,
+      "height": 706,
+      "childrenCount": 3,
+      "childrenNames": [
+        "Header / Navigation",
+        "Section / Built Projects Framework",
+        "Footer / Colophon"
+      ],
+      "reactionsCount": 1,
+      "reactions": [
+        {
+          "sourceNode": "Hamburger Button",
+          "sourceId": "18:1447",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destId": "18:2247",
+          "url": null
+        }
+      ]
+    },
+    {
+      "pageId": "3:6",
+      "pageName": "05 English",
+      "id": "18:1461",
+      "name": "English Architectural Services \u2014 390px Mobile",
+      "type": "FRAME",
+      "x": 6000,
+      "y": 3200,
+      "width": 390,
+      "height": 706,
+      "childrenCount": 3,
+      "childrenNames": [
+        "Header / Navigation",
+        "Section / Architectural Services",
+        "Footer / Colophon"
+      ],
+      "reactionsCount": 1,
+      "reactions": [
+        {
+          "sourceNode": "Hamburger Button",
+          "sourceId": "18:1465",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destId": "18:2247",
+          "url": null
+        }
+      ]
+    },
+    {
+      "pageId": "3:6",
+      "pageName": "05 English",
+      "id": "18:1479",
+      "name": "English Joinery Detail \u2014 390px Mobile",
+      "type": "FRAME",
+      "x": 6500,
+      "y": 3200,
+      "width": 390,
+      "height": 706,
+      "childrenCount": 3,
+      "childrenNames": [
+        "Header / Navigation",
+        "Section / Joinery Detail",
+        "Footer / Colophon"
+      ],
+      "reactionsCount": 1,
+      "reactions": [
+        {
+          "sourceNode": "Hamburger Button",
+          "sourceId": "18:1483",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destId": "18:2247",
+          "url": null
+        }
+      ]
+    },
+    {
+      "pageId": "3:6",
+      "pageName": "05 English",
+      "id": "18:1497",
+      "name": "English Process & Delivery \u2014 390px Mobile",
+      "type": "FRAME",
+      "x": 7000,
+      "y": 3200,
+      "width": 390,
+      "height": 706,
+      "childrenCount": 3,
+      "childrenNames": [
+        "Header / Navigation",
+        "Section / Process & Delivery",
+        "Footer / Colophon"
+      ],
+      "reactionsCount": 1,
+      "reactions": [
+        {
+          "sourceNode": "Hamburger Button",
+          "sourceId": "18:1501",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destId": "18:2247",
+          "url": null
+        }
+      ]
+    },
+    {
+      "pageId": "3:6",
+      "pageName": "05 English",
+      "id": "18:1515",
+      "name": "English Studio Practice \u2014 390px Mobile",
+      "type": "FRAME",
+      "x": 7500,
+      "y": 3200,
+      "width": 390,
+      "height": 706,
+      "childrenCount": 3,
+      "childrenNames": [
+        "Header / Navigation",
+        "Section / Studio Practice",
+        "Footer / Colophon"
+      ],
+      "reactionsCount": 1,
+      "reactions": [
+        {
+          "sourceNode": "Hamburger Button",
+          "sourceId": "18:1519",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destId": "18:2247",
+          "url": null
+        }
+      ]
+    },
+    {
+      "pageId": "3:6",
+      "pageName": "05 English",
+      "id": "18:1533",
+      "name": "English Contact & Consultation \u2014 390px Mobile",
+      "type": "FRAME",
+      "x": 8000,
+      "y": 3200,
+      "width": 390,
+      "height": 706,
+      "childrenCount": 3,
+      "childrenNames": [
+        "Header / Navigation",
+        "Section / Contact & Consultation",
+        "Footer / Colophon"
+      ],
+      "reactionsCount": 1,
+      "reactions": [
+        {
+          "sourceNode": "Hamburger Button",
+          "sourceId": "18:1537",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destId": "18:2247",
+          "url": null
+        }
+      ]
+    },
+    {
+      "pageId": "3:6",
+      "pageName": "05 English",
+      "id": "18:1551",
+      "name": "English Privacy Policy \u2014 390px Mobile",
+      "type": "FRAME",
+      "x": 8500,
+      "y": 3200,
+      "width": 390,
+      "height": 706,
+      "childrenCount": 3,
+      "childrenNames": [
+        "Header / Navigation",
+        "Section / Privacy Policy",
+        "Footer / Colophon"
+      ],
+      "reactionsCount": 1,
+      "reactions": [
+        {
+          "sourceNode": "Hamburger Button",
+          "sourceId": "18:1555",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destId": "18:2247",
+          "url": null
+        }
+      ]
+    },
+    {
+      "pageId": "3:6",
+      "pageName": "05 English",
+      "id": "18:1569",
+      "name": "English 404 Not Found \u2014 390px Mobile",
+      "type": "FRAME",
+      "x": 9000,
+      "y": 3200,
+      "width": 390,
+      "height": 706,
+      "childrenCount": 3,
+      "childrenNames": [
+        "Header / Navigation",
+        "Section / 404 Not Found",
+        "Footer / Colophon"
+      ],
+      "reactionsCount": 1,
+      "reactions": [
+        {
+          "sourceNode": "Hamburger Button",
+          "sourceId": "18:1573",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destId": "18:2247",
+          "url": null
+        }
+      ]
+    }
+  ],
+  "overlays": [
+    {
+      "pageId": "3:2",
+      "pageName": "02 Components",
+      "id": "10:43",
+      "name": "Modal / Consultation Enquiry Card",
+      "type": "COMPONENT",
+      "x": 2900,
+      "y": 250,
+      "width": 520,
+      "height": 749,
+      "childrenCount": 5,
+      "childrenNames": [
+        "Modal Header Bar",
+        "Modal Subtitle",
+        "Form Fields Stack",
+        "Offline Simulation Banner Link",
+        "Submit CTA"
+      ],
+      "reactionsCount": 0,
+      "reactions": []
+    },
+    {
+      "pageId": "3:2",
+      "pageName": "02 Components",
+      "id": "10:56",
+      "name": "Navigation / Mobile Drawer",
+      "type": "COMPONENT",
+      "x": 3450,
+      "y": 250,
+      "width": 320,
+      "height": 844,
+      "childrenCount": 3,
+      "childrenNames": [
+        "Drawer Top",
+        "Navigation Links",
+        "Drawer Bottom Actions"
+      ],
+      "reactionsCount": 0,
+      "reactions": []
+    },
+    {
+      "pageId": "3:2",
+      "pageName": "02 Components",
+      "id": "18:403",
+      "name": "Modal / State = Submitting",
+      "type": "COMPONENT",
+      "x": 3450,
+      "y": 1250,
+      "width": 460,
+      "height": 420,
+      "childrenCount": 3,
+      "childrenNames": [
+        "Progress Indicator",
+        "\u0985\u09a8\u09c1\u09b0\u09cb\u09a7 \u09aa\u09be\u09a0\u09be\u09a8\u09cb \u09b9\u099a\u09cd\u099b\u09c7...",
+        "\u0986\u09aa\u09a8\u09be\u09b0 \u09a4\u09a5\u09cd\u09af \u09b8\u09c1\u09b0\u0995\u09cd\u09b7\u09bf\u09a4\u09ad\u09be\u09ac\u09c7 \u09aa\u09cd\u09b0\u0995\u09cd\u09b0\u09bf\u09af\u09bc\u09be\u0995\u09b0\u09a3 \u0995\u09b0\u09be \u09b9\u099a\u09cd\u099b\u09c7, \u0985\u09a8\u09c1\u0997\u09cd\u09b0\u09b9 \u0995\u09b0\u09c7 \u0985\u09aa\u09c7\u0995\u09cd\u09b7\u09be \u0995\u09b0\u09c1\u09a8\u0964"
+      ],
+      "reactionsCount": 0,
+      "reactions": []
+    },
+    {
+      "pageId": "3:2",
+      "pageName": "02 Components",
+      "id": "18:407",
+      "name": "Modal / State = Success",
+      "type": "COMPONENT",
+      "x": 4000,
+      "y": 1250,
+      "width": 460,
+      "height": 500,
+      "childrenCount": 0,
+      "childrenNames": [],
+      "reactionsCount": 0,
+      "reactions": []
+    },
+    {
+      "pageId": "3:4",
+      "pageName": "03 Desktop \u2014 BN",
+      "id": "18:2031",
+      "name": "Overlay / Consultation Modal \u2014 Desktop BN",
+      "type": "FRAME",
+      "x": 5200,
+      "y": -1200,
+      "width": 560,
+      "height": 749,
+      "childrenCount": 5,
+      "childrenNames": [
+        "Modal Header Bar",
+        "Modal Subtitle",
+        "Form Fields Stack",
+        "Offline Simulation Banner Link",
+        "Submit CTA"
+      ],
+      "reactionsCount": 3,
+      "reactions": [
+        {
+          "sourceNode": "Close Button (X)",
+          "sourceId": "22:3487",
+          "trigger": "ON_CLICK",
+          "actionType": "CLOSE",
+          "navigation": null,
+          "destId": null,
+          "url": null
+        },
+        {
+          "sourceNode": "Offline Simulation Banner Link",
+          "sourceId": "22:3511",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "SWAP",
+          "destId": "18:2071",
+          "url": null
+        },
+        {
+          "sourceNode": "Submit CTA",
+          "sourceId": "22:3513",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "SWAP",
+          "destId": "18:2057",
+          "url": null
+        }
+      ]
+    },
+    {
+      "pageId": "3:4",
+      "pageName": "03 Desktop \u2014 BN",
+      "id": "18:2057",
+      "name": "Overlay / Submitting \u2014 Desktop BN",
+      "type": "FRAME",
+      "x": 5820,
+      "y": -1200,
+      "width": 560,
+      "height": 281,
+      "childrenCount": 4,
+      "childrenNames": [
+        "\u23f3",
+        "\u0985\u09a8\u09c1\u09b0\u09cb\u09a7 \u09aa\u09be\u09a0\u09be\u09a8\u09cb \u09b9\u099a\u09cd\u099b\u09c7...",
+        "\u09b8\u09cd\u099f\u09c1\u09a1\u09bf\u0993 \u09b8\u09bf\u09b8\u09cd\u099f\u09c7\u09ae\u09c7 \u0986\u09aa\u09a8\u09be\u09b0 \u09b8\u09cd\u09a5\u09be\u09a8\u09bf\u0995 \u09ac\u09bf\u09ac\u09b0\u09a3 \u09a8\u09bf\u09b0\u09be\u09aa\u09a6\u09ad\u09be\u09ac\u09c7 \u09b8\u0982\u09af\u09c1\u0995\u09cd\u09a4 \u09b9\u099a\u09cd\u099b\u09c7\u0964",
+        "Complete Simulation CTA"
+      ],
+      "reactionsCount": 1,
+      "reactions": [
+        {
+          "sourceNode": "Complete Simulation CTA",
+          "sourceId": "18:2061",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "SWAP",
+          "destId": "18:2063",
+          "url": null
+        }
+      ]
+    },
+    {
+      "pageId": "3:4",
+      "pageName": "03 Desktop \u2014 BN",
+      "id": "18:2063",
+      "name": "Overlay / Success Receipt \u2014 Desktop BN",
+      "type": "FRAME",
+      "x": 6440,
+      "y": -1200,
+      "width": 560,
+      "height": 308,
+      "childrenCount": 4,
+      "childrenNames": [
+        "\u2713",
+        "\u09aa\u09b0\u09be\u09ae\u09b0\u09cd\u09b6\u09c7\u09b0 \u0985\u09a8\u09c1\u09b0\u09cb\u09a7 \u0997\u09c3\u09b9\u09c0\u09a4 \u09b9\u09af\u09bc\u09c7\u099b\u09c7",
+        "Receipt Confirmation Box",
+        "Done Button"
+      ],
+      "reactionsCount": 1,
+      "reactions": [
+        {
+          "sourceNode": "Done Button",
+          "sourceId": "18:2069",
+          "trigger": "ON_CLICK",
+          "actionType": "CLOSE",
+          "navigation": null,
+          "destId": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "pageId": "3:4",
+      "pageName": "03 Desktop \u2014 BN",
+      "id": "18:2071",
+      "name": "Overlay / Offline Error \u2014 Desktop BN",
+      "type": "FRAME",
+      "x": 7060,
+      "y": -1200,
+      "width": 560,
+      "height": 341,
+      "childrenCount": 4,
+      "childrenNames": [
+        "Offline Alert Banner (+16px Clearance Verified)",
+        "\u0996\u09b8\u09a1\u09bc\u09be \u09b8\u0982\u09b0\u0995\u09cd\u09b7\u09bf\u09a4 \u0986\u099b\u09c7",
+        "Retry CTA",
+        "Cancel Button"
+      ],
+      "reactionsCount": 2,
+      "reactions": [
+        {
+          "sourceNode": "Retry CTA",
+          "sourceId": "18:2076",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "SWAP",
+          "destId": "18:2057",
+          "url": null
+        },
+        {
+          "sourceNode": "Cancel Button",
+          "sourceId": "18:2078",
+          "trigger": "ON_CLICK",
+          "actionType": "CLOSE",
+          "navigation": null,
+          "destId": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "pageId": "3:5",
+      "pageName": "04 Mobile \u2014 BN",
+      "id": "18:2080",
+      "name": "Overlay / Consultation Modal \u2014 Mobile BN",
+      "type": "FRAME",
+      "x": 2800,
+      "y": -1200,
+      "width": 358,
+      "height": 774,
+      "childrenCount": 5,
+      "childrenNames": [
+        "Modal Header Bar",
+        "Modal Subtitle",
+        "Form Fields Stack",
+        "Offline Simulation Banner Link",
+        "Submit CTA"
+      ],
+      "reactionsCount": 3,
+      "reactions": [
+        {
+          "sourceNode": "Close Button (X)",
+          "sourceId": "22:3517",
+          "trigger": "ON_CLICK",
+          "actionType": "CLOSE",
+          "navigation": null,
+          "destId": null,
+          "url": null
+        },
+        {
+          "sourceNode": "Offline Simulation Banner Link",
+          "sourceId": "22:3541",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "SWAP",
+          "destId": "18:2120",
+          "url": null
+        },
+        {
+          "sourceNode": "Submit CTA",
+          "sourceId": "22:3543",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "SWAP",
+          "destId": "18:2106",
+          "url": null
+        }
+      ]
+    },
+    {
+      "pageId": "3:5",
+      "pageName": "04 Mobile \u2014 BN",
+      "id": "18:2106",
+      "name": "Overlay / Submitting \u2014 Mobile BN",
+      "type": "FRAME",
+      "x": 3220,
+      "y": -1200,
+      "width": 358,
+      "height": 281,
+      "childrenCount": 4,
+      "childrenNames": [
+        "\u23f3",
+        "\u0985\u09a8\u09c1\u09b0\u09cb\u09a7 \u09aa\u09be\u09a0\u09be\u09a8\u09cb \u09b9\u099a\u09cd\u099b\u09c7...",
+        "\u09b8\u09cd\u099f\u09c1\u09a1\u09bf\u0993 \u09b8\u09bf\u09b8\u09cd\u099f\u09c7\u09ae\u09c7 \u0986\u09aa\u09a8\u09be\u09b0 \u09b8\u09cd\u09a5\u09be\u09a8\u09bf\u0995 \u09ac\u09bf\u09ac\u09b0\u09a3 \u09a8\u09bf\u09b0\u09be\u09aa\u09a6\u09ad\u09be\u09ac\u09c7 \u09b8\u0982\u09af\u09c1\u0995\u09cd\u09a4 \u09b9\u099a\u09cd\u099b\u09c7\u0964",
+        "Complete Simulation CTA"
+      ],
+      "reactionsCount": 1,
+      "reactions": [
+        {
+          "sourceNode": "Complete Simulation CTA",
+          "sourceId": "18:2110",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "SWAP",
+          "destId": "18:2112",
+          "url": null
+        }
+      ]
+    },
+    {
+      "pageId": "3:5",
+      "pageName": "04 Mobile \u2014 BN",
+      "id": "18:2112",
+      "name": "Overlay / Success Receipt \u2014 Mobile BN",
+      "type": "FRAME",
+      "x": 3640,
+      "y": -1200,
+      "width": 358,
+      "height": 292,
+      "childrenCount": 4,
+      "childrenNames": [
+        "\u2713",
+        "\u09aa\u09b0\u09be\u09ae\u09b0\u09cd\u09b6\u09c7\u09b0 \u0985\u09a8\u09c1\u09b0\u09cb\u09a7 \u0997\u09c3\u09b9\u09c0\u09a4 \u09b9\u09af\u09bc\u09c7\u099b\u09c7",
+        "Receipt Confirmation Box",
+        "Done Button"
+      ],
+      "reactionsCount": 1,
+      "reactions": [
+        {
+          "sourceNode": "Done Button",
+          "sourceId": "18:2118",
+          "trigger": "ON_CLICK",
+          "actionType": "CLOSE",
+          "navigation": null,
+          "destId": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "pageId": "3:5",
+      "pageName": "04 Mobile \u2014 BN",
+      "id": "18:2120",
+      "name": "Overlay / Offline Error \u2014 Mobile BN",
+      "type": "FRAME",
+      "x": 4060,
+      "y": -1200,
+      "width": 358,
+      "height": 325,
+      "childrenCount": 4,
+      "childrenNames": [
+        "Offline Alert Banner (+16px Clearance Verified)",
+        "\u0996\u09b8\u09a1\u09bc\u09be \u09b8\u0982\u09b0\u0995\u09cd\u09b7\u09bf\u09a4 \u0986\u099b\u09c7",
+        "Retry CTA",
+        "Cancel Button"
+      ],
+      "reactionsCount": 2,
+      "reactions": [
+        {
+          "sourceNode": "Retry CTA",
+          "sourceId": "18:2125",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "SWAP",
+          "destId": "18:2106",
+          "url": null
+        },
+        {
+          "sourceNode": "Cancel Button",
+          "sourceId": "18:2127",
+          "trigger": "ON_CLICK",
+          "actionType": "CLOSE",
+          "navigation": null,
+          "destId": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "pageId": "3:5",
+      "pageName": "04 Mobile \u2014 BN",
+      "id": "18:2129",
+      "name": "Overlay / Mobile Navigation Drawer \u2014 BN",
+      "type": "FRAME",
+      "x": 2300,
+      "y": -1200,
+      "width": 390,
+      "height": 976,
+      "childrenCount": 3,
+      "childrenNames": [
+        "Drawer Header",
+        "Drawer Nav Links",
+        "Drawer Consultation CTA"
+      ],
+      "reactionsCount": 8,
+      "reactions": [
+        {
+          "sourceNode": "Drawer Close (X)",
+          "sourceId": "18:2132",
+          "trigger": "ON_CLICK",
+          "actionType": "CLOSE",
+          "navigation": null,
+          "destId": null,
+          "url": null
+        },
+        {
+          "sourceNode": "Drawer Item / \u09ae\u09c2\u09b2\u09aa\u09be\u09a4\u09be (Home)",
+          "sourceId": "18:2135",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:283",
+          "url": null
+        },
+        {
+          "sourceNode": "Drawer Item / \u09a7\u09be\u09b0\u09a3\u09be \u09b8\u0982\u0997\u09cd\u09b0\u09b9 (Archive)",
+          "sourceId": "18:2137",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1853",
+          "url": null
+        },
+        {
+          "sourceNode": "Drawer Item / \u09b8\u09cd\u09a5\u09be\u09aa\u09a4\u09cd\u09af \u09b8\u09c7\u09ac\u09be\u09b8\u09ae\u09c2\u09b9 (Services)",
+          "sourceId": "18:2139",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1889",
+          "url": null
+        },
+        {
+          "sourceNode": "Drawer Item / \u0995\u09be\u09b0\u09cd\u09af\u09aa\u09a6\u09cd\u09a7\u09a4\u09bf (Process)",
+          "sourceId": "18:2141",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1925",
+          "url": null
+        },
+        {
+          "sourceNode": "Drawer Item / \u09b8\u09cd\u099f\u09c1\u09a1\u09bf\u0993 \u09a6\u09b0\u09cd\u09b6\u09a8 (Studio)",
+          "sourceId": "18:2143",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1943",
+          "url": null
+        },
+        {
+          "sourceNode": "Drawer Item / \u09af\u09cb\u0997\u09be\u09af\u09cb\u0997 (Contact)",
+          "sourceId": "18:2145",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1961",
+          "url": null
+        },
+        {
+          "sourceNode": "Drawer Consultation CTA",
+          "sourceId": "18:2147",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destId": "18:2080",
+          "url": null
+        }
+      ]
+    },
+    {
+      "pageId": "3:6",
+      "pageName": "05 English",
+      "id": "18:2149",
+      "name": "Overlay / Consultation Modal \u2014 Desktop EN",
+      "type": "FRAME",
+      "x": 4000,
+      "y": -1200,
+      "width": 560,
+      "height": 737,
+      "childrenCount": 5,
+      "childrenNames": [
+        "Modal Header Bar",
+        "Modal Subtitle",
+        "Form Fields Stack",
+        "Offline Simulation Banner Link",
+        "Submit CTA"
+      ],
+      "reactionsCount": 3,
+      "reactions": [
+        {
+          "sourceNode": "Close Button (X)",
+          "sourceId": "22:3547",
+          "trigger": "ON_CLICK",
+          "actionType": "CLOSE",
+          "navigation": null,
+          "destId": null,
+          "url": null
+        },
+        {
+          "sourceNode": "Offline Simulation Banner Link",
+          "sourceId": "22:3571",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "SWAP",
+          "destId": "18:2189",
+          "url": null
+        },
+        {
+          "sourceNode": "Submit CTA",
+          "sourceId": "22:3573",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "SWAP",
+          "destId": "18:2175",
+          "url": null
+        }
+      ]
+    },
+    {
+      "pageId": "3:6",
+      "pageName": "05 English",
+      "id": "18:2175",
+      "name": "Overlay / Submitting \u2014 Desktop EN",
+      "type": "FRAME",
+      "x": 4620,
+      "y": -1200,
+      "width": 560,
+      "height": 277,
+      "childrenCount": 4,
+      "childrenNames": [
+        "\u23f3",
+        "Transmitting Spatial Request...",
+        "Encrypting and verifying project parameters with FlowGrid studio dispatch.",
+        "Complete Simulation CTA"
+      ],
+      "reactionsCount": 1,
+      "reactions": [
+        {
+          "sourceNode": "Complete Simulation CTA",
+          "sourceId": "18:2179",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "SWAP",
+          "destId": "18:2181",
+          "url": null
+        }
+      ]
+    },
+    {
+      "pageId": "3:6",
+      "pageName": "05 English",
+      "id": "18:2181",
+      "name": "Overlay / Success Receipt \u2014 Desktop EN",
+      "type": "FRAME",
+      "x": 5240,
+      "y": -1200,
+      "width": 560,
+      "height": 304,
+      "childrenCount": 4,
+      "childrenNames": [
+        "\u2713",
+        "Consultation Request Confirmed",
+        "Receipt Confirmation Box",
+        "Done Button"
+      ],
+      "reactionsCount": 1,
+      "reactions": [
+        {
+          "sourceNode": "Done Button",
+          "sourceId": "18:2187",
+          "trigger": "ON_CLICK",
+          "actionType": "CLOSE",
+          "navigation": null,
+          "destId": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "pageId": "3:6",
+      "pageName": "05 English",
+      "id": "18:2189",
+      "name": "Overlay / Offline Error \u2014 Desktop EN",
+      "type": "FRAME",
+      "x": 5860,
+      "y": -1200,
+      "width": 560,
+      "height": 338,
+      "childrenCount": 4,
+      "childrenNames": [
+        "Offline Alert Banner (+16px Clearance Verified)",
+        "Draft Cached Locally",
+        "Retry CTA",
+        "Cancel Button"
+      ],
+      "reactionsCount": 2,
+      "reactions": [
+        {
+          "sourceNode": "Retry CTA",
+          "sourceId": "18:2194",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "SWAP",
+          "destId": "18:2175",
+          "url": null
+        },
+        {
+          "sourceNode": "Cancel Button",
+          "sourceId": "18:2196",
+          "trigger": "ON_CLICK",
+          "actionType": "CLOSE",
+          "navigation": null,
+          "destId": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "pageId": "3:6",
+      "pageName": "05 English",
+      "id": "18:2198",
+      "name": "Overlay / Consultation Modal \u2014 Mobile EN",
+      "type": "FRAME",
+      "x": 7000,
+      "y": -1200,
+      "width": 358,
+      "height": 737,
+      "childrenCount": 5,
+      "childrenNames": [
+        "Modal Header Bar",
+        "Modal Subtitle",
+        "Form Fields Stack",
+        "Offline Simulation Banner Link",
+        "Submit CTA"
+      ],
+      "reactionsCount": 3,
+      "reactions": [
+        {
+          "sourceNode": "Close Button (X)",
+          "sourceId": "22:3577",
+          "trigger": "ON_CLICK",
+          "actionType": "CLOSE",
+          "navigation": null,
+          "destId": null,
+          "url": null
+        },
+        {
+          "sourceNode": "Offline Simulation Banner Link",
+          "sourceId": "22:3601",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "SWAP",
+          "destId": "18:2238",
+          "url": null
+        },
+        {
+          "sourceNode": "Submit CTA",
+          "sourceId": "22:3603",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "SWAP",
+          "destId": "18:2224",
+          "url": null
+        }
+      ]
+    },
+    {
+      "pageId": "3:6",
+      "pageName": "05 English",
+      "id": "18:2224",
+      "name": "Overlay / Submitting \u2014 Mobile EN",
+      "type": "FRAME",
+      "x": 7420,
+      "y": -1200,
+      "width": 358,
+      "height": 277,
+      "childrenCount": 4,
+      "childrenNames": [
+        "\u23f3",
+        "Transmitting Spatial Request...",
+        "Encrypting and verifying project parameters with FlowGrid studio dispatch.",
+        "Complete Simulation CTA"
+      ],
+      "reactionsCount": 1,
+      "reactions": [
+        {
+          "sourceNode": "Complete Simulation CTA",
+          "sourceId": "18:2228",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "SWAP",
+          "destId": "18:2230",
+          "url": null
+        }
+      ]
+    },
+    {
+      "pageId": "3:6",
+      "pageName": "05 English",
+      "id": "18:2230",
+      "name": "Overlay / Success Receipt \u2014 Mobile EN",
+      "type": "FRAME",
+      "x": 7840,
+      "y": -1200,
+      "width": 358,
+      "height": 288,
+      "childrenCount": 4,
+      "childrenNames": [
+        "\u2713",
+        "Consultation Request Confirmed",
+        "Receipt Confirmation Box",
+        "Done Button"
+      ],
+      "reactionsCount": 1,
+      "reactions": [
+        {
+          "sourceNode": "Done Button",
+          "sourceId": "18:2236",
+          "trigger": "ON_CLICK",
+          "actionType": "CLOSE",
+          "navigation": null,
+          "destId": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "pageId": "3:6",
+      "pageName": "05 English",
+      "id": "18:2238",
+      "name": "Overlay / Offline Error \u2014 Mobile EN",
+      "type": "FRAME",
+      "x": 8260,
+      "y": -1200,
+      "width": 358,
+      "height": 322,
+      "childrenCount": 4,
+      "childrenNames": [
+        "Offline Alert Banner (+16px Clearance Verified)",
+        "Draft Cached Locally",
+        "Retry CTA",
+        "Cancel Button"
+      ],
+      "reactionsCount": 2,
+      "reactions": [
+        {
+          "sourceNode": "Retry CTA",
+          "sourceId": "18:2243",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "SWAP",
+          "destId": "18:2224",
+          "url": null
+        },
+        {
+          "sourceNode": "Cancel Button",
+          "sourceId": "18:2245",
+          "trigger": "ON_CLICK",
+          "actionType": "CLOSE",
+          "navigation": null,
+          "destId": null,
+          "url": null
+        }
+      ]
+    },
+    {
+      "pageId": "3:6",
+      "pageName": "05 English",
+      "id": "18:2247",
+      "name": "Overlay / Mobile Navigation Drawer \u2014 EN",
+      "type": "FRAME",
+      "x": 6500,
+      "y": -1200,
+      "width": 390,
+      "height": 976,
+      "childrenCount": 3,
+      "childrenNames": [
+        "Drawer Header",
+        "Drawer Nav Links",
+        "Drawer Consultation CTA"
+      ],
+      "reactionsCount": 8,
+      "reactions": [
+        {
+          "sourceNode": "Drawer Close (X)",
+          "sourceId": "18:2250",
+          "trigger": "ON_CLICK",
+          "actionType": "CLOSE",
+          "navigation": null,
+          "destId": null,
+          "url": null
+        },
+        {
+          "sourceNode": "Drawer Item / Home",
+          "sourceId": "18:2253",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1389",
+          "url": null
+        },
+        {
+          "sourceNode": "Drawer Item / Project Archive",
+          "sourceId": "18:2255",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1407",
+          "url": null
+        },
+        {
+          "sourceNode": "Drawer Item / Architectural Services",
+          "sourceId": "18:2257",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1461",
+          "url": null
+        },
+        {
+          "sourceNode": "Drawer Item / Process & Delivery",
+          "sourceId": "18:2259",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1497",
+          "url": null
+        },
+        {
+          "sourceNode": "Drawer Item / Studio Practice",
+          "sourceId": "18:2261",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destId": "18:1515",
+          "url": null
+        },
+        {
+          "sourceNode": "Drawer Item / Contact & Consultation",
+          "sourceId": "18:2263",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destId": "18:2198",
+          "url": null
+        },
+        {
+          "sourceNode": "Drawer Consultation CTA",
+          "sourceId": "18:2265",
+          "trigger": "ON_CLICK",
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destId": "18:2198",
+          "url": null
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalPages": 9,
+    "totalLayoutsFound": 50,
+    "totalOverlaysFound": 22
+  }
+}

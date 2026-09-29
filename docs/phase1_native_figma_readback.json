@@ -1,756 +1,2192 @@
 {
-  "figma_version": "live_cloud",
-  "collections": [
+  "meta": {
+    "title": "FlowGrid — Complete Figma Prototype Journey & Native Binding Readback",
+    "timestamp": "2026-09-29T06:17:50.077Z",
+    "fileKey": "eMRunQ80brYYvuTWkufV2o",
+    "totalReactions": 185,
+    "journeysSummary": {
+      "journey1_exploration": 22,
+      "journey2_consultation": 83,
+      "journey3_language_and_nav": 62,
+      "journey4_archive_and_templates": 18
+    }
+  },
+  "totalReactions": 185,
+  "boundVariables": [
     {
-      "id": "VariableCollectionId:10:2",
-      "name": "FlowGrid / Color Tokens",
-      "variable_count": 15,
-      "variables": [
+      "nodeId": "10:32",
+      "nodeName": "State=Default",
+      "nodeType": "COMPONENT",
+      "bindings": [
         {
-          "id": "VariableID:10:3",
-          "name": "surface/page",
-          "resolvedType": "COLOR",
-          "valuesByMode": {
-            "10:0": {
-              "r": 0.9570000171661377,
-              "g": 0.9449999928474426,
-              "b": 0.9100000262260437,
-              "a": 1
-            }
-          }
+          "property": "itemSpacing",
+          "variableName": "space/8"
         },
         {
-          "id": "VariableID:10:6",
-          "name": "surface/clean",
-          "resolvedType": "COLOR",
-          "valuesByMode": {
-            "10:0": {
-              "r": 1,
-              "g": 1,
-              "b": 1,
-              "a": 1
-            }
-          }
+          "property": "paddingLeft",
+          "variableName": "space/24"
         },
         {
-          "id": "VariableID:10:7",
-          "name": "surface/mist",
-          "resolvedType": "COLOR",
-          "valuesByMode": {
-            "10:0": {
-              "r": 0.8709999918937683,
-              "g": 0.906000018119812,
-              "b": 0.8859999775886536,
-              "a": 1
-            }
-          }
+          "property": "paddingTop",
+          "variableName": "space/16"
         },
         {
-          "id": "VariableID:10:8",
-          "name": "text/primary",
-          "resolvedType": "COLOR",
-          "valuesByMode": {
-            "10:0": {
-              "r": 0.09399999678134918,
-              "g": 0.23100000619888306,
-              "b": 0.20800000429153442,
-              "a": 1
-            }
-          }
+          "property": "paddingRight",
+          "variableName": "space/24"
         },
         {
-          "id": "VariableID:10:9",
-          "name": "text/secondary",
-          "resolvedType": "COLOR",
-          "valuesByMode": {
-            "10:0": {
-              "r": 0.3370000123977661,
-              "g": 0.3919999897480011,
-              "b": 0.36899998784065247,
-              "a": 1
-            }
-          }
+          "property": "paddingBottom",
+          "variableName": "space/16"
         },
         {
-          "id": "VariableID:10:10",
-          "name": "action/primary",
-          "resolvedType": "COLOR",
-          "valuesByMode": {
-            "10:0": {
-              "r": 0.09399999678134918,
-              "g": 0.23100000619888306,
-              "b": 0.20800000429153442,
-              "a": 1
-            }
-          }
+          "property": "topLeftRadius",
+          "variableName": "radius/control"
         },
         {
-          "id": "VariableID:10:11",
-          "name": "action/hover",
-          "resolvedType": "COLOR",
-          "valuesByMode": {
-            "10:0": {
-              "r": 0.06300000101327896,
-              "g": 0.16899999976158142,
-              "b": 0.14900000393390656,
-              "a": 1
-            }
-          }
+          "property": "topRightRadius",
+          "variableName": "radius/control"
         },
         {
-          "id": "VariableID:10:12",
-          "name": "accent/clay",
-          "resolvedType": "COLOR",
-          "valuesByMode": {
-            "10:0": {
-              "r": 0.5370000004768372,
-              "g": 0.32199999690055847,
-              "b": 0.2240000069141388,
-              "a": 1
-            }
-          }
+          "property": "bottomLeftRadius",
+          "variableName": "radius/control"
         },
         {
-          "id": "VariableID:10:13",
-          "name": "border/decorative",
-          "resolvedType": "COLOR",
-          "valuesByMode": {
-            "10:0": {
-              "r": 0.722000002861023,
-              "g": 0.7609999775886536,
-              "b": 0.7289999723434448,
-              "a": 1
-            }
-          }
+          "property": "bottomRightRadius",
+          "variableName": "radius/control"
         },
         {
-          "id": "VariableID:10:14",
-          "name": "border/control",
-          "resolvedType": "COLOR",
-          "valuesByMode": {
-            "10:0": {
-              "r": 0.4429999887943268,
-              "g": 0.5059999823570251,
-              "b": 0.47099998593330383,
-              "a": 1
-            }
-          }
-        },
-        {
-          "id": "VariableID:10:15",
-          "name": "focus",
-          "resolvedType": "COLOR",
-          "valuesByMode": {
-            "10:0": {
-              "r": 0.5370000004768372,
-              "g": 0.32199999690055847,
-              "b": 0.2240000069141388,
-              "a": 1
-            }
-          }
-        },
-        {
-          "id": "VariableID:10:16",
-          "name": "status/error",
-          "resolvedType": "COLOR",
-          "valuesByMode": {
-            "10:0": {
-              "r": 0.6079999804496765,
-              "g": 0.18799999356269836,
-              "b": 0.16899999976158142,
-              "a": 1
-            }
-          }
-        },
-        {
-          "id": "VariableID:10:17",
-          "name": "status/success",
-          "resolvedType": "COLOR",
-          "valuesByMode": {
-            "10:0": {
-              "r": 0.14100000262260437,
-              "g": 0.3610000014305115,
-              "b": 0.2630000114440918,
-              "a": 1
-            }
-          }
-        },
-        {
-          "id": "VariableID:10:18",
-          "name": "status/error-bg",
-          "resolvedType": "COLOR",
-          "valuesByMode": {
-            "10:0": {
-              "r": 0.9919999837875366,
-              "g": 0.9490000009536743,
-              "b": 0.9490000009536743,
-              "a": 1
-            }
-          }
-        },
-        {
-          "id": "VariableID:10:19",
-          "name": "status/success-bg",
-          "resolvedType": "COLOR",
-          "valuesByMode": {
-            "10:0": {
-              "r": 0.921999990940094,
-              "g": 0.9610000252723694,
-              "b": 0.9409999847412109,
-              "a": 1
-            }
-          }
+          "property": "fills",
+          "variableName": "action/primary"
         }
       ]
     },
     {
-      "id": "VariableCollectionId:10:20",
-      "name": "FlowGrid / Spatial Spacing",
-      "variable_count": 11,
-      "variables": [
+      "nodeId": "10:33",
+      "nodeName": "পরামর্শের আবেদন করুন →",
+      "nodeType": "TEXT",
+      "bindings": [
         {
-          "id": "VariableID:10:21",
-          "name": "space/4",
-          "resolvedType": "FLOAT",
-          "valuesByMode": {
-            "10:1": 4
-          }
-        },
-        {
-          "id": "VariableID:10:22",
-          "name": "space/8",
-          "resolvedType": "FLOAT",
-          "valuesByMode": {
-            "10:1": 8
-          }
-        },
-        {
-          "id": "VariableID:10:23",
-          "name": "space/12",
-          "resolvedType": "FLOAT",
-          "valuesByMode": {
-            "10:1": 12
-          }
-        },
-        {
-          "id": "VariableID:10:24",
-          "name": "space/16",
-          "resolvedType": "FLOAT",
-          "valuesByMode": {
-            "10:1": 16
-          }
-        },
-        {
-          "id": "VariableID:10:25",
-          "name": "space/24",
-          "resolvedType": "FLOAT",
-          "valuesByMode": {
-            "10:1": 24
-          }
-        },
-        {
-          "id": "VariableID:10:26",
-          "name": "space/32",
-          "resolvedType": "FLOAT",
-          "valuesByMode": {
-            "10:1": 32
-          }
-        },
-        {
-          "id": "VariableID:10:27",
-          "name": "space/48",
-          "resolvedType": "FLOAT",
-          "valuesByMode": {
-            "10:1": 48
-          }
-        },
-        {
-          "id": "VariableID:10:28",
-          "name": "space/64",
-          "resolvedType": "FLOAT",
-          "valuesByMode": {
-            "10:1": 64
-          }
-        },
-        {
-          "id": "VariableID:10:29",
-          "name": "space/80",
-          "resolvedType": "FLOAT",
-          "valuesByMode": {
-            "10:1": 80
-          }
-        },
-        {
-          "id": "VariableID:10:30",
-          "name": "space/96",
-          "resolvedType": "FLOAT",
-          "valuesByMode": {
-            "10:1": 96
-          }
-        },
-        {
-          "id": "VariableID:10:31",
-          "name": "space/128",
-          "resolvedType": "FLOAT",
-          "valuesByMode": {
-            "10:1": 128
-          }
+          "property": "fills",
+          "variableName": "surface/clean"
         }
       ]
     },
     {
-      "id": "VariableCollectionId:10:51",
-      "name": "FlowGrid / Radius Tokens",
-      "variable_count": 4,
-      "variables": [
+      "nodeId": "10:34",
+      "nodeName": "State=Hover",
+      "nodeType": "COMPONENT",
+      "bindings": [
         {
-          "id": "VariableID:10:52",
-          "name": "radius/none",
-          "resolvedType": "FLOAT",
-          "valuesByMode": {
-            "10:2": 0
-          }
+          "property": "itemSpacing",
+          "variableName": "space/8"
         },
         {
-          "id": "VariableID:10:53",
-          "name": "radius/control",
-          "resolvedType": "FLOAT",
-          "valuesByMode": {
-            "10:2": 2
-          }
+          "property": "paddingLeft",
+          "variableName": "space/24"
         },
         {
-          "id": "VariableID:10:54",
-          "name": "radius/overlay",
-          "resolvedType": "FLOAT",
-          "valuesByMode": {
-            "10:2": 4
-          }
+          "property": "paddingTop",
+          "variableName": "space/16"
         },
         {
-          "id": "VariableID:10:55",
-          "name": "radius/pill",
-          "resolvedType": "FLOAT",
-          "valuesByMode": {
-            "10:2": 9999
-          }
+          "property": "paddingRight",
+          "variableName": "space/24"
+        },
+        {
+          "property": "paddingBottom",
+          "variableName": "space/16"
+        },
+        {
+          "property": "topLeftRadius",
+          "variableName": "radius/control"
+        },
+        {
+          "property": "topRightRadius",
+          "variableName": "radius/control"
+        },
+        {
+          "property": "bottomLeftRadius",
+          "variableName": "radius/control"
+        },
+        {
+          "property": "bottomRightRadius",
+          "variableName": "radius/control"
+        },
+        {
+          "property": "fills",
+          "variableName": "action/hover"
+        }
+      ]
+    },
+    {
+      "nodeId": "10:35",
+      "nodeName": "পরামর্শের আবেদন করুন →",
+      "nodeType": "TEXT",
+      "bindings": [
+        {
+          "property": "fills",
+          "variableName": "surface/clean"
+        }
+      ]
+    },
+    {
+      "nodeId": "10:36",
+      "nodeName": "State=Focus",
+      "nodeType": "COMPONENT",
+      "bindings": [
+        {
+          "property": "itemSpacing",
+          "variableName": "space/8"
+        },
+        {
+          "property": "paddingLeft",
+          "variableName": "space/24"
+        },
+        {
+          "property": "paddingTop",
+          "variableName": "space/16"
+        },
+        {
+          "property": "paddingRight",
+          "variableName": "space/24"
+        },
+        {
+          "property": "paddingBottom",
+          "variableName": "space/16"
+        },
+        {
+          "property": "topLeftRadius",
+          "variableName": "radius/control"
+        },
+        {
+          "property": "topRightRadius",
+          "variableName": "radius/control"
+        },
+        {
+          "property": "bottomLeftRadius",
+          "variableName": "radius/control"
+        },
+        {
+          "property": "bottomRightRadius",
+          "variableName": "radius/control"
+        },
+        {
+          "property": "fills",
+          "variableName": "action/primary"
+        },
+        {
+          "property": "strokes",
+          "variableName": "focus"
+        }
+      ]
+    },
+    {
+      "nodeId": "10:37",
+      "nodeName": "পরামর্শের আবেদন করুন →",
+      "nodeType": "TEXT",
+      "bindings": [
+        {
+          "property": "fills",
+          "variableName": "surface/clean"
+        }
+      ]
+    },
+    {
+      "nodeId": "10:38",
+      "nodeName": "State=Disabled",
+      "nodeType": "COMPONENT",
+      "bindings": [
+        {
+          "property": "itemSpacing",
+          "variableName": "space/8"
+        },
+        {
+          "property": "paddingLeft",
+          "variableName": "space/24"
+        },
+        {
+          "property": "paddingTop",
+          "variableName": "space/16"
+        },
+        {
+          "property": "paddingRight",
+          "variableName": "space/24"
+        },
+        {
+          "property": "paddingBottom",
+          "variableName": "space/16"
+        },
+        {
+          "property": "topLeftRadius",
+          "variableName": "radius/control"
+        },
+        {
+          "property": "topRightRadius",
+          "variableName": "radius/control"
+        },
+        {
+          "property": "bottomLeftRadius",
+          "variableName": "radius/control"
+        },
+        {
+          "property": "bottomRightRadius",
+          "variableName": "radius/control"
+        },
+        {
+          "property": "fills",
+          "variableName": "surface/mist"
+        }
+      ]
+    },
+    {
+      "nodeId": "10:39",
+      "nodeName": "পরামর্শের আবেদন করুন →",
+      "nodeType": "TEXT",
+      "bindings": [
+        {
+          "property": "fills",
+          "variableName": "text/secondary"
+        }
+      ]
+    },
+    {
+      "nodeId": "10:40",
+      "nodeName": "State=Submitting",
+      "nodeType": "COMPONENT",
+      "bindings": [
+        {
+          "property": "itemSpacing",
+          "variableName": "space/8"
+        },
+        {
+          "property": "paddingLeft",
+          "variableName": "space/24"
+        },
+        {
+          "property": "paddingTop",
+          "variableName": "space/16"
+        },
+        {
+          "property": "paddingRight",
+          "variableName": "space/24"
+        },
+        {
+          "property": "paddingBottom",
+          "variableName": "space/16"
+        },
+        {
+          "property": "topLeftRadius",
+          "variableName": "radius/control"
+        },
+        {
+          "property": "topRightRadius",
+          "variableName": "radius/control"
+        },
+        {
+          "property": "bottomLeftRadius",
+          "variableName": "radius/control"
+        },
+        {
+          "property": "bottomRightRadius",
+          "variableName": "radius/control"
+        },
+        {
+          "property": "fills",
+          "variableName": "action/primary"
+        }
+      ]
+    },
+    {
+      "nodeId": "10:41",
+      "nodeName": "অনুরোধ পাঠানো হচ্ছে...",
+      "nodeType": "TEXT",
+      "bindings": [
+        {
+          "property": "fills",
+          "variableName": "surface/clean"
+        }
+      ]
+    },
+    {
+      "nodeId": "10:43",
+      "nodeName": "Modal / Consultation Enquiry Card",
+      "nodeType": "COMPONENT",
+      "bindings": [
+        {
+          "property": "paddingLeft",
+          "variableName": "space/32"
+        },
+        {
+          "property": "paddingTop",
+          "variableName": "space/32"
+        },
+        {
+          "property": "paddingRight",
+          "variableName": "space/32"
+        },
+        {
+          "property": "paddingBottom",
+          "variableName": "space/32"
+        },
+        {
+          "property": "topLeftRadius",
+          "variableName": "radius/overlay"
+        },
+        {
+          "property": "topRightRadius",
+          "variableName": "radius/overlay"
+        },
+        {
+          "property": "bottomLeftRadius",
+          "variableName": "radius/overlay"
+        },
+        {
+          "property": "bottomRightRadius",
+          "variableName": "radius/overlay"
+        },
+        {
+          "property": "fills",
+          "variableName": "surface/page"
+        },
+        {
+          "property": "strokes",
+          "variableName": "border/decorative"
+        }
+      ]
+    },
+    {
+      "nodeId": "22:3456",
+      "nodeName": "Modal Title",
+      "nodeType": "TEXT",
+      "bindings": [
+        {
+          "property": "fills",
+          "variableName": "text/primary"
+        }
+      ]
+    },
+    {
+      "nodeId": "22:3457",
+      "nodeName": "Close Button (X)",
+      "nodeType": "FRAME",
+      "bindings": [
+        {
+          "property": "topLeftRadius",
+          "variableName": "radius/pill"
+        },
+        {
+          "property": "topRightRadius",
+          "variableName": "radius/pill"
+        },
+        {
+          "property": "bottomLeftRadius",
+          "variableName": "radius/pill"
+        },
+        {
+          "property": "bottomRightRadius",
+          "variableName": "radius/pill"
+        },
+        {
+          "property": "fills",
+          "variableName": "surface/clean"
+        },
+        {
+          "property": "strokes",
+          "variableName": "border/control"
+        }
+      ]
+    },
+    {
+      "nodeId": "22:3458",
+      "nodeName": "✕",
+      "nodeType": "TEXT",
+      "bindings": [
+        {
+          "property": "fills",
+          "variableName": "text/secondary"
+        }
+      ]
+    },
+    {
+      "nodeId": "22:3459",
+      "nodeName": "Modal Subtitle",
+      "nodeType": "TEXT",
+      "bindings": [
+        {
+          "property": "fills",
+          "variableName": "text/secondary"
+        }
+      ]
+    },
+    {
+      "nodeId": "I22:3461;21:2583",
+      "nodeName": "Field Label",
+      "nodeType": "TEXT",
+      "bindings": [
+        {
+          "property": "fills",
+          "variableName": "text/primary"
+        }
+      ]
+    },
+    {
+      "nodeId": "I22:3461;21:2584",
+      "nodeName": "Input Container",
+      "nodeType": "FRAME",
+      "bindings": [
+        {
+          "property": "topLeftRadius",
+          "variableName": "radius/control"
+        },
+        {
+          "property": "topRightRadius",
+          "variableName": "radius/control"
+        },
+        {
+          "property": "bottomLeftRadius",
+          "variableName": "radius/control"
+        },
+        {
+          "property": "bottomRightRadius",
+          "variableName": "radius/control"
+        },
+        {
+          "property": "fills",
+          "variableName": "surface/clean"
+        },
+        {
+          "property": "strokes",
+          "variableName": "border/control"
+        }
+      ]
+    },
+    {
+      "nodeId": "I22:3461;21:2585",
+      "nodeName": "Input Text",
+      "nodeType": "TEXT",
+      "bindings": [
+        {
+          "property": "fills",
+          "variableName": "text/secondary"
+        }
+      ]
+    },
+    {
+      "nodeId": "I22:3465;21:2583",
+      "nodeName": "Field Label",
+      "nodeType": "TEXT",
+      "bindings": [
+        {
+          "property": "fills",
+          "variableName": "text/primary"
+        }
+      ]
+    },
+    {
+      "nodeId": "I22:3465;21:2584",
+      "nodeName": "Input Container",
+      "nodeType": "FRAME",
+      "bindings": [
+        {
+          "property": "topLeftRadius",
+          "variableName": "radius/control"
+        },
+        {
+          "property": "topRightRadius",
+          "variableName": "radius/control"
+        },
+        {
+          "property": "bottomLeftRadius",
+          "variableName": "radius/control"
+        },
+        {
+          "property": "bottomRightRadius",
+          "variableName": "radius/control"
+        },
+        {
+          "property": "fills",
+          "variableName": "surface/clean"
+        },
+        {
+          "property": "strokes",
+          "variableName": "border/control"
+        }
+      ]
+    },
+    {
+      "nodeId": "I22:3465;21:2585",
+      "nodeName": "Input Text",
+      "nodeType": "TEXT",
+      "bindings": [
+        {
+          "property": "fills",
+          "variableName": "text/secondary"
+        }
+      ]
+    },
+    {
+      "nodeId": "I22:3469;21:2583",
+      "nodeName": "Field Label",
+      "nodeType": "TEXT",
+      "bindings": [
+        {
+          "property": "fills",
+          "variableName": "text/primary"
+        }
+      ]
+    },
+    {
+      "nodeId": "I22:3469;21:2584",
+      "nodeName": "Input Container",
+      "nodeType": "FRAME",
+      "bindings": [
+        {
+          "property": "topLeftRadius",
+          "variableName": "radius/control"
+        },
+        {
+          "property": "topRightRadius",
+          "variableName": "radius/control"
+        },
+        {
+          "property": "bottomLeftRadius",
+          "variableName": "radius/control"
+        },
+        {
+          "property": "bottomRightRadius",
+          "variableName": "radius/control"
+        },
+        {
+          "property": "fills",
+          "variableName": "surface/clean"
+        },
+        {
+          "property": "strokes",
+          "variableName": "border/control"
+        }
+      ]
+    },
+    {
+      "nodeId": "I22:3469;21:2585",
+      "nodeName": "Input Text",
+      "nodeType": "TEXT",
+      "bindings": [
+        {
+          "property": "fills",
+          "variableName": "text/secondary"
+        }
+      ]
+    },
+    {
+      "nodeId": "I22:3473;21:2583",
+      "nodeName": "Field Label",
+      "nodeType": "TEXT",
+      "bindings": [
+        {
+          "property": "fills",
+          "variableName": "text/primary"
+        }
+      ]
+    },
+    {
+      "nodeId": "I22:3473;21:2584",
+      "nodeName": "Input Container",
+      "nodeType": "FRAME",
+      "bindings": [
+        {
+          "property": "topLeftRadius",
+          "variableName": "radius/control"
+        },
+        {
+          "property": "topRightRadius",
+          "variableName": "radius/control"
+        },
+        {
+          "property": "bottomLeftRadius",
+          "variableName": "radius/control"
+        },
+        {
+          "property": "bottomRightRadius",
+          "variableName": "radius/control"
+        },
+        {
+          "property": "fills",
+          "variableName": "surface/clean"
+        },
+        {
+          "property": "strokes",
+          "variableName": "border/control"
+        }
+      ]
+    },
+    {
+      "nodeId": "I22:3473;21:2585",
+      "nodeName": "Input Text",
+      "nodeType": "TEXT",
+      "bindings": [
+        {
+          "property": "fills",
+          "variableName": "text/secondary"
+        }
+      ]
+    },
+    {
+      "nodeId": "I22:3477;21:2583",
+      "nodeName": "Field Label",
+      "nodeType": "TEXT",
+      "bindings": [
+        {
+          "property": "fills",
+          "variableName": "text/primary"
+        }
+      ]
+    },
+    {
+      "nodeId": "I22:3477;21:2584",
+      "nodeName": "Input Container",
+      "nodeType": "FRAME",
+      "bindings": [
+        {
+          "property": "topLeftRadius",
+          "variableName": "radius/control"
+        },
+        {
+          "property": "topRightRadius",
+          "variableName": "radius/control"
+        },
+        {
+          "property": "bottomLeftRadius",
+          "variableName": "radius/control"
+        },
+        {
+          "property": "bottomRightRadius",
+          "variableName": "radius/control"
+        },
+        {
+          "property": "fills",
+          "variableName": "surface/clean"
+        },
+        {
+          "property": "strokes",
+          "variableName": "border/control"
+        }
+      ]
+    },
+    {
+      "nodeId": "I22:3477;21:2585",
+      "nodeName": "Input Text",
+      "nodeType": "TEXT",
+      "bindings": [
+        {
+          "property": "fills",
+          "variableName": "text/secondary"
+        }
+      ]
+    },
+    {
+      "nodeId": "22:3481",
+      "nodeName": "Offline Simulation Banner Link",
+      "nodeType": "FRAME",
+      "bindings": [
+        {
+          "property": "topLeftRadius",
+          "variableName": "radius/control"
+        },
+        {
+          "property": "topRightRadius",
+          "variableName": "radius/control"
+        },
+        {
+          "property": "bottomLeftRadius",
+          "variableName": "radius/control"
+        },
+        {
+          "property": "bottomRightRadius",
+          "variableName": "radius/control"
+        },
+        {
+          "property": "fills",
+          "variableName": "surface/mist"
+        },
+        {
+          "property": "strokes",
+          "variableName": "border/decorative"
+        }
+      ]
+    },
+    {
+      "nodeId": "22:3482",
+      "nodeName": "⚡ অফলাইন স্থিতিস্থাপকতা পরীক্ষা করুন (ডেমো মোড)",
+      "nodeType": "TEXT",
+      "bindings": [
+        {
+          "property": "fills",
+          "variableName": "accent/clay"
+        }
+      ]
+    },
+    {
+      "nodeId": "22:3483",
+      "nodeName": "Submit CTA",
+      "nodeType": "INSTANCE",
+      "bindings": [
+        {
+          "property": "itemSpacing",
+          "variableName": "space/8"
+        },
+        {
+          "property": "paddingLeft",
+          "variableName": "space/24"
+        },
+        {
+          "property": "paddingTop",
+          "variableName": "space/16"
+        },
+        {
+          "property": "paddingRight",
+          "variableName": "space/24"
+        },
+        {
+          "property": "paddingBottom",
+          "variableName": "space/16"
+        },
+        {
+          "property": "topLeftRadius",
+          "variableName": "radius/control"
+        },
+        {
+          "property": "topRightRadius",
+          "variableName": "radius/control"
+        },
+        {
+          "property": "bottomLeftRadius",
+          "variableName": "radius/control"
+        },
+        {
+          "property": "bottomRightRadius",
+          "variableName": "radius/control"
+        },
+        {
+          "property": "fills",
+          "variableName": "action/primary"
+        }
+      ]
+    },
+    {
+      "nodeId": "I22:3483;10:33",
+      "nodeName": "পরামর্শের আবেদন করুন →",
+      "nodeType": "TEXT",
+      "bindings": [
+        {
+          "property": "fills",
+          "variableName": "surface/clean"
+        }
+      ]
+    },
+    {
+      "nodeId": "10:56",
+      "nodeName": "Navigation / Mobile Drawer",
+      "nodeType": "COMPONENT",
+      "bindings": [
+        {
+          "property": "itemSpacing",
+          "variableName": "space/24"
+        },
+        {
+          "property": "paddingLeft",
+          "variableName": "space/24"
+        },
+        {
+          "property": "paddingTop",
+          "variableName": "space/32"
+        },
+        {
+          "property": "paddingRight",
+          "variableName": "space/24"
+        },
+        {
+          "property": "paddingBottom",
+          "variableName": "space/32"
+        },
+        {
+          "property": "fills",
+          "variableName": "text/primary"
+        }
+      ]
+    },
+    {
+      "nodeId": "18:383",
+      "nodeName": "Badge / Concept Disclosure",
+      "nodeType": "COMPONENT",
+      "bindings": [
+        {
+          "property": "paddingLeft",
+          "variableName": "space/16"
+        },
+        {
+          "property": "paddingRight",
+          "variableName": "space/16"
+        },
+        {
+          "property": "topLeftRadius",
+          "variableName": "radius/control"
+        },
+        {
+          "property": "topRightRadius",
+          "variableName": "radius/control"
+        },
+        {
+          "property": "bottomLeftRadius",
+          "variableName": "radius/control"
+        },
+        {
+          "property": "bottomRightRadius",
+          "variableName": "radius/control"
+        },
+        {
+          "property": "fills",
+          "variableName": "surface/mist"
+        },
+        {
+          "property": "strokes",
+          "variableName": "border/decorative"
+        }
+      ]
+    },
+    {
+      "nodeId": "18:403",
+      "nodeName": "Modal / State = Submitting",
+      "nodeType": "COMPONENT",
+      "bindings": [
+        {
+          "property": "itemSpacing",
+          "variableName": "space/24"
+        },
+        {
+          "property": "paddingLeft",
+          "variableName": "space/48"
+        },
+        {
+          "property": "paddingTop",
+          "variableName": "space/48"
+        },
+        {
+          "property": "paddingRight",
+          "variableName": "space/48"
+        },
+        {
+          "property": "paddingBottom",
+          "variableName": "space/48"
+        },
+        {
+          "property": "topLeftRadius",
+          "variableName": "radius/overlay"
+        },
+        {
+          "property": "topRightRadius",
+          "variableName": "radius/overlay"
+        },
+        {
+          "property": "bottomLeftRadius",
+          "variableName": "radius/overlay"
+        },
+        {
+          "property": "bottomRightRadius",
+          "variableName": "radius/overlay"
+        },
+        {
+          "property": "fills",
+          "variableName": "surface/clean"
+        },
+        {
+          "property": "strokes",
+          "variableName": "border/decorative"
+        }
+      ]
+    },
+    {
+      "nodeId": "18:407",
+      "nodeName": "Modal / State = Success",
+      "nodeType": "COMPONENT",
+      "bindings": [
+        {
+          "property": "topLeftRadius",
+          "variableName": "radius/overlay"
+        },
+        {
+          "property": "topRightRadius",
+          "variableName": "radius/overlay"
+        },
+        {
+          "property": "bottomLeftRadius",
+          "variableName": "radius/overlay"
+        },
+        {
+          "property": "bottomRightRadius",
+          "variableName": "radius/overlay"
+        },
+        {
+          "property": "fills",
+          "variableName": "surface/clean"
+        },
+        {
+          "property": "strokes",
+          "variableName": "border/decorative"
+        }
+      ]
+    },
+    {
+      "nodeId": "18:408",
+      "nodeName": "Success Icon Badge",
+      "nodeType": "FRAME",
+      "bindings": [
+        {
+          "property": "topLeftRadius",
+          "variableName": "radius/pill"
+        },
+        {
+          "property": "topRightRadius",
+          "variableName": "radius/pill"
+        },
+        {
+          "property": "bottomLeftRadius",
+          "variableName": "radius/pill"
+        },
+        {
+          "property": "bottomRightRadius",
+          "variableName": "radius/pill"
+        },
+        {
+          "property": "fills",
+          "variableName": "status/success-bg"
+        }
+      ]
+    },
+    {
+      "nodeId": "18:409",
+      "nodeName": "Proof / Token Propagation Demo",
+      "nodeType": "FRAME",
+      "bindings": [
+        {
+          "property": "itemSpacing",
+          "variableName": "space/24"
+        },
+        {
+          "property": "paddingLeft",
+          "variableName": "space/32"
+        },
+        {
+          "property": "paddingTop",
+          "variableName": "space/32"
+        },
+        {
+          "property": "paddingRight",
+          "variableName": "space/32"
+        },
+        {
+          "property": "paddingBottom",
+          "variableName": "space/32"
+        },
+        {
+          "property": "topLeftRadius",
+          "variableName": "radius/overlay"
+        },
+        {
+          "property": "topRightRadius",
+          "variableName": "radius/overlay"
+        },
+        {
+          "property": "bottomLeftRadius",
+          "variableName": "radius/overlay"
+        },
+        {
+          "property": "bottomRightRadius",
+          "variableName": "radius/overlay"
+        },
+        {
+          "property": "fills",
+          "variableName": "surface/clean"
         }
       ]
     }
   ],
-  "components": [
+  "componentInstances": [
     {
-      "id": "10:42",
-      "name": "Button / Primary CTA",
-      "type": "COMPONENT_SET",
-      "width": 1233,
-      "height": 50,
-      "layoutMode": "NONE",
-      "fillsBound": null,
-      "children": [
-        {
-          "id": "10:32",
-          "name": "State=Default",
-          "type": "COMPONENT",
-          "width": 225,
-          "height": 52,
-          "reactions": []
-        },
-        {
-          "id": "10:34",
-          "name": "State=Hover",
-          "type": "COMPONENT",
-          "width": 225,
-          "height": 52,
-          "reactions": []
-        },
-        {
-          "id": "10:36",
-          "name": "State=Focus",
-          "type": "COMPONENT",
-          "width": 229,
-          "height": 56,
-          "reactions": []
-        },
-        {
-          "id": "10:38",
-          "name": "State=Disabled",
-          "type": "COMPONENT",
-          "width": 225,
-          "height": 52,
-          "reactions": []
-        },
-        {
-          "id": "10:40",
-          "name": "State=Submitting",
-          "type": "COMPONENT",
-          "width": 203,
-          "height": 52,
-          "reactions": []
-        }
-      ]
+      "instanceId": "22:3461",
+      "instanceName": "Field / আপনার নাম",
+      "mainComponentId": "21:2582",
+      "mainComponentName": "State=Default",
+      "componentSet": "Control / Text Field"
     },
     {
-      "id": "10:43",
-      "name": "Modal / Consultation Enquiry Card",
-      "type": "COMPONENT",
-      "width": 460,
-      "height": 865,
-      "layoutMode": "VERTICAL",
-      "fillsBound": {
-        "color": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:10:6"
-        }
-      },
-      "children": [
-        {
-          "id": "17:91",
-          "name": "Modal Header",
-          "type": "FRAME",
-          "width": 268,
-          "height": 100,
-          "reactions": []
-        },
-        {
-          "id": "17:95",
-          "name": "Offline Alert Banner",
-          "type": "FRAME",
-          "width": 375,
-          "height": 100,
-          "reactions": []
-        },
-        {
-          "id": "17:97",
-          "name": "Form Fields Stack",
-          "type": "FRAME",
-          "width": 394,
-          "height": 468,
-          "reactions": []
-        },
-        {
-          "id": "17:119",
-          "name": "Action Stack",
-          "type": "FRAME",
-          "width": 394,
-          "height": 83,
-          "reactions": []
-        }
-      ]
+      "instanceId": "22:3465",
+      "instanceName": "Field / ফোন নম্বর",
+      "mainComponentId": "21:2582",
+      "mainComponentName": "State=Default",
+      "componentSet": "Control / Text Field"
     },
     {
-      "id": "10:56",
-      "name": "Navigation / Mobile Drawer",
-      "type": "COMPONENT",
-      "width": 320,
-      "height": 844,
-      "layoutMode": "VERTICAL",
-      "fillsBound": {
-        "color": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:10:8"
-        }
-      },
-      "children": [
-        {
-          "id": "17:123",
-          "name": "Drawer Top",
-          "type": "FRAME",
-          "width": 115,
-          "height": 100,
-          "reactions": []
-        },
-        {
-          "id": "17:127",
-          "name": "Navigation Links",
-          "type": "FRAME",
-          "width": 272,
-          "height": 152,
-          "reactions": []
-        },
-        {
-          "id": "17:133",
-          "name": "Drawer Bottom Actions",
-          "type": "FRAME",
-          "width": 272,
-          "height": 88,
-          "reactions": []
-        }
-      ]
+      "instanceId": "22:3469",
+      "instanceName": "Field / প্রকল্পের অবস্থান",
+      "mainComponentId": "21:2582",
+      "mainComponentName": "State=Default",
+      "componentSet": "Control / Text Field"
+    },
+    {
+      "instanceId": "22:3473",
+      "instanceName": "Field / প্রকল্পের ধরন",
+      "mainComponentId": "21:2582",
+      "mainComponentName": "State=Default",
+      "componentSet": "Control / Text Field"
+    },
+    {
+      "instanceId": "22:3477",
+      "instanceName": "Field / স্থানিক বিবরণ ও বিশেষ চাহিদা",
+      "mainComponentId": "21:2582",
+      "mainComponentName": "State=Default",
+      "componentSet": "Control / Text Field"
+    },
+    {
+      "instanceId": "22:3483",
+      "instanceName": "Submit CTA",
+      "mainComponentId": "10:32",
+      "mainComponentName": "State=Default",
+      "componentSet": "Button / Primary CTA"
+    },
+    {
+      "instanceId": "17:134",
+      "instanceName": "Button / Primary CTA",
+      "mainComponentId": "10:32",
+      "mainComponentName": "State=Default",
+      "componentSet": "Button / Primary CTA"
+    },
+    {
+      "instanceId": "18:412",
+      "instanceName": "Button / Primary CTA",
+      "mainComponentId": "10:32",
+      "mainComponentName": "State=Default",
+      "componentSet": "Button / Primary CTA"
+    },
+    {
+      "instanceId": "22:3085",
+      "instanceName": "Header Consultation CTA",
+      "mainComponentId": "10:32",
+      "mainComponentName": "State=Default",
+      "componentSet": "Button / Primary CTA"
+    },
+    {
+      "instanceId": "22:3092",
+      "instanceName": "Hero Primary CTA",
+      "mainComponentId": "10:32",
+      "mainComponentName": "State=Default",
+      "componentSet": "Button / Primary CTA"
+    },
+    {
+      "instanceId": "22:3145",
+      "instanceName": "Consultation Action Button",
+      "mainComponentId": "10:32",
+      "mainComponentName": "State=Default",
+      "componentSet": "Button / Primary CTA"
+    },
+    {
+      "instanceId": "22:3161",
+      "instanceName": "Header Consultation CTA",
+      "mainComponentId": "10:32",
+      "mainComponentName": "State=Default",
+      "componentSet": "Button / Primary CTA"
+    },
+    {
+      "instanceId": "22:3197",
+      "instanceName": "Consultation Action Button",
+      "mainComponentId": "10:32",
+      "mainComponentName": "State=Default",
+      "componentSet": "Button / Primary CTA"
+    },
+    {
+      "instanceId": "23:467",
+      "instanceName": "Header Consultation CTA",
+      "mainComponentId": "10:32",
+      "mainComponentName": "State=Default",
+      "componentSet": "Button / Primary CTA"
+    },
+    {
+      "instanceId": "23:494",
+      "instanceName": "Button / View Study Detail 1",
+      "mainComponentId": "10:32",
+      "mainComponentName": "State=Default",
+      "componentSet": "Button / Primary CTA"
+    },
+    {
+      "instanceId": "23:503",
+      "instanceName": "Button / View Study Detail 2",
+      "mainComponentId": "10:32",
+      "mainComponentName": "State=Default",
+      "componentSet": "Button / Primary CTA"
+    },
+    {
+      "instanceId": "23:512",
+      "instanceName": "Button / View Study Detail 3",
+      "mainComponentId": "10:32",
+      "mainComponentName": "State=Default",
+      "componentSet": "Button / Primary CTA"
+    },
+    {
+      "instanceId": "23:521",
+      "instanceName": "Button / View Study Detail 4",
+      "mainComponentId": "10:32",
+      "mainComponentName": "State=Default",
+      "componentSet": "Button / Primary CTA"
+    },
+    {
+      "instanceId": "23:527",
+      "instanceName": "Button / Consultation CTA",
+      "mainComponentId": "10:32",
+      "mainComponentName": "State=Default",
+      "componentSet": "Button / Primary CTA"
+    },
+    {
+      "instanceId": "18:1636",
+      "instanceName": "Button / Primary CTA",
+      "mainComponentId": "10:32",
+      "mainComponentName": "State=Default",
+      "componentSet": "Button / Primary CTA"
+    },
+    {
+      "instanceId": "23:619",
+      "instanceName": "Header Consultation CTA",
+      "mainComponentId": "10:32",
+      "mainComponentName": "State=Default",
+      "componentSet": "Button / Primary CTA"
+    },
+    {
+      "instanceId": "23:648",
+      "instanceName": "Button / Consultation CTA",
+      "mainComponentId": "10:32",
+      "mainComponentName": "State=Default",
+      "componentSet": "Button / Primary CTA"
+    },
+    {
+      "instanceId": "18:1698",
+      "instanceName": "Button / Primary CTA",
+      "mainComponentId": "10:32",
+      "mainComponentName": "State=Default",
+      "componentSet": "Button / Primary CTA"
+    },
+    {
+      "instanceId": "18:1730",
+      "instanceName": "Button / Primary CTA",
+      "mainComponentId": "10:32",
+      "mainComponentName": "State=Default",
+      "componentSet": "Button / Primary CTA"
+    },
+    {
+      "instanceId": "18:1764",
+      "instanceName": "Button / Primary CTA",
+      "mainComponentId": "10:32",
+      "mainComponentName": "State=Default",
+      "componentSet": "Button / Primary CTA"
+    },
+    {
+      "instanceId": "23:664",
+      "instanceName": "Header Consultation CTA",
+      "mainComponentId": "10:32",
+      "mainComponentName": "State=Default",
+      "componentSet": "Button / Primary CTA"
+    },
+    {
+      "instanceId": "23:705",
+      "instanceName": "Button / Submit Enquiry",
+      "mainComponentId": "10:32",
+      "mainComponentName": "State=Default",
+      "componentSet": "Button / Primary CTA"
+    },
+    {
+      "instanceId": "18:1823",
+      "instanceName": "Button / Primary CTA",
+      "mainComponentId": "10:32",
+      "mainComponentName": "State=Default",
+      "componentSet": "Button / Primary CTA"
+    },
+    {
+      "instanceId": "18:1844",
+      "instanceName": "Button / Primary CTA",
+      "mainComponentId": "10:32",
+      "mainComponentName": "State=Default",
+      "componentSet": "Button / Primary CTA"
+    },
+    {
+      "instanceId": "22:3491",
+      "instanceName": "Field / আপনার নাম",
+      "mainComponentId": "21:2582",
+      "mainComponentName": "State=Default",
+      "componentSet": "Control / Text Field"
+    },
+    {
+      "instanceId": "22:3495",
+      "instanceName": "Field / ফোন নম্বর",
+      "mainComponentId": "21:2582",
+      "mainComponentName": "State=Default",
+      "componentSet": "Control / Text Field"
+    },
+    {
+      "instanceId": "22:3499",
+      "instanceName": "Field / প্রকল্পের অবস্থান",
+      "mainComponentId": "21:2582",
+      "mainComponentName": "State=Default",
+      "componentSet": "Control / Text Field"
+    },
+    {
+      "instanceId": "22:3503",
+      "instanceName": "Field / প্রকল্পের ধরন",
+      "mainComponentId": "21:2582",
+      "mainComponentName": "State=Default",
+      "componentSet": "Control / Text Field"
+    },
+    {
+      "instanceId": "22:3507",
+      "instanceName": "Field / স্থানিক বিবরণ ও বিশেষ চাহিদা",
+      "mainComponentId": "21:2582",
+      "mainComponentName": "State=Default",
+      "componentSet": "Control / Text Field"
+    },
+    {
+      "instanceId": "22:3513",
+      "instanceName": "Submit CTA",
+      "mainComponentId": "10:32",
+      "mainComponentName": "State=Default",
+      "componentSet": "Button / Primary CTA"
     }
   ],
-  "screens": [
+  "keyScreenReactions": [
     {
-      "id": "18:137",
-      "name": "Bengali Homepage — 1440px Desktop",
-      "type": "FRAME",
-      "width": 1440,
-      "height": 2650,
-      "layoutMode": "VERTICAL",
-      "fillsBound": {
-        "color": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:10:3"
+      "page": "03 Desktop — BN",
+      "sourceId": "22:3077",
+      "sourceName": "ধারণা সংগ্রহ",
+      "sourceType": "TEXT",
+      "path": "03 Desktop — BN > Bengali Homepage — 1440px Desktop > Header / Global Navigation > Nav Links > ধারণা সংগ্রহ",
+      "trigger": "ON_CLICK",
+      "actions": [
+        {
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destinationId": "18:1587",
+          "destinationName": "Bengali Project Archive (ধারণা সংগ্রহ) — 1440px Desktop",
+          "destinationType": "FRAME",
+          "destinationPage": "03 Desktop — BN",
+          "url": null,
+          "variableId": null,
+          "transition": "DISSOLVE",
+          "duration": 0.25
         }
-      },
-      "sections": [
-        {
-          "id": "18:138",
-          "name": "Header / Global Navigation",
-          "type": "FRAME",
-          "width": 1440,
-          "height": 88,
-          "childCount": 3
-        },
-        {
-          "id": "18:151",
-          "name": "Hero Section / Architectural Storytelling",
-          "type": "FRAME",
-          "width": 1440,
-          "height": 1250,
-          "childCount": 4
-        },
-        {
-          "id": "18:167",
-          "name": "Section / Spatial Sequence & Material Craft",
-          "type": "FRAME",
-          "width": 1440,
-          "height": 591,
-          "childCount": 3
-        },
-        {
-          "id": "18:192",
-          "name": "Section / Studio Services & Practice",
-          "type": "FRAME",
-          "width": 1440,
-          "height": 393,
-          "childCount": 2
-        },
-        {
-          "id": "18:209",
-          "name": "Section / Consultation Practice Banner",
-          "type": "FRAME",
-          "width": 1440,
-          "height": 228,
-          "childCount": 1
-        },
-        {
-          "id": "18:218",
-          "name": "Footer / Colophon",
-          "type": "FRAME",
-          "width": 778,
-          "height": 100,
-          "childCount": 2
-        }
-      ]
+      ],
+      "actionType": "NODE",
+      "navigation": "NAVIGATE",
+      "destinationId": "18:1587",
+      "destinationName": "Bengali Project Archive (ধারণা সংগ্রহ) — 1440px Desktop",
+      "destinationType": "FRAME",
+      "destinationPage": "03 Desktop — BN",
+      "url": null,
+      "transition": "DISSOLVE",
+      "duration": 0.25
     },
     {
-      "id": "18:221",
-      "name": "Bengali Project Detail — 1440px Desktop",
-      "type": "FRAME",
-      "width": 1440,
-      "height": 2231,
-      "layoutMode": "VERTICAL",
-      "fillsBound": {
-        "color": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:10:3"
+      "page": "03 Desktop — BN",
+      "sourceId": "22:3078",
+      "sourceName": "সেবাসমূহ",
+      "sourceType": "TEXT",
+      "path": "03 Desktop — BN > Bengali Homepage — 1440px Desktop > Header / Global Navigation > Nav Links > সেবাসমূহ",
+      "trigger": "ON_CLICK",
+      "actions": [
+        {
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destinationId": "18:1655",
+          "destinationName": "Bengali Services (স্থাপত্য সেবাসমূহ) — 1440px Desktop",
+          "destinationType": "FRAME",
+          "destinationPage": "03 Desktop — BN",
+          "url": null,
+          "variableId": null,
+          "transition": "DISSOLVE",
+          "duration": 0.25
         }
-      },
-      "sections": [
-        {
-          "id": "18:222",
-          "name": "Header / Project Navigation",
-          "type": "FRAME",
-          "width": 1440,
-          "height": 88,
-          "childCount": 3
-        },
-        {
-          "id": "18:227",
-          "name": "Project Meta & Title Header",
-          "type": "FRAME",
-          "width": 1440,
-          "height": 352,
-          "childCount": 3
-        },
-        {
-          "id": "18:247",
-          "name": "Showcase Primary Shot",
-          "type": "FRAME",
-          "width": 1440,
-          "height": 657,
-          "childCount": 2
-        },
-        {
-          "id": "18:250",
-          "name": "Architectural Narrative & Context",
-          "type": "FRAME",
-          "width": 496,
-          "height": 128,
-          "childCount": 2
-        },
-        {
-          "id": "18:256",
-          "name": "Secondary Views & Joinery Craft",
-          "type": "FRAME",
-          "width": 100,
-          "height": 100,
-          "childCount": 2
-        },
-        {
-          "id": "18:263",
-          "name": "Material Schedule & Joinery Craft",
-          "type": "FRAME",
-          "width": 1440,
-          "height": 640,
-          "childCount": 2
-        },
-        {
-          "id": "18:278",
-          "name": "Bottom Consultation Action",
-          "type": "FRAME",
-          "width": 1440,
-          "height": 266,
-          "childCount": 3
-        }
-      ]
+      ],
+      "actionType": "NODE",
+      "navigation": "NAVIGATE",
+      "destinationId": "18:1655",
+      "destinationName": "Bengali Services (স্থাপত্য সেবাসমূহ) — 1440px Desktop",
+      "destinationType": "FRAME",
+      "destinationPage": "03 Desktop — BN",
+      "url": null,
+      "transition": "DISSOLVE",
+      "duration": 0.25
     },
     {
-      "id": "18:283",
-      "name": "Bengali Homepage — 390px Mobile",
-      "type": "FRAME",
-      "width": 390,
-      "height": 2092,
-      "layoutMode": "VERTICAL",
-      "fillsBound": {
-        "color": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:10:3"
+      "page": "03 Desktop — BN",
+      "sourceId": "22:3079",
+      "sourceName": "পদ্ধতি",
+      "sourceType": "TEXT",
+      "path": "03 Desktop — BN > Bengali Homepage — 1440px Desktop > Header / Global Navigation > Nav Links > পদ্ধতি",
+      "trigger": "ON_CLICK",
+      "actions": [
+        {
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destinationId": "18:1718",
+          "destinationName": "Bengali Process (কার্যপদ্ধতি ও ধাপ) — 1440px Desktop",
+          "destinationType": "FRAME",
+          "destinationPage": "03 Desktop — BN",
+          "url": null,
+          "variableId": null,
+          "transition": "DISSOLVE",
+          "duration": 0.25
         }
-      },
-      "sections": [
-        {
-          "id": "18:284",
-          "name": "Mobile Header",
-          "type": "FRAME",
-          "width": 390,
-          "height": 64,
-          "childCount": 2
-        },
-        {
-          "id": "18:291",
-          "name": "Mobile Hero Section",
-          "type": "FRAME",
-          "width": 390,
-          "height": 504,
-          "childCount": 6
-        },
-        {
-          "id": "18:300",
-          "name": "Mobile Architectural Narrative",
-          "type": "FRAME",
-          "width": 390,
-          "height": 838,
-          "childCount": 7
-        },
-        {
-          "id": "18:320",
-          "name": "Mobile Services Section",
-          "type": "FRAME",
-          "width": 390,
-          "height": 495,
-          "childCount": 4
-        },
-        {
-          "id": "18:334",
-          "name": "Mobile Consultation Action",
-          "type": "FRAME",
-          "width": 390,
-          "height": 191,
-          "childCount": 3
-        }
-      ]
+      ],
+      "actionType": "NODE",
+      "navigation": "NAVIGATE",
+      "destinationId": "18:1718",
+      "destinationName": "Bengali Process (কার্যপদ্ধতি ও ধাপ) — 1440px Desktop",
+      "destinationType": "FRAME",
+      "destinationPage": "03 Desktop — BN",
+      "url": null,
+      "transition": "DISSOLVE",
+      "duration": 0.25
     },
     {
-      "id": "18:339",
-      "name": "Bengali Project Detail — 390px Mobile",
-      "type": "FRAME",
-      "width": 390,
-      "height": 1409,
-      "layoutMode": "VERTICAL",
-      "fillsBound": {
-        "color": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:10:3"
+      "page": "03 Desktop — BN",
+      "sourceId": "22:3080",
+      "sourceName": "স্টুডিও",
+      "sourceType": "TEXT",
+      "path": "03 Desktop — BN > Bengali Homepage — 1440px Desktop > Header / Global Navigation > Nav Links > স্টুডিও",
+      "trigger": "ON_CLICK",
+      "actions": [
+        {
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destinationId": "18:1752",
+          "destinationName": "Bengali Studio (স্টুডিও দর্শন ও টিম) — 1440px Desktop",
+          "destinationType": "FRAME",
+          "destinationPage": "03 Desktop — BN",
+          "url": null,
+          "variableId": null,
+          "transition": "DISSOLVE",
+          "duration": 0.25
         }
-      },
-      "sections": [
+      ],
+      "actionType": "NODE",
+      "navigation": "NAVIGATE",
+      "destinationId": "18:1752",
+      "destinationName": "Bengali Studio (স্টুডিও দর্শন ও টিম) — 1440px Desktop",
+      "destinationType": "FRAME",
+      "destinationPage": "03 Desktop — BN",
+      "url": null,
+      "transition": "DISSOLVE",
+      "duration": 0.25
+    },
+    {
+      "page": "03 Desktop — BN",
+      "sourceId": "22:3081",
+      "sourceName": "যোগাযোগ",
+      "sourceType": "TEXT",
+      "path": "03 Desktop — BN > Bengali Homepage — 1440px Desktop > Header / Global Navigation > Nav Links > যোগাযোগ",
+      "trigger": "ON_CLICK",
+      "actions": [
         {
-          "id": "18:340",
-          "name": "Mobile Project Header",
-          "type": "FRAME",
-          "width": 390,
-          "height": 64,
-          "childCount": 2
-        },
-        {
-          "id": "18:343",
-          "name": "Project Header",
-          "type": "FRAME",
-          "width": 390,
-          "height": 173,
-          "childCount": 3
-        },
-        {
-          "id": "18:348",
-          "name": "Architectural Photo",
-          "type": "RECTANGLE",
-          "width": 390,
-          "height": 230,
-          "childCount": 0
-        },
-        {
-          "id": "18:349",
-          "name": "Mobile Narrative",
-          "type": "FRAME",
-          "width": 390,
-          "height": 70,
-          "childCount": 1
-        },
-        {
-          "id": "18:351",
-          "name": "Architectural Photo",
-          "type": "RECTANGLE",
-          "width": 390,
-          "height": 220,
-          "childCount": 0
-        },
-        {
-          "id": "18:352",
-          "name": "Architectural Photo",
-          "type": "RECTANGLE",
-          "width": 390,
-          "height": 220,
-          "childCount": 0
-        },
-        {
-          "id": "18:353",
-          "name": "Mobile Materials",
-          "type": "FRAME",
-          "width": 390,
-          "height": 276,
-          "childCount": 4
-        },
-        {
-          "id": "18:366",
-          "name": "Mobile Detail CTA",
-          "type": "FRAME",
-          "width": 390,
-          "height": 156,
-          "childCount": 2
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destinationId": "18:1780",
+          "destinationName": "Bengali Contact (যোগাযোগ ও কনসাল্টেশন) — 1440px Desktop",
+          "destinationType": "FRAME",
+          "destinationPage": "03 Desktop — BN",
+          "url": null,
+          "variableId": null,
+          "transition": "DISSOLVE",
+          "duration": 0.25
         }
-      ]
+      ],
+      "actionType": "NODE",
+      "navigation": "NAVIGATE",
+      "destinationId": "18:1780",
+      "destinationName": "Bengali Contact (যোগাযোগ ও কনসাল্টেশন) — 1440px Desktop",
+      "destinationType": "FRAME",
+      "destinationPage": "03 Desktop — BN",
+      "url": null,
+      "transition": "DISSOLVE",
+      "duration": 0.25
+    },
+    {
+      "page": "03 Desktop — BN",
+      "sourceId": "22:3083",
+      "sourceName": "Language Pill",
+      "sourceType": "FRAME",
+      "path": "03 Desktop — BN > Bengali Homepage — 1440px Desktop > Header / Global Navigation > Nav Actions > Language Pill",
+      "trigger": "ON_CLICK",
+      "actions": [
+        {
+          "actionType": "URL",
+          "navigation": null,
+          "destinationId": null,
+          "destinationName": null,
+          "destinationType": null,
+          "destinationPage": null,
+          "url": "https://www.figma.com/design/eMRunQ80brYYvuTWkufV2o/?node-id=18-1068",
+          "variableId": null,
+          "transition": null,
+          "duration": null
+        }
+      ],
+      "actionType": "URL",
+      "navigation": null,
+      "destinationId": null,
+      "destinationName": null,
+      "destinationType": null,
+      "destinationPage": null,
+      "url": "https://www.figma.com/design/eMRunQ80brYYvuTWkufV2o/?node-id=18-1068",
+      "transition": null,
+      "duration": null
+    },
+    {
+      "page": "03 Desktop — BN",
+      "sourceId": "22:3085",
+      "sourceName": "Header Consultation CTA",
+      "sourceType": "INSTANCE",
+      "path": "03 Desktop — BN > Bengali Homepage — 1440px Desktop > Header / Global Navigation > Nav Actions > Header Consultation CTA",
+      "trigger": "ON_CLICK",
+      "actions": [
+        {
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destinationId": "18:2031",
+          "destinationName": "Overlay / Consultation Modal — Desktop BN",
+          "destinationType": "FRAME",
+          "destinationPage": "03 Desktop — BN",
+          "url": null,
+          "variableId": null,
+          "transition": "DISSOLVE",
+          "duration": 0.25
+        }
+      ],
+      "actionType": "NODE",
+      "navigation": "OVERLAY",
+      "destinationId": "18:2031",
+      "destinationName": "Overlay / Consultation Modal — Desktop BN",
+      "destinationType": "FRAME",
+      "destinationPage": "03 Desktop — BN",
+      "url": null,
+      "transition": "DISSOLVE",
+      "duration": 0.25
+    },
+    {
+      "page": "03 Desktop — BN",
+      "sourceId": "22:3092",
+      "sourceName": "Hero Primary CTA",
+      "sourceType": "INSTANCE",
+      "path": "03 Desktop — BN > Bengali Homepage — 1440px Desktop > Section / Hero Architectural Showcase > Hero Action Buttons > Hero Primary CTA",
+      "trigger": "ON_CLICK",
+      "actions": [
+        {
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destinationId": "18:2031",
+          "destinationName": "Overlay / Consultation Modal — Desktop BN",
+          "destinationType": "FRAME",
+          "destinationPage": "03 Desktop — BN",
+          "url": null,
+          "variableId": null,
+          "transition": "DISSOLVE",
+          "duration": 0.25
+        }
+      ],
+      "actionType": "NODE",
+      "navigation": "OVERLAY",
+      "destinationId": "18:2031",
+      "destinationName": "Overlay / Consultation Modal — Desktop BN",
+      "destinationType": "FRAME",
+      "destinationPage": "03 Desktop — BN",
+      "url": null,
+      "transition": "DISSOLVE",
+      "duration": 0.25
+    },
+    {
+      "page": "03 Desktop — BN",
+      "sourceId": "22:3094",
+      "sourceName": "Button / Secondary View Project",
+      "sourceType": "FRAME",
+      "path": "03 Desktop — BN > Bengali Homepage — 1440px Desktop > Section / Hero Architectural Showcase > Hero Action Buttons > Button / Secondary View Project",
+      "trigger": "ON_CLICK",
+      "actions": [
+        {
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destinationId": "18:221",
+          "destinationName": "Bengali Project Detail — 1440px Desktop",
+          "destinationType": "FRAME",
+          "destinationPage": "03 Desktop — BN",
+          "url": null,
+          "variableId": null,
+          "transition": "DISSOLVE",
+          "duration": 0.30000001192092896
+        }
+      ],
+      "actionType": "NODE",
+      "navigation": "NAVIGATE",
+      "destinationId": "18:221",
+      "destinationName": "Bengali Project Detail — 1440px Desktop",
+      "destinationType": "FRAME",
+      "destinationPage": "03 Desktop — BN",
+      "url": null,
+      "transition": "DISSOLVE",
+      "duration": 0.30000001192092896
+    },
+    {
+      "page": "03 Desktop — BN",
+      "sourceId": "22:3141",
+      "sourceName": "Consultation Card",
+      "sourceType": "FRAME",
+      "path": "03 Desktop — BN > Bengali Homepage — 1440px Desktop > Section / Consultation Practice Banner > Consultation Card",
+      "trigger": "ON_CLICK",
+      "actions": [
+        {
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destinationId": "18:2031",
+          "destinationName": "Overlay / Consultation Modal — Desktop BN",
+          "destinationType": "FRAME",
+          "destinationPage": "03 Desktop — BN",
+          "url": null,
+          "variableId": null,
+          "transition": "DISSOLVE",
+          "duration": 0.25
+        }
+      ],
+      "actionType": "NODE",
+      "navigation": "OVERLAY",
+      "destinationId": "18:2031",
+      "destinationName": "Overlay / Consultation Modal — Desktop BN",
+      "destinationType": "FRAME",
+      "destinationPage": "03 Desktop — BN",
+      "url": null,
+      "transition": "DISSOLVE",
+      "duration": 0.25
+    },
+    {
+      "page": "03 Desktop — BN",
+      "sourceId": "22:3145",
+      "sourceName": "Consultation Action Button",
+      "sourceType": "INSTANCE",
+      "path": "03 Desktop — BN > Bengali Homepage — 1440px Desktop > Section / Consultation Practice Banner > Consultation Card > Consultation Action Button",
+      "trigger": "ON_CLICK",
+      "actions": [
+        {
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destinationId": "18:2031",
+          "destinationName": "Overlay / Consultation Modal — Desktop BN",
+          "destinationType": "FRAME",
+          "destinationPage": "03 Desktop — BN",
+          "url": null,
+          "variableId": null,
+          "transition": "DISSOLVE",
+          "duration": 0.25
+        }
+      ],
+      "actionType": "NODE",
+      "navigation": "OVERLAY",
+      "destinationId": "18:2031",
+      "destinationName": "Overlay / Consultation Modal — Desktop BN",
+      "destinationType": "FRAME",
+      "destinationPage": "03 Desktop — BN",
+      "url": null,
+      "transition": "DISSOLVE",
+      "duration": 0.25
+    },
+    {
+      "page": "03 Desktop — BN",
+      "sourceId": "22:3151",
+      "sourceName": "FlowGrid",
+      "sourceType": "TEXT",
+      "path": "03 Desktop — BN > Bengali Project Detail — 1440px Desktop > Header / Global Navigation > FlowGrid",
+      "trigger": "ON_CLICK",
+      "actions": [
+        {
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destinationId": "18:137",
+          "destinationName": "Bengali Homepage — 1440px Desktop",
+          "destinationType": "FRAME",
+          "destinationPage": "03 Desktop — BN",
+          "url": null,
+          "variableId": null,
+          "transition": "DISSOLVE",
+          "duration": 0.25
+        }
+      ],
+      "actionType": "NODE",
+      "navigation": "NAVIGATE",
+      "destinationId": "18:137",
+      "destinationName": "Bengali Homepage — 1440px Desktop",
+      "destinationType": "FRAME",
+      "destinationPage": "03 Desktop — BN",
+      "url": null,
+      "transition": "DISSOLVE",
+      "duration": 0.25
+    },
+    {
+      "page": "03 Desktop — BN",
+      "sourceId": "22:3153",
+      "sourceName": "ধারণা সংগ্রহ",
+      "sourceType": "TEXT",
+      "path": "03 Desktop — BN > Bengali Project Detail — 1440px Desktop > Header / Global Navigation > Nav Links > ধারণা সংগ্রহ",
+      "trigger": "ON_CLICK",
+      "actions": [
+        {
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destinationId": "18:1587",
+          "destinationName": "Bengali Project Archive (ধারণা সংগ্রহ) — 1440px Desktop",
+          "destinationType": "FRAME",
+          "destinationPage": "03 Desktop — BN",
+          "url": null,
+          "variableId": null,
+          "transition": "DISSOLVE",
+          "duration": 0.25
+        }
+      ],
+      "actionType": "NODE",
+      "navigation": "NAVIGATE",
+      "destinationId": "18:1587",
+      "destinationName": "Bengali Project Archive (ধারণা সংগ্রহ) — 1440px Desktop",
+      "destinationType": "FRAME",
+      "destinationPage": "03 Desktop — BN",
+      "url": null,
+      "transition": "DISSOLVE",
+      "duration": 0.25
+    },
+    {
+      "page": "03 Desktop — BN",
+      "sourceId": "22:3154",
+      "sourceName": "সেবাসমূহ",
+      "sourceType": "TEXT",
+      "path": "03 Desktop — BN > Bengali Project Detail — 1440px Desktop > Header / Global Navigation > Nav Links > সেবাসমূহ",
+      "trigger": "ON_CLICK",
+      "actions": [
+        {
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destinationId": "18:1655",
+          "destinationName": "Bengali Services (স্থাপত্য সেবাসমূহ) — 1440px Desktop",
+          "destinationType": "FRAME",
+          "destinationPage": "03 Desktop — BN",
+          "url": null,
+          "variableId": null,
+          "transition": "DISSOLVE",
+          "duration": 0.25
+        }
+      ],
+      "actionType": "NODE",
+      "navigation": "NAVIGATE",
+      "destinationId": "18:1655",
+      "destinationName": "Bengali Services (স্থাপত্য সেবাসমূহ) — 1440px Desktop",
+      "destinationType": "FRAME",
+      "destinationPage": "03 Desktop — BN",
+      "url": null,
+      "transition": "DISSOLVE",
+      "duration": 0.25
+    },
+    {
+      "page": "03 Desktop — BN",
+      "sourceId": "22:3155",
+      "sourceName": "পদ্ধতি",
+      "sourceType": "TEXT",
+      "path": "03 Desktop — BN > Bengali Project Detail — 1440px Desktop > Header / Global Navigation > Nav Links > পদ্ধতি",
+      "trigger": "ON_CLICK",
+      "actions": [
+        {
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destinationId": "18:1718",
+          "destinationName": "Bengali Process (কার্যপদ্ধতি ও ধাপ) — 1440px Desktop",
+          "destinationType": "FRAME",
+          "destinationPage": "03 Desktop — BN",
+          "url": null,
+          "variableId": null,
+          "transition": "DISSOLVE",
+          "duration": 0.25
+        }
+      ],
+      "actionType": "NODE",
+      "navigation": "NAVIGATE",
+      "destinationId": "18:1718",
+      "destinationName": "Bengali Process (কার্যপদ্ধতি ও ধাপ) — 1440px Desktop",
+      "destinationType": "FRAME",
+      "destinationPage": "03 Desktop — BN",
+      "url": null,
+      "transition": "DISSOLVE",
+      "duration": 0.25
+    },
+    {
+      "page": "03 Desktop — BN",
+      "sourceId": "22:3156",
+      "sourceName": "স্টুডিও",
+      "sourceType": "TEXT",
+      "path": "03 Desktop — BN > Bengali Project Detail — 1440px Desktop > Header / Global Navigation > Nav Links > স্টুডিও",
+      "trigger": "ON_CLICK",
+      "actions": [
+        {
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destinationId": "18:1752",
+          "destinationName": "Bengali Studio (স্টুডিও দর্শন ও টিম) — 1440px Desktop",
+          "destinationType": "FRAME",
+          "destinationPage": "03 Desktop — BN",
+          "url": null,
+          "variableId": null,
+          "transition": "DISSOLVE",
+          "duration": 0.25
+        }
+      ],
+      "actionType": "NODE",
+      "navigation": "NAVIGATE",
+      "destinationId": "18:1752",
+      "destinationName": "Bengali Studio (স্টুডিও দর্শন ও টিম) — 1440px Desktop",
+      "destinationType": "FRAME",
+      "destinationPage": "03 Desktop — BN",
+      "url": null,
+      "transition": "DISSOLVE",
+      "duration": 0.25
+    },
+    {
+      "page": "03 Desktop — BN",
+      "sourceId": "22:3157",
+      "sourceName": "যোগাযোগ",
+      "sourceType": "TEXT",
+      "path": "03 Desktop — BN > Bengali Project Detail — 1440px Desktop > Header / Global Navigation > Nav Links > যোগাযোগ",
+      "trigger": "ON_CLICK",
+      "actions": [
+        {
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destinationId": "18:1780",
+          "destinationName": "Bengali Contact (যোগাযোগ ও কনসাল্টেশন) — 1440px Desktop",
+          "destinationType": "FRAME",
+          "destinationPage": "03 Desktop — BN",
+          "url": null,
+          "variableId": null,
+          "transition": "DISSOLVE",
+          "duration": 0.25
+        }
+      ],
+      "actionType": "NODE",
+      "navigation": "NAVIGATE",
+      "destinationId": "18:1780",
+      "destinationName": "Bengali Contact (যোগাযোগ ও কনসাল্টেশন) — 1440px Desktop",
+      "destinationType": "FRAME",
+      "destinationPage": "03 Desktop — BN",
+      "url": null,
+      "transition": "DISSOLVE",
+      "duration": 0.25
+    },
+    {
+      "page": "03 Desktop — BN",
+      "sourceId": "22:3159",
+      "sourceName": "Language Pill",
+      "sourceType": "FRAME",
+      "path": "03 Desktop — BN > Bengali Project Detail — 1440px Desktop > Header / Global Navigation > Nav Actions > Language Pill",
+      "trigger": "ON_CLICK",
+      "actions": [
+        {
+          "actionType": "URL",
+          "navigation": null,
+          "destinationId": null,
+          "destinationName": null,
+          "destinationType": null,
+          "destinationPage": null,
+          "url": "https://www.figma.com/design/eMRunQ80brYYvuTWkufV2o/?node-id=18-1068",
+          "variableId": null,
+          "transition": null,
+          "duration": null
+        }
+      ],
+      "actionType": "URL",
+      "navigation": null,
+      "destinationId": null,
+      "destinationName": null,
+      "destinationType": null,
+      "destinationPage": null,
+      "url": "https://www.figma.com/design/eMRunQ80brYYvuTWkufV2o/?node-id=18-1068",
+      "transition": null,
+      "duration": null
+    },
+    {
+      "page": "03 Desktop — BN",
+      "sourceId": "22:3161",
+      "sourceName": "Header Consultation CTA",
+      "sourceType": "INSTANCE",
+      "path": "03 Desktop — BN > Bengali Project Detail — 1440px Desktop > Header / Global Navigation > Nav Actions > Header Consultation CTA",
+      "trigger": "ON_CLICK",
+      "actions": [
+        {
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destinationId": "18:2031",
+          "destinationName": "Overlay / Consultation Modal — Desktop BN",
+          "destinationType": "FRAME",
+          "destinationPage": "03 Desktop — BN",
+          "url": null,
+          "variableId": null,
+          "transition": "DISSOLVE",
+          "duration": 0.25
+        }
+      ],
+      "actionType": "NODE",
+      "navigation": "OVERLAY",
+      "destinationId": "18:2031",
+      "destinationName": "Overlay / Consultation Modal — Desktop BN",
+      "destinationType": "FRAME",
+      "destinationPage": "03 Desktop — BN",
+      "url": null,
+      "transition": "DISSOLVE",
+      "duration": 0.25
+    },
+    {
+      "page": "03 Desktop — BN",
+      "sourceId": "22:3197",
+      "sourceName": "Consultation Action Button",
+      "sourceType": "INSTANCE",
+      "path": "03 Desktop — BN > Bengali Project Detail — 1440px Desktop > Section / Consultation Practice Banner > Consultation Card > Consultation Action Button",
+      "trigger": "ON_CLICK",
+      "actions": [
+        {
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destinationId": "18:2031",
+          "destinationName": "Overlay / Consultation Modal — Desktop BN",
+          "destinationType": "FRAME",
+          "destinationPage": "03 Desktop — BN",
+          "url": null,
+          "variableId": null,
+          "transition": "DISSOLVE",
+          "duration": 0.25
+        }
+      ],
+      "actionType": "NODE",
+      "navigation": "OVERLAY",
+      "destinationId": "18:2031",
+      "destinationName": "Overlay / Consultation Modal — Desktop BN",
+      "destinationType": "FRAME",
+      "destinationPage": "03 Desktop — BN",
+      "url": null,
+      "transition": "DISSOLVE",
+      "duration": 0.25
+    },
+    {
+      "page": "03 Desktop — BN",
+      "sourceId": "23:457",
+      "sourceName": "FlowGrid",
+      "sourceType": "TEXT",
+      "path": "03 Desktop — BN > Bengali Project Archive (ধারণা সংগ্রহ) — 1440px Desktop > Header / Global Navigation > FlowGrid",
+      "trigger": "ON_CLICK",
+      "actions": [
+        {
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destinationId": "18:137",
+          "destinationName": "Bengali Homepage — 1440px Desktop",
+          "destinationType": "FRAME",
+          "destinationPage": "03 Desktop — BN",
+          "url": null,
+          "variableId": null,
+          "transition": "DISSOLVE",
+          "duration": 0.25
+        }
+      ],
+      "actionType": "NODE",
+      "navigation": "NAVIGATE",
+      "destinationId": "18:137",
+      "destinationName": "Bengali Homepage — 1440px Desktop",
+      "destinationType": "FRAME",
+      "destinationPage": "03 Desktop — BN",
+      "url": null,
+      "transition": "DISSOLVE",
+      "duration": 0.25
+    },
+    {
+      "page": "03 Desktop — BN",
+      "sourceId": "23:460",
+      "sourceName": "সেবাসমূহ",
+      "sourceType": "TEXT",
+      "path": "03 Desktop — BN > Bengali Project Archive (ধারণা সংগ্রহ) — 1440px Desktop > Header / Global Navigation > Nav Links > সেবাসমূহ",
+      "trigger": "ON_CLICK",
+      "actions": [
+        {
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destinationId": "18:1655",
+          "destinationName": "Bengali Services (স্থাপত্য সেবাসমূহ) — 1440px Desktop",
+          "destinationType": "FRAME",
+          "destinationPage": "03 Desktop — BN",
+          "url": null,
+          "variableId": null,
+          "transition": "DISSOLVE",
+          "duration": 0.25
+        }
+      ],
+      "actionType": "NODE",
+      "navigation": "NAVIGATE",
+      "destinationId": "18:1655",
+      "destinationName": "Bengali Services (স্থাপত্য সেবাসমূহ) — 1440px Desktop",
+      "destinationType": "FRAME",
+      "destinationPage": "03 Desktop — BN",
+      "url": null,
+      "transition": "DISSOLVE",
+      "duration": 0.25
+    },
+    {
+      "page": "03 Desktop — BN",
+      "sourceId": "23:461",
+      "sourceName": "পদ্ধতি",
+      "sourceType": "TEXT",
+      "path": "03 Desktop — BN > Bengali Project Archive (ধারণা সংগ্রহ) — 1440px Desktop > Header / Global Navigation > Nav Links > পদ্ধতি",
+      "trigger": "ON_CLICK",
+      "actions": [
+        {
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destinationId": "18:1718",
+          "destinationName": "Bengali Process (কার্যপদ্ধতি ও ধাপ) — 1440px Desktop",
+          "destinationType": "FRAME",
+          "destinationPage": "03 Desktop — BN",
+          "url": null,
+          "variableId": null,
+          "transition": "DISSOLVE",
+          "duration": 0.25
+        }
+      ],
+      "actionType": "NODE",
+      "navigation": "NAVIGATE",
+      "destinationId": "18:1718",
+      "destinationName": "Bengali Process (কার্যপদ্ধতি ও ধাপ) — 1440px Desktop",
+      "destinationType": "FRAME",
+      "destinationPage": "03 Desktop — BN",
+      "url": null,
+      "transition": "DISSOLVE",
+      "duration": 0.25
+    },
+    {
+      "page": "03 Desktop — BN",
+      "sourceId": "23:462",
+      "sourceName": "স্টুডিও",
+      "sourceType": "TEXT",
+      "path": "03 Desktop — BN > Bengali Project Archive (ধারণা সংগ্রহ) — 1440px Desktop > Header / Global Navigation > Nav Links > স্টুডিও",
+      "trigger": "ON_CLICK",
+      "actions": [
+        {
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destinationId": "18:1752",
+          "destinationName": "Bengali Studio (স্টুডিও দর্শন ও টিম) — 1440px Desktop",
+          "destinationType": "FRAME",
+          "destinationPage": "03 Desktop — BN",
+          "url": null,
+          "variableId": null,
+          "transition": "DISSOLVE",
+          "duration": 0.25
+        }
+      ],
+      "actionType": "NODE",
+      "navigation": "NAVIGATE",
+      "destinationId": "18:1752",
+      "destinationName": "Bengali Studio (স্টুডিও দর্শন ও টিম) — 1440px Desktop",
+      "destinationType": "FRAME",
+      "destinationPage": "03 Desktop — BN",
+      "url": null,
+      "transition": "DISSOLVE",
+      "duration": 0.25
+    },
+    {
+      "page": "03 Desktop — BN",
+      "sourceId": "23:463",
+      "sourceName": "যোগাযোগ",
+      "sourceType": "TEXT",
+      "path": "03 Desktop — BN > Bengali Project Archive (ধারণা সংগ্রহ) — 1440px Desktop > Header / Global Navigation > Nav Links > যোগাযোগ",
+      "trigger": "ON_CLICK",
+      "actions": [
+        {
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destinationId": "18:1780",
+          "destinationName": "Bengali Contact (যোগাযোগ ও কনসাল্টেশন) — 1440px Desktop",
+          "destinationType": "FRAME",
+          "destinationPage": "03 Desktop — BN",
+          "url": null,
+          "variableId": null,
+          "transition": "DISSOLVE",
+          "duration": 0.25
+        }
+      ],
+      "actionType": "NODE",
+      "navigation": "NAVIGATE",
+      "destinationId": "18:1780",
+      "destinationName": "Bengali Contact (যোগাযোগ ও কনসাল্টেশন) — 1440px Desktop",
+      "destinationType": "FRAME",
+      "destinationPage": "03 Desktop — BN",
+      "url": null,
+      "transition": "DISSOLVE",
+      "duration": 0.25
+    },
+    {
+      "page": "03 Desktop — BN",
+      "sourceId": "23:465",
+      "sourceName": "Language Pill",
+      "sourceType": "FRAME",
+      "path": "03 Desktop — BN > Bengali Project Archive (ধারণা সংগ্রহ) — 1440px Desktop > Header / Global Navigation > Nav Actions > Language Pill",
+      "trigger": "ON_CLICK",
+      "actions": [
+        {
+          "actionType": "URL",
+          "navigation": null,
+          "destinationId": null,
+          "destinationName": null,
+          "destinationType": null,
+          "destinationPage": null,
+          "url": "https://www.figma.com/design/eMRunQ80brYYvuTWkufV2o/?node-id=18-1068",
+          "variableId": null,
+          "transition": null,
+          "duration": null
+        }
+      ],
+      "actionType": "URL",
+      "navigation": null,
+      "destinationId": null,
+      "destinationName": null,
+      "destinationType": null,
+      "destinationPage": null,
+      "url": "https://www.figma.com/design/eMRunQ80brYYvuTWkufV2o/?node-id=18-1068",
+      "transition": null,
+      "duration": null
+    },
+    {
+      "page": "03 Desktop — BN",
+      "sourceId": "23:467",
+      "sourceName": "Header Consultation CTA",
+      "sourceType": "INSTANCE",
+      "path": "03 Desktop — BN > Bengali Project Archive (ধারণা সংগ্রহ) — 1440px Desktop > Header / Global Navigation > Nav Actions > Header Consultation CTA",
+      "trigger": "ON_CLICK",
+      "actions": [
+        {
+          "actionType": "NODE",
+          "navigation": "OVERLAY",
+          "destinationId": "18:2031",
+          "destinationName": "Overlay / Consultation Modal — Desktop BN",
+          "destinationType": "FRAME",
+          "destinationPage": "03 Desktop — BN",
+          "url": null,
+          "variableId": null,
+          "transition": "DISSOLVE",
+          "duration": 0.25
+        }
+      ],
+      "actionType": "NODE",
+      "navigation": "OVERLAY",
+      "destinationId": "18:2031",
+      "destinationName": "Overlay / Consultation Modal — Desktop BN",
+      "destinationType": "FRAME",
+      "destinationPage": "03 Desktop — BN",
+      "url": null,
+      "transition": "DISSOLVE",
+      "duration": 0.25
+    },
+    {
+      "page": "03 Desktop — BN",
+      "sourceId": "23:476",
+      "sourceName": "Tab / আবাসিক লিভিং",
+      "sourceType": "FRAME",
+      "path": "03 Desktop — BN > Bengali Project Archive (ধারণা সংগ্রহ) — 1440px Desktop > Section / Archive Hero > Filter Tabs Row > Tab / আবাসিক লিভিং",
+      "trigger": "ON_CLICK",
+      "actions": [
+        {
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destinationId": "18:221",
+          "destinationName": "Bengali Project Detail — 1440px Desktop",
+          "destinationType": "FRAME",
+          "destinationPage": "03 Desktop — BN",
+          "url": null,
+          "variableId": null,
+          "transition": "DISSOLVE",
+          "duration": 0.25
+        }
+      ],
+      "actionType": "NODE",
+      "navigation": "NAVIGATE",
+      "destinationId": "18:221",
+      "destinationName": "Bengali Project Detail — 1440px Desktop",
+      "destinationType": "FRAME",
+      "destinationPage": "03 Desktop — BN",
+      "url": null,
+      "transition": "DISSOLVE",
+      "duration": 0.25
+    },
+    {
+      "page": "03 Desktop — BN",
+      "sourceId": "23:478",
+      "sourceName": "Tab / মডুলার কিচেন",
+      "sourceType": "FRAME",
+      "path": "03 Desktop — BN > Bengali Project Archive (ধারণা সংগ্রহ) — 1440px Desktop > Section / Archive Hero > Filter Tabs Row > Tab / মডুলার কিচেন",
+      "trigger": "ON_CLICK",
+      "actions": [
+        {
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destinationId": "18:1624",
+          "destinationName": "Bengali Built-Project Framework (বাস্তবায়ন কাঠামো) — 1440px Desktop",
+          "destinationType": "FRAME",
+          "destinationPage": "03 Desktop — BN",
+          "url": null,
+          "variableId": null,
+          "transition": "DISSOLVE",
+          "duration": 0.25
+        }
+      ],
+      "actionType": "NODE",
+      "navigation": "NAVIGATE",
+      "destinationId": "18:1624",
+      "destinationName": "Bengali Built-Project Framework (বাস্তবায়ন কাঠামো) — 1440px Desktop",
+      "destinationType": "FRAME",
+      "destinationPage": "03 Desktop — BN",
+      "url": null,
+      "transition": "DISSOLVE",
+      "duration": 0.25
+    },
+    {
+      "page": "03 Desktop — BN",
+      "sourceId": "23:480",
+      "sourceName": "Tab / মাস্টার স্যুট",
+      "sourceType": "FRAME",
+      "path": "03 Desktop — BN > Bengali Project Archive (ধারণা সংগ্রহ) — 1440px Desktop > Section / Archive Hero > Filter Tabs Row > Tab / মাস্টার স্যুট",
+      "trigger": "ON_CLICK",
+      "actions": [
+        {
+          "actionType": "NODE",
+          "navigation": "NAVIGATE",
+          "destinationId": "18:1655",
+          "destinationName": "Bengali Services (স্থাপত্য সেবাসমূহ) — 1440px Desktop",
+          "destinationType": "FRAME",
+          "destinationPage": "03 Desktop — BN",
+          "url": null,
+          "variableId": null,
+          "transition": "DISSOLVE",
+          "duration": 0.25
+        }
+      ],
+      "actionType": "NODE",
+      "navigation": "NAVIGATE",
+      "destinationId": "18:1655",
+      "destinationName": "Bengali Services (স্থাপত্য সেবাসমূহ) — 1440px Desktop",
+      "destinationType": "FRAME",
+      "destinationPage": "03 Desktop — BN",
+      "url": null,
+      "transition": "DISSOLVE",
+      "duration": 0.25
     }
   ]
 }

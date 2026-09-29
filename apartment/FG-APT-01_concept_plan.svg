@@ -1,0 +1,405 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1140" width="1440" height="1140" style="background:#FAF9F6; font-family:'Inter', -apple-system, sans-serif;">
+  <defs>
+    <pattern id="gridPattern" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#EFECE6" stroke-width="0.75"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#16463C"/>
+    </marker>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#16463C" flood-opacity="0.06"/>
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="1440" height="1140" fill="#FAF9F6"/>
+  <rect x="40" y="40" width="1360" height="1060" fill="url(#gridPattern)" stroke="#E5E0D8" stroke-width="1.2" rx="10"/>
+
+  <!-- Title Block & Header -->
+  <g transform="translate(80, 80)">
+    <text font-size="24" font-weight="700" fill="#16463C" letter-spacing="-0.02em">FlowGrid — Architectural Concept Floor Plan</text>
+    <text y="28" font-size="13.5" font-weight="600" fill="#4B5563">PROJECT ID: FG-APT-01 · DHAKA FAMILY APARTMENT (ঢাকার পারিবারিক বাসা) · GROSS AREA: ~1,515 SQ FT</text>
+    <text y="48" font-size="12" font-weight="400" fill="#6B7280">PROGRAM: 3 BEDROOMS (MASTER + SEMI-MASTER + GUEST) · 3 BATHROOMS · 2 BALCONIES · DINING BASIN NICHE · OPEN KITCHEN</text>
+  </g>
+
+  <!-- Area Breakdown Table -->
+  <g transform="translate(1080, 70)" filter="url(#shadow)">
+    <rect width="280" height="180" rx="8" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.2"/>
+    <rect width="280" height="32" rx="8 8 0 0" fill="#F8FAFC"/>
+    <text x="16" y="21" font-size="12" font-weight="700" fill="#16463C" letter-spacing="0.03em">SPACE &amp; AREA BREAKDOWN</text>
+    <line x1="0" y1="32" x2="280" y2="32" stroke="#E5E7EB" stroke-width="1"/>
+    
+    <text x="16" y="52" font-size="11.5" fill="#4B5563">Living &amp; Foyer Entry: <tspan x="200" font-weight="600" fill="#16463C">284 sq ft</tspan></text>
+    <text x="16" y="70" font-size="11.5" fill="#4B5563">Dining &amp; Handwash Niche: <tspan x="200" font-weight="600" fill="#16463C">189 sq ft</tspan></text>
+    <text x="16" y="88" font-size="11.5" fill="#4B5563">Open Kitchen &amp; Bar: <tspan x="200" font-weight="600" fill="#16463C">115 sq ft</tspan></text>
+    <text x="16" y="106" font-size="11.5" fill="#4B5563">Master Bed + En-suite: <tspan x="200" font-weight="600" fill="#16463C">261 sq ft</tspan></text>
+    <text x="16" y="124" font-size="11.5" fill="#4B5563">Semi-Master + En-suite: <tspan x="200" font-weight="600" fill="#16463C">206 sq ft</tspan></text>
+    <text x="16" y="142" font-size="11.5" fill="#4B5563">Guest Bed + Common Bath: <tspan x="200" font-weight="600" fill="#16463C">167 sq ft</tspan></text>
+    <line x1="16" y1="152" x2="264" y2="152" stroke="#E5E7EB" stroke-width="1"/>
+    <text x="16" y="168" font-size="11" font-weight="700" fill="#047857">Balconies (2) + Walls: 293 sq ft (Total 1,515)</text>
+  </g>
+
+  <!-- APARTMENT MAIN PLAN (x=80, y=260) -->
+  <g transform="translate(80, 270)">
+    
+    <!-- Floor zones fill -->
+    <rect x="0" y="160" width="580" height="580" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="0.8"/>
+    <rect x="580" y="0" width="540" height="740" fill="#FDFBF7" stroke="#E2E8F0" stroke-width="0.8"/>
+
+    <!-- EXTERNAL WALLS (Solid Dark Slate #1E293B, 12px) -->
+    <!-- North Wall: Living side -->
+    <rect x="0" y="160" width="580" height="12" fill="#1E293B"/>
+    <!-- North Wall: Bedroom side -->
+    <rect x="580" y="0" width="540" height="12" fill="#1E293B"/>
+    <!-- East Wall -->
+    <rect x="1108" y="0" width="12" height="740" fill="#1E293B"/>
+    <!-- South Wall -->
+    <rect x="0" y="728" width="1120" height="12" fill="#1E293B"/>
+    <!-- West Wall -->
+    <rect x="0" y="160" width="12" height="580" fill="#1E293B"/>
+    <!-- Step Wall between living North and bedroom North -->
+    <rect x="572" y="0" width="12" height="172" fill="#1E293B"/>
+
+    <!-- INTERNAL PARTITIONS (7px thick #334155) -->
+    <!-- Foyer dividing partition -->
+    <rect x="140" y="172" width="6" height="140" fill="#334155"/>
+    
+    <!-- Kitchen North partition -->
+    <rect x="12" y="460" width="220" height="6" fill="#334155"/>
+    <!-- Kitchen East partition -->
+    <rect x="226" y="460" width="6" height="270" fill="#334155"/>
+    
+    <!-- Dining Basin Niche Walls (Recessed Alcove) -->
+    <rect x="226" y="400" width="84" height="6" fill="#334155"/>
+    <rect x="304" y="340" width="6" height="66" fill="#334155"/>
+
+    <!-- Bedroom wing corridor wall -->
+    <rect x="572" y="160" width="6" height="420" fill="#334155"/>
+
+    <!-- Master Bedroom top wall -->
+    <rect x="572" y="460" width="540" height="8" fill="#334155"/>
+    <!-- Master Bath partition -->
+    <rect x="920" y="468" width="6" height="260" fill="#334155"/>
+
+    <!-- Semi-Master bottom wall -->
+    <rect x="572" y="230" width="540" height="8" fill="#334155"/>
+    <!-- Semi-Master Bath partition -->
+    <rect x="930" y="12" width="6" height="218" fill="#334155"/>
+
+    <!-- Common Bath Wall -->
+    <rect x="730" y="238" width="6" height="140" fill="#334155"/>
+    <rect x="572" y="378" width="164" height="6" fill="#334155"/>
+
+    <!-- BALCONIES -->
+    <!-- Balcony 1 (South of Living Room) -->
+    <rect x="40" y="740" width="280" height="85" fill="#F0FDF4" stroke="#059669" stroke-width="1.5" rx="2"/>
+    <rect x="40" y="820" width="280" height="5" fill="#047857"/>
+    <text x="180" y="785" font-size="12" font-weight="700" fill="#047857" text-anchor="middle">BALCONY 1 (12'-0" × 5'-0")</text>
+    <text x="180" y="802" font-size="10" fill="#065F46" text-anchor="middle">Lush planters · Terracotta tile · Morning sun</text>
+
+    <!-- Balcony 2 (East of Master Bedroom) -->
+    <rect x="1120" y="480" width="85" height="220" fill="#F0FDF4" stroke="#059669" stroke-width="1.5" rx="2"/>
+    <rect x="1200" y="480" width="5" height="220" fill="#047857"/>
+    <g transform="translate(1162, 590) rotate(90)">
+      <text font-size="12" font-weight="700" fill="#047857" text-anchor="middle">BALCONY 2 (10'-0" × 4'-6")</text>
+      <text y="16" font-size="10" fill="#065F46" text-anchor="middle">Private Master sit-out</text>
+    </g>
+
+    <!-- WINDOWS & GLASS SLIDERS (Cyan #0284C7 double lines) -->
+    <!-- Balcony 1 slider -->
+    <line x1="60" y1="728" x2="260" y2="728" stroke="#0284C7" stroke-width="5"/>
+    <!-- Kitchen window -->
+    <line x1="0" y1="520" x2="0" y2="620" stroke="#0284C7" stroke-width="5"/>
+    <!-- Semi-Master North window -->
+    <line x1="640" y1="0" x2="800" y2="0" stroke="#0284C7" stroke-width="5"/>
+    <!-- Guest Bed East window -->
+    <line x1="1108" y1="280" x2="1108" y2="390" stroke="#0284C7" stroke-width="5"/>
+    <!-- Balcony 2 Master slider -->
+    <line x1="1108" y1="510" x2="1108" y2="670" stroke="#0284C7" stroke-width="5"/>
+
+    <!-- DOORS & SWINGS -->
+    <!-- Front Door (North into Foyer) -->
+    <line x1="28" y1="160" x2="75" y2="210" stroke="#16463C" stroke-width="2.5"/>
+    <path d="M 28 160 A 50 50 0 0 1 75 210" fill="none" stroke="#10B981" stroke-width="1.2" stroke-dasharray="3,2"/>
+    <text x="18" y="145" font-size="11.5" font-weight="700" fill="#16463C">MAIN ENTRANCE</text>
+
+    <!-- Master Bed Door -->
+    <line x1="578" y1="470" x2="620" y2="510" stroke="#16463C" stroke-width="2"/>
+    <path d="M 578 470 A 40 40 0 0 1 620 510" fill="none" stroke="#10B981" stroke-width="1" stroke-dasharray="3,2"/>
+
+    <!-- Semi-Master Bed Door -->
+    <line x1="578" y1="220" x2="620" y2="180" stroke="#16463C" stroke-width="2"/>
+    <path d="M 578 220 A 40 40 0 0 1 620 180" fill="none" stroke="#10B981" stroke-width="1" stroke-dasharray="3,2"/>
+
+    <!-- Guest Bed Door -->
+    <line x1="740" y1="250" x2="780" y2="290" stroke="#16463C" stroke-width="2"/>
+    <path d="M 740 250 A 40 40 0 0 1 780 290" fill="none" stroke="#10B981" stroke-width="1" stroke-dasharray="3,2"/>
+
+    <!-- Common Bath Door -->
+    <line x1="640" y1="378" x2="640" y2="340" stroke="#16463C" stroke-width="1.8"/>
+
+    <!-- Master Bath Door -->
+    <line x1="920" y1="495" x2="950" y2="525" stroke="#16463C" stroke-width="1.8"/>
+
+    <!-- ROOM LABELS, FURNITURE & DETAILS -->
+    
+    <!-- 1. FOYER -->
+    <g transform="translate(30, 220)">
+      <text font-size="13" font-weight="700" fill="#16463C">FOYER</text>
+      <text y="16" font-size="10.5" fill="#6B7280">6'-6" × 8'-0" (52 sq ft)</text>
+      <!-- Console -->
+      <rect x="0" y="28" width="60" height="18" rx="2" fill="#E2E8F0" stroke="#94A3B8"/>
+      <text x="30" y="41" font-size="8" fill="#4B5563" text-anchor="middle">Shoe Console</text>
+    </g>
+
+    <!-- 2. LIVING ROOM -->
+    <g transform="translate(190, 200)">
+      <text font-size="16" font-weight="700" fill="#16463C">LIVING ROOM</text>
+      <text y="18" font-size="11" fill="#6B7280">14'-6" × 16'-0" (232 sq ft)</text>
+      
+      <!-- Media wall -->
+      <rect x="20" y="32" width="180" height="14" rx="2" fill="#E2E8F0" stroke="#94A3B8"/>
+      <text x="110" y="43" font-size="9" font-weight="600" fill="#4B5563" text-anchor="middle">OAK SLATTED MEDIA CONSOLE</text>
+
+      <!-- 3-Seater Sofa & Table -->
+      <rect x="30" y="90" width="160" height="50" rx="4" fill="#F1F5F9" stroke="#94A3B8" stroke-width="1.2"/>
+      <rect x="60" y="155" width="100" height="40" rx="3" fill="#E2E8F0" stroke="#94A3B8"/>
+      <text x="110" y="179" font-size="9" fill="#4B5563" text-anchor="middle">COFFEE TABLE</text>
+      <rect x="0" y="95" width="24" height="40" rx="3" fill="#F1F5F9" stroke="#94A3B8"/>
+      <rect x="196" y="95" width="24" height="40" rx="3" fill="#F1F5F9" stroke="#94A3B8"/>
+    </g>
+
+    <!-- 3. DINING BASIN NICHE (Dedicated Distinct Feature) -->
+    <g transform="translate(236, 346)">
+      <rect x="0" y="0" width="65" height="50" rx="4" fill="#ECFDF5" stroke="#10B981" stroke-width="1.5"/>
+      <circle cx="32.5" cy="22" r="13" fill="#FFFFFF" stroke="#059669" stroke-width="1.5"/>
+      <circle cx="32.5" cy="22" r="3.5" fill="#047857"/>
+      <text x="32.5" y="-6" font-size="10.5" font-weight="700" fill="#047857" text-anchor="middle">DINING BASIN</text>
+      <text x="32.5" y="44" font-size="8.5" font-weight="600" fill="#065F46" text-anchor="middle">Handwash Niche</text>
+    </g>
+
+    <!-- 4. DINING ROOM -->
+    <g transform="translate(270, 480)">
+      <text font-size="15" font-weight="700" fill="#16463C">DINING ROOM</text>
+      <text y="18" font-size="11" fill="#6B7280">12'-6" × 14'-0" (175 sq ft)</text>
+      
+      <!-- 6-Seater Table -->
+      <rect x="15" y="45" width="125" height="75" rx="4" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.2"/>
+      <text x="77" y="88" font-size="10" font-weight="600" fill="#4B5563" text-anchor="middle">TEAK TABLE (6-SEATER)</text>
+      <!-- 6 Chairs -->
+      <rect x="30" y="28" width="24" height="12" rx="2" fill="#CBD5E1"/>
+      <rect x="85" y="28" width="24" height="12" rx="2" fill="#CBD5E1"/>
+      <rect x="30" y="125" width="24" height="12" rx="2" fill="#CBD5E1"/>
+      <rect x="85" y="125" width="24" height="12" rx="2" fill="#CBD5E1"/>
+      <rect x="-2" y="66" width="12" height="30" rx="2" fill="#CBD5E1"/>
+      <rect x="145" y="66" width="12" height="30" rx="2" fill="#CBD5E1"/>
+    </g>
+
+    <!-- 5. OPEN KITCHEN -->
+    <g transform="translate(20, 480)">
+      <text font-size="14" font-weight="700" fill="#16463C">OPEN KITCHEN</text>
+      <text y="16" font-size="10.5" fill="#6B7280">10'-6" × 11'-0" (115 sq ft)</text>
+      <!-- Countertop L -->
+      <path d="M 0 35 L 190 35 L 190 85 L 50 85 L 50 240 L 0 240 Z" fill="#F8FAFC" stroke="#64748B" stroke-width="1.2"/>
+      <!-- Double undermount sink -->
+      <rect x="8" y="105" width="34" height="50" rx="2" fill="#E0F2FE" stroke="#0284C7"/>
+      <text x="25" y="134" font-size="7.5" fill="#0369A1" text-anchor="middle" transform="rotate(-90, 25, 134)">SINK</text>
+      <!-- Gas hob & hood -->
+      <rect x="8" y="180" width="34" height="40" rx="2" fill="#FEF2F2" stroke="#DC2626"/>
+      <circle cx="20" cy="193" r="5" fill="#EF4444"/>
+      <circle cx="30" cy="207" r="5" fill="#EF4444"/>
+      <!-- Breakfast Bar -->
+      <rect x="135" y="90" width="55" height="150" rx="3" fill="#E2E8F0" stroke="#16463C" stroke-width="1.2"/>
+      <text x="162" y="165" font-size="9.5" font-weight="700" fill="#16463C" text-anchor="middle" transform="rotate(90, 162, 165)">BREAKFAST BAR</text>
+    </g>
+
+    <!-- 6. CENTRAL CIRCULATION HALL -->
+    <g transform="translate(480, 250)">
+      <rect x="0" y="0" width="80" height="300" fill="#F8FAFC" opacity="0.6"/>
+      <g transform="translate(45, 150) rotate(90)">
+        <text font-size="11" font-weight="700" fill="#9CA3AF" letter-spacing="0.15em" text-anchor="middle">PRIVATE CIRCULATION</text>
+      </g>
+    </g>
+
+    <!-- 7. MASTER BEDROOM -->
+    <g transform="translate(610, 480)">
+      <text font-size="15" font-weight="700" fill="#16463C">MASTER BEDROOM</text>
+      <text y="18" font-size="11" fill="#6B7280">14'-0" × 15'-6" (217 sq ft)</text>
+      <!-- King Bed -->
+      <rect x="75" y="45" width="160" height="170" rx="4" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.2"/>
+      <rect x="65" y="40" width="180" height="12" rx="2" fill="#CBD5E1"/>
+      <rect x="85" y="56" width="60" height="35" rx="3" fill="#FFFFFF" stroke="#CBD5E1"/>
+      <rect x="165" y="56" width="60" height="35" rx="3" fill="#FFFFFF" stroke="#CBD5E1"/>
+      <text x="155" y="145" font-size="11" font-weight="600" fill="#4B5563" text-anchor="middle">KING BED</text>
+      <!-- Full-height wardrobe -->
+      <rect x="10" y="50" width="35" height="160" rx="2" fill="#E2E8F0" stroke="#64748B"/>
+      <text x="27" y="130" font-size="9" font-weight="600" fill="#4B5563" text-anchor="middle" transform="rotate(-90, 27, 130)">WARDROBE</text>
+    </g>
+
+    <!-- 8. MASTER BATHROOM -->
+    <g transform="translate(945, 480)">
+      <text font-size="12" font-weight="700" fill="#16463C">MASTER BATH</text>
+      <text y="16" font-size="9.5" fill="#6B7280">8'×5'-6" (44 sq ft)</text>
+      <rect x="10" y="35" width="115" height="95" rx="2" fill="#E0F2FE" stroke="#0284C7" stroke-width="1"/>
+      <text x="67" y="85" font-size="9.5" font-weight="600" fill="#0369A1" text-anchor="middle">WALK-IN SHOWER</text>
+      <rect x="10" y="150" width="60" height="30" rx="2" fill="#FFFFFF" stroke="#64748B"/>
+      <rect x="85" y="150" width="35" height="30" rx="6" fill="#F8FAFC" stroke="#64748B"/>
+    </g>
+
+    <!-- 9. SEMI-MASTER BEDROOM -->
+    <g transform="translate(590, 30)">
+      <text font-size="14" font-weight="700" fill="#16463C">SEMI-MASTER BED</text>
+      <text y="16" font-size="10.5" fill="#6B7280">12'-6" × 13'-6" (169 sq ft)</text>
+      <rect x="80" y="45" width="140" height="150" rx="4" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.2"/>
+      <rect x="70" y="40" width="160" height="10" rx="2" fill="#CBD5E1"/>
+      <rect x="90" y="55" width="50" height="30" rx="2" fill="#FFFFFF" stroke="#CBD5E1"/>
+      <rect x="150" y="55" width="50" height="30" rx="2" fill="#FFFFFF" stroke="#CBD5E1"/>
+      <text x="150" y="130" font-size="10.5" font-weight="600" fill="#4B5563" text-anchor="middle">QUEEN BED</text>
+      <!-- Study desk -->
+      <rect x="10" y="50" width="35" height="100" rx="2" fill="#E2E8F0" stroke="#64748B"/>
+      <text x="27" y="100" font-size="9" font-weight="600" fill="#4B5563" text-anchor="middle" transform="rotate(-90, 27, 100)">STUDY DESK</text>
+    </g>
+
+    <!-- 10. SEMI-MASTER EN-SUITE -->
+    <g transform="translate(950, 30)">
+      <text font-size="11.5" font-weight="700" fill="#16463C">EN-SUITE BATH</text>
+      <text y="15" font-size="9" fill="#6B7280">7'-6"×5' (37.5 sq ft)</text>
+      <rect x="10" y="25" width="110" height="75" rx="2" fill="#E0F2FE" stroke="#0284C7"/>
+      <rect x="10" y="115" width="50" height="25" rx="2" fill="#FFFFFF" stroke="#64748B"/>
+      <rect x="75" y="115" width="30" height="25" rx="5" fill="#F8FAFC" stroke="#64748B"/>
+    </g>
+
+    <!-- 11. GUEST BEDROOM / STUDY -->
+    <g transform="translate(750, 250)">
+      <text font-size="13" font-weight="700" fill="#16463C">GUEST BED / STUDY</text>
+      <text y="16" font-size="10.5" fill="#6B7280">11'-0" × 12'-0" (132 sq ft)</text>
+      <rect x="85" y="45" width="130" height="130" rx="4" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.2"/>
+      <text x="150" y="120" font-size="10" font-weight="600" fill="#4B5563" text-anchor="middle">DAYBED / SOFA</text>
+      <rect x="15" y="45" width="40" height="120" rx="2" fill="#E2E8F0" stroke="#64748B"/>
+      <text x="35" y="105" font-size="9" font-weight="600" fill="#4B5563" text-anchor="middle" transform="rotate(-90, 35, 105)">BOOKSHELF</text>
+    </g>
+
+    <!-- 12. COMMON BATHROOM -->
+    <g transform="translate(585, 250)">
+      <text font-size="11" font-weight="700" fill="#16463C">COMMON BATH</text>
+      <text y="15" font-size="9" fill="#6B7280">7'×5' (35 sq ft)</text>
+      <rect x="10" y="22" width="120" height="50" rx="2" fill="#E0F2FE" stroke="#0284C7"/>
+      <rect x="10" y="80" width="50" height="25" rx="2" fill="#FFFFFF" stroke="#64748B"/>
+      <rect x="75" y="80" width="30" height="25" rx="4" fill="#F8FAFC" stroke="#64748B"/>
+    </g>
+
+    <!-- CAMERA ROUTE MARKERS -->
+    <!-- V02: Approach Outside Front Door -->
+    <g transform="translate(20, 95)">
+      <circle cx="15" cy="15" r="14" fill="#16463C" stroke="#FFFFFF" stroke-width="2"/>
+      <text x="15" y="19" font-size="9.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">V02</text>
+      <line x1="15" y1="29" x2="15" y2="48" stroke="#16463C" stroke-width="2.5" marker-end="url(#arrow)"/>
+    </g>
+
+    <!-- V03: Foyer into Living -->
+    <g transform="translate(85, 250)">
+      <circle cx="15" cy="15" r="14" fill="#16463C" stroke="#FFFFFF" stroke-width="2"/>
+      <text x="15" y="19" font-size="9.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">V03</text>
+      <line x1="29" y1="20" x2="65" y2="35" stroke="#16463C" stroke-width="2.5" marker-end="url(#arrow)"/>
+    </g>
+
+    <!-- V04: Living Looking into Dining -->
+    <g transform="translate(320, 240)">
+      <circle cx="15" cy="15" r="14" fill="#16463C" stroke="#FFFFFF" stroke-width="2"/>
+      <text x="15" y="19" font-size="9.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">V04</text>
+      <line x1="15" y1="29" x2="15" y2="70" stroke="#16463C" stroke-width="2.5" marker-end="url(#arrow)"/>
+    </g>
+
+    <!-- V05: Living Balcony 1 -->
+    <g transform="translate(50, 755)">
+      <circle cx="15" cy="15" r="13" fill="#047857" stroke="#FFFFFF" stroke-width="2"/>
+      <text x="15" y="19" font-size="9.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">V05</text>
+    </g>
+
+    <!-- V06: Dining Wide -->
+    <g transform="translate(420, 520)">
+      <circle cx="15" cy="15" r="14" fill="#16463C" stroke="#FFFFFF" stroke-width="2"/>
+      <text x="15" y="19" font-size="9.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">V06</text>
+      <line x1="1" y1="15" x2="-28" y2="15" stroke="#16463C" stroke-width="2.5" marker-end="url(#arrow)"/>
+    </g>
+
+    <!-- V07: Dining Basin Detail -->
+    <g transform="translate(315, 360)">
+      <circle cx="14" cy="14" r="13" fill="#047857" stroke="#FFFFFF" stroke-width="2"/>
+      <text x="14" y="18" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="middle">V07</text>
+    </g>
+
+    <!-- V08: Kitchen Working View -->
+    <g transform="translate(100, 600)">
+      <circle cx="15" cy="15" r="14" fill="#16463C" stroke="#FFFFFF" stroke-width="2"/>
+      <text x="15" y="19" font-size="9.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">V08</text>
+      <line x1="1" y1="15" x2="-28" y2="15" stroke="#16463C" stroke-width="2.5" marker-end="url(#arrow)"/>
+    </g>
+
+    <!-- V09: Private Corridor Junction -->
+    <g transform="translate(500, 310)">
+      <circle cx="15" cy="15" r="14" fill="#16463C" stroke="#FFFFFF" stroke-width="2"/>
+      <text x="15" y="19" font-size="9.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">V09</text>
+      <line x1="29" y1="15" x2="60" y2="15" stroke="#16463C" stroke-width="2.5" marker-end="url(#arrow)"/>
+    </g>
+
+    <!-- V10: Master Bed Wide -->
+    <g transform="translate(680, 630)">
+      <circle cx="15" cy="15" r="14" fill="#16463C" stroke="#FFFFFF" stroke-width="2"/>
+      <text x="15" y="19" font-size="9.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">V10</text>
+      <line x1="29" y1="10" x2="65" y2="-10" stroke="#16463C" stroke-width="2.5" marker-end="url(#arrow)"/>
+    </g>
+
+    <!-- V11: Master Balcony 2 -->
+    <g transform="translate(1135, 500)">
+      <circle cx="14" cy="14" r="13" fill="#047857" stroke="#FFFFFF" stroke-width="2"/>
+      <text x="14" y="18" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="middle">V11</text>
+    </g>
+
+    <!-- V12: Master Bath -->
+    <g transform="translate(980, 600)">
+      <circle cx="14" cy="14" r="13" fill="#047857" stroke="#FFFFFF" stroke-width="2"/>
+      <text x="14" y="18" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="middle">V12</text>
+    </g>
+
+    <!-- V13: Semi-Master Bed -->
+    <g transform="translate(670, 150)">
+      <circle cx="15" cy="15" r="14" fill="#16463C" stroke="#FFFFFF" stroke-width="2"/>
+      <text x="15" y="19" font-size="9.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">V13</text>
+    </g>
+
+    <!-- V14: Semi-Master Bath -->
+    <g transform="translate(980, 120)">
+      <circle cx="14" cy="14" r="13" fill="#047857" stroke="#FFFFFF" stroke-width="2"/>
+      <text x="14" y="18" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="middle">V14</text>
+    </g>
+
+    <!-- V15: Guest Bed -->
+    <g transform="translate(850, 360)">
+      <circle cx="15" cy="15" r="14" fill="#16463C" stroke="#FFFFFF" stroke-width="2"/>
+      <text x="15" y="19" font-size="9.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">V15</text>
+    </g>
+
+    <!-- V16: Common Bath -->
+    <g transform="translate(620, 300)">
+      <circle cx="14" cy="14" r="13" fill="#047857" stroke="#FFFFFF" stroke-width="2"/>
+      <text x="14" y="18" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="middle">V16</text>
+    </g>
+
+  </g>
+
+  <!-- Clean Bottom Legend -->
+  <g transform="translate(80, 1070)">
+    <circle cx="10" cy="10" r="8" fill="#16463C"/>
+    <text x="26" y="14" font-size="12" font-weight="600" fill="#16463C">Route Key Views [V01–V10, V13, V15]</text>
+    
+    <circle cx="340" cy="10" r="8" fill="#047857"/>
+    <text x="356" y="14" font-size="12" font-weight="600" fill="#047857">En-suite &amp; Detail Views [V05, V07, V11, V12, V14, V16]</text>
+
+    <line x1="740" y1="10" x2="780" y2="10" stroke="#0284C7" stroke-width="4"/>
+    <text x="790" y="14" font-size="12" font-weight="500" fill="#0284C7">Daylight Windows / Glass Sliders</text>
+
+    <rect x="1060" y="4" width="22" height="12" fill="#F0FDF4" stroke="#059669" stroke-width="1.2" rx="2"/>
+    <text x="1090" y="14" font-size="12" font-weight="500" fill="#047857">Covered Balconies (2 Total)</text>
+  </g>
+</svg>

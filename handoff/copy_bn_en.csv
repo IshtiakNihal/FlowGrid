@@ -1,0 +1,29 @@
+Key,Component / Section,Bengali (BN),English (EN),Context & Placement
+hero.headline,Homepage Hero,আপনার ঘর আপনার মতো।,A home shaped around you.,Homepage primary header
+hero.subline,Homepage Hero,"প্রায় ১,৫০০ বর্গফুটের একটি পরিবারের বাসার পরিকল্পনা—আলো চলাচল আর দৈনন্দিন ব্যবহারকে সামনে রেখে।","A concept for an approximately 1,500 sq ft family apartment planned around daylight circulation and everyday use.",Homepage subtitle
+hero.cta.primary,Primary CTA,আপনার পরিকল্পনা নিয়ে কথা বলুন,Discuss your space,Primary conversion button
+hero.cta.secondary,Secondary CTA,প্রকল্প গ্যালারি দেখুন,Explore the project,Secondary anchor button
+badge.concept,Metadata Badge,কনসেপ্ট ডিজাইন,Concept Design,All cards and project headers
+badge.location,Location Badge,"মিরপুর, ঢাকা ১২১৬","Mirpur, Dhaka 1216",Studio and project location
+project.title,Concept Detail,ঢাকার পারিবারিক বাসা (FG-APT-01),Dhaka Family Apartment (FG-APT-01),Public project title
+project.area,Concept Metadata,"প্রায় ১,৫০০ বর্গফুট (পরিকল্পিত আয়তন)","~1,500 sq ft (Target Area)",Apartment design target area
+project.program,Concept Metadata,৩ বেডরুম · ৩ বাথরুম · ২ ব্যালকনি · ডাইনিং বেসিন · ওপেন কিচেন,3 Bedrooms · 3 Bathrooms · 2 Balconies · Dining Basin · Open Kitchen,Spatial program
+tour.skip,Tour Controls,ট্যুর এড়িয়ে যান,Skip walkthrough,Storyboard exit control
+tour.step,Tour Controls,ধাপ [X] / [Y],Step [X] of [Y],Current shot indicator
+services.title,Services Family,স্থাপত্য ও অভ্যন্তরীণ সেবা,Architectural & Interior Services,Services section heading
+services.scope,Services Family,স্থান পরিকল্পনা · কাস্টম ক্যাবিনেট্রি · আলোকসজ্জা ডিজাইন,Spatial Planning · Custom Cabinetry · Lighting Design,Service scope list
+process.step1,Process Family,০১. স্থান নিরীক্ষা ও চাহিদা নির্ধারণ,01. Spatial Survey & Requirements,Process step 1
+process.step2,Process Family,০২. ২ডি প্ল্যান ও ম্যাটেরিয়াল বোর্ড,02. 2D Layout & Material Board,Process step 2
+process.step3,Process Family,০৩. ৩ডি ভিজ্যুয়ালাইজেশন ও ডিটেইলিং,03. 3D Spatial Visualization & Detailing,Process step 3
+process.step4,Process Family,০৪. এক্সিকিউশন ও সাইট তদারকি,04. Execution & Craft Supervision,Process step 4
+form.name,Consultation Modal,আপনার নাম,Full Name,Form input label
+form.phone,Consultation Modal,মোবাইল নম্বর,Phone Number,Form input label
+form.location,Consultation Modal,প্রকল্পের অবস্থান (যেমন: মিরপুর ডিওএইচএস),Project Location (e.g. Mirpur DOHS),Form input label
+form.type,Consultation Modal,প্রকল্পের ধরন (ফ্ল্যাট ইন্টেরিয়র / পূর্ণ সংস্কার),Project Type (Apartment Interior / Full Renovation),Form input label
+form.notes,Consultation Modal,অতিরিক্ত তথ্য (ঐচ্ছিক),Additional Notes (Optional),Form input label
+form.submit,Consultation Modal,পরামর্শের অনুরোধ পাঠান,Request Consultation,Submit button label
+form.submitting,Consultation Modal,অনুরোধ পাঠানো হচ্ছে...,Submitting request...,Pending state label
+form.success.title,Consultation Receipt,অনুরোধ সফলভাবে গৃহীত হয়েছে,Consultation Request Received,Success header
+form.success.body,Consultation Receipt,আমাদের আর্কিটেকচারাল টিম ২৪ ঘণ্টার মধ্যে আপনার সাথে যোগাযোগ করবে।,Our architectural design team will contact you within 24 hours.,Success confirmation message
+footer.rights,Global Footer,© ২০২৬ ফ্লোগ্রিড ইন্টেরিয়র অ্যান্ড ডিজাইন। সর্বস্বত্ব সংরক্ষিত।,© 2026 FlowGrid Interior and design. All rights reserved.,Footer copyright
+footer.address,Global Footer,"মিরপুর, ঢাকা ১২১৬, বাংলাদেশ","Mirpur, Dhaka 1216, Bangladesh",Studio address
